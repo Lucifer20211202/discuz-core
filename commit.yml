@@ -2,19 +2,67 @@
 branches: {
   }
 fileChange:
+  /composer.json:
+    newFile: !uuid 'bf902b53f312715e99262a9353b30a868a24bd4f'
+    oldFile: !uuid 'bcc5b8a5aa8489fcc2dbc8db13e51c6425fdcea0'
   /src:
-    newFile: !uuid 'b09140f2ea3247aedbc21916d0cecae4f7be41d3'
-    oldFile: !uuid '55e358064696c717f4880cec6d21edd59e7ad6e5'
+    newFile: !uuid '281e0b2ccc91497e22c17193c9ad6355af596415'
+    oldFile: !uuid 'b09140f2ea3247aedbc21916d0cecae4f7be41d3'
+  /src/Api:
+    newFile: !uuid '17d5dcd27ea9c6e87768177cd1272f560ce3d4a2'
+    oldFile: !uuid 'f9e4c707ec55f9f854e84210b4befffb8535f290'
+  /src/Api/ApiServiceProvider.php:
+    newFile: !uuid 'c476994d545d515d54a1b0712f913a7764b2cfef'
+    oldFile: !uuid 'c141e91130f0216af95912f772f69ccc657e26d8'
+  /src/Api/ErrorHandler.php:
+    newFile: !uuid '04ccea061de8e316525f8649e4c559e217a25d4d'
+    oldFile: null
+  /src/Api/ExceptionHandler:
+    newFile: !uuid '9509ea1176256c4f67a09d46172cc6bd686a2a44'
+    oldFile: null
+  /src/Api/ExceptionHandler/RouteNotFoundExceptionHandler.php:
+    newFile: !uuid '8c301c1c24c641e91209ce48f02fc96e79e8aad5'
+    oldFile: null
+  /src/Api/Middleware:
+    newFile: !uuid '4c52b3ef6e37aac83397c63ed6ea5e465648313c'
+    oldFile: null
+  /src/Api/Middleware/HandlerErrors.php:
+    newFile: !uuid '7ea1d76ca205495b916d83bfd2387cdd6fc576ab'
+    oldFile: null
+  /src/Cache:
+    newFile: !uuid '12750c13a346f40717a226cc47c4ab33e1a37743'
+    oldFile: null
+  /src/Cache/CacheManager.php:
+    newFile: !uuid '4395a28be57bd28c3e05e999e35ce1953f2777f6'
+    oldFile: null
+  /src/Cache/CacheServiceProvider.php:
+    newFile: !uuid '99397f649f8a6370c4c1f6644de25a8fd63ad923'
+    oldFile: null
   /src/Foundation:
-    newFile: !uuid 'cd8100e80dd1461534e7449cd0e39c601fe60046'
-    oldFile: !uuid 'fe66e110bc6ca40e5633d7f2afd4b406a5620c54'
-  /src/Foundation/EventGeneratorTrait.php:
-    newFile: !uuid '707b36f5791fefb7d7d536db334b31dab62157df'
-    oldFile: !uuid 'a6e5d9b2f718ef059d61288a66cb9c9c54a156a8'
-  /src/Foundation/EventsDispatchTrait.php:
-    newFile: !uuid 'd19c0354bbfdb982b6f5ff3a6be6bde4c16b33a5'
-    oldFile: !uuid 'f4190393517c7fa4355761674ab34e362c3e8543'
-gitCommitId: !uuid 'be632b1a75f43aac80655632daf4e92196e698d8'
+    newFile: !uuid 'eb98db42c4e753f3b2a2f228d70e0e6d3f7b0503'
+    oldFile: !uuid 'cd8100e80dd1461534e7449cd0e39c601fe60046'
+  /src/Foundation/Application.php:
+    newFile: !uuid 'b7f549cb90463082b3395c86a539e7a08d881bad'
+    oldFile: !uuid 'e7fdd61c03694da9620d0a54f550607121777599'
+  /src/Http:
+    newFile: !uuid '2e5c782fd917bebc89160898d4cb4eaa83715cba'
+    oldFile: !uuid 'f8dab82252cc55bafaad2a7c010d2ca18dfff0f6'
+  /src/Http/Middleware:
+    newFile: !uuid '773a62cf1b92135fe688d06005ea6f54335f7bf0'
+    oldFile: !uuid '55cd7659469557b736e27f544245a0f6ce9c5371'
+  /src/Http/Middleware/ParseJsonBody.php:
+    newFile: !uuid 'e61a66658f9f3cd8bcf960a9591d81c1c9abbd03'
+    oldFile: !uuid 'cce08a004caad57c3e55b0c8d0094c3aaca834f2'
+  /src/Http/Server.php:
+    newFile: !uuid '5bd7b1b5741375cf724060c972179adb12027b04'
+    oldFile: !uuid '01cd5628602a1f46dbf9fa05a48caee9e75b4115'
+  /src/Web:
+    newFile: !uuid 'dee13c7f58702f6af275642976e3a6ac15b2fecf'
+    oldFile: !uuid 'bf8fe99864b1a5270e835b58cb11ca1fde313b37'
+  /src/Web/WebServiceProvider.php:
+    newFile: !uuid 'd7929043232e3d6825e0a20eaca08f9691c54cdd'
+    oldFile: !uuid '1752cf38b83dce749f5d36b908da4e211fca5f38'
+gitCommitId: !uuid 'c5e55e16dc77372e2b5e66514b98ac71e3cedd53'
 renames: {
   }
-revisionId: 8
+revisionId: 9
