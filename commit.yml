@@ -2,88 +2,19 @@
 branches: {
   }
 fileChange:
-  /composer.json:
-    newFile: !uuid 'bcc5b8a5aa8489fcc2dbc8db13e51c6425fdcea0'
-    oldFile: !uuid '0c011286f676e66ce30d7c8b97310cbba60b0d5a'
   /src:
-    newFile: !uuid '55e358064696c717f4880cec6d21edd59e7ad6e5'
-    oldFile: !uuid '9d5eb0479356021f113578fe4560bce0820b3802'
-  /src/Api:
-    newFile: !uuid 'f9e4c707ec55f9f854e84210b4befffb8535f290'
-    oldFile: !uuid 'dafe06bc84bdd23a48e668bf21159990aa05826f'
-  /src/Api/ApiServiceProvider.php:
-    newFile: !uuid 'c141e91130f0216af95912f772f69ccc657e26d8'
-    oldFile: !uuid 'b38a27cd42e809b94ff0bebe77d816800dd57917'
+    newFile: !uuid 'b09140f2ea3247aedbc21916d0cecae4f7be41d3'
+    oldFile: !uuid '55e358064696c717f4880cec6d21edd59e7ad6e5'
   /src/Foundation:
-    newFile: !uuid 'fe66e110bc6ca40e5633d7f2afd4b406a5620c54'
-    oldFile: !uuid '8ca14ec8be4ee165665d6b4970c94fe8527956b0'
-  /src/Foundation/AbstractServiceProvider.php:
-    newFile: !uuid '7b33cfdc64309091970c661eee001b9c89c58496'
-    oldFile: null
-  /src/Foundation/AppInterface.php:
-    newFile: null
-    oldFile: !uuid '7f3cfcf6586f40c0c97835c0f349d16980d5e34f'
-  /src/Foundation/Application.php:
-    newFile: !uuid 'e7fdd61c03694da9620d0a54f550607121777599'
-    oldFile: !uuid '3f35ceff565990ac2ca56609ec92fce087ff5f5c'
+    newFile: !uuid 'cd8100e80dd1461534e7449cd0e39c601fe60046'
+    oldFile: !uuid 'fe66e110bc6ca40e5633d7f2afd4b406a5620c54'
   /src/Foundation/EventGeneratorTrait.php:
-    newFile: !uuid 'a6e5d9b2f718ef059d61288a66cb9c9c54a156a8'
-    oldFile: null
+    newFile: !uuid '707b36f5791fefb7d7d536db334b31dab62157df'
+    oldFile: !uuid 'a6e5d9b2f718ef059d61288a66cb9c9c54a156a8'
   /src/Foundation/EventsDispatchTrait.php:
-    newFile: !uuid 'f4190393517c7fa4355761674ab34e362c3e8543'
-    oldFile: null
-  /src/Foundation/Site.php:
-    newFile: null
-    oldFile: !uuid '24b4a216238dc22c865cb2b8b438e996331cce1f'
-  /src/Foundation/SiteApp.php:
-    newFile: null
-    oldFile: !uuid 'ee7ebda754ff33b08a84e5f73e07761040793e65'
-  /src/Foundation/SiteInterface.php:
-    newFile: null
-    oldFile: !uuid '1b66be30ce0eed43fa6c559e64cc48212b218483'
-  /src/Http:
-    newFile: !uuid 'f8dab82252cc55bafaad2a7c010d2ca18dfff0f6'
-    oldFile: !uuid 'a9f308304dbc907e750c83576b4250a3d2b578d4'
-  /src/Http/Middleware:
-    newFile: !uuid '55cd7659469557b736e27f544245a0f6ce9c5371'
-    oldFile: !uuid '154350a6967f9994de164b229a6cad8772b4dd2e'
-  /src/Http/Middleware/DispatchRoute.php:
-    newFile: !uuid 'c0e556559e6980931a727704779f1d0dad9d105d'
-    oldFile: !uuid '61dff623712601c0acea76143e3929148b619409'
-  /src/Http/Middleware/HandleErrorsWithView.php:
-    newFile: !uuid '388201f665b59895630bfd37a83d68ec4610d22d'
-    oldFile: null
-  /src/Http/Middleware/HandleErrorsWithWhoops.php:
-    newFile: !uuid '4cb248be7f6c62b63b7408a350b29869f4404eb9'
-    oldFile: !uuid '09668f48f84d01528544aaff4c59123705fca016'
-  /src/Http/Middleware/ParseJsonBody.php:
-    newFile: !uuid 'cce08a004caad57c3e55b0c8d0094c3aaca834f2'
-    oldFile: null
-  /src/Http/Middleware/RequestHandler.php:
-    newFile: !uuid 'faca2491a9bde4c912f45086ae73f1247740695a'
-    oldFile: null
-  /src/Http/Middleware/WebBaseServiceProviderMiddleware.php:
-    newFile: null
-    oldFile: !uuid 'b81dfae0f6be25094bc012aa38039aa023d7edf5'
-  /src/Http/RouteTrait.php:
-    newFile: null
-    oldFile: !uuid '941990d2468de709783e7cb5ebbef9c63b4ad3a7'
-  /src/Http/Server.php:
-    newFile: !uuid '01cd5628602a1f46dbf9fa05a48caee9e75b4115'
-    oldFile: !uuid 'a0d56ed8b8d2bed2919810ae91732f3465470c50'
-  /src/Web:
-    newFile: !uuid 'bf8fe99864b1a5270e835b58cb11ca1fde313b37'
-    oldFile: !uuid '3481fd17588825435fc2237d07bf9141377789d3'
-  /src/Web/Controller:
-    newFile: !uuid '3cf6df7327f9ff5cb9fca050ed672455543294ae'
-    oldFile: null
-  /src/Web/Controller/AbstractWebController.php:
-    newFile: !uuid 'e6b2c9f76eb10f4a49ba3f92b6a470c21cfce301'
-    oldFile: null
-  /src/Web/WebServiceProvider.php:
-    newFile: !uuid '1752cf38b83dce749f5d36b908da4e211fca5f38'
-    oldFile: !uuid '590d37553026ad7d497b901e20a37d6913ef91ec'
-gitCommitId: !uuid '03dff75bf45e35ce661103e10685ef84e9353143'
+    newFile: !uuid 'd19c0354bbfdb982b6f5ff3a6be6bde4c16b33a5'
+    oldFile: !uuid 'f4190393517c7fa4355761674ab34e362c3e8543'
+gitCommitId: !uuid 'be632b1a75f43aac80655632daf4e92196e698d8'
 renames: {
   }
-revisionId: 7
+revisionId: 8
