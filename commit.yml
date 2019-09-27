@@ -3,18 +3,27 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid '9e7c490d1ab72963374d5d6bc44566364848e44e'
-    oldFile: !uuid '281e0b2ccc91497e22c17193c9ad6355af596415'
+    newFile: !uuid '8127ff88b4d301332dae896a55fe03bd63bb3b40'
+    oldFile: !uuid '9e7c490d1ab72963374d5d6bc44566364848e44e'
   /src/Api:
-    newFile: !uuid 'a8d68fda660e4b033eaee9456359938597f87cd8'
-    oldFile: !uuid '17d5dcd27ea9c6e87768177cd1272f560ce3d4a2'
-  /src/Api/Controller:
-    newFile: !uuid 'd633c4be3794592299bd1c11378674b7e9137063'
-    oldFile: !uuid '30736ebd813b7a0a6322739af2fea693f94420a5'
-  /src/Api/Controller/AbstractSerializeController.php:
-    newFile: !uuid 'df15bb0e8551ca58098be857782decf2ab44916b'
-    oldFile: !uuid '0f521b8f93682525f560831d8bc46b5764fe801e'
-gitCommitId: !uuid '53af3038f18aeb8752f93d0934f126ed414f2f4e'
+    newFile: !uuid 'b22fd0e2d53f7729bb3a0572cb503c966c1a49ab'
+    oldFile: !uuid 'a8d68fda660e4b033eaee9456359938597f87cd8'
+  /src/Api/ApiExceptionHandlerInterface.php:
+    newFile: !uuid 'e3a1c3cfef2cfae4a9a45af28da988adb31e86bf'
+    oldFile: null
+  /src/Api/ApiServiceProvider.php:
+    newFile: !uuid '893f9b5d6cf064cfecd5c2e46c3cfc8e4396e012'
+    oldFile: !uuid 'c476994d545d515d54a1b0712f913a7764b2cfef'
+  /src/Api/ErrorHandler.php:
+    newFile: !uuid 'a0d0f7b9d714dfb977db9748eec0159c10da4360'
+    oldFile: !uuid '04ccea061de8e316525f8649e4c559e217a25d4d'
+  /src/Api/ExceptionHandler:
+    newFile: !uuid '000f28113c92bd036910d740aa96bbdbc5db6c0e'
+    oldFile: !uuid '9509ea1176256c4f67a09d46172cc6bd686a2a44'
+  /src/Api/ExceptionHandler/ApiExceptionHandler.php:
+    newFile: !uuid 'bfc1a79fe6758f978fbcdce56ebb6a4c90e3682e'
+    oldFile: null
+gitCommitId: !uuid 'f136d3eaf2725fc01066a4d1bc0839e84e5d9486'
 renames: {
   }
-revisionId: 10
+revisionId: 11
