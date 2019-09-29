@@ -2,28 +2,22 @@
 branches: {
   }
 fileChange:
+  /composer.json:
+    newFile: !uuid '85d8dab8bceecab8c2b8f4605d873af39e23994b'
+    oldFile: !uuid 'bf902b53f312715e99262a9353b30a868a24bd4f'
   /src:
-    newFile: !uuid '8127ff88b4d301332dae896a55fe03bd63bb3b40'
-    oldFile: !uuid '9e7c490d1ab72963374d5d6bc44566364848e44e'
-  /src/Api:
-    newFile: !uuid 'b22fd0e2d53f7729bb3a0572cb503c966c1a49ab'
-    oldFile: !uuid 'a8d68fda660e4b033eaee9456359938597f87cd8'
-  /src/Api/ApiExceptionHandlerInterface.php:
-    newFile: !uuid 'e3a1c3cfef2cfae4a9a45af28da988adb31e86bf'
+    newFile: !uuid 'fa6eb5e3e303002ef9cfd1099730dced98388b7e'
+    oldFile: !uuid '8127ff88b4d301332dae896a55fe03bd63bb3b40'
+  /src/Filesystem:
+    newFile: !uuid '59900cfa068be94a11b8de65ee1a4ac9be9eab77'
     oldFile: null
-  /src/Api/ApiServiceProvider.php:
-    newFile: !uuid '893f9b5d6cf064cfecd5c2e46c3cfc8e4396e012'
-    oldFile: !uuid 'c476994d545d515d54a1b0712f913a7764b2cfef'
-  /src/Api/ErrorHandler.php:
-    newFile: !uuid 'a0d0f7b9d714dfb977db9748eec0159c10da4360'
-    oldFile: !uuid '04ccea061de8e316525f8649e4c559e217a25d4d'
-  /src/Api/ExceptionHandler:
-    newFile: !uuid '000f28113c92bd036910d740aa96bbdbc5db6c0e'
-    oldFile: !uuid '9509ea1176256c4f67a09d46172cc6bd686a2a44'
-  /src/Api/ExceptionHandler/ApiExceptionHandler.php:
-    newFile: !uuid 'bfc1a79fe6758f978fbcdce56ebb6a4c90e3682e'
+  /src/Filesystem/CosAdapter.php:
+    newFile: !uuid '77f7a6f72b1a5798ce1f8f761a26a0094903dba1'
     oldFile: null
-gitCommitId: !uuid 'f136d3eaf2725fc01066a4d1bc0839e84e5d9486'
+  /src/Filesystem/FilesystemServiceProvider.php:
+    newFile: !uuid 'a1929edf7b3f64109dbbb4828407a2a65217c904'
+    oldFile: null
+gitCommitId: !uuid 'e6cf1d99ab4e9e32133dfe6748cd8ff0717ed5e2'
 renames: {
   }
-revisionId: 11
+revisionId: 12
