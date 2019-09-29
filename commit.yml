@@ -3,21 +3,30 @@ branches: {
   }
 fileChange:
   /composer.json:
-    newFile: !uuid '85d8dab8bceecab8c2b8f4605d873af39e23994b'
-    oldFile: !uuid 'bf902b53f312715e99262a9353b30a868a24bd4f'
+    newFile: !uuid '7504b6796027bb6a109b3c47588c668566c08425'
+    oldFile: !uuid '85d8dab8bceecab8c2b8f4605d873af39e23994b'
   /src:
-    newFile: !uuid 'fa6eb5e3e303002ef9cfd1099730dced98388b7e'
-    oldFile: !uuid '8127ff88b4d301332dae896a55fe03bd63bb3b40'
-  /src/Filesystem:
-    newFile: !uuid '59900cfa068be94a11b8de65ee1a4ac9be9eab77'
+    newFile: !uuid 'e29ac5eb9fdba46005fed29ba603c55b9bd5ec24'
+    oldFile: !uuid 'fa6eb5e3e303002ef9cfd1099730dced98388b7e'
+  /src/Foundation:
+    newFile: !uuid '6137bd8789067e8f2b4dc6bf64a94639cb6a0413'
+    oldFile: !uuid 'eb98db42c4e753f3b2a2f228d70e0e6d3f7b0503'
+  /src/Foundation/Application.php:
+    newFile: !uuid '90f3d8768577da97b73fcfc6adf04248b74f10e0'
+    oldFile: !uuid 'b7f549cb90463082b3395c86a539e7a08d881bad'
+  /src/Http:
+    newFile: !uuid '148a38c377fede1f0a550e9bec49ce8c34f8f0c8'
+    oldFile: !uuid '2e5c782fd917bebc89160898d4cb4eaa83715cba'
+  /src/Http/Server.php:
+    newFile: !uuid 'b5a2ac5b17dc4d93a46df2cbc7420d5a2ae50b42'
+    oldFile: !uuid '5bd7b1b5741375cf724060c972179adb12027b04'
+  /src/Locale:
+    newFile: !uuid '1c3f463d419ac284f1363efac8df975396cc811c'
     oldFile: null
-  /src/Filesystem/CosAdapter.php:
-    newFile: !uuid '77f7a6f72b1a5798ce1f8f761a26a0094903dba1'
+  /src/Locale/LocaleServiceProvider.php:
+    newFile: !uuid 'a5506739900c55681492c14ed0deb8136f8867e7'
     oldFile: null
-  /src/Filesystem/FilesystemServiceProvider.php:
-    newFile: !uuid 'a1929edf7b3f64109dbbb4828407a2a65217c904'
-    oldFile: null
-gitCommitId: !uuid 'e6cf1d99ab4e9e32133dfe6748cd8ff0717ed5e2'
+gitCommitId: !uuid '0f7e043224cc36eb6cdbc52b4f9db91b8048ca81'
 renames: {
   }
-revisionId: 12
+revisionId: 13
