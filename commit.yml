@@ -3,18 +3,36 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid 'ddbfd5be3a9f55d689c2a64e5a17ad666695c38b'
-    oldFile: !uuid '073fc11a084ba01f068deec6565696f15e2a388d'
+    newFile: !uuid '549d38cc5878444d07190b8fb3a9d7d9895597d0'
+    oldFile: !uuid 'ddbfd5be3a9f55d689c2a64e5a17ad666695c38b'
+  /src/Api:
+    newFile: !uuid 'e1dbd9862f81f4896c546770821e1cfdc736a26b'
+    oldFile: !uuid '13aa5119f2d5f012c351ab328f82c9408894aef3'
+  /src/Api/ApiServiceProvider.php:
+    newFile: !uuid 'a2827ecfbf59ff00e31d0a45fb0d7dea7650ea71'
+    oldFile: !uuid 'ce4270f8f9e95594641eaf0be01598bdd9677282'
+  /src/Api/Events:
+    newFile: !uuid '8a383858d052e60544554c2e26c2cada37da7e2d'
+    oldFile: null
+  /src/Api/Events/ApiExceptionRegisterHandler.php:
+    newFile: !uuid 'bba1e0f9a395fe9a727d20781970ffafad0d3dc3'
+    oldFile: null
+  /src/Api/Listeners:
+    newFile: !uuid '1e4bdd0191a2c32c0fff023637f89a133414e995'
+    oldFile: null
+  /src/Api/Listeners/AutoResisterApiExceptionRegisterHandler.php:
+    newFile: !uuid 'e23b9fb43405f82a16d271dae53e2ae208106448'
+    oldFile: null
   /src/Http:
-    newFile: !uuid '26adb71cae4b62abd4a4131b0a86fb47a07d4565'
-    oldFile: !uuid 'b0e337a75f5f8433d37ac29cf6e25cf889d16d4b'
+    newFile: !uuid '1ff1353b669f3335364730530c452828aaa64867'
+    oldFile: !uuid '26adb71cae4b62abd4a4131b0a86fb47a07d4565'
   /src/Http/Middleware:
-    newFile: !uuid '15acbfe9aaedec4d9fb813dbdfdd968620ca8c34'
-    oldFile: !uuid '773a62cf1b92135fe688d06005ea6f54335f7bf0'
+    newFile: !uuid '9e6fdff8c5f2a207e576315a2bf4faeb3dd87363'
+    oldFile: !uuid '15acbfe9aaedec4d9fb813dbdfdd968620ca8c34'
   /src/Http/Middleware/RequestHandler.php:
-    newFile: !uuid '1e569b7e2291ef583b80c39a8263229253459a6b'
-    oldFile: !uuid 'faca2491a9bde4c912f45086ae73f1247740695a'
-gitCommitId: !uuid '1e300da1a4149187538bcf2fcb4b166bfd426148'
+    newFile: !uuid 'eeb5b670563650095976a54ffedc4f1487c58e06'
+    oldFile: !uuid '1e569b7e2291ef583b80c39a8263229253459a6b'
+gitCommitId: !uuid 'fdbf55d9add30ad267f363d78376597904f01b66'
 renames: {
   }
-revisionId: 15
+revisionId: 16
