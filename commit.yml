@@ -3,18 +3,24 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid '31e7d2244c6aaf936d8d0fa9e69eabbc4046325b'
-    oldFile: !uuid '33e77620609f79e03168bf3c033bec93a0cfbcbf'
-  /src/Http:
-    newFile: !uuid 'ae504ab14db7edc0356f68fbb97a58aa080e2374'
-    oldFile: !uuid '796b7b41387e363c61c8f5bc61cbacc4909dd4a3'
-  /src/Http/Middleware:
-    newFile: !uuid '981e6fbe41b82bb7b51c6335293ca53dc5205fc1'
-    oldFile: !uuid '772bfb7d3c2764a0649555e931442501b3c775d6'
-  /src/Http/Middleware/RequestHandler.php:
-    newFile: !uuid '553edce006524894258b507bcff060473852ca39'
-    oldFile: !uuid '781cb16ec70fb48c3248d2c23546bbff8f805095'
-gitCommitId: !uuid 'fc479a0f2847561cc663874c7d72dfb5ff95e934'
+    newFile: !uuid '664038fb20a147bf3bbe9898a0ffe65829e5c57e'
+    oldFile: !uuid '31e7d2244c6aaf936d8d0fa9e69eabbc4046325b'
+  /src/Contracts:
+    newFile: !uuid '60a80223164c38c53b35274c4c7ffd3f32d33497'
+    oldFile: null
+  /src/Contracts/Tool:
+    newFile: !uuid '1748c1f85dc6297b730153b170922a0ee5645d1e'
+    oldFile: null
+  /src/Contracts/Tool/UploadTool.php:
+    newFile: !uuid '10d5a3684d30ebff51eeb16ce0490979acbcfa17'
+    oldFile: null
+  /src/Foundation:
+    newFile: !uuid '4a03249eee8be4a6a40f913bcee94e439bb22598'
+    oldFile: !uuid '41bcf1a0ef5a329a197cfe8d7a10f15ef0a10ac0'
+  /src/Foundation/AbstractUploadTool.php:
+    newFile: !uuid 'f1cfc01c9202b3f2cc268d5de33cffee57bc4b81'
+    oldFile: null
+gitCommitId: !uuid 'deb708edefe1dce4613849abb195d4d807564343'
 renames: {
   }
-revisionId: 19
+revisionId: 20
