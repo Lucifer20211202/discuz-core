@@ -2,22 +2,19 @@
 branches: {
   }
 fileChange:
-  /composer.json:
-    newFile: !uuid '4c5decbf762f8adcb967f4bb2299beadb89478f6'
-    oldFile: !uuid '7504b6796027bb6a109b3c47588c668566c08425'
   /src:
-    newFile: !uuid '33e77620609f79e03168bf3c033bec93a0cfbcbf'
-    oldFile: !uuid 'ed79b36d08609ae048ac1c56096475a0cb09b50f'
+    newFile: !uuid '31e7d2244c6aaf936d8d0fa9e69eabbc4046325b'
+    oldFile: !uuid '33e77620609f79e03168bf3c033bec93a0cfbcbf'
   /src/Http:
-    newFile: !uuid '796b7b41387e363c61c8f5bc61cbacc4909dd4a3'
-    oldFile: !uuid '1ff1353b669f3335364730530c452828aaa64867'
+    newFile: !uuid 'ae504ab14db7edc0356f68fbb97a58aa080e2374'
+    oldFile: !uuid '796b7b41387e363c61c8f5bc61cbacc4909dd4a3'
   /src/Http/Middleware:
-    newFile: !uuid '772bfb7d3c2764a0649555e931442501b3c775d6'
-    oldFile: !uuid '9e6fdff8c5f2a207e576315a2bf4faeb3dd87363'
+    newFile: !uuid '981e6fbe41b82bb7b51c6335293ca53dc5205fc1'
+    oldFile: !uuid '772bfb7d3c2764a0649555e931442501b3c775d6'
   /src/Http/Middleware/RequestHandler.php:
-    newFile: !uuid '781cb16ec70fb48c3248d2c23546bbff8f805095'
-    oldFile: !uuid 'eeb5b670563650095976a54ffedc4f1487c58e06'
-gitCommitId: !uuid '97d6d8b4566819d8d03786622cbfbff77cc03ab9'
+    newFile: !uuid '553edce006524894258b507bcff060473852ca39'
+    oldFile: !uuid '781cb16ec70fb48c3248d2c23546bbff8f805095'
+gitCommitId: !uuid 'fc479a0f2847561cc663874c7d72dfb5ff95e934'
 renames: {
   }
-revisionId: 18
+revisionId: 19
