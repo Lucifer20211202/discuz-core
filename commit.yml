@@ -2,34 +2,22 @@
 branches: {
   }
 fileChange:
+  /composer.json:
+    newFile: !uuid '4c5decbf762f8adcb967f4bb2299beadb89478f6'
+    oldFile: !uuid '7504b6796027bb6a109b3c47588c668566c08425'
   /src:
-    newFile: !uuid 'ed79b36d08609ae048ac1c56096475a0cb09b50f'
-    oldFile: !uuid '549d38cc5878444d07190b8fb3a9d7d9895597d0'
-  /src/Api:
-    newFile: !uuid 'c5092022adc1cafd4ce9eb2001f20160dac392e9'
-    oldFile: !uuid 'e1dbd9862f81f4896c546770821e1cfdc736a26b'
-  /src/Api/ApiExceptionHandlerInterface.php:
-    newFile: null
-    oldFile: !uuid '328672d491f5345922a2c41a3995021916e3dca6'
-  /src/Api/ApiServiceProvider.php:
-    newFile: !uuid 'c8f1019d133576a4607d28f7cd2e1b348ff4282a'
-    oldFile: !uuid 'a2827ecfbf59ff00e31d0a45fb0d7dea7650ea71'
-  /src/Api/ExceptionHandler:
-    newFile: !uuid '866324c7ddc6193780ca12d5e6a5efcb1ff85073'
-    oldFile: !uuid 'b3cbb1d9b1a660723d77a1ea5a0b7d1f45977d15'
-  /src/Api/ExceptionHandler/ApiExceptionHandler.php:
-    newFile: null
-    oldFile: !uuid 'bfc1a79fe6758f978fbcdce56ebb6a4c90e3682e'
-  /src/Api/ExceptionHandler/ValidationExceptionHandler.php:
-    newFile: !uuid '6d6fe1f99f1cee93c628e07daffc2abbaf4b56e5'
-    oldFile: !uuid 'd9f0182cc966d57606472d4ff7182a6393ea3543'
-  /src/Foundation:
-    newFile: !uuid '41bcf1a0ef5a329a197cfe8d7a10f15ef0a10ac0'
-    oldFile: !uuid 'cda8534013ea7b216b2639024c6892ad705e578b'
-  /src/Foundation/AbstractValidator.php:
-    newFile: !uuid 'fbb007c8bac37af9f3e1f89aea2efb5f8d89a2ab'
-    oldFile: !uuid '1feac872d333f05a77dd435e9e1ef2fa310e8941'
-gitCommitId: !uuid 'c1c6fade0583dfc9096e719b73378d3af27f7a74'
+    newFile: !uuid '33e77620609f79e03168bf3c033bec93a0cfbcbf'
+    oldFile: !uuid 'ed79b36d08609ae048ac1c56096475a0cb09b50f'
+  /src/Http:
+    newFile: !uuid '796b7b41387e363c61c8f5bc61cbacc4909dd4a3'
+    oldFile: !uuid '1ff1353b669f3335364730530c452828aaa64867'
+  /src/Http/Middleware:
+    newFile: !uuid '772bfb7d3c2764a0649555e931442501b3c775d6'
+    oldFile: !uuid '9e6fdff8c5f2a207e576315a2bf4faeb3dd87363'
+  /src/Http/Middleware/RequestHandler.php:
+    newFile: !uuid '781cb16ec70fb48c3248d2c23546bbff8f805095'
+    oldFile: !uuid 'eeb5b670563650095976a54ffedc4f1487c58e06'
+gitCommitId: !uuid '97d6d8b4566819d8d03786622cbfbff77cc03ab9'
 renames: {
   }
-revisionId: 17
+revisionId: 18
