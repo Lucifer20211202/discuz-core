@@ -2,34 +2,25 @@
 branches: {
   }
 fileChange:
+  /composer.json:
+    newFile: !uuid 'e7490287551c91ef84927ca88ba26df39f786f12'
+    oldFile: !uuid '4c5decbf762f8adcb967f4bb2299beadb89478f6'
   /src:
-    newFile: !uuid 'fe36c466c751faf237ecd18361a6cf6e54c811dd'
-    oldFile: !uuid '70979b8b3ffded85f3d75a63f2e84d1e86de4a96'
-  /src/Api:
-    newFile: !uuid '96e0c84306d8f4a0f4e2cbef516ff368884729a3'
-    oldFile: !uuid 'abd8928ebaa7fd9870b08e109e9778ab458d3a86'
-  /src/Api/Events:
-    newFile: !uuid '1a079b308cc7b75aad9ae7cd6af0b70b5dca5bea'
-    oldFile: !uuid '19f31afa2bc9a720dbb98c08e0ae4ce05825ec32'
-  /src/Api/Events/ScopeModelVisibility.php:
-    newFile: !uuid '9589ceec7c39c0839e359da30afcd797087980e9'
-    oldFile: !uuid '63625896dee10998452d84094abcc56cc08eb349'
-  /src/Database:
-    newFile: !uuid '53a1b6c102290d93f8c283cd9c1c3ac77b86c42c'
-    oldFile: !uuid '9d918f3a5fcc565eabab4cec841e62adeb4fadad'
-  /src/Database/ScopeVisibilityTrait.php:
-    newFile: !uuid 'f9b3d64c885aba6f748aafcdf06947a13eda0385'
-    oldFile: !uuid 'c09ad9a419acda33e609be32e6a3128f796339ec'
+    newFile: !uuid '0e9f4d9831846f026dbe91936b3c25555b0c8c56'
+    oldFile: !uuid 'fe36c466c751faf237ecd18361a6cf6e54c811dd'
   /src/Foundation:
-    newFile: !uuid 'a13d4ef81d24b0c9aee769fa4623d14fe11329bb'
-    oldFile: !uuid 'df473dc69385029a6346be81dc06ab30ce89ac4e'
-  /src/Foundation/AbstractPolicy.php:
-    newFile: !uuid '143522258491bfa31da57e1537e7c9b7d3ff712e'
-    oldFile: !uuid 'f4c9e6cd28611ae48b514f1e28c4c4cd94c9bb20'
-  /src/Foundation/AbstractRepository.php:
-    newFile: !uuid '846cc611308493cd7815f209b5993ae36bc4a885'
-    oldFile: null
-gitCommitId: !uuid '5cbec49c04680f4e0a8974bbc3e5dcbb370a9476'
+    newFile: !uuid '319693d60f384a0707afd8986b3511840d6d8c51'
+    oldFile: !uuid 'a13d4ef81d24b0c9aee769fa4623d14fe11329bb'
+  /src/Foundation/Application.php:
+    newFile: !uuid '2072d0bdce559f09d7cce9efccdbae7695c30919'
+    oldFile: !uuid '291302c85d67909e86babd06ea8627579d5848fa'
+  /src/Http:
+    newFile: !uuid '902984a1aabd2d4fd78dacfe3459ffa837382f2c'
+    oldFile: !uuid '696866556d44062dfd7cd78a01e29fa16d2e891d'
+  /src/Http/Server.php:
+    newFile: !uuid '9b1d31eb91c0d272e9d5a6bd2ba46185a29beabc'
+    oldFile: !uuid '724362e063846b938cff4a24fcd3ece9a4001067'
+gitCommitId: !uuid 'd5e815376f6514ddb1a696d66faf9b77b7b25e10'
 renames: {
   }
-revisionId: 29
+revisionId: 30
