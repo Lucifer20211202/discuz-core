@@ -3,18 +3,21 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid 'f164c0ef7155aceee2aa30e86320bc3fb321eefe'
-    oldFile: !uuid '8376f45d38130a1ced69fb2d18df071a814d1c01'
+    newFile: !uuid 'f4627df28c5465237d31f61e85e663ad3c0c7580'
+    oldFile: !uuid 'f164c0ef7155aceee2aa30e86320bc3fb321eefe'
+  /src/Foundation:
+    newFile: !uuid 'e59e502043697f1cb277812b59163a0aefcd127b'
+    oldFile: !uuid 'ada7c235a762a33528a1b872c05be765151ceccf'
+  /src/Foundation/Application.php:
+    newFile: !uuid '291302c85d67909e86babd06ea8627579d5848fa'
+    oldFile: !uuid 'e256f8237a909672946b3e58fa88b8dadb21bdf9'
   /src/Http:
-    newFile: !uuid '39f4370c2564cbb3059d7f83dba8a1464b20c767'
-    oldFile: !uuid 'ae504ab14db7edc0356f68fbb97a58aa080e2374'
-  /src/Http/Middleware:
-    newFile: !uuid '39880c715ded12dd0fe93a79107a8823fd4fe592'
-    oldFile: !uuid '981e6fbe41b82bb7b51c6335293ca53dc5205fc1'
-  /src/Http/Middleware/RequestHandler.php:
-    newFile: !uuid '03529d148c654906138a7fcd25818aad313f6673'
-    oldFile: !uuid '553edce006524894258b507bcff060473852ca39'
-gitCommitId: !uuid 'b85a009a9bb7b904808c84a7789a7339c35a9478'
+    newFile: !uuid '70d0fe032163ba23cf71ddb2c0cb3b1c1ab542aa'
+    oldFile: !uuid '39f4370c2564cbb3059d7f83dba8a1464b20c767'
+  /src/Http/Server.php:
+    newFile: !uuid '724362e063846b938cff4a24fcd3ece9a4001067'
+    oldFile: !uuid 'cc954b26f5e1e4a68f792c2d3c62da5bdda5c755'
+gitCommitId: !uuid '42adcc0d67c0fb25f16f525775fe2dbaa2076ba1'
 renames: {
   }
-revisionId: 24
+revisionId: 25
