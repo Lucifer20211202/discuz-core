@@ -3,30 +3,18 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid 'c07f468205a6450722c59b3fb75c24515285c517'
-    oldFile: !uuid 'f4627df28c5465237d31f61e85e663ad3c0c7580'
-  /src/Foundation:
-    newFile: !uuid '7b91ee58fd954e0329c1c4823553bc5aa42b7d25'
-    oldFile: !uuid 'e59e502043697f1cb277812b59163a0aefcd127b'
-  /src/Foundation/AbstractUploadTool.php:
-    newFile: !uuid '23a1e145f2fcce078c224d65ed8abffac60725be'
-    oldFile: !uuid '17c4c513cd776aafd33b8aef8c49524ec1a45b07'
-  /src/Http:
-    newFile: !uuid '696866556d44062dfd7cd78a01e29fa16d2e891d'
-    oldFile: !uuid '70d0fe032163ba23cf71ddb2c0cb3b1c1ab542aa'
-  /src/Http/Exception:
-    newFile: !uuid '7fd365f420d7371ff858578c76b3acfa84bbc091'
-    oldFile: !uuid '94083824c91570f5d68320ad706ec0cac39abc40'
-  /src/Http/Exception/HttpException.php:
-    newFile: !uuid '43cf52513b114a71e57d20fcc4b2e161e3b44221'
-    oldFile: !uuid 'eb1233c90cf2b997f7182cf183c5071540ac4ce2'
-  /src/Http/Exception/MethodNotAllowedException.php:
-    newFile: !uuid '30e2b63274d6de65c341fd1b10a0bbae0094f236'
-    oldFile: !uuid 'd77b556afc6c647a7167cfd07f4e1d16943c70aa'
-  /src/Http/Exception/RouteNotFoundException.php:
-    newFile: !uuid '31a52d9f71e35b931581e2602ba8cb39a14cefaa'
-    oldFile: !uuid '034db91ecc033f2fe3ca7deed1e0e04461b024d6'
-gitCommitId: !uuid 'e28b4c4a945a428994200b4a86e0555561782ee5'
+    newFile: !uuid 'b919cc0af8d70b5cbf7650b711f8ef6b27835ed5'
+    oldFile: !uuid 'c07f468205a6450722c59b3fb75c24515285c517'
+  /src/Api:
+    newFile: !uuid '8739ffd21cd808cc1d783a870589441cd2e4f5fa'
+    oldFile: !uuid 'c5092022adc1cafd4ce9eb2001f20160dac392e9'
+  /src/Api/Controller:
+    newFile: !uuid '62d6ec61e955b0ba3b74df92b0de3b988f52b26c'
+    oldFile: !uuid 'd633c4be3794592299bd1c11378674b7e9137063'
+  /src/Api/Controller/AbstractSerializeController.php:
+    newFile: !uuid '85cce27fde928e2875515ab975525fd13017f48c'
+    oldFile: !uuid 'df15bb0e8551ca58098be857782decf2ab44916b'
+gitCommitId: !uuid '275641c8a27b7610d674a294f56aed08bd8fbed7'
 renames: {
   }
-revisionId: 26
+revisionId: 27
