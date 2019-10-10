@@ -3,18 +3,45 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid 'b919cc0af8d70b5cbf7650b711f8ef6b27835ed5'
-    oldFile: !uuid 'c07f468205a6450722c59b3fb75c24515285c517'
+    newFile: !uuid '70979b8b3ffded85f3d75a63f2e84d1e86de4a96'
+    oldFile: !uuid 'b919cc0af8d70b5cbf7650b711f8ef6b27835ed5'
   /src/Api:
-    newFile: !uuid '8739ffd21cd808cc1d783a870589441cd2e4f5fa'
-    oldFile: !uuid 'c5092022adc1cafd4ce9eb2001f20160dac392e9'
-  /src/Api/Controller:
-    newFile: !uuid '62d6ec61e955b0ba3b74df92b0de3b988f52b26c'
-    oldFile: !uuid 'd633c4be3794592299bd1c11378674b7e9137063'
-  /src/Api/Controller/AbstractSerializeController.php:
-    newFile: !uuid '85cce27fde928e2875515ab975525fd13017f48c'
-    oldFile: !uuid 'df15bb0e8551ca58098be857782decf2ab44916b'
-gitCommitId: !uuid '275641c8a27b7610d674a294f56aed08bd8fbed7'
+    newFile: !uuid 'abd8928ebaa7fd9870b08e109e9778ab458d3a86'
+    oldFile: !uuid '8739ffd21cd808cc1d783a870589441cd2e4f5fa'
+  /src/Api/Events:
+    newFile: !uuid '19f31afa2bc9a720dbb98c08e0ae4ce05825ec32'
+    oldFile: !uuid '8a383858d052e60544554c2e26c2cada37da7e2d'
+  /src/Api/Events/GetPermission.php:
+    newFile: !uuid '837335b813eb7e7e516dfe1e277cce3785edfc6e'
+    oldFile: null
+  /src/Api/Events/ScopeModelVisibility.php:
+    newFile: !uuid '63625896dee10998452d84094abcc56cc08eb349'
+    oldFile: null
+  /src/Contracts:
+    newFile: !uuid '05bb5e91af09b8cae2786d77e5364a220c2f3fd0'
+    oldFile: !uuid 'e4b01ef53760785e14aa804cf39734ae52bf8160'
+  /src/Contracts/Policy:
+    newFile: !uuid '418d5db22e0692d1e26589699e24815987312428'
+    oldFile: null
+  /src/Contracts/Policy/Policy.php:
+    newFile: !uuid 'ca1ac8cac5ee7bd72f5420539ecf34fd2e1560f6'
+    oldFile: null
+  /src/Database:
+    newFile: !uuid '9d918f3a5fcc565eabab4cec841e62adeb4fadad'
+    oldFile: !uuid '620ae4e79099290e824e042e5ca34619b4d18244'
+  /src/Database/ScopeVisibilityTrait.php:
+    newFile: !uuid 'c09ad9a419acda33e609be32e6a3128f796339ec'
+    oldFile: null
+  /src/Foundation:
+    newFile: !uuid 'df473dc69385029a6346be81dc06ab30ce89ac4e'
+    oldFile: !uuid '7b91ee58fd954e0329c1c4823553bc5aa42b7d25'
+  /src/Foundation/AbstractPolicy.php:
+    newFile: !uuid 'f4c9e6cd28611ae48b514f1e28c4c4cd94c9bb20'
+    oldFile: null
+  /src/Foundation/AbstractUploadTool.php:
+    newFile: !uuid 'c058f99d09bc0f4071330502886bd8e2caedbbca'
+    oldFile: !uuid '23a1e145f2fcce078c224d65ed8abffac60725be'
+gitCommitId: !uuid '6b70ecc1440b19a8931a5e78be15ef49abf9e3ea'
 renames: {
   }
-revisionId: 27
+revisionId: 28
