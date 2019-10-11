@@ -3,30 +3,18 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid 'ac1f7d1aeda58307a1dd2f86de6f9f3d85b319e9'
-    oldFile: !uuid '871cd31b2b64e3754f3ef4d789523aa3adad52f3'
-  /src/Contracts:
-    newFile: !uuid '7491e5d476b692664dd1256b08eb5e967976a2b5'
-    oldFile: !uuid '05bb5e91af09b8cae2786d77e5364a220c2f3fd0'
-  /src/Contracts/Policy:
-    newFile: !uuid 'b928ae0ff48b94f28fd632073006a0ac88c9449c'
-    oldFile: !uuid '418d5db22e0692d1e26589699e24815987312428'
-  /src/Contracts/Policy/Policy.php:
-    newFile: !uuid '16c233239021e267064cadaf7babcefb26b2c1da'
-    oldFile: !uuid 'ca1ac8cac5ee7bd72f5420539ecf34fd2e1560f6'
-  /src/Foundation:
-    newFile: !uuid '702553d6cb6c4723561203b9eb3a3838492e4ab5'
-    oldFile: !uuid 'c72ec134e9b58fd672c91a45371a390de69cbaa7'
-  /src/Foundation/AbstractPolicy.php:
-    newFile: !uuid '37e0de665967ab575d6c7473730ea5205992d89f'
-    oldFile: !uuid 'b48a7c39ab76e79d24f5e6ef692ad1df388aba01'
-  /src/Http:
-    newFile: !uuid '956267711df750d0761daa60dfba2e12ef8a16e2'
-    oldFile: !uuid '2cbea3fb7ef339cc847fc7d22998223173ac3f22'
-  /src/Http/Server.php:
-    newFile: !uuid '44e6770c75e48bdeb206e896086853b2a9a96317'
-    oldFile: !uuid '9b1d31eb91c0d272e9d5a6bd2ba46185a29beabc'
-gitCommitId: !uuid '8d5c8ac287ba1674de83d97f614a04e1b43ccfac'
+    newFile: !uuid '81793d03d0f69f93b2c70c0474406e2b1e087feb'
+    oldFile: !uuid 'ac1f7d1aeda58307a1dd2f86de6f9f3d85b319e9'
+  /src/Api:
+    newFile: !uuid '9ed170c8abdc0d58add4c06016e4209a8b50fdba'
+    oldFile: !uuid '96e0c84306d8f4a0f4e2cbef516ff368884729a3'
+  /src/Api/Serializer:
+    newFile: !uuid 'bb6c7425873e5a0626840b41b1849c5ecc036a47'
+    oldFile: !uuid '414c6250c319d70bf707d40613066da3ea61d381'
+  /src/Api/Serializer/AbstractSerializer.php:
+    newFile: !uuid 'adf04f95114f2ac8bd873a7200ed3c9f19199437'
+    oldFile: !uuid '9a2dbef095f2f50559a56d7676825afe5fe7e84d'
+gitCommitId: !uuid 'ebcb4cdff04708684405a689c01c6bd0e925a613'
 renames: {
   }
-revisionId: 33
+revisionId: 34
