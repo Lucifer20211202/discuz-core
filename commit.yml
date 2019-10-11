@@ -3,18 +3,18 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid '81793d03d0f69f93b2c70c0474406e2b1e087feb'
-    oldFile: !uuid 'ac1f7d1aeda58307a1dd2f86de6f9f3d85b319e9'
+    newFile: !uuid '8550ba03922207a279d552f6e270aa67bfecdd64'
+    oldFile: !uuid '81793d03d0f69f93b2c70c0474406e2b1e087feb'
   /src/Api:
-    newFile: !uuid '9ed170c8abdc0d58add4c06016e4209a8b50fdba'
-    oldFile: !uuid '96e0c84306d8f4a0f4e2cbef516ff368884729a3'
-  /src/Api/Serializer:
-    newFile: !uuid 'bb6c7425873e5a0626840b41b1849c5ecc036a47'
-    oldFile: !uuid '414c6250c319d70bf707d40613066da3ea61d381'
-  /src/Api/Serializer/AbstractSerializer.php:
-    newFile: !uuid 'adf04f95114f2ac8bd873a7200ed3c9f19199437'
-    oldFile: !uuid '9a2dbef095f2f50559a56d7676825afe5fe7e84d'
-gitCommitId: !uuid 'ebcb4cdff04708684405a689c01c6bd0e925a613'
+    newFile: !uuid '4d9304272e4d5832f662cd5f54d447ec1f650294'
+    oldFile: !uuid '9ed170c8abdc0d58add4c06016e4209a8b50fdba'
+  /src/Api/Listeners:
+    newFile: !uuid '6d279a64cd344b840f9a7d2c8625e4f4a1e36ca7'
+    oldFile: !uuid '1e4bdd0191a2c32c0fff023637f89a133414e995'
+  /src/Api/Listeners/AutoResisterApiExceptionRegisterHandler.php:
+    newFile: !uuid '0c2be27b759699385aa2671447b7dc3a2b55864f'
+    oldFile: !uuid 'e23b9fb43405f82a16d271dae53e2ae208106448'
+gitCommitId: !uuid '71e093a3c4ccce7cf1004da70b6ff81024db6707'
 renames: {
   }
-revisionId: 34
+revisionId: 35
