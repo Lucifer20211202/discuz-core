@@ -3,33 +3,21 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid 'f7c773565f4d9702626c0cb0aed2162dd9b3aa19'
-    oldFile: !uuid '8550ba03922207a279d552f6e270aa67bfecdd64'
-  /src/Api:
-    newFile: !uuid 'a56db8250979d305a9ad5a93ae1fedb5ff6b65b2'
-    oldFile: !uuid '4d9304272e4d5832f662cd5f54d447ec1f650294'
-  /src/Api/ApiServiceProvider.php:
-    newFile: !uuid '94f6bb247b4df44a99834b059b9b89872f6d4f29'
-    oldFile: !uuid 'c8f1019d133576a4607d28f7cd2e1b348ff4282a'
-  /src/Http:
-    newFile: !uuid '27f46ca98e1267a4b0bc3ff626231c57333663a3'
-    oldFile: !uuid '956267711df750d0761daa60dfba2e12ef8a16e2'
-  /src/Http/Middleware:
-    newFile: !uuid '08ac99b81435996884d082cd47038c2cdb9e8eec'
-    oldFile: !uuid '39880c715ded12dd0fe93a79107a8823fd4fe592'
-  /src/Http/Middleware/RequestHandler.php:
-    newFile: !uuid 'c591f1e0ac5d9e59296ba702be52fe6946fac7e1'
-    oldFile: !uuid '03529d148c654906138a7fcd25818aad313f6673'
-  /src/Http/RouteCollection.php:
-    newFile: !uuid '9278ae08d9ec7a61f415d02d387a73d4bd96db5a'
-    oldFile: !uuid '526a4f32cff83aa7b16a061fb4699a8a75dd5aef'
-  /src/Web:
-    newFile: !uuid '516c8706288bb9c8189821fd2fdb3e03ed091b90'
-    oldFile: !uuid 'dee13c7f58702f6af275642976e3a6ac15b2fecf'
-  /src/Web/WebServiceProvider.php:
-    newFile: !uuid '0efc8be387391e873ba251415a8645dde6d39f89'
-    oldFile: !uuid 'd7929043232e3d6825e0a20eaca08f9691c54cdd'
-gitCommitId: !uuid 'c71b793bb0626d47723235b62adb47203b77cd1e'
+    newFile: !uuid 'cb3aaad7cb23cb1e8c3b4699d9dc6cbf687ca0c5'
+    oldFile: !uuid 'f7c773565f4d9702626c0cb0aed2162dd9b3aa19'
+  /src/Database:
+    newFile: !uuid '503dc6c7cf19be7bc218262b023da235450d824b'
+    oldFile: !uuid '53a1b6c102290d93f8c283cd9c1c3ac77b86c42c'
+  /src/Database/ScopeVisibilityTrait.php:
+    newFile: !uuid '2f76ced780488e17c6decdef02eec541e88bbe44'
+    oldFile: !uuid 'f9b3d64c885aba6f748aafcdf06947a13eda0385'
+  /src/Foundation:
+    newFile: !uuid '86dbd4e3550f8f0cfb72f0888237286eac499a53'
+    oldFile: !uuid '702553d6cb6c4723561203b9eb3a3838492e4ab5'
+  /src/Foundation/AbstractPolicy.php:
+    newFile: !uuid '8730df003cfbc80353e9da09af8e994a37af7a6f'
+    oldFile: !uuid '37e0de665967ab575d6c7473730ea5205992d89f'
+gitCommitId: !uuid '1e414810042c1f76ef34e51d23b456c92b463c00'
 renames: {
   }
-revisionId: 36
+revisionId: 37
