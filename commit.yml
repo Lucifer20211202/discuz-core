@@ -3,24 +3,15 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid '7e3cfb50ceb9acdd4c51fa4ed4bc307f599199b7'
-    oldFile: !uuid '362e625b7a1b3c6fce59ea68d9f9af6de0bb51db'
-  /src/Contracts:
-    newFile: !uuid 'adab1abf195434f57929153044dab8bdd9b5d67f'
-    oldFile: !uuid '7572cd75d3e72431c74fd12ae4e4366851996b7f'
-  /src/Contracts/Search:
-    newFile: !uuid '7cecec16bf7d4b5667badf71b4749128e577d5f8'
-    oldFile: !uuid 'a87373f0198fc02de3ea72b17843064c4a9f0a99'
-  /src/Contracts/Search/Searcher.php:
-    newFile: !uuid '7d681cbceb8511b97f33910db061994c7f7c4c21'
-    oldFile: !uuid '39889037abd9b4d35fe79bc0b6320cf6b81808b7'
+    newFile: !uuid '30294393f194c882124c4c3626f082344846c974'
+    oldFile: !uuid '7e3cfb50ceb9acdd4c51fa4ed4bc307f599199b7'
   /src/Search:
-    newFile: !uuid '039e51d9d1cd9b1486c71f363fc0df90d4782c60'
-    oldFile: !uuid '6681f3e7a19ec9f01c70e73ab59cb30e47805023'
+    newFile: !uuid '4133ca539aa5d99de1587ecffe0183029575768d'
+    oldFile: !uuid '039e51d9d1cd9b1486c71f363fc0df90d4782c60'
   /src/Search/MysqlSearcher.php:
-    newFile: !uuid '2e5500208ffd5dbb53e755f5de4c08ecce18c833'
-    oldFile: !uuid '1845028872f74bf72b3bd2a697530517f2efb257'
-gitCommitId: !uuid '251d962ad7c8811839b02acbfa980671fb074da3'
+    newFile: !uuid '95f0298923d534863b4bc522678e6bb27ee0c8de'
+    oldFile: !uuid '2e5500208ffd5dbb53e755f5de4c08ecce18c833'
+gitCommitId: !uuid '93f9f3dcaeacd3cd245a5004b6fbd0e06d01d925'
 renames: {
   }
-revisionId: 45
+revisionId: 46
