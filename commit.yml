@@ -3,66 +3,24 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid '362e625b7a1b3c6fce59ea68d9f9af6de0bb51db'
-    oldFile: !uuid '025c39ddcc11b6fbfe7f599354f3b13938dcd9be'
-  /src/Api:
-    newFile: !uuid '510b6ee2635125ee1042189dc58e7761279d2034'
-    oldFile: !uuid '62034136e37c30aab88853c955cf44cc226efe9d'
-  /src/Api/Controller:
-    newFile: !uuid 'f303e0af6fe5805aefd03aaf18187a0bc09cb2c2'
-    oldFile: !uuid 'f0be4c681f8677049930eb29de7cb1b91bd81d6c'
-  /src/Api/Controller/AbstractSerializeController.php:
-    newFile: !uuid '366c83b767a70e0f19def3f8e8c95cdb0181b3c9'
-    oldFile: !uuid '85cce27fde928e2875515ab975525fd13017f48c'
-  /src/Api/Events:
-    newFile: !uuid '36fb4258d023bf9cdf036a40ea0f5cb30b08c15d'
-    oldFile: !uuid '1a079b308cc7b75aad9ae7cd6af0b70b5dca5bea'
-  /src/Api/Events/ScopeModelVisibility.php:
-    newFile: !uuid '88725c9b13e5f6af1da9db1e5d755b7f423e6a8d'
-    oldFile: !uuid '9589ceec7c39c0839e359da30afcd797087980e9'
-  /src/Api/Events/SearchModelField.php:
-    newFile: !uuid '14af7057485bb77d822467711e7c14404b6cc21b'
-    oldFile: null
+    newFile: !uuid '7e3cfb50ceb9acdd4c51fa4ed4bc307f599199b7'
+    oldFile: !uuid '362e625b7a1b3c6fce59ea68d9f9af6de0bb51db'
   /src/Contracts:
-    newFile: !uuid '7572cd75d3e72431c74fd12ae4e4366851996b7f'
-    oldFile: !uuid '4499649d9bf0e5394ad6bdb1ba0ecbca0a597809'
+    newFile: !uuid 'adab1abf195434f57929153044dab8bdd9b5d67f'
+    oldFile: !uuid '7572cd75d3e72431c74fd12ae4e4366851996b7f'
   /src/Contracts/Search:
-    newFile: !uuid 'a87373f0198fc02de3ea72b17843064c4a9f0a99'
-    oldFile: null
-  /src/Contracts/Search/Search.php:
-    newFile: !uuid 'be9b078d162190dc1019389d518c76415153899c'
-    oldFile: null
-  /src/Contracts/Search/SearchBuilder.php:
-    newFile: !uuid '69ac0a420f1cad138bce8639b5791437e0bc1dcc'
-    oldFile: null
+    newFile: !uuid '7cecec16bf7d4b5667badf71b4749128e577d5f8'
+    oldFile: !uuid 'a87373f0198fc02de3ea72b17843064c4a9f0a99'
   /src/Contracts/Search/Searcher.php:
-    newFile: !uuid '39889037abd9b4d35fe79bc0b6320cf6b81808b7'
-    oldFile: null
-  /src/Http:
-    newFile: !uuid 'db3d1cc3e40aa29db1d6da8ae1ad0cbdff70f3ee'
-    oldFile: !uuid '5f84681031c45a0f0db9fbae7e4047ce7dadab70'
-  /src/Http/Server.php:
-    newFile: !uuid 'b7535f738f199dfcdeac2e069c1cbe553cb3815c'
-    oldFile: !uuid '7c8c971fe925d556cc4be2beeb8c862e2d5c8ae5'
+    newFile: !uuid '7d681cbceb8511b97f33910db061994c7f7c4c21'
+    oldFile: !uuid '39889037abd9b4d35fe79bc0b6320cf6b81808b7'
   /src/Search:
-    newFile: !uuid '6681f3e7a19ec9f01c70e73ab59cb30e47805023'
-    oldFile: null
-  /src/Search/AbstractSearch.php:
-    newFile: !uuid '89472a5747e056d9c0a119c3b318ea20964f750b'
-    oldFile: null
-  /src/Search/AbstractSearchBuilder.php:
-    newFile: !uuid 'f8b31600c1cefc9a99e35d114e47aee241a91700'
-    oldFile: null
+    newFile: !uuid '039e51d9d1cd9b1486c71f363fc0df90d4782c60'
+    oldFile: !uuid '6681f3e7a19ec9f01c70e73ab59cb30e47805023'
   /src/Search/MysqlSearcher.php:
-    newFile: !uuid '1845028872f74bf72b3bd2a697530517f2efb257'
-    oldFile: null
-  /src/Search/SearchBuilderException.php:
-    newFile: !uuid '64046fe6991c895573709865c060855f7b9bc5b4'
-    oldFile: null
-  /src/Search/SearchServiceProvider.php:
-    newFile: !uuid '0a9c89575ff811d0bace8ce7c457441fdff137e8'
-    oldFile: null
-gitCommitId: !uuid '93a450a54ad3f11c76f9d2fca9f49c3a3f1c9a4a'
+    newFile: !uuid '2e5500208ffd5dbb53e755f5de4c08ecce18c833'
+    oldFile: !uuid '1845028872f74bf72b3bd2a697530517f2efb257'
+gitCommitId: !uuid '251d962ad7c8811839b02acbfa980671fb074da3'
 renames: {
   }
-revisionId: 44
+revisionId: 45
