@@ -2,46 +2,25 @@
 branches: {
   }
 fileChange:
-  /composer.json:
-    newFile: !uuid '83165c7672d12ebb1282551db06a8b3106e85fcd'
-    oldFile: !uuid 'e7490287551c91ef84927ca88ba26df39f786f12'
   /src:
-    newFile: !uuid 'f410072331f8b5ee5d7160f3612e71b81fe48223'
-    oldFile: !uuid '4a2d4d31e3c621e61c9a62f068174f72926b2d61'
-  /src/Auth:
-    newFile: !uuid '030d9055c4f03629eaf819a53f0ded72fa5867a8'
-    oldFile: !uuid '0dc1c8d2ccd6c5de00a7917ddb86325b2d20daf0'
-  /src/Auth/UserPolicy.php:
-    newFile: !uuid '774bdfdc7059f74196fb4b613d02edfc85fbb6dc'
-    oldFile: !uuid '3e64d9006bda5d3960339705fd892911dce3bc67'
-  /src/Contracts:
-    newFile: !uuid '4499649d9bf0e5394ad6bdb1ba0ecbca0a597809'
-    oldFile: !uuid '7491e5d476b692664dd1256b08eb5e967976a2b5'
-  /src/Contracts/Setting:
-    newFile: !uuid 'b47735c79434ea0ef333740715a4837be284d0f0'
+    newFile: !uuid '025c39ddcc11b6fbfe7f599354f3b13938dcd9be'
+    oldFile: !uuid 'f410072331f8b5ee5d7160f3612e71b81fe48223'
+  /src/Censor:
+    newFile: !uuid '6564192d943c9fe37146a7ce408d771d36491fb7'
     oldFile: null
-  /src/Contracts/Setting/SettingRepository.php:
-    newFile: !uuid '9728738800957e18db061ecc28fc02dc9a7cd38e'
+  /src/Censor/Censor.php:
+    newFile: !uuid '3acb44e306678f5652d5e92566879be5598c05fb'
     oldFile: null
-  /src/Foundation:
-    newFile: !uuid 'df59ca3a0fa266ca1f997f7d0e8d8d256ab2ac24'
-    oldFile: !uuid 'd7b9b4b12118d3fc4c0433e6e05c9af2a6bab01c'
-  /src/Foundation/AbstractPolicy.php:
-    newFile: !uuid 'ab6db854484ada178a2aa9a64aa68cc19fa4177d'
-    oldFile: !uuid '29efcf481e4189af8fefe17cc2b6d6bef800dc7c'
-  /src/Foundation/AbstractValidator.php:
-    newFile: !uuid '031c0ea9c25e55aff075242c8968c8bd0f236988'
-    oldFile: !uuid '514c079af96d743236d0189108ae9385ddd3c472'
+  /src/Censor/CensorServiceProvider.php:
+    newFile: !uuid 'c16a94be90a77baaa6ccc7c17454f40ce62660a1'
+    oldFile: null
   /src/Http:
-    newFile: !uuid '29862cac17726704e84ea2b4be129e6c381ab32f'
-    oldFile: !uuid '3ac11a4a35f16ea6b23b3d802b5d9446deb620ed'
-  /src/Http/Middleware:
-    newFile: !uuid '7ff59bd7a0f8c28746b9da515c889b877d7b69ad'
-    oldFile: !uuid '3d9bba2377fa116b64b10396c1c09b76d9934c31'
-  /src/Http/Middleware/ParseJsonBody.php:
-    newFile: !uuid '1f2fe1a4a8e8a8ac2f004f9b5707cdf96a1e59a4'
-    oldFile: !uuid 'e61a66658f9f3cd8bcf960a9591d81c1c9abbd03'
-gitCommitId: !uuid '70c8cbab669142609ce76175bf7c3c2986bd5cb9'
+    newFile: !uuid '5f84681031c45a0f0db9fbae7e4047ce7dadab70'
+    oldFile: !uuid '29862cac17726704e84ea2b4be129e6c381ab32f'
+  /src/Http/Server.php:
+    newFile: !uuid '7c8c971fe925d556cc4be2beeb8c862e2d5c8ae5'
+    oldFile: !uuid 'e55f16f444d901be4c2e0230d43e9f1e1052ef56'
+gitCommitId: !uuid '050515d7b54fd4cd272c0423d775d050a180e053'
 renames: {
   }
-revisionId: 42
+revisionId: 43
