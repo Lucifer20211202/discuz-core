@@ -2,37 +2,34 @@
 branches: {
   }
 fileChange:
-  /composer.json:
-    newFile: !uuid 'd2100aa7765076f15f045e645087a202c9b699ea'
-    oldFile: !uuid '83165c7672d12ebb1282551db06a8b3106e85fcd'
   /src:
-    newFile: !uuid '155bbd8c8425945f3bd9f901e4566ae98d070b9e'
-    oldFile: !uuid 'd350ff940f18bf3a91fbca7f139b1754c56f0c9d'
-  /src/Console:
-    newFile: !uuid '32bcd6d5bf2b53f78497315ac6009c197e7262da'
-    oldFile: !uuid '2220a78da033de600a5837af2e0590d3ba5206c8'
-  /src/Console/AbstractCommand.php:
-    newFile: !uuid '305f4d51d50eb9077edb25b06856e00f5c89cc23'
-    oldFile: null
-  /src/Console/Application.php:
-    newFile: !uuid 'ea97b0694fe2e4f0cb40e68b38d11b161a42b739'
-    oldFile: !uuid '57fe49341a3912321a7153dfba12ff51b0dfb201'
-  /src/Console/Kernel.php:
-    newFile: !uuid 'b23839b5b593837e5ee4fe74396b7368643dcef3'
-    oldFile: !uuid '000aebe5f30cc9db6bdac58c45cd36a3603d509e'
-  /src/Filesystem:
-    newFile: !uuid 'ce9da1bbfa5d2ddfff2b60c3fc9026a76daa679d'
-    oldFile: !uuid '59900cfa068be94a11b8de65ee1a4ac9be9eab77'
-  /src/Filesystem/FilesystemServiceProvider.php:
-    newFile: !uuid '8b6128db01e278f735c0b93e73816835aef3ecdb'
-    oldFile: !uuid 'a1929edf7b3f64109dbbb4828407a2a65217c904'
+    newFile: !uuid '1f0cc50fb43875af3bf77243336863d88d3f0d9a'
+    oldFile: !uuid '155bbd8c8425945f3bd9f901e4566ae98d070b9e'
+  /src/Contracts:
+    newFile: !uuid 'b08f9033fb08e2c467cbccfc4fca2a9b35de2b28'
+    oldFile: !uuid 'adab1abf195434f57929153044dab8bdd9b5d67f'
+  /src/Contracts/Tool:
+    newFile: !uuid '35ec247cb49edd977e0a0765b4189f0c864fa31b'
+    oldFile: !uuid 'ff87dda6b87c264033812c3a5ce8886e0fec63f9'
+  /src/Contracts/Tool/UploadTool.php:
+    newFile: !uuid 'f0c709957b7249a0597e3b82fcf4a5d178631131'
+    oldFile: !uuid '72d11d1788b0eea5e614d94b84734cd7dbc93896'
   /src/Foundation:
-    newFile: !uuid '09d83a2456d669f32d0b3e223bb831705f78d853'
-    oldFile: !uuid 'c91af49f8119c5b078bd73aa6c95441d40c904c3'
-  /src/Foundation/AbstractValidator.php:
-    newFile: !uuid '1d08ff2dd5682a0f2b05e231ffb625b26e72e05c'
-    oldFile: !uuid '031c0ea9c25e55aff075242c8968c8bd0f236988'
-gitCommitId: !uuid '7a3120656eb458c095a4de4e9adea7e1b6b2e25c'
+    newFile: !uuid '2e25f971b66967030d53d1476f3c2f9c77dd8bfb'
+    oldFile: !uuid '09d83a2456d669f32d0b3e223bb831705f78d853'
+  /src/Foundation/AbstractUploadTool.php:
+    newFile: !uuid '1ca506ff5f00b93f974a5c888541aba89ee2735c'
+    oldFile: !uuid 'a41390baebc21f1ace67b87d2174951b9a0ad8e4'
+  /src/Http:
+    newFile: !uuid '7f5b73dd35f41e807332d6979a1dc4e6fca322d0'
+    oldFile: !uuid 'db3d1cc3e40aa29db1d6da8ae1ad0cbdff70f3ee'
+  /src/Http/Exception:
+    newFile: !uuid '371ee0b2ba85a364eb688b25e8c91bc81009715c'
+    oldFile: !uuid '7fd365f420d7371ff858578c76b3acfa84bbc091'
+  /src/Http/Exception/UploadVerifyException.php:
+    newFile: !uuid '3646a66cb32f82cb14bc32173eeef029a2b979c4'
+    oldFile: null
+gitCommitId: !uuid 'a37a19e21b4c72a179a1a135ff6cda66c000bd91'
 renames: {
   }
-revisionId: 49
+revisionId: 50
