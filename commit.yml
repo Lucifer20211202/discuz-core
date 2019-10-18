@@ -3,24 +3,18 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid 'ee64cb9a205d3aa14732ba5f9ad4df9d8a68ea55'
-    oldFile: !uuid '30294393f194c882124c4c3626f082344846c974'
-  /src/Foundation:
-    newFile: !uuid 'c91af49f8119c5b078bd73aa6c95441d40c904c3'
-    oldFile: !uuid 'df59ca3a0fa266ca1f997f7d0e8d8d256ab2ac24'
-  /src/Foundation/AbstractPolicy.php:
-    newFile: !uuid '1d809ff37d511b86def88b4934cf39d28e188629'
-    oldFile: !uuid 'ab6db854484ada178a2aa9a64aa68cc19fa4177d'
-  /src/Foundation/AbstractRepository.php:
-    newFile: !uuid '2658c8e99fc76d7c1f4acab2bd1ad0e45e541e4c'
-    oldFile: !uuid '846cc611308493cd7815f209b5993ae36bc4a885'
-  /src/Search:
-    newFile: !uuid 'cf0a296e45820ac30e970311c90841a510efd3f1'
-    oldFile: !uuid '4133ca539aa5d99de1587ecffe0183029575768d'
-  /src/Search/MysqlSearcher.php:
-    newFile: !uuid '3f203557f1afc2ad3fe77eac0d15103a3d88592f'
-    oldFile: !uuid '95f0298923d534863b4bc522678e6bb27ee0c8de'
-gitCommitId: !uuid 'cb7a2395e2e399c3d48b2fe8408437fea6f3ed6b'
+    newFile: !uuid 'd350ff940f18bf3a91fbca7f139b1754c56f0c9d'
+    oldFile: !uuid 'ee64cb9a205d3aa14732ba5f9ad4df9d8a68ea55'
+  /src/Censor:
+    newFile: !uuid '3211af7a4f94f771d7b7e9dad17acbd916b998b1'
+    oldFile: !uuid '6564192d943c9fe37146a7ce408d771d36491fb7'
+  /src/Censor/Censor.php:
+    newFile: !uuid 'ac36ddbd92a244f906ef72410a557686d00de6f4'
+    oldFile: !uuid '3acb44e306678f5652d5e92566879be5598c05fb'
+  /src/Censor/CensorNotPassedException.php:
+    newFile: !uuid '9e877260dbda79007719f8569909d7172d774bb6'
+    oldFile: null
+gitCommitId: !uuid 'a544cc7073b21baf6743409f5163466e49969ea8'
 renames: {
   }
-revisionId: 47
+revisionId: 48
