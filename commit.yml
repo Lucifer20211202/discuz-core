@@ -2,49 +2,31 @@
 branches: {
   }
 fileChange:
-  /composer.json:
-    newFile: !uuid '28b58dbd0f6f34ab8c07274649cd957fe5f28842'
-    oldFile: !uuid 'd2100aa7765076f15f045e645087a202c9b699ea'
   /src:
-    newFile: !uuid 'ac66539daf08df7929dc93ec193a0069dd732d6e'
-    oldFile: !uuid '1f0cc50fb43875af3bf77243336863d88d3f0d9a'
-  /src/Api:
-    newFile: !uuid '966ea341a1bddd9ba23fd1ab43c01fcb5e24e64c'
-    oldFile: !uuid '510b6ee2635125ee1042189dc58e7761279d2034'
-  /src/Api/ApiServiceProvider.php:
-    newFile: !uuid '1dc9bca09ca2d600af46771f2db2b0c0125e651a'
-    oldFile: !uuid 'cd5cceccb3cda78088327cc19e8fcbe2511bb672'
-  /src/Console:
-    newFile: !uuid '2c461a699fc045ddc61e0287fd5143ffb6c1879a'
-    oldFile: !uuid '32bcd6d5bf2b53f78497315ac6009c197e7262da'
-  /src/Console/AbstractCommand.php:
-    newFile: !uuid 'd27ee013bae1f4ecaa427f64aefa0451cab9bb6a'
-    oldFile: !uuid '305f4d51d50eb9077edb25b06856e00f5c89cc23'
-  /src/Console/Kernel.php:
-    newFile: !uuid 'fdfdac40fd12899a6b0225bcaaf6635f6dcc549e'
-    oldFile: !uuid 'b23839b5b593837e5ee4fe74396b7368643dcef3'
-  /src/Database:
-    newFile: !uuid '2c2580fafedf5c136506f161f46d5688dfab9d19'
-    oldFile: !uuid '503dc6c7cf19be7bc218262b023da235450d824b'
-  /src/Database/Migration.php:
-    newFile: !uuid '457e1a7e71ef10fe7b1f8120ce7003f3149f47c4'
+    newFile: !uuid '7d3f0094e30cc7111870a186a95f75ab6549862b'
+    oldFile: !uuid 'ac66539daf08df7929dc93ec193a0069dd732d6e'
+  /src/Auth:
+    newFile: !uuid 'ccc20bcf11945230a2a35aab107c30f32a3266ff'
+    oldFile: !uuid '030d9055c4f03629eaf819a53f0ded72fa5867a8'
+  /src/Auth/UserPolicy.php:
+    newFile: !uuid 'aa19ac2f8c9af50d30c9ed21b3f101f4b78d1611'
+    oldFile: !uuid '774bdfdc7059f74196fb4b613d02edfc85fbb6dc'
+  /src/Foundation:
+    newFile: !uuid 'a6e8309da3194ab1d5a478d253b10e38b412a95a'
+    oldFile: !uuid '2e25f971b66967030d53d1476f3c2f9c77dd8bfb'
+  /src/Foundation/AbstractPolicy.php:
+    newFile: !uuid '0484c7aa606eb8a6051e7222758e960e5957792c'
+    oldFile: !uuid '1d809ff37d511b86def88b4934cf39d28e188629'
+  /src/Foundation/Support:
+    newFile: !uuid '7cdaadc6faa6ccf4acd962265f05522527e664a9'
+    oldFile: !uuid 'f1706ebbb854414981047e71bff60dd5a62f6e29'
+  /src/Foundation/Support/Providers:
+    newFile: !uuid '20dd3902a72a940f64065be5c1df4ca98e45ec76'
     oldFile: null
-  /src/Database/MigrationCreator.php:
-    newFile: !uuid '3ce3729e2d2a44a82486b202e0e52aee40391e5c'
+  /src/Foundation/Support/Providers/EventServiceProvider.php:
+    newFile: !uuid 'e8d21beb4b13b52617401db9b4318cfc2d48c01d'
     oldFile: null
-  /src/Database/MigrationServiceProvider.php:
-    newFile: !uuid 'e56abb03b6d5ce86b170af709ab0e3c505629dd3'
-    oldFile: null
-  /src/Database/Migrator.php:
-    newFile: !uuid 'a79983d07e43260a1571e4bb180213201c5ace9a'
-    oldFile: null
-  /src/Database/stubs:
-    newFile: !uuid 'c3d366e31618b686420907b6e05d35be985a6783'
-    oldFile: null
-  /src/Database/stubs/create.stub:
-    newFile: !uuid '65c769f31d23a3e18f226bfca67c3ce16452de4e'
-    oldFile: null
-gitCommitId: !uuid '1388e1925b11ed378f417b831f686834c6c8c265'
+gitCommitId: !uuid '2c8d67bf9da389f87bf9c117b4b6f51861c01e1c'
 renames: {
   }
-revisionId: 51
+revisionId: 52
