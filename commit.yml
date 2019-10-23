@@ -3,15 +3,15 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid '433c4e76f0937d434baa5e957ba205e47ea8161d'
-    oldFile: !uuid '6f95c710edf3baa54b99138b1921e2c7988b4f10'
-  /src/Search:
-    newFile: !uuid '0190967afb9c11b8f39aa0cae1422c0650a489a1'
-    oldFile: !uuid 'cf0a296e45820ac30e970311c90841a510efd3f1'
-  /src/Search/AbstractSearch.php:
-    newFile: !uuid '826dc865efbddfd27cd821eaa3d2d9e83fdefb5a'
-    oldFile: !uuid '89472a5747e056d9c0a119c3b318ea20964f750b'
-gitCommitId: !uuid 'e57ebb256d010be0da6ff8d8a37038be0692e506'
+    newFile: !uuid 'bd36b2ada5b60fd5d96f0856f1a344f4f03b3136'
+    oldFile: !uuid '433c4e76f0937d434baa5e957ba205e47ea8161d'
+  /src/Foundation:
+    newFile: !uuid '46d80ceafd70ad7d5488b92b87f2fa68744c5ace'
+    oldFile: !uuid '616e0f5653471cf95845ffdec107579bcb07dfe2'
+  /src/Foundation/AbstractPolicy.php:
+    newFile: !uuid '20bb554fc21cbaaa2efaa8aa67ebefe3bb8a647b'
+    oldFile: !uuid '0484c7aa606eb8a6051e7222758e960e5957792c'
+gitCommitId: !uuid '0fbef1919e081d1d1321b6088cb3e747926ce84c'
 renames: {
   }
-revisionId: 55
+revisionId: 56
