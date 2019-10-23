@@ -2,25 +2,16 @@
 branches: {
   }
 fileChange:
-  /composer.json:
-    newFile: !uuid 'a1583c62a1cd0caafb8bd9163f88f5215af509ee'
-    oldFile: !uuid '28b58dbd0f6f34ab8c07274649cd957fe5f28842'
   /src:
-    newFile: !uuid '126e198c53738e7fadf80d4e0df07facb2b826bb'
-    oldFile: !uuid '437871e07a5889ba69be8e839bac41351b693e3d'
-  /src/Cache:
-    newFile: !uuid '4967763f814f53aa167e096680a88be937203292'
-    oldFile: !uuid '12750c13a346f40717a226cc47c4ab33e1a37743'
-  /src/Cache/CacheManager.php:
-    newFile: !uuid 'bc8e6c0ac79ddfed465431e8cf50645e01089e83'
-    oldFile: !uuid '4395a28be57bd28c3e05e999e35ce1953f2777f6'
-  /src/Http:
-    newFile: !uuid '10b54c89dc97043098a06f4e804f715c7b3f1a2e'
-    oldFile: !uuid '7f5b73dd35f41e807332d6979a1dc4e6fca322d0'
-  /src/Http/Server.php:
-    newFile: !uuid 'f3c217c6aec7c0464b788f5ea661800ce11b4e75'
-    oldFile: !uuid 'b7535f738f199dfcdeac2e069c1cbe553cb3815c'
-gitCommitId: !uuid '1ce3d9c432af725359eb6adbbb9f3dcb4a69c6ef'
+    newFile: !uuid 'b687264a1e259bf8871b63d23ef51f9bee38dbbd'
+    oldFile: !uuid '126e198c53738e7fadf80d4e0df07facb2b826bb'
+  /src/Auth:
+    newFile: !uuid 'd8fb4a1bc5848b82170e9415b3f00487c5ac21a7'
+    oldFile: !uuid 'ccc20bcf11945230a2a35aab107c30f32a3266ff'
+  /src/Auth/UserPolicy.php:
+    newFile: !uuid 'd2453e5bb861eb163057d743c0842b7e3e52a6b5'
+    oldFile: !uuid 'aa19ac2f8c9af50d30c9ed21b3f101f4b78d1611'
+gitCommitId: !uuid 'c1b60bb92f7aff0449fcf385254c6f2d08270e88'
 renames: {
   }
-revisionId: 58
+revisionId: 59
