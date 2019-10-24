@@ -3,18 +3,15 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid '77cb31f3a22c7d75de5bd63592c1d987070502e8'
-    oldFile: !uuid 'b687264a1e259bf8871b63d23ef51f9bee38dbbd'
-  /src/Api:
-    newFile: !uuid 'f1985d9fba6eb5fe3c35c502729935d01ed00479'
-    oldFile: !uuid '966ea341a1bddd9ba23fd1ab43c01fcb5e24e64c'
-  /src/Api/Serializer:
-    newFile: !uuid '7a5e9c75553f90fa141b21c07f762e697672983e'
-    oldFile: !uuid 'bb6c7425873e5a0626840b41b1849c5ecc036a47'
-  /src/Api/Serializer/AbstractSerializer.php:
-    newFile: !uuid 'bfc7c675cfbbe7aabbca8463ad2918b6d9a24b59'
-    oldFile: !uuid 'adf04f95114f2ac8bd873a7200ed3c9f19199437'
-gitCommitId: !uuid '2c77cbe0e66c18a60d9c73d713da0f95912fd30e'
+    newFile: !uuid 'a16cf2b0ba9b1d4fbe4ba1efeec18ab1bbe1ea3c'
+    oldFile: !uuid '77cb31f3a22c7d75de5bd63592c1d987070502e8'
+  /src/Database:
+    newFile: !uuid '52ed62bc8ff938c0160e03de9d97facae1566a73'
+    oldFile: !uuid '2c2580fafedf5c136506f161f46d5688dfab9d19'
+  /src/Database/Migration.php:
+    newFile: !uuid '5b5d2a338b4d8e3390558c89f816d1ed4e21dd18'
+    oldFile: !uuid '457e1a7e71ef10fe7b1f8120ce7003f3149f47c4'
+gitCommitId: !uuid '362b97e475b1d906aed9cb9e7a72e43c7bfc1d20'
 renames: {
   }
-revisionId: 60
+revisionId: 61
