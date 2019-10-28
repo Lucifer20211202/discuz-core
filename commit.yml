@@ -3,27 +3,18 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid '5faf8c05e184d87e27c70f5985d166577aab5cf4'
-    oldFile: !uuid 'cf5754ec99e4ecc1fedadc65bb07d919c9b9823f'
-  /src/Qcloud:
-    newFile: !uuid 'f89ebd023b06859b567b427aba0517d2ad2e5e3e'
-    oldFile: !uuid 'e12ac146302b11a2918e73ec151c39a88c4f14e0'
-  /src/Qcloud/QcloudManage.php:
-    newFile: !uuid 'b3bb7a73d4c65dd7b1000b53479a1dbf96cee6b3'
-    oldFile: !uuid 'd27c62c2a61ef7458ea8cd9a5d08162138634c56'
-  /src/Qcloud/QcloudTrait.php:
-    newFile: !uuid '986b1128c34b44740394cd10adb1e10be7de125e'
-    oldFile: null
-  /src/Qcloud/Services:
-    newFile: !uuid '95dcebf5aaedc9361e6448ee091df2edb3621364'
-    oldFile: !uuid '4f90b47bd0b038dae755cc4ff681e874eff37731'
-  /src/Qcloud/Services/AbstractService.php:
-    newFile: !uuid '123f92d8bc2d31e5363864225c2f9a9a2809e647'
-    oldFile: !uuid 'a320a06991ef19285f678b00c1b3e1ccdb5d6fdb'
-  /src/Qcloud/Services/SmsService.php:
-    newFile: !uuid 'c1e585e01f8386c09d679f2da6df32f5265b00d3'
-    oldFile: null
-gitCommitId: !uuid 'd7f2c960e12ba391f86cc6416d1d94555776667f'
+    newFile: !uuid '6bee1df813a29e3a2ec1d13d69c3b1eefd3c8531'
+    oldFile: !uuid '5faf8c05e184d87e27c70f5985d166577aab5cf4'
+  /src/Api:
+    newFile: !uuid '5edaa82d473c4049aab16695df938d8067386055'
+    oldFile: !uuid '9571d787b4d84f901c21a11bbf162befd92418bc'
+  /src/Api/Controller:
+    newFile: !uuid '8742d3554a61126ef4cc9aa5d406411d2fbecdc9'
+    oldFile: !uuid '681a7919757b42f1d1ddb0893ca455d5607dc4ca'
+  /src/Api/Controller/AbstractSerializeController.php:
+    newFile: !uuid 'ed7c81a0abba92829c155ea6b101a459be8328e9'
+    oldFile: !uuid '42f0ab4201148f29af1554aad2d5d33dc1d6fb19'
+gitCommitId: !uuid '0051be31a1360e89d0b2fd0442e3a741ac4706de'
 renames: {
   }
-revisionId: 67
+revisionId: 68
