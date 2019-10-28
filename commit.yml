@@ -3,24 +3,27 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid 'cf5754ec99e4ecc1fedadc65bb07d919c9b9823f'
-    oldFile: !uuid '1e248b815f03f1618e1efc28f147b4d8c87a9034'
-  /src/Api:
-    newFile: !uuid '9571d787b4d84f901c21a11bbf162befd92418bc'
-    oldFile: !uuid '3bdc1872ff3d1567639e0e841fa62917a214a890'
-  /src/Api/Controller:
-    newFile: !uuid '681a7919757b42f1d1ddb0893ca455d5607dc4ca'
-    oldFile: !uuid '0e6dc8544ee90ef780f6f7c8ae190797c1762221'
-  /src/Api/Controller/AbstractSerializeController.php:
-    newFile: !uuid '42f0ab4201148f29af1554aad2d5d33dc1d6fb19'
-    oldFile: !uuid '35163c1756d0789221d5400cb9b9da6d14356bc6'
-  /src/Search:
-    newFile: !uuid '7281e357e43b9ef3c03f61a3a9b9f0bf25e1a234'
-    oldFile: !uuid '0190967afb9c11b8f39aa0cae1422c0650a489a1'
-  /src/Search/AbstractSearch.php:
-    newFile: !uuid '1ab1c23c1d16112d94288560d700d51386e19906'
-    oldFile: !uuid '826dc865efbddfd27cd821eaa3d2d9e83fdefb5a'
-gitCommitId: !uuid 'cac3b381922b0287832f7766a371df11ca47277b'
+    newFile: !uuid '5faf8c05e184d87e27c70f5985d166577aab5cf4'
+    oldFile: !uuid 'cf5754ec99e4ecc1fedadc65bb07d919c9b9823f'
+  /src/Qcloud:
+    newFile: !uuid 'f89ebd023b06859b567b427aba0517d2ad2e5e3e'
+    oldFile: !uuid 'e12ac146302b11a2918e73ec151c39a88c4f14e0'
+  /src/Qcloud/QcloudManage.php:
+    newFile: !uuid 'b3bb7a73d4c65dd7b1000b53479a1dbf96cee6b3'
+    oldFile: !uuid 'd27c62c2a61ef7458ea8cd9a5d08162138634c56'
+  /src/Qcloud/QcloudTrait.php:
+    newFile: !uuid '986b1128c34b44740394cd10adb1e10be7de125e'
+    oldFile: null
+  /src/Qcloud/Services:
+    newFile: !uuid '95dcebf5aaedc9361e6448ee091df2edb3621364'
+    oldFile: !uuid '4f90b47bd0b038dae755cc4ff681e874eff37731'
+  /src/Qcloud/Services/AbstractService.php:
+    newFile: !uuid '123f92d8bc2d31e5363864225c2f9a9a2809e647'
+    oldFile: !uuid 'a320a06991ef19285f678b00c1b3e1ccdb5d6fdb'
+  /src/Qcloud/Services/SmsService.php:
+    newFile: !uuid 'c1e585e01f8386c09d679f2da6df32f5265b00d3'
+    oldFile: null
+gitCommitId: !uuid 'd7f2c960e12ba391f86cc6416d1d94555776667f'
 renames: {
   }
-revisionId: 66
+revisionId: 67
