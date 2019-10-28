@@ -3,69 +3,18 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid 'fd0b516ae1cc06362a6fd43aea5c429c6505b156'
-    oldFile: !uuid '1d279dc749bb7582e5022e7051bcf0f694d25df6'
-  /src/Api:
-    newFile: !uuid '3bdc1872ff3d1567639e0e841fa62917a214a890'
-    oldFile: !uuid '08411aefc1f4e9dab4a669059701ac8a4e853183'
-  /src/Api/ApiServiceProvider.php:
-    newFile: !uuid '596a2fad8450a94dc83f38ae83f336fba2cf1972'
-    oldFile: !uuid '1dc9bca09ca2d600af46771f2db2b0c0125e651a'
-  /src/Api/ExceptionHandler:
-    newFile: !uuid '2387758b5754cf964d2f64040aed1ed583aefb5b'
-    oldFile: !uuid '54936af0b390a9b845a2bb1abfe1628bcde365d9'
-  /src/Api/ExceptionHandler/TencentCloudSDKExceptionHandler.php:
-    newFile: !uuid 'fd0115bd8d496701ce484fec2cd5de9ae4e1b3b8'
-    oldFile: null
+    newFile: !uuid '1e248b815f03f1618e1efc28f147b4d8c87a9034'
+    oldFile: !uuid 'fd0b516ae1cc06362a6fd43aea5c429c6505b156'
   /src/Contracts:
-    newFile: !uuid 'ad921d804b1abf4702d9f152133ce8aba62e8532'
-    oldFile: !uuid 'b08f9033fb08e2c467cbccfc4fca2a9b35de2b28'
-  /src/Contracts/Qcloud:
-    newFile: !uuid 'b9b6dbb79a8b6063c5049b9bb946f616b51877f6'
-    oldFile: null
-  /src/Contracts/Qcloud/Factory.php:
-    newFile: !uuid 'dcda8f276a58f62b935f0582481f401f0edd6e65'
-    oldFile: null
+    newFile: !uuid '152f6e049c0e62992a795c4addaabf8de32fb18f'
+    oldFile: !uuid 'ad921d804b1abf4702d9f152133ce8aba62e8532'
   /src/Contracts/Setting:
-    newFile: !uuid 'ff3e6230119e7f9a35f1918e469282cc790a124c'
-    oldFile: !uuid 'b47735c79434ea0ef333740715a4837be284d0f0'
-  /src/Contracts/Setting/SettingsRepository.php:
-    newFile: !uuid 'e907b9163ae180cdc5a8967c9ac6a454f658d993'
-    oldFile: null
-  /src/Foundation:
-    newFile: !uuid '5f795455446487f4a312028eeb28488d205e50d0'
-    oldFile: !uuid '9c2ca9d1819f63da79f07d09b2529cfcf65e4d38'
-  /src/Foundation/Application.php:
-    newFile: !uuid '0b6ec39a612370dfeaf459f4cc70a0e341040fd0'
-    oldFile: !uuid '2072d0bdce559f09d7cce9efccdbae7695c30919'
-  /src/Http:
-    newFile: !uuid '51ab54fa0c06b7f9b3a5c0ebaa5f3cb2639c7a7a'
-    oldFile: !uuid '10b54c89dc97043098a06f4e804f715c7b3f1a2e'
-  /src/Http/Server.php:
-    newFile: !uuid 'f06c879293d695e4f114c39c02fb4766d0acee98'
-    oldFile: !uuid 'f3c217c6aec7c0464b788f5ea661800ce11b4e75'
-  /src/Qcloud:
-    newFile: !uuid 'e12ac146302b11a2918e73ec151c39a88c4f14e0'
-    oldFile: null
-  /src/Qcloud/QcloudManage.php:
-    newFile: !uuid 'd27c62c2a61ef7458ea8cd9a5d08162138634c56'
-    oldFile: null
-  /src/Qcloud/QcloudServiceProvider.php:
-    newFile: !uuid 'd343a9e3fde4bfbe64eae5b33a9f247506985bd2'
-    oldFile: null
-  /src/Qcloud/Services:
-    newFile: !uuid '4f90b47bd0b038dae755cc4ff681e874eff37731'
-    oldFile: null
-  /src/Qcloud/Services/AbstractService.php:
-    newFile: !uuid 'a320a06991ef19285f678b00c1b3e1ccdb5d6fdb'
-    oldFile: null
-  /src/Qcloud/Services/BillingService.php:
-    newFile: !uuid '821530db864c74fdb3750d4baa173586fddc0075'
-    oldFile: null
-  /src/Qcloud/Services/CmsService.php:
-    newFile: !uuid '5a9ef23175f8241c41ef848c4debfaa6991e2630'
-    oldFile: null
-gitCommitId: !uuid 'fe9b981bb0fefbb282db07289a73ffd50aad9829'
+    newFile: !uuid '2b14a46d993ce34cab1e0af561879ef4f404a4b0'
+    oldFile: !uuid 'ff3e6230119e7f9a35f1918e469282cc790a124c'
+  /src/Contracts/Setting/SettingRepository.php:
+    newFile: null
+    oldFile: !uuid '9728738800957e18db061ecc28fc02dc9a7cd38e'
+gitCommitId: !uuid '5c9cb2e0e5a51521d9a725712b8947dbe22e93a4'
 renames: {
   }
-revisionId: 64
+revisionId: 65
