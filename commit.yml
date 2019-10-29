@@ -3,36 +3,30 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid 'dc736d316344cf56595a44746abf41b5dee41a9e'
-    oldFile: !uuid '6bee1df813a29e3a2ec1d13d69c3b1eefd3c8531'
-  /src/Api:
-    newFile: !uuid '192235596dc2a66f23058618f9d55073f5f3302a'
-    oldFile: !uuid '5edaa82d473c4049aab16695df938d8067386055'
-  /src/Api/ApiServiceProvider.php:
-    newFile: !uuid '9b9bac0461a52a5c04a495e7de7d5359fcf7f16a'
-    oldFile: !uuid '596a2fad8450a94dc83f38ae83f336fba2cf1972'
-  /src/Api/ExceptionHandler:
-    newFile: !uuid 'a5753f0302c59d84038293490814c9f6cd074753'
-    oldFile: !uuid '2387758b5754cf964d2f64040aed1ed583aefb5b'
-  /src/Api/ExceptionHandler/ServiceResponseExceptionHandler.php:
-    newFile: !uuid 'b29fa5e2db0177593dfb8a5e840c2a76ecfc0035'
+    newFile: !uuid '247330241feb2da99e846812c9111596b2f8c250'
+    oldFile: !uuid 'dc736d316344cf56595a44746abf41b5dee41a9e'
+  /src/Http:
+    newFile: !uuid '35fb605347e2fdfa08191966995f87280a88e4c9'
+    oldFile: !uuid '51ab54fa0c06b7f9b3a5c0ebaa5f3cb2639c7a7a'
+  /src/Http/HttpServiceProvider.php:
+    newFile: !uuid '984be766a3ff701d0b6aa77da857bfbb61469e06'
+    oldFile: !uuid '6937bce94eda943bebd759bad1bafea947a2a4ef'
+  /src/Http/Middleware:
+    newFile: !uuid '45e7cf6c10d77d41105c7a8d9fcf7445961568c8'
+    oldFile: !uuid '7ff59bd7a0f8c28746b9da515c889b877d7b69ad'
+  /src/Http/Middleware/RequestHandler.php:
+    newFile: !uuid '703e685e162fc1a7a27a96f08044c014d11b37a2'
+    oldFile: !uuid 'c591f1e0ac5d9e59296ba702be52fe6946fac7e1'
+  /src/Http/UrlGenerator.php:
+    newFile: !uuid '4e55f149dc74a0a2334431a14e4b5de7b3a7eecf'
     oldFile: null
-  /src/Filesystem:
-    newFile: !uuid '2671c117f517f996cf122b3667f2196629880f44'
-    oldFile: !uuid 'ce9da1bbfa5d2ddfff2b60c3fc9026a76daa679d'
-  /src/Filesystem/CosAdapter.php:
-    newFile: !uuid 'baa8a6649371f627fe69fa1d8565de7ed4de8d03'
-    oldFile: !uuid '77f7a6f72b1a5798ce1f8f761a26a0094903dba1'
-  /src/Filesystem/FilesystemServiceProvider.php:
-    newFile: !uuid 'acc52cb07349149da754d464b92b03bd35553cba'
-    oldFile: !uuid '8b6128db01e278f735c0b93e73816835aef3ecdb'
   /src/Qcloud:
-    newFile: !uuid '976b0e56ffec31867628e3bdb614adfa066def2c'
-    oldFile: !uuid 'f89ebd023b06859b567b427aba0517d2ad2e5e3e'
+    newFile: !uuid '1e74cbe1cef28acccb91fbf394eeff952a51f891'
+    oldFile: !uuid '976b0e56ffec31867628e3bdb614adfa066def2c'
   /src/Qcloud/QcloudManage.php:
-    newFile: !uuid 'b892da892895c39dcec7106812096cd4aea076b5'
-    oldFile: !uuid 'b3bb7a73d4c65dd7b1000b53479a1dbf96cee6b3'
-gitCommitId: !uuid 'a8fefa895cbd3c2c64ab0707301eb36128fac346'
+    newFile: !uuid 'c413152fa9658460d58ca8eb4cd6b4bea9094962'
+    oldFile: !uuid 'b892da892895c39dcec7106812096cd4aea076b5'
+gitCommitId: !uuid 'a1521a8379c602dbd109b4ec4eb2d3a2f5a3e587'
 renames: {
   }
-revisionId: 69
+revisionId: 70
