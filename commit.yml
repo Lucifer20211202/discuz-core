@@ -3,30 +3,24 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid '247330241feb2da99e846812c9111596b2f8c250'
-    oldFile: !uuid 'dc736d316344cf56595a44746abf41b5dee41a9e'
-  /src/Http:
-    newFile: !uuid '35fb605347e2fdfa08191966995f87280a88e4c9'
-    oldFile: !uuid '51ab54fa0c06b7f9b3a5c0ebaa5f3cb2639c7a7a'
-  /src/Http/HttpServiceProvider.php:
-    newFile: !uuid '984be766a3ff701d0b6aa77da857bfbb61469e06'
-    oldFile: !uuid '6937bce94eda943bebd759bad1bafea947a2a4ef'
-  /src/Http/Middleware:
-    newFile: !uuid '45e7cf6c10d77d41105c7a8d9fcf7445961568c8'
-    oldFile: !uuid '7ff59bd7a0f8c28746b9da515c889b877d7b69ad'
-  /src/Http/Middleware/RequestHandler.php:
-    newFile: !uuid '703e685e162fc1a7a27a96f08044c014d11b37a2'
-    oldFile: !uuid 'c591f1e0ac5d9e59296ba702be52fe6946fac7e1'
-  /src/Http/UrlGenerator.php:
-    newFile: !uuid '4e55f149dc74a0a2334431a14e4b5de7b3a7eecf'
-    oldFile: null
-  /src/Qcloud:
-    newFile: !uuid '1e74cbe1cef28acccb91fbf394eeff952a51f891'
-    oldFile: !uuid '976b0e56ffec31867628e3bdb614adfa066def2c'
-  /src/Qcloud/QcloudManage.php:
-    newFile: !uuid 'c413152fa9658460d58ca8eb4cd6b4bea9094962'
-    oldFile: !uuid 'b892da892895c39dcec7106812096cd4aea076b5'
-gitCommitId: !uuid 'a1521a8379c602dbd109b4ec4eb2d3a2f5a3e587'
+    newFile: !uuid '381a19897879f08939cf29f1a03fd9e1bc3ed356'
+    oldFile: !uuid '247330241feb2da99e846812c9111596b2f8c250'
+  /src/Api:
+    newFile: !uuid 'd359c1db00a6ce09344dd42735b9e64c99e29a94'
+    oldFile: !uuid '192235596dc2a66f23058618f9d55073f5f3302a'
+  /src/Api/Controller:
+    newFile: !uuid '2a27ed40078f3f7786cc7a216982f2ac8055dd32'
+    oldFile: !uuid '8742d3554a61126ef4cc9aa5d406411d2fbecdc9'
+  /src/Api/Controller/AbstractSerializeController.php:
+    newFile: !uuid 'b2731a749e2f7f96cfd765093e33e68ac62607e1'
+    oldFile: !uuid 'ed7c81a0abba92829c155ea6b101a459be8328e9'
+  /src/Api/Serializer:
+    newFile: !uuid 'af6bb29726e3f63a425afcc2eb514bbf18a6c456'
+    oldFile: !uuid 'b89b6397e08407ef144df3add0bd16e1c15a4307'
+  /src/Api/Serializer/AbstractSerializer.php:
+    newFile: !uuid 'a48d42dba0582263ea7aa3f760ad0c6d07d7afe1'
+    oldFile: !uuid 'e560b827aa6a56d668ed298017b68590e67a24df'
+gitCommitId: !uuid '6a603bb41b13f9a8283f583fdf2f166f5376cd8a'
 renames: {
   }
-revisionId: 70
+revisionId: 71
