@@ -3,18 +3,42 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid '5180f88878349ebd760b52dff98eefd772e7bafe'
-    oldFile: !uuid 'a72db173918ef9511840df49da45c7eda0346eeb'
+    newFile: !uuid '45b2f9c0e398293836d8105c7c758f5b606d8087'
+    oldFile: !uuid '5180f88878349ebd760b52dff98eefd772e7bafe'
   /src/Api:
-    newFile: !uuid '0334026e2f1369f38eae9234338a5f305ec3011c'
-    oldFile: !uuid '1802cda5ce66d7b6aeab37dae60e2b49132c3f28'
-  /src/Api/Controller:
-    newFile: !uuid '6f9fead55abf541ff691db13287b9a491f56db2c'
-    oldFile: !uuid '2a27ed40078f3f7786cc7a216982f2ac8055dd32'
-  /src/Api/Controller/AbstractSerializeController.php:
-    newFile: !uuid 'cc4ab34bc0c0608639e686cbb43b5b0af14413ea'
-    oldFile: !uuid 'b2731a749e2f7f96cfd765093e33e68ac62607e1'
-gitCommitId: !uuid '708408fa9df5e7eec07b4d1199bec57114c5592b'
+    newFile: !uuid '9a4c4dc1a07bf7a00db3324066f222405e29376d'
+    oldFile: !uuid '0334026e2f1369f38eae9234338a5f305ec3011c'
+  /src/Api/ApiServiceProvider.php:
+    newFile: !uuid '39526017fa1f47a7afeb2dc14dacc44c51e181af'
+    oldFile: !uuid '9b9bac0461a52a5c04a495e7de7d5359fcf7f16a'
+  /src/Api/ExceptionHandler:
+    newFile: !uuid '77d05793202b10ed069599225437e6818d8b395b'
+    oldFile: !uuid 'a5753f0302c59d84038293490814c9f6cd074753'
+  /src/Api/ExceptionHandler/NotAuthenticatedExceptionHandler.php:
+    newFile: !uuid '50b5789ca25c02a11ad4d765e8ef2089e304a88c'
+    oldFile: null
+  /src/Auth:
+    newFile: !uuid '20b7441ba9b71433a259245930ccddf9c26e8d81'
+    oldFile: !uuid 'd8fb4a1bc5848b82170e9415b3f00487c5ac21a7'
+  /src/Auth/AssertPermissionTrait.php:
+    newFile: !uuid 'cc5d360a3b5048ebd1e408eb9b80d811884d2b0b'
+    oldFile: !uuid '065670a09431952fb7404c7f6481e41395e23583'
+  /src/Auth/Exception:
+    newFile: !uuid '5bf33555f4eca17a0069cac5932ef8f57e0abcf4'
+    oldFile: !uuid 'f19359e56f3ee79d1eb20064ef9a13b9220b6a79'
+  /src/Auth/Exception/NotAuthenticatedException.php:
+    newFile: !uuid '668c927a94e9a5228ec865b607d4fb38a55f6159'
+    oldFile: null
+  /src/Auth/Exception/PermissionDeniedException.php:
+    newFile: !uuid 'ba279da72f94c373ae52649a751c7d8b90da1a56'
+    oldFile: !uuid '46d37d0c0fda41ffe329dea3fcc09ca8353c3bc8'
+  /src/Database:
+    newFile: !uuid '5e624424e6cd2ccd94ef203fa3885166af1b4dc5'
+    oldFile: !uuid '52ed62bc8ff938c0160e03de9d97facae1566a73'
+  /src/Database/ScopeVisibilityTrait.php:
+    newFile: !uuid '57a5d1168a9f290ab0c67699c08295241544e3a3'
+    oldFile: !uuid '2f76ced780488e17c6decdef02eec541e88bbe44'
+gitCommitId: !uuid '535b29926c1acf2e059f3e9d945880b75e1e9f6e'
 renames: {
   }
-revisionId: 73
+revisionId: 74
