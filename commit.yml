@@ -3,42 +3,27 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid '45b2f9c0e398293836d8105c7c758f5b606d8087'
-    oldFile: !uuid '5180f88878349ebd760b52dff98eefd772e7bafe'
+    newFile: !uuid '4d0e660ee9410b3e948b20cc479671f6178da70f'
+    oldFile: !uuid '45b2f9c0e398293836d8105c7c758f5b606d8087'
   /src/Api:
-    newFile: !uuid '9a4c4dc1a07bf7a00db3324066f222405e29376d'
-    oldFile: !uuid '0334026e2f1369f38eae9234338a5f305ec3011c'
-  /src/Api/ApiServiceProvider.php:
-    newFile: !uuid '39526017fa1f47a7afeb2dc14dacc44c51e181af'
-    oldFile: !uuid '9b9bac0461a52a5c04a495e7de7d5359fcf7f16a'
-  /src/Api/ExceptionHandler:
-    newFile: !uuid '77d05793202b10ed069599225437e6818d8b395b'
-    oldFile: !uuid 'a5753f0302c59d84038293490814c9f6cd074753'
-  /src/Api/ExceptionHandler/NotAuthenticatedExceptionHandler.php:
-    newFile: !uuid '50b5789ca25c02a11ad4d765e8ef2089e304a88c'
-    oldFile: null
-  /src/Auth:
-    newFile: !uuid '20b7441ba9b71433a259245930ccddf9c26e8d81'
-    oldFile: !uuid 'd8fb4a1bc5848b82170e9415b3f00487c5ac21a7'
-  /src/Auth/AssertPermissionTrait.php:
-    newFile: !uuid 'cc5d360a3b5048ebd1e408eb9b80d811884d2b0b'
-    oldFile: !uuid '065670a09431952fb7404c7f6481e41395e23583'
-  /src/Auth/Exception:
-    newFile: !uuid '5bf33555f4eca17a0069cac5932ef8f57e0abcf4'
-    oldFile: !uuid 'f19359e56f3ee79d1eb20064ef9a13b9220b6a79'
-  /src/Auth/Exception/NotAuthenticatedException.php:
-    newFile: !uuid '668c927a94e9a5228ec865b607d4fb38a55f6159'
-    oldFile: null
-  /src/Auth/Exception/PermissionDeniedException.php:
-    newFile: !uuid 'ba279da72f94c373ae52649a751c7d8b90da1a56'
-    oldFile: !uuid '46d37d0c0fda41ffe329dea3fcc09ca8353c3bc8'
-  /src/Database:
-    newFile: !uuid '5e624424e6cd2ccd94ef203fa3885166af1b4dc5'
-    oldFile: !uuid '52ed62bc8ff938c0160e03de9d97facae1566a73'
-  /src/Database/ScopeVisibilityTrait.php:
-    newFile: !uuid '57a5d1168a9f290ab0c67699c08295241544e3a3'
-    oldFile: !uuid '2f76ced780488e17c6decdef02eec541e88bbe44'
-gitCommitId: !uuid '535b29926c1acf2e059f3e9d945880b75e1e9f6e'
+    newFile: !uuid '3a506c9b6565987b2a9d01ac3f4871cb054a8796'
+    oldFile: !uuid '9a4c4dc1a07bf7a00db3324066f222405e29376d'
+  /src/Api/Controller:
+    newFile: !uuid 'ac7a5ed5e735726998e7172032eeeb6e39969305'
+    oldFile: !uuid '6f9fead55abf541ff691db13287b9a491f56db2c'
+  /src/Api/Controller/AbstractCreateController.php:
+    newFile: !uuid '6b1f06f4369659694e35e63a8b6dd4be8d0d745e'
+    oldFile: !uuid 'a52a953f5890a7aa01461c5f7734d97bbf82a9c5'
+  /src/Api/Controller/AbstractDeleteController.php:
+    newFile: !uuid 'c23b0b211bfcaf8ea440e13e2e4c1cf783479345'
+    oldFile: !uuid '95b975d6b56e8d20c6e1be0933d12997e9df05d1'
+  /src/Api/Controller/AbstractListController.php:
+    newFile: !uuid 'b4bafe6863312915882acde96fb0b9feacc69c54'
+    oldFile: !uuid 'e1cb621be3d6fb8dd9681c8fce9fec173710c95b'
+  /src/Api/Controller/AbstractResourceController.php:
+    newFile: !uuid '1c08f6b79cb178ce47d6c3681bd0b7e43916c7d0'
+    oldFile: !uuid 'e0512060b90bc1de4a2c5c4a08e2cffe8b21a530'
+gitCommitId: !uuid '4518156e2cefe56f5219396319eca5a299e3f4e2'
 renames: {
   }
-revisionId: 74
+revisionId: 75
