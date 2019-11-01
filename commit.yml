@@ -3,27 +3,18 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid '4d0e660ee9410b3e948b20cc479671f6178da70f'
-    oldFile: !uuid '45b2f9c0e398293836d8105c7c758f5b606d8087'
+    newFile: !uuid '747abb78b8b476e13a0edd17e82b37ac72e982d1'
+    oldFile: !uuid '4d0e660ee9410b3e948b20cc479671f6178da70f'
   /src/Api:
-    newFile: !uuid '3a506c9b6565987b2a9d01ac3f4871cb054a8796'
-    oldFile: !uuid '9a4c4dc1a07bf7a00db3324066f222405e29376d'
+    newFile: !uuid 'a8c8053645b6a1a606907b2145c90b66fce38d2e'
+    oldFile: !uuid '3a506c9b6565987b2a9d01ac3f4871cb054a8796'
   /src/Api/Controller:
-    newFile: !uuid 'ac7a5ed5e735726998e7172032eeeb6e39969305'
-    oldFile: !uuid '6f9fead55abf541ff691db13287b9a491f56db2c'
-  /src/Api/Controller/AbstractCreateController.php:
-    newFile: !uuid '6b1f06f4369659694e35e63a8b6dd4be8d0d745e'
-    oldFile: !uuid 'a52a953f5890a7aa01461c5f7734d97bbf82a9c5'
-  /src/Api/Controller/AbstractDeleteController.php:
-    newFile: !uuid 'c23b0b211bfcaf8ea440e13e2e4c1cf783479345'
-    oldFile: !uuid '95b975d6b56e8d20c6e1be0933d12997e9df05d1'
-  /src/Api/Controller/AbstractListController.php:
-    newFile: !uuid 'b4bafe6863312915882acde96fb0b9feacc69c54'
-    oldFile: !uuid 'e1cb621be3d6fb8dd9681c8fce9fec173710c95b'
-  /src/Api/Controller/AbstractResourceController.php:
-    newFile: !uuid '1c08f6b79cb178ce47d6c3681bd0b7e43916c7d0'
-    oldFile: !uuid 'e0512060b90bc1de4a2c5c4a08e2cffe8b21a530'
-gitCommitId: !uuid '4518156e2cefe56f5219396319eca5a299e3f4e2'
+    newFile: !uuid '174664d626acd30f80fe3a20deddf9cb7a760160'
+    oldFile: !uuid 'ac7a5ed5e735726998e7172032eeeb6e39969305'
+  /src/Api/Controller/AbstractSerializeController.php:
+    newFile: !uuid 'a33d264797889bb78fad1a4a0cdd086d6300cb9a'
+    oldFile: !uuid 'cc4ab34bc0c0608639e686cbb43b5b0af14413ea'
+gitCommitId: !uuid '68b84bfd3adcd2d9161733944c300e2c97cf08d0'
 renames: {
   }
-revisionId: 75
+revisionId: 76
