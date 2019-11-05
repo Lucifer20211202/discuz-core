@@ -3,33 +3,33 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid 'd58c03be78ff90c73afc7aa1d3f623508d690e9a'
-    oldFile: !uuid '88c3cf0153d5684134ab75477e350f6d505aa6e5'
-  /src/Censor:
-    newFile: null
-    oldFile: !uuid 'cf876e5e7e894cb5c756512afb401deb39828cca'
-  /src/Censor/Censor.php:
-    newFile: null
-    oldFile: !uuid '2124608fd156b19e2300a1f244cf2f979af4222a'
-  /src/Censor/CensorNotPassedException.php:
-    newFile: null
-    oldFile: !uuid '9e877260dbda79007719f8569909d7172d774bb6'
-  /src/Censor/CensorServiceProvider.php:
-    newFile: null
-    oldFile: !uuid 'c16a94be90a77baaa6ccc7c17454f40ce62660a1'
+    newFile: !uuid '9bf0cfdc271a1ae05cc697f026726dfe7b62878b'
+    oldFile: !uuid 'd58c03be78ff90c73afc7aa1d3f623508d690e9a'
+  /src/Api:
+    newFile: !uuid '1dafc776ccfcda645a73ec0d300cec8e2e2f6490'
+    oldFile: !uuid '0f45cf9ed42bb78cb8c792230ef6ecf3da9a3641'
+  /src/Api/Events:
+    newFile: !uuid 'cdcfd330850dde456d070ea3e1c30c042fffad76'
+    oldFile: !uuid '397d6cc9d9d7d034185a43389fcfd7cbdc4c3449'
+  /src/Api/Events/GetPermission.php:
+    newFile: !uuid '3735fdc36428caf786fc48fa6a3804e47a1876f1'
+    oldFile: !uuid '837335b813eb7e7e516dfe1e277cce3785edfc6e'
+  /src/Auth:
+    newFile: !uuid 'dc5117234a8b50eaee8694cebd6c66be44d46b48'
+    oldFile: !uuid '1381f57806b6d681a026ae1f1c35fb7641cc35d1'
+  /src/Auth/Gate.php:
+    newFile: !uuid 'd8e5e5e08d47a99aac79b2081b9842c8929df678'
+    oldFile: !uuid '055cf31a18e3f2b7fc5a61fd2b350683db22c52e'
+  /src/Auth/UserPolicy.php:
+    newFile: !uuid 'f26a2ca5d07662da6c31d0a04774c16b6fff9183'
+    oldFile: !uuid 'd2453e5bb861eb163057d743c0842b7e3e52a6b5'
   /src/Foundation:
-    newFile: !uuid 'c8d8049d20cce17324babaf08c78f59985ee649f'
-    oldFile: !uuid '2fd77179ad16bf6100aa2c2996b09d60955b1432'
-  /src/Foundation/SiteApp.php:
-    newFile: !uuid '6d43d638b42b86e7a349450e6db695360ec092a1'
-    oldFile: !uuid '05f425dae31f5dd15ffd07f94f4cd5f2a1f9d7b6'
-  /src/Http:
-    newFile: !uuid '3b9c0d932605d839e3e51b2a863b9e76cff5c66a'
-    oldFile: !uuid 'de111aabd0f519ea9443d87956480b61cb1eda65'
-  /src/Http/Server.php:
-    newFile: !uuid '50bc744e7861d4607bf33be9f648594ab3b0715b'
-    oldFile: !uuid 'eb290dad9b087e2eb58ab179166a39cd39a67b87'
-gitCommitId: !uuid 'c8fe209e144b35e41a4c428cc01fefd19035f019'
+    newFile: !uuid 'a9c08ecf212a16830a4c50af21a9d582e606bc13'
+    oldFile: !uuid 'c8d8049d20cce17324babaf08c78f59985ee649f'
+  /src/Foundation/AbstractPolicy.php:
+    newFile: !uuid '3f0b6727cd603ac7ecddc954e1b9f3db7eca0d2e'
+    oldFile: !uuid 'b53ee50eb207896aadd32419b900f296c4dec57b'
+gitCommitId: !uuid 'd32db7475a96d5dfbd8efd464400374042a658ff'
 renames: {
   }
-revisionId: 80
+revisionId: 81
