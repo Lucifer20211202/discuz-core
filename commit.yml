@@ -3,33 +3,33 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid '9bf0cfdc271a1ae05cc697f026726dfe7b62878b'
-    oldFile: !uuid 'd58c03be78ff90c73afc7aa1d3f623508d690e9a'
+    newFile: !uuid '795e9bba39b0b44ee2606fe58cbdf3d849a50f74'
+    oldFile: !uuid '9bf0cfdc271a1ae05cc697f026726dfe7b62878b'
   /src/Api:
-    newFile: !uuid '1dafc776ccfcda645a73ec0d300cec8e2e2f6490'
-    oldFile: !uuid '0f45cf9ed42bb78cb8c792230ef6ecf3da9a3641'
+    newFile: !uuid 'b16360d70d817da384a273bb9f33c905f1bb4abe'
+    oldFile: !uuid '1dafc776ccfcda645a73ec0d300cec8e2e2f6490'
   /src/Api/Events:
-    newFile: !uuid 'cdcfd330850dde456d070ea3e1c30c042fffad76'
-    oldFile: !uuid '397d6cc9d9d7d034185a43389fcfd7cbdc4c3449'
-  /src/Api/Events/GetPermission.php:
-    newFile: !uuid '3735fdc36428caf786fc48fa6a3804e47a1876f1'
-    oldFile: !uuid '837335b813eb7e7e516dfe1e277cce3785edfc6e'
-  /src/Auth:
-    newFile: !uuid 'dc5117234a8b50eaee8694cebd6c66be44d46b48'
-    oldFile: !uuid '1381f57806b6d681a026ae1f1c35fb7641cc35d1'
-  /src/Auth/Gate.php:
-    newFile: !uuid 'd8e5e5e08d47a99aac79b2081b9842c8929df678'
-    oldFile: !uuid '055cf31a18e3f2b7fc5a61fd2b350683db22c52e'
-  /src/Auth/UserPolicy.php:
-    newFile: !uuid 'f26a2ca5d07662da6c31d0a04774c16b6fff9183'
-    oldFile: !uuid 'd2453e5bb861eb163057d743c0842b7e3e52a6b5'
+    newFile: !uuid '1a113f0a3a031c8973e31e2602d6db8b943c2649'
+    oldFile: !uuid 'cdcfd330850dde456d070ea3e1c30c042fffad76'
+  /src/Api/Events/ScopeModelVisibility.php:
+    newFile: !uuid '418c1aad1c68676c1cc752b05d2b6ac62eb8e36f'
+    oldFile: !uuid '88725c9b13e5f6af1da9db1e5d755b7f423e6a8d'
+  /src/Database:
+    newFile: !uuid '138ef137f807885983a257a90cfad2a824a1fb4b'
+    oldFile: !uuid '5e624424e6cd2ccd94ef203fa3885166af1b4dc5'
+  /src/Database/ScopeVisibilityTrait.php:
+    newFile: !uuid '4a37abce26bb1b51759b85b17dc10e439e3af815'
+    oldFile: !uuid '57a5d1168a9f290ab0c67699c08295241544e3a3'
   /src/Foundation:
-    newFile: !uuid 'a9c08ecf212a16830a4c50af21a9d582e606bc13'
-    oldFile: !uuid 'c8d8049d20cce17324babaf08c78f59985ee649f'
+    newFile: !uuid '5a6b4c2f0ccf418ac4c1275c52a5926f3e902b8c'
+    oldFile: !uuid 'a9c08ecf212a16830a4c50af21a9d582e606bc13'
   /src/Foundation/AbstractPolicy.php:
-    newFile: !uuid '3f0b6727cd603ac7ecddc954e1b9f3db7eca0d2e'
-    oldFile: !uuid 'b53ee50eb207896aadd32419b900f296c4dec57b'
-gitCommitId: !uuid 'd32db7475a96d5dfbd8efd464400374042a658ff'
+    newFile: !uuid '07f99238c3d9f34126933109754316b8b177cd3e'
+    oldFile: !uuid '3f0b6727cd603ac7ecddc954e1b9f3db7eca0d2e'
+  /src/Foundation/AbstractRepository.php:
+    newFile: !uuid 'd98169d26a8b370f87ab7f7f26bb7a6cf06a4a25'
+    oldFile: !uuid '2658c8e99fc76d7c1f4acab2bd1ad0e45e541e4c'
+gitCommitId: !uuid '90460eff938732091200bfeaa5515454d3dc42d1'
 renames: {
   }
-revisionId: 81
+revisionId: 82
