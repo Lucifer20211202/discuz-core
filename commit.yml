@@ -2,22 +2,10 @@
 branches: {
   }
 fileChange:
-  /src:
-    newFile: !uuid '53ba026d3d1b55b1e5604a6743a7a29496dc9bb7'
-    oldFile: !uuid 'b73e594ebe8749a908ae0c5f69e069b933bf4f4f'
-  /src/Qcloud:
-    newFile: !uuid '121b71234e60d33280ad890b3632bf189a8b5030'
-    oldFile: !uuid '9187cfac866e4a816985cb0c25a7c63a6094a38c'
-  /src/Qcloud/QcloudManage.php:
-    newFile: !uuid '9403ddb5d3ce1108176f34b43dcfced983ea0dea'
-    oldFile: !uuid '0fb2e792fbb85c2a46e9ca26ebf4d8dc3011bf3b'
-  /src/Qcloud/Services:
-    newFile: !uuid '0811c7b2816d7ffe145349392595a3aba37e95c6'
-    oldFile: !uuid '2725960923291e0171a7e106ba97d8fc29b5aaad'
-  /src/Qcloud/Services/YunsouService.php:
-    newFile: !uuid '8d71994fbfc8b2f96373bea93e737cf82211660f'
-    oldFile: null
-gitCommitId: !uuid '64cef9c16c79aceca6e138ca2bd06c898e8c7eb6'
+  /composer.json:
+    newFile: !uuid '91e5f7913baf8482b7867123d285e488a006af0f'
+    oldFile: !uuid 'a1583c62a1cd0caafb8bd9163f88f5215af509ee'
+gitCommitId: !uuid '02309ba8e8228342f31f594392c8ed91663c86b7'
 renames: {
   }
-revisionId: 84
+revisionId: 85
