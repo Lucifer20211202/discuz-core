@@ -3,33 +3,36 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid '795e9bba39b0b44ee2606fe58cbdf3d849a50f74'
-    oldFile: !uuid '9bf0cfdc271a1ae05cc697f026726dfe7b62878b'
-  /src/Api:
-    newFile: !uuid 'b16360d70d817da384a273bb9f33c905f1bb4abe'
-    oldFile: !uuid '1dafc776ccfcda645a73ec0d300cec8e2e2f6490'
-  /src/Api/Events:
-    newFile: !uuid '1a113f0a3a031c8973e31e2602d6db8b943c2649'
-    oldFile: !uuid 'cdcfd330850dde456d070ea3e1c30c042fffad76'
-  /src/Api/Events/ScopeModelVisibility.php:
-    newFile: !uuid '418c1aad1c68676c1cc752b05d2b6ac62eb8e36f'
-    oldFile: !uuid '88725c9b13e5f6af1da9db1e5d755b7f423e6a8d'
-  /src/Database:
-    newFile: !uuid '138ef137f807885983a257a90cfad2a824a1fb4b'
-    oldFile: !uuid '5e624424e6cd2ccd94ef203fa3885166af1b4dc5'
-  /src/Database/ScopeVisibilityTrait.php:
-    newFile: !uuid '4a37abce26bb1b51759b85b17dc10e439e3af815'
-    oldFile: !uuid '57a5d1168a9f290ab0c67699c08295241544e3a3'
+    newFile: !uuid 'b73e594ebe8749a908ae0c5f69e069b933bf4f4f'
+    oldFile: !uuid '795e9bba39b0b44ee2606fe58cbdf3d849a50f74'
+  /src/Console:
+    newFile: !uuid '7296b4547c0b6722f779a592bd09ffe2d8d98f27'
+    oldFile: !uuid 'f84c8296abd8c417514ea1e0fe666aeb29b5b95c'
+  /src/Console/Kernel.php:
+    newFile: !uuid '86923662536388574bd101766843ed163e7ee400'
+    oldFile: !uuid '7ab336e383e8737202586a74fb0f0d2ca144315d'
   /src/Foundation:
-    newFile: !uuid '5a6b4c2f0ccf418ac4c1275c52a5926f3e902b8c'
-    oldFile: !uuid 'a9c08ecf212a16830a4c50af21a9d582e606bc13'
-  /src/Foundation/AbstractPolicy.php:
-    newFile: !uuid '07f99238c3d9f34126933109754316b8b177cd3e'
-    oldFile: !uuid '3f0b6727cd603ac7ecddc954e1b9f3db7eca0d2e'
-  /src/Foundation/AbstractRepository.php:
-    newFile: !uuid 'd98169d26a8b370f87ab7f7f26bb7a6cf06a4a25'
-    oldFile: !uuid '2658c8e99fc76d7c1f4acab2bd1ad0e45e541e4c'
-gitCommitId: !uuid '90460eff938732091200bfeaa5515454d3dc42d1'
+    newFile: !uuid '2f1fbdad07cedcba68f90dd8bea0f8ec76fb6694'
+    oldFile: !uuid '5a6b4c2f0ccf418ac4c1275c52a5926f3e902b8c'
+  /src/Foundation/Application.php:
+    newFile: !uuid '9cd8ffd0c2098a494958c7a07a7d9fda3c7196c8'
+    oldFile: !uuid '0b6ec39a612370dfeaf459f4cc70a0e341040fd0'
+  /src/Qcloud:
+    newFile: !uuid '9187cfac866e4a816985cb0c25a7c63a6094a38c'
+    oldFile: !uuid '1e74cbe1cef28acccb91fbf394eeff952a51f891'
+  /src/Qcloud/QcloudManage.php:
+    newFile: !uuid '0fb2e792fbb85c2a46e9ca26ebf4d8dc3011bf3b'
+    oldFile: !uuid 'c413152fa9658460d58ca8eb4cd6b4bea9094962'
+  /src/Qcloud/QcloudTrait.php:
+    newFile: !uuid '4fdca1506a6befde287a5631c9dda42d4a99a0d9'
+    oldFile: !uuid '986b1128c34b44740394cd10adb1e10be7de125e'
+  /src/Qcloud/Services:
+    newFile: !uuid '2725960923291e0171a7e106ba97d8fc29b5aaad'
+    oldFile: !uuid '95dcebf5aaedc9361e6448ee091df2edb3621364'
+  /src/Qcloud/Services/CheckVersionService.php:
+    newFile: !uuid 'b2f2d9768ab74bdf0513c517937be9a37fec95a3'
+    oldFile: null
+gitCommitId: !uuid '303272e27f66299d14ce1cab208ccb46effbb211'
 renames: {
   }
-revisionId: 82
+revisionId: 83
