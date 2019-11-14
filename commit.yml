@@ -3,33 +3,18 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid '0451afb9a9e259ceb83a534c5ffb779b84fb29c7'
-    oldFile: !uuid '9394916c31d144e19437f633d7dc15d16fae5361'
-  /src/Api:
-    newFile: !uuid 'b97e883e64bafc6d957cc68c5596d0545eb30a6f'
-    oldFile: !uuid 'b16360d70d817da384a273bb9f33c905f1bb4abe'
-  /src/Api/Client.php:
-    newFile: !uuid 'd068866fd7849a243a2a23ecf293739a27727aa4'
-    oldFile: null
-  /src/Api/Listeners:
-    newFile: !uuid 'ee5dd96c4062bd98b88c644961ea0ace64bde66b'
-    oldFile: !uuid '6d279a64cd344b840f9a7d2c8625e4f4a1e36ca7'
-  /src/Api/Listeners/AutoResisterApiExceptionRegisterHandler.php:
-    newFile: !uuid 'f109d0dbf0fbcb228b06ac64e6016bdb8549f482'
-    oldFile: !uuid '0c2be27b759699385aa2671447b7dc3a2b55864f'
+    newFile: !uuid 'cb5ed4f158a3001dca562ad4e0d104aef30c5b8f'
+    oldFile: !uuid '0451afb9a9e259ceb83a534c5ffb779b84fb29c7'
   /src/Http:
-    newFile: !uuid 'e157151707885cb5feb993ae794f23cac1b90490'
-    oldFile: !uuid '3b9c0d932605d839e3e51b2a863b9e76cff5c66a'
+    newFile: !uuid 'e19f9419a78051d40ddcf7f3a7889aa86302f7b9'
+    oldFile: !uuid 'e157151707885cb5feb993ae794f23cac1b90490'
   /src/Http/Middleware:
-    newFile: !uuid '6d611ac544b6a20688492a0325862abc546d6114'
-    oldFile: !uuid '2bb360bec1359b4672520057e0d65bbabe364142'
+    newFile: !uuid '9f06749c243736a38fccaa7c62508f678f35f75f'
+    oldFile: !uuid '6d611ac544b6a20688492a0325862abc546d6114'
   /src/Http/Middleware/AuthenticateWithHeader.php:
-    newFile: !uuid 'dcdf6c1b2e435ad3cb495df5510fd84edce9c59a'
-    oldFile: !uuid '75d225ee5e13d1c0b252b87eb0f62d599a683432'
-  /src/Http/RouteCollection.php:
-    newFile: !uuid 'b232e758e0df07144fa63e1070ed85a0da3376fb'
-    oldFile: !uuid '877afbd0015769d48e698445658e5c73c7138147'
-gitCommitId: !uuid 'f878c40a102b5b3368a0e091c212b5abc8a4de7a'
+    newFile: !uuid '01b41c2400adbc04dbb6e8ed45134d5991640be2'
+    oldFile: !uuid 'dcdf6c1b2e435ad3cb495df5510fd84edce9c59a'
+gitCommitId: !uuid '9fb3b02b72fbb58dcb2bcece4872381352539ca8'
 renames: {
   }
-revisionId: 89
+revisionId: 90
