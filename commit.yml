@@ -3,66 +3,18 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid '7455932eaea98aee52f638fb57c7c1613a81e9a4'
-    oldFile: !uuid '9569b0a481324ec3e5a48f1afd28bed91264c2d8'
-  /src/Contracts:
-    newFile: !uuid '90a31709cd752449731a6259f600923fa41ea58a'
-    oldFile: !uuid '152f6e049c0e62992a795c4addaabf8de32fb18f'
-  /src/Contracts/Socialite:
-    newFile: !uuid '030dbb1bc2302a22179cc802474a480f39eff364'
-    oldFile: null
-  /src/Contracts/Socialite/Factory.php:
-    newFile: !uuid 'bfba57bb94dc1c299aad4d5722f3f20a8a52dbb5'
-    oldFile: null
-  /src/Contracts/Socialite/Provider.php:
-    newFile: !uuid '12213e360216f5f7ea5347c2a1f75efde71b2764'
-    oldFile: null
-  /src/Contracts/Socialite/User.php:
-    newFile: !uuid '4cf5b4cf4918b8aa2cd0f469731d65e731e87be3'
-    oldFile: null
-  /src/Foundation:
-    newFile: !uuid '79b25aebbeb0bea9b84b8133e148489071d4ad0c'
-    oldFile: !uuid '900c33e830c9531b710fc622ea91623e473d02dc'
-  /src/Foundation/SiteApp.php:
-    newFile: !uuid '2c384776aabc095fa954dbb736e7da4e93351101'
-    oldFile: !uuid '20486f651907abfa74c0e5b30ade2c8c755eb2ab'
+    newFile: !uuid '7401fe7236b2acf378c3d8ad6d0ace6f9a03eae8'
+    oldFile: !uuid '7455932eaea98aee52f638fb57c7c1613a81e9a4'
   /src/Socialite:
-    newFile: !uuid 'e19aab3a80e5d9cb7035fdb13e7059f0f0c8ae75'
-    oldFile: null
-  /src/Socialite/AbstractUser.php:
-    newFile: !uuid '565a7250579702b0aef5737cc0d81e725d905a7b'
-    oldFile: null
-  /src/Socialite/Exception:
-    newFile: !uuid 'cdaa8bb7a16f7a1f213ea83d3d11492ed1d9d798'
-    oldFile: null
-  /src/Socialite/Exception/InvalidStateException.php:
-    newFile: !uuid '7657a8e74fb74c8d44e7a79f3526a56711f244d1'
-    oldFile: null
-  /src/Socialite/Exception/SocialiteException.php:
-    newFile: !uuid 'e5d6a1e02ac2602a68530c7f5da189b7aceb6ae3'
-    oldFile: null
-  /src/Socialite/SocialiteManage.php:
-    newFile: !uuid 'afe31a69bfc15fe3b77e0e48c067620f53b05b50'
-    oldFile: null
-  /src/Socialite/SocialiteServiceProvider.php:
-    newFile: !uuid '1216154e6df361d72018de9a75294bd97296a2bd'
-    oldFile: null
+    newFile: !uuid '0703d1e01cc675ed0e76160d8567773b499a3255'
+    oldFile: !uuid 'e19aab3a80e5d9cb7035fdb13e7059f0f0c8ae75'
   /src/Socialite/Two:
-    newFile: !uuid '55cc017bbe900cc52962421c25438f56d66b7640'
-    oldFile: null
+    newFile: !uuid '1b59f09e57d100bbf38c992a89a36dd380be82a4'
+    oldFile: !uuid '55cc017bbe900cc52962421c25438f56d66b7640'
   /src/Socialite/Two/AbstractProvider.php:
-    newFile: !uuid '67e8a998e6206c8f00bc06a6f5d3f7af87323e98'
-    oldFile: null
-  /src/Socialite/Two/GithubProvider.php:
-    newFile: !uuid 'a2737b0efd527d8fa69f98ab4a984b73a0a8a4a7'
-    oldFile: null
-  /src/Socialite/Two/User.php:
-    newFile: !uuid '75666320c749b18b7414a490eb39cec80874db91'
-    oldFile: null
-  /src/Socialite/Two/WeixinProvider.php:
-    newFile: !uuid '04d5102e3adaeb9ca3e0328f4f415d358828c028'
-    oldFile: null
-gitCommitId: !uuid '8fde592ef459574379e1cdb0e71ce27bba7310aa'
+    newFile: !uuid 'e0947a70d98d05274596697cabac4ad8d3e1f293'
+    oldFile: !uuid '67e8a998e6206c8f00bc06a6f5d3f7af87323e98'
+gitCommitId: !uuid 'c00675d7653db9d97f1a3f4f4259b648b1b47f67'
 renames: {
   }
-revisionId: 94
+revisionId: 95
