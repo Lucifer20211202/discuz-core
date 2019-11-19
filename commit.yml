@@ -3,18 +3,15 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid '7401fe7236b2acf378c3d8ad6d0ace6f9a03eae8'
-    oldFile: !uuid '7455932eaea98aee52f638fb57c7c1613a81e9a4'
-  /src/Socialite:
-    newFile: !uuid '0703d1e01cc675ed0e76160d8567773b499a3255'
-    oldFile: !uuid 'e19aab3a80e5d9cb7035fdb13e7059f0f0c8ae75'
-  /src/Socialite/Two:
-    newFile: !uuid '1b59f09e57d100bbf38c992a89a36dd380be82a4'
-    oldFile: !uuid '55cc017bbe900cc52962421c25438f56d66b7640'
-  /src/Socialite/Two/AbstractProvider.php:
-    newFile: !uuid 'e0947a70d98d05274596697cabac4ad8d3e1f293'
-    oldFile: !uuid '67e8a998e6206c8f00bc06a6f5d3f7af87323e98'
-gitCommitId: !uuid 'c00675d7653db9d97f1a3f4f4259b648b1b47f67'
+    newFile: !uuid 'f4a21d9836d1d9202bd455e1c98494cb606dd87e'
+    oldFile: !uuid '7401fe7236b2acf378c3d8ad6d0ace6f9a03eae8'
+  /src/Cache:
+    newFile: !uuid '9bda00b6cd28c27d3439b264e58d8ef7db67aef6'
+    oldFile: !uuid '2a4605712459b43093c090a454c883fb87cf9988'
+  /src/Cache/CacheManager.php:
+    newFile: !uuid '50a72489924ccabb364146b635a8943e57d9122e'
+    oldFile: !uuid 'c6fbdeddfe1017eb67b4df5fff2771b30744cfd0'
+gitCommitId: !uuid 'f34196464084202a8f4f6723eb381e75e40acead'
 renames: {
   }
-revisionId: 95
+revisionId: 96
