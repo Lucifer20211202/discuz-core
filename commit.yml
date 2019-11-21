@@ -2,16 +2,10 @@
 branches: {
   }
 fileChange:
-  /.github:
-    newFile: !uuid 'b632ad340f843adafcfd882c2ba76866a37780ee'
-    oldFile: !uuid '7c3be4ec0ccbc21110d22038e500783816772158'
-  /.github/workflows:
-    newFile: !uuid 'a4e285da57f568d60c2754077599674654c0420f'
-    oldFile: !uuid '89cfcb58bde94afa8298ac4976d4f5ccda91201b'
-  /.github/workflows/.php-cs-fixer.sh:
-    newFile: !uuid '965f717317b755fb235e91400adee61369fc9c21'
-    oldFile: null
-gitCommitId: !uuid '6797d341956518f79d20e8ebad542a8b3a39278d'
+  /composer.json:
+    newFile: !uuid '3a4bb2403ee6abc61d39057c81de0ad3d2e9648d'
+    oldFile: !uuid 'ca071a0dae634bfb4a9d11828bb98d85b054d7ca'
+gitCommitId: !uuid '876b299f7052fc22906a252389f7b0110f7ca657'
 renames: {
   }
-revisionId: 103
+revisionId: 104
