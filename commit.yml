@@ -2,10 +2,16 @@
 branches: {
   }
 fileChange:
-  /composer.json:
-    newFile: !uuid '3a4bb2403ee6abc61d39057c81de0ad3d2e9648d'
-    oldFile: !uuid 'ca071a0dae634bfb4a9d11828bb98d85b054d7ca'
-gitCommitId: !uuid '876b299f7052fc22906a252389f7b0110f7ca657'
+  /.github:
+    newFile: !uuid '0b59df487ae943e0969bc93d48829f957988bd8a'
+    oldFile: !uuid 'b632ad340f843adafcfd882c2ba76866a37780ee'
+  /.github/workflows:
+    newFile: !uuid '8af32d6c10105d44fb6c387b89d91c0572c74568'
+    oldFile: !uuid 'a4e285da57f568d60c2754077599674654c0420f'
+  /.github/workflows/main.yml:
+    newFile: !uuid '69c0977eeb2d4d78a51b0002a66d471be5b7f07b'
+    oldFile: !uuid '87af639de2386397f87477a14ea3c773d8ed7d08'
+gitCommitId: !uuid '4c9b183add31e9a7a4539c5ccf2a70099623515a'
 renames: {
   }
-revisionId: 104
+revisionId: 105
