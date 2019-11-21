@@ -2,13 +2,16 @@
 branches: {
   }
 fileChange:
-  /.php_cs:
-    newFile: !uuid 'e39b16d23fa7f0c3c3e437cb7af758bed5e9589e'
+  /.github:
+    newFile: !uuid '7c3be4ec0ccbc21110d22038e500783816772158'
     oldFile: null
-  /composer.json:
-    newFile: !uuid 'ca071a0dae634bfb4a9d11828bb98d85b054d7ca'
-    oldFile: !uuid '1a1d7fbd307a40f68b6d7296578fd8a65f5dcd9e'
-gitCommitId: !uuid '4c10644b2dab42de64b2a9acb9f636f4f2d8d5cc'
+  /.github/workflows:
+    newFile: !uuid '89cfcb58bde94afa8298ac4976d4f5ccda91201b'
+    oldFile: null
+  /.github/workflows/main.yml:
+    newFile: !uuid '87af639de2386397f87477a14ea3c773d8ed7d08'
+    oldFile: null
+gitCommitId: !uuid '465645049112c5155265a4e8f6b5269ee01a0873'
 renames: {
   }
-revisionId: 101
+revisionId: 102
