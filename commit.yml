@@ -3,27 +3,27 @@ branches: {
   }
 fileChange:
   /.github:
-    newFile: !uuid 'e7d0d6d73c69cfa01ba549060ae1eb74583c980a'
-    oldFile: null
+    newFile: null
+    oldFile: !uuid 'e7d0d6d73c69cfa01ba549060ae1eb74583c980a'
   /.github/shell:
-    newFile: !uuid '0c6eb5c3edc6acc140c9ce67ca5b89041688f81d'
-    oldFile: null
+    newFile: null
+    oldFile: !uuid '0c6eb5c3edc6acc140c9ce67ca5b89041688f81d'
   /.github/shell/.php-cs-fixer.sh:
-    newFile: !uuid '965f717317b755fb235e91400adee61369fc9c21'
-    oldFile: null
+    newFile: null
+    oldFile: !uuid '965f717317b755fb235e91400adee61369fc9c21'
   /.github/workflows:
-    newFile: !uuid '84d15b0aabd42d3326f934bc7337e39736de174a'
-    oldFile: null
+    newFile: null
+    oldFile: !uuid '84d15b0aabd42d3326f934bc7337e39736de174a'
   /.github/workflows/fixcode.yml:
-    newFile: !uuid '87af639de2386397f87477a14ea3c773d8ed7d08'
-    oldFile: null
+    newFile: null
+    oldFile: !uuid '87af639de2386397f87477a14ea3c773d8ed7d08'
   /.php_cs:
-    newFile: !uuid 'e39b16d23fa7f0c3c3e437cb7af758bed5e9589e'
-    oldFile: null
+    newFile: null
+    oldFile: !uuid 'e39b16d23fa7f0c3c3e437cb7af758bed5e9589e'
   /composer.json:
-    newFile: !uuid 'ca071a0dae634bfb4a9d11828bb98d85b054d7ca'
-    oldFile: !uuid '1a1d7fbd307a40f68b6d7296578fd8a65f5dcd9e'
-gitCommitId: !uuid 'cf1adf9278bd815fc248644c38dbdc06f3bc0fdb'
+    newFile: !uuid '1a1d7fbd307a40f68b6d7296578fd8a65f5dcd9e'
+    oldFile: !uuid 'ca071a0dae634bfb4a9d11828bb98d85b054d7ca'
+gitCommitId: !uuid '77450d25576e8afe6ec56b35401cdf3fe967c3df'
 renames: {
   }
-revisionId: 99
+revisionId: 100
