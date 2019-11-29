@@ -3,18 +3,18 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid 'd96da6a0b6b3c97fcb081edd63915d4049656d88'
-    oldFile: !uuid 'c0801ec1aecac85baa59dda050c983687327bbc6'
-  /src/Database:
-    newFile: !uuid 'a39a3444ce30f538cc3a8f089dd4caf9b9302941'
-    oldFile: !uuid 'ff4e4beec0f311576bec903316ed29362bb14097'
-  /src/Database/stubs:
-    newFile: !uuid '9997a78199ad05b95b513e3f418782e70f377f25'
-    oldFile: !uuid 'c3d366e31618b686420907b6e05d35be985a6783'
-  /src/Database/stubs/create.stub:
-    newFile: !uuid 'b7b7cc52a4f8e643ee59b479f54192ca75f3b88f'
-    oldFile: !uuid '65c769f31d23a3e18f226bfca67c3ce16452de4e'
-gitCommitId: !uuid '0071370705cf8521246bbd20dbf48a9ab346a97b'
+    newFile: !uuid 'cbdb87189a3554dba66b5bb3725f353e19b0e403'
+    oldFile: !uuid 'd96da6a0b6b3c97fcb081edd63915d4049656d88'
+  /src/Api:
+    newFile: !uuid 'e0797153a7eb171f509a467ffd644b935c0d367e'
+    oldFile: !uuid '749c371ddf2f62db3512594c8920bda1b3090eef'
+  /src/Api/Serializer:
+    newFile: !uuid '57062a2d726d0f1571b62e1e54ffa1f854f4a4ae'
+    oldFile: !uuid '377e49774ffc434ba1a4de4c4fe8a75a7165a15a'
+  /src/Api/Serializer/AbstractSerializer.php:
+    newFile: !uuid '76854f8403a7bfde18db27689c5d079a4898f2d7'
+    oldFile: !uuid '3757a74d2d193aa745ecd55875d05941bdf891e7'
+gitCommitId: !uuid '1927bcf1a645422727fc9f61302dd7f7e30a153a'
 renames: {
   }
-revisionId: 117
+revisionId: 118
