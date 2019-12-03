@@ -3,15 +3,24 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid '5c9622c4128c921803ea8569c23e9092c7e9f9ee'
-    oldFile: !uuid '85765f35f13cb28664e5197abc190e49fd590317'
-  /src/Foundation:
-    newFile: !uuid '6d658be51c1c0d9459b0674fa4814e3716ef5fcf'
-    oldFile: !uuid 'fb01d2b867807fe45275189115a0f54123828ff8'
-  /src/Foundation/Application.php:
-    newFile: !uuid 'b1cf5c30b1f97c6df90cecda3ed4bf1760a81958'
-    oldFile: !uuid 'a3d17d0d7aa97245483e0b0ee6e163dbd167235e'
-gitCommitId: !uuid '8ba3a7ff8d9384819bc28f329f0383439d5d495e'
+    newFile: !uuid 'f963b4c56942c88c300d0c50a014c09c6b7d2848'
+    oldFile: !uuid '5c9622c4128c921803ea8569c23e9092c7e9f9ee'
+  /src/Auth:
+    newFile: !uuid '05dfbc874e6da1cc014afeec7476be1bf58806b9'
+    oldFile: !uuid '4293a6e40f9f31b013e0b64f474ad55bb76b0710'
+  /src/Auth/Exception:
+    newFile: !uuid 'eceec5de4a541319dd282a338e79ddb8c5799281'
+    oldFile: !uuid '286ea985cd96558229f0322c4e71253ce9c038b9'
+  /src/Auth/Exception/PermissionDeniedException.php:
+    newFile: !uuid '40c6701c68b44c7bd195a931a6da1da62fb95a68'
+    oldFile: !uuid '4a9d046b0d966eabb8d64c3f85904ea98b423e4b'
+  /src/Qcloud:
+    newFile: !uuid '6adec3907021499f8ae518bba6580e4a62c10f3e'
+    oldFile: !uuid 'c5d16541ca227ce2ef315d09890a15a809a9721a'
+  /src/Qcloud/QcloudManage.php:
+    newFile: !uuid '9a9d6cdd1392fd840e45dd1544a8c5dcf913a875'
+    oldFile: !uuid '74e72dfe935214ea7de36c8e98d8184361d59ca9'
+gitCommitId: !uuid 'ad57ef87246484f512d1dbc1036a8e8e828cef83'
 renames: {
   }
-revisionId: 121
+revisionId: 122
