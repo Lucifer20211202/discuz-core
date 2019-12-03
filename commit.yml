@@ -2,19 +2,19 @@
 branches: {
   }
 fileChange:
+  /composer.json:
+    newFile: !uuid '33dcaf04fcb1f5f198d932564c323360e750bacd'
+    oldFile: !uuid '846ae62f19138058cbc7f355610aa536b00cbb5e'
   /src:
-    newFile: !uuid 'cbdb87189a3554dba66b5bb3725f353e19b0e403'
-    oldFile: !uuid 'd96da6a0b6b3c97fcb081edd63915d4049656d88'
-  /src/Api:
-    newFile: !uuid 'e0797153a7eb171f509a467ffd644b935c0d367e'
-    oldFile: !uuid '749c371ddf2f62db3512594c8920bda1b3090eef'
-  /src/Api/Serializer:
-    newFile: !uuid '57062a2d726d0f1571b62e1e54ffa1f854f4a4ae'
-    oldFile: !uuid '377e49774ffc434ba1a4de4c4fe8a75a7165a15a'
-  /src/Api/Serializer/AbstractSerializer.php:
-    newFile: !uuid '76854f8403a7bfde18db27689c5d079a4898f2d7'
-    oldFile: !uuid '3757a74d2d193aa745ecd55875d05941bdf891e7'
-gitCommitId: !uuid '1927bcf1a645422727fc9f61302dd7f7e30a153a'
+    newFile: !uuid '85765f35f13cb28664e5197abc190e49fd590317'
+    oldFile: !uuid 'cbdb87189a3554dba66b5bb3725f353e19b0e403'
+  /src/Foundation:
+    newFile: !uuid 'fb01d2b867807fe45275189115a0f54123828ff8'
+    oldFile: !uuid '85eafd6a460beac776a4c18edcf384159998db7f'
+  /src/Foundation/helpers.php:
+    newFile: !uuid '4bf1694655e597013d742ab9d9445677ecaa7373'
+    oldFile: !uuid '02abdd957425d65682bbb5362c1c96eb80ff8494'
+gitCommitId: !uuid 'e3f23c0bf8938f915159c0c41a71e77bb167da43'
 renames: {
   }
-revisionId: 118
+revisionId: 119
