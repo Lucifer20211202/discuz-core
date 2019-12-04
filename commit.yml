@@ -3,24 +3,30 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid 'f963b4c56942c88c300d0c50a014c09c6b7d2848'
-    oldFile: !uuid '5c9622c4128c921803ea8569c23e9092c7e9f9ee'
-  /src/Auth:
-    newFile: !uuid '05dfbc874e6da1cc014afeec7476be1bf58806b9'
-    oldFile: !uuid '4293a6e40f9f31b013e0b64f474ad55bb76b0710'
-  /src/Auth/Exception:
-    newFile: !uuid 'eceec5de4a541319dd282a338e79ddb8c5799281'
-    oldFile: !uuid '286ea985cd96558229f0322c4e71253ce9c038b9'
-  /src/Auth/Exception/PermissionDeniedException.php:
-    newFile: !uuid '40c6701c68b44c7bd195a931a6da1da62fb95a68'
-    oldFile: !uuid '4a9d046b0d966eabb8d64c3f85904ea98b423e4b'
-  /src/Qcloud:
-    newFile: !uuid '6adec3907021499f8ae518bba6580e4a62c10f3e'
-    oldFile: !uuid 'c5d16541ca227ce2ef315d09890a15a809a9721a'
-  /src/Qcloud/QcloudManage.php:
-    newFile: !uuid '9a9d6cdd1392fd840e45dd1544a8c5dcf913a875'
-    oldFile: !uuid '74e72dfe935214ea7de36c8e98d8184361d59ca9'
-gitCommitId: !uuid 'ad57ef87246484f512d1dbc1036a8e8e828cef83'
+    newFile: !uuid '10e28d5f471f3efdc522fd9c51cf9dcbf25ce2ac'
+    oldFile: !uuid 'f963b4c56942c88c300d0c50a014c09c6b7d2848'
+  /src/Api:
+    newFile: !uuid '628f5cee087d6a0ba90017210bc2ff8c5f8ed787'
+    oldFile: !uuid 'e0797153a7eb171f509a467ffd644b935c0d367e'
+  /src/Api/ApiServiceProvider.php:
+    newFile: !uuid '4bc9df7f0d7321b6a25dc33db530d779661737a9'
+    oldFile: !uuid '9402f832abf47fe721f5ed8f82ba12d352573bbe'
+  /src/Api/ExceptionHandler:
+    newFile: !uuid '52361a5ed781fabaf2a149bec662e120a102139f'
+    oldFile: !uuid '12b678d0417b943fc18c3c12ddaa061e708b542d'
+  /src/Api/ExceptionHandler/PermissionDeniedExceptionHandler.php:
+    newFile: !uuid 'acab524f4955df26fc0a5bb985364c7268449cfc'
+    oldFile: !uuid 'bdf52b2d8c8ea43bbce8b962e760f98481f941d1'
+  /src/Http:
+    newFile: !uuid 'a161ceea1b92dd0d4f94665de081a4b3790bea5d'
+    oldFile: !uuid '7ba74c61762d0847a8027fc21181d2c483114d76'
+  /src/Http/Middleware:
+    newFile: !uuid '3d115167e674b4fe0b15548de158d1eb23ae4712'
+    oldFile: !uuid 'e8d7963ff0137a6a4d6d93ba439e1af7aeed059e'
+  /src/Http/Middleware/CheckoutSite.php:
+    newFile: !uuid '4ddb26c64cd88f96f199298e37216f6d56ea660b'
+    oldFile: null
+gitCommitId: !uuid '966e8aa7f6b18bd4c24ead992e9595f191f7e1cf'
 renames: {
   }
-revisionId: 122
+revisionId: 123
