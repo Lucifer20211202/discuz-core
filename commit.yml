@@ -3,18 +3,33 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid '564d80d3d069c9271895cb13da1c7ce7571148a9'
-    oldFile: !uuid 'fa1982ab38e9dfa8e3a65ab2aa890f291868cc8b'
-  /src/Api:
-    newFile: !uuid '6fd7a3950a83f17ad49d5c0a928712c5a86af871'
-    oldFile: !uuid '8851400f6a758ced1e289680f661dbde1fffaf48'
-  /src/Api/ExceptionHandler:
-    newFile: !uuid 'd571d11e28ade0e201082f0d70bdf4471e34ee87'
-    oldFile: !uuid '9ab8793fdeeb3308d4ee5a5996037a707e2d564f'
-  /src/Api/ExceptionHandler/LoginFailuresTimesToplimitExceptionHandler.php:
-    newFile: !uuid '84bd42e7873ac49347a4175106387ac4ac44ccf7'
-    oldFile: !uuid '3f05142967d294722c4427d1bf67eeb1769f5e72'
-gitCommitId: !uuid '27b62d334ccf7e407ee581c113cf3751f8348284'
-renames: {
-  }
-revisionId: 132
+    newFile: !uuid '311c8091fccdf488b7e380a6443ac183e68781c3'
+    oldFile: !uuid '564d80d3d069c9271895cb13da1c7ce7571148a9'
+  /src/Foundation:
+    newFile: !uuid 'edfcd698b0b3b90b0c0f28f8e5936d85f769d364'
+    oldFile: !uuid '708a8e40946bbbfc13465df0eb25a31d9b45a655'
+  /src/Foundation/AbstractUploadTool.php:
+    newFile: !uuid '396dd89629670399a058f4c088e8066f853ef86c'
+    oldFile: !uuid '815a04b551ceb7921136af647ffa3d4707f6ffac'
+  /src/Socialite:
+    newFile: !uuid 'fa736eaa493e93002c3e7089d61ac550091bb8a0'
+    oldFile: !uuid 'adfd5bb57871b28cc8eb290c03162f2010deed84'
+  /src/Socialite/SocialiteManage.php:
+    newFile: !uuid '053dc0fbca28a3d8b6e5e170eddf70e107ec3b63'
+    oldFile: !uuid 'c336b81d7688d101771a7115bcbca2f2eb44bf00'
+  /src/Socialite/Two:
+    newFile: !uuid '483204a538945fcd5e635b79ff44e534c3e91bef'
+    oldFile: !uuid 'f3eba457c86461d2e90413e9440158c7aee69701'
+  /src/Socialite/Two/AbstractProvider.php:
+    newFile: !uuid 'c122719f2a9700b2247363dc9068ca64e72fed7e'
+    oldFile: !uuid 'd52b8c0348850cdbf61ae31be4b87ecc3dfd2f3e'
+  /src/Socialite/Two/WechatProvider.php:
+    newFile: !uuid '74d65e37b4f0e79c5c7a2cdf8705c2a30b840943'
+    oldFile: null
+  /src/Socialite/Two/WeixinProvider.php:
+    newFile: null
+    oldFile: !uuid '9689645acba0fbc49812476d313b200530ee0991'
+gitCommitId: !uuid '2ce3f0d4c237e4d955e1ff104c1bba70dbc73b4d'
+renames:
+  /src/Socialite/Two/WechatProvider.php: /src/Socialite/Two/WeixinProvider.php
+revisionId: 133
