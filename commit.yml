@@ -3,33 +3,27 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid '311c8091fccdf488b7e380a6443ac183e68781c3'
-    oldFile: !uuid '564d80d3d069c9271895cb13da1c7ce7571148a9'
-  /src/Foundation:
-    newFile: !uuid 'edfcd698b0b3b90b0c0f28f8e5936d85f769d364'
-    oldFile: !uuid '708a8e40946bbbfc13465df0eb25a31d9b45a655'
-  /src/Foundation/AbstractUploadTool.php:
-    newFile: !uuid '396dd89629670399a058f4c088e8066f853ef86c'
-    oldFile: !uuid '815a04b551ceb7921136af647ffa3d4707f6ffac'
-  /src/Socialite:
-    newFile: !uuid 'fa736eaa493e93002c3e7089d61ac550091bb8a0'
-    oldFile: !uuid 'adfd5bb57871b28cc8eb290c03162f2010deed84'
-  /src/Socialite/SocialiteManage.php:
-    newFile: !uuid '053dc0fbca28a3d8b6e5e170eddf70e107ec3b63'
-    oldFile: !uuid 'c336b81d7688d101771a7115bcbca2f2eb44bf00'
-  /src/Socialite/Two:
-    newFile: !uuid '483204a538945fcd5e635b79ff44e534c3e91bef'
-    oldFile: !uuid 'f3eba457c86461d2e90413e9440158c7aee69701'
-  /src/Socialite/Two/AbstractProvider.php:
-    newFile: !uuid 'c122719f2a9700b2247363dc9068ca64e72fed7e'
-    oldFile: !uuid 'd52b8c0348850cdbf61ae31be4b87ecc3dfd2f3e'
-  /src/Socialite/Two/WechatProvider.php:
-    newFile: !uuid '74d65e37b4f0e79c5c7a2cdf8705c2a30b840943'
-    oldFile: null
-  /src/Socialite/Two/WeixinProvider.php:
-    newFile: null
-    oldFile: !uuid '9689645acba0fbc49812476d313b200530ee0991'
-gitCommitId: !uuid '2ce3f0d4c237e4d955e1ff104c1bba70dbc73b4d'
-renames:
-  /src/Socialite/Two/WechatProvider.php: /src/Socialite/Two/WeixinProvider.php
-revisionId: 133
+    newFile: !uuid '2fb5f5859ca15332a223627b5aee0c0852d29375'
+    oldFile: !uuid '311c8091fccdf488b7e380a6443ac183e68781c3'
+  /src/Api:
+    newFile: !uuid '9dcc65293116fa8eff771ecd3d282d56f328d957'
+    oldFile: !uuid '6fd7a3950a83f17ad49d5c0a928712c5a86af871'
+  /src/Api/ExceptionHandler:
+    newFile: !uuid 'f0012f3460ac60ce24b59dd4e9da6d0a9cf9c5ce'
+    oldFile: !uuid 'd571d11e28ade0e201082f0d70bdf4471e34ee87'
+  /src/Api/ExceptionHandler/LoginFailuresTimesToplimitExceptionHandler.php:
+    newFile: !uuid 'aed89608aafbbf2de5e6fe2862f57dce9a151bdd'
+    oldFile: !uuid '84bd42e7873ac49347a4175106387ac4ac44ccf7'
+  /src/Auth:
+    newFile: !uuid '7ce408d88c63aadb87e0c6353b3199a8f882a10c'
+    oldFile: !uuid 'f9aace7d1af49496abffbdb2c5d10ccf3fe65355'
+  /src/Auth/Exception:
+    newFile: !uuid '09cc5e51e8c975692c978393254074c7ff75df60'
+    oldFile: !uuid '16a6a0c2ccfb613d791a398683d42e4c1db599a2'
+  /src/Auth/Exception/LoginFailuresTimesToplimitException.php:
+    newFile: !uuid '058ed08eec38986d50ac05634b29b45d0f663fc6'
+    oldFile: !uuid 'bebb1565ab46e4830f0e67f121b2c84b001b8685'
+gitCommitId: !uuid 'd18081772f47c3d6ef9099262399717e5ee8646f'
+renames: {
+  }
+revisionId: 134
