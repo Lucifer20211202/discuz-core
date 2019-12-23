@@ -3,15 +3,15 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid '9f52745e714c9b5c1d85e0ee90226c6eb58125ec'
-    oldFile: !uuid 'd00fa3e8203a2e54fd21ca662c6e4dbb2a9adbfa'
-  /src/Qcloud:
-    newFile: !uuid '7b0fa5f9bee3ef012b756d5a967fdd8a203b2cec'
-    oldFile: !uuid '6adec3907021499f8ae518bba6580e4a62c10f3e'
-  /src/Qcloud/QcloudManage.php:
-    newFile: !uuid '5dccf45d94111c3031c56a4c389a53dd5015c6f9'
-    oldFile: !uuid '9a9d6cdd1392fd840e45dd1544a8c5dcf913a875'
-gitCommitId: !uuid 'c153b86e42bb7d89974b3f70c2d0d4dcfa20d029'
+    newFile: !uuid '4146a25621517efda29280611f91a70e09fa746a'
+    oldFile: !uuid '9f52745e714c9b5c1d85e0ee90226c6eb58125ec'
+  /src/Http:
+    newFile: !uuid 'bdc42e4e69b101e8699746e7c339f73c7b40be27'
+    oldFile: !uuid '3008cfddd62feed4ae52ca823b172618dbde8ccd'
+  /src/Http/UrlGenerator.php:
+    newFile: !uuid '2fb8f785684f6c78800024d214e5eb5786bb3558'
+    oldFile: !uuid 'ced4c87808ea3ec57f49651173273bd18a54a47e'
+gitCommitId: !uuid '633b8a08bbda96aaa20abdaa68198c74c2c2d6e6'
 renames: {
   }
-revisionId: 137
+revisionId: 138
