@@ -3,18 +3,15 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid 'd00fa3e8203a2e54fd21ca662c6e4dbb2a9adbfa'
-    oldFile: !uuid '2fb5f5859ca15332a223627b5aee0c0852d29375'
-  /src/Api:
-    newFile: !uuid 'c9e9eef9a77cc515962aa0cd1aaa7e2bf9acf07f'
-    oldFile: !uuid '9dcc65293116fa8eff771ecd3d282d56f328d957'
-  /src/Api/ExceptionHandler:
-    newFile: !uuid 'e55435d159f0ba8ccb8085da31d71d7f3290ac3c'
-    oldFile: !uuid 'f0012f3460ac60ce24b59dd4e9da6d0a9cf9c5ce'
-  /src/Api/ExceptionHandler/FallbackExceptionHandler.php:
-    newFile: !uuid '5351c76d3c16d29096527978ae96fe18aeb8ec73'
-    oldFile: !uuid '12aef74909a7cdfcf56843dc79f318deba448627'
-gitCommitId: !uuid '4564d94c963e8bf652c1d788398ea1788d0cc847'
+    newFile: !uuid '9f52745e714c9b5c1d85e0ee90226c6eb58125ec'
+    oldFile: !uuid 'd00fa3e8203a2e54fd21ca662c6e4dbb2a9adbfa'
+  /src/Qcloud:
+    newFile: !uuid '7b0fa5f9bee3ef012b756d5a967fdd8a203b2cec'
+    oldFile: !uuid '6adec3907021499f8ae518bba6580e4a62c10f3e'
+  /src/Qcloud/QcloudManage.php:
+    newFile: !uuid '5dccf45d94111c3031c56a4c389a53dd5015c6f9'
+    oldFile: !uuid '9a9d6cdd1392fd840e45dd1544a8c5dcf913a875'
+gitCommitId: !uuid 'c153b86e42bb7d89974b3f70c2d0d4dcfa20d029'
 renames: {
   }
-revisionId: 136
+revisionId: 137
