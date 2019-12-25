@@ -3,15 +3,45 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid '4146a25621517efda29280611f91a70e09fa746a'
-    oldFile: !uuid '9f52745e714c9b5c1d85e0ee90226c6eb58125ec'
+    newFile: !uuid '8fdaac6c37711d4df46c85da13053c5a4c95dee2'
+    oldFile: !uuid '4146a25621517efda29280611f91a70e09fa746a'
+  /src/Api:
+    newFile: !uuid '219f89526609115eeabaed2068d24a0ef031a61b'
+    oldFile: !uuid 'c9e9eef9a77cc515962aa0cd1aaa7e2bf9acf07f'
+  /src/Api/ExceptionHandler:
+    newFile: !uuid '520fec6be4c620041be4939e9f66a3ecc60abf0e'
+    oldFile: !uuid 'e55435d159f0ba8ccb8085da31d71d7f3290ac3c'
+  /src/Api/ExceptionHandler/ServiceResponseExceptionHandler.php:
+    newFile: !uuid 'e06202434b9cb35124d4fb1db7c088dc214513ec'
+    oldFile: !uuid 'ac5c431ebcbca8afd88663cac27e968fb847a9ae'
+  /src/Api/ExceptionHandler/TencentCloudSDKExceptionHandler.php:
+    newFile: !uuid '961b761a536da01de71a34a7c5efb5c68eff8a8e'
+    oldFile: !uuid '62646b4487ee3613d5ccd10f8068757146312f59'
   /src/Http:
-    newFile: !uuid 'bdc42e4e69b101e8699746e7c339f73c7b40be27'
-    oldFile: !uuid '3008cfddd62feed4ae52ca823b172618dbde8ccd'
+    newFile: !uuid 'bafcfe62aff121d3b6663ef83bbdd3f5d3d70593'
+    oldFile: !uuid 'bdc42e4e69b101e8699746e7c339f73c7b40be27'
   /src/Http/UrlGenerator.php:
-    newFile: !uuid '2fb8f785684f6c78800024d214e5eb5786bb3558'
-    oldFile: !uuid 'ced4c87808ea3ec57f49651173273bd18a54a47e'
-gitCommitId: !uuid '633b8a08bbda96aaa20abdaa68198c74c2c2d6e6'
+    newFile: !uuid '9e06f4e23a9ea0ac57bdd10292a47d6402653681'
+    oldFile: !uuid '2fb8f785684f6c78800024d214e5eb5786bb3558'
+  /src/Qcloud:
+    newFile: !uuid 'e1f6cb120032b044f8a1c9c042dde7551c576416'
+    oldFile: !uuid '7b0fa5f9bee3ef012b756d5a967fdd8a203b2cec'
+  /src/Qcloud/QcloudManage.php:
+    newFile: !uuid '085e8e7075d09386cfd9183ebce81b94f2393c1c'
+    oldFile: !uuid '5dccf45d94111c3031c56a4c389a53dd5015c6f9'
+  /src/Qcloud/Services:
+    newFile: !uuid '169a9688f6428acde37d582e23fdbb7c5ed4fc4b'
+    oldFile: !uuid '9bcd604ec876b86438a78fb85b8096a6fa5b2b87'
+  /src/Qcloud/Services/AbstractService.php:
+    newFile: !uuid '674ae2f6161f34f4e272b380f9d0fc9db644193a'
+    oldFile: !uuid '06c470154384cfe577a62742064478bdbf74ee52'
+  /src/Socialite:
+    newFile: !uuid '171b3157ab88864ce800879e1a8f762737f67eb1'
+    oldFile: !uuid 'fa736eaa493e93002c3e7089d61ac550091bb8a0'
+  /src/Socialite/SocialiteManage.php:
+    newFile: !uuid '4219265b072899890117839b47e49a6de26711c0'
+    oldFile: !uuid '053dc0fbca28a3d8b6e5e170eddf70e107ec3b63'
+gitCommitId: !uuid '165b9a910defbca54af8e2ca9d17a3eea0d11f56'
 renames: {
   }
-revisionId: 138
+revisionId: 139
