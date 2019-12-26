@@ -3,30 +3,18 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid '96d916d937e8a24962d1c6005d31fe0da9e97890'
-    oldFile: !uuid '8fdaac6c37711d4df46c85da13053c5a4c95dee2'
-  /src/Http:
-    newFile: !uuid 'ed1f071c323a0358f828bdcef85426dd6c1db6b5'
-    oldFile: !uuid 'bafcfe62aff121d3b6663ef83bbdd3f5d3d70593'
-  /src/Http/Middleware:
-    newFile: !uuid 'f4092ad4e06a94a89aeb6367b601098f50b5dda4'
-    oldFile: !uuid 'e2d3d14fb4a252d8c5db4be21bf5fdb51d1ed703'
-  /src/Http/Middleware/CheckoutSite.php:
-    newFile: !uuid '32a200dde45b47db0bd07a4254352885aeb5a1c0'
-    oldFile: !uuid '4ddb26c64cd88f96f199298e37216f6d56ea660b'
-  /src/Socialite:
-    newFile: !uuid 'a8a813686013055e3046b2bfc3fc33a0fd791a29'
-    oldFile: !uuid '171b3157ab88864ce800879e1a8f762737f67eb1'
-  /src/Socialite/SocialiteManage.php:
-    newFile: !uuid 'df79989be2fcfc14cd1f90bad3aa566e7bdbcdd0'
-    oldFile: !uuid '4219265b072899890117839b47e49a6de26711c0'
-  /src/Socialite/Two:
-    newFile: !uuid 'e800bb97b36a2ea77c899fb883ae15de169b4ac2'
-    oldFile: !uuid '483204a538945fcd5e635b79ff44e534c3e91bef'
-  /src/Socialite/Two/WechatProvider.php:
-    newFile: !uuid '40eac6082476961f3c198e922e7e21333593c963'
-    oldFile: !uuid '74d65e37b4f0e79c5c7a2cdf8705c2a30b840943'
-gitCommitId: !uuid '1aefd0bebef8fa7345e08ea3b751e303151357f5'
+    newFile: !uuid '6c2ac29a7d6bd4c2f10e0aece8c58889414c4f4c'
+    oldFile: !uuid '96d916d937e8a24962d1c6005d31fe0da9e97890'
+  /src/Api:
+    newFile: !uuid '9d3940b62a2549772227d5f1494de62c9fa1cf5d'
+    oldFile: !uuid '219f89526609115eeabaed2068d24a0ef031a61b'
+  /src/Api/Controller:
+    newFile: !uuid '34c851077566e398ad40e1aec17baf26108d1dfd'
+    oldFile: !uuid '10c73bbec2ceb77a348fe7f3ae0eae9ca64d42da'
+  /src/Api/Controller/AbstractSerializeController.php:
+    newFile: !uuid 'd4050639d99a03a504f123e47f714adde0a0b280'
+    oldFile: !uuid '0f116fab59e7a6cec12211ec1195a4a035170b4d'
+gitCommitId: !uuid '2f09b1c263ffd5365da797c1ee235e2b6ae0cef8'
 renames: {
   }
-revisionId: 140
+revisionId: 141
