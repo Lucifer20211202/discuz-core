@@ -3,18 +3,36 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid '6c2ac29a7d6bd4c2f10e0aece8c58889414c4f4c'
-    oldFile: !uuid '96d916d937e8a24962d1c6005d31fe0da9e97890'
+    newFile: !uuid 'ce347360742cdf853a27a52568a8fe8de1664acf'
+    oldFile: !uuid '6c2ac29a7d6bd4c2f10e0aece8c58889414c4f4c'
   /src/Api:
-    newFile: !uuid '9d3940b62a2549772227d5f1494de62c9fa1cf5d'
-    oldFile: !uuid '219f89526609115eeabaed2068d24a0ef031a61b'
-  /src/Api/Controller:
-    newFile: !uuid '34c851077566e398ad40e1aec17baf26108d1dfd'
-    oldFile: !uuid '10c73bbec2ceb77a348fe7f3ae0eae9ca64d42da'
-  /src/Api/Controller/AbstractSerializeController.php:
-    newFile: !uuid 'd4050639d99a03a504f123e47f714adde0a0b280'
-    oldFile: !uuid '0f116fab59e7a6cec12211ec1195a4a035170b4d'
-gitCommitId: !uuid '2f09b1c263ffd5365da797c1ee235e2b6ae0cef8'
+    newFile: !uuid '655b9ac5506452d433e36fecf67a8148788e02cf'
+    oldFile: !uuid '9d3940b62a2549772227d5f1494de62c9fa1cf5d'
+  /src/Api/ApiServiceProvider.php:
+    newFile: !uuid '0d934d321355f4183b8b59775fe7cf48cc796027'
+    oldFile: !uuid '72044774603d466446c53df3f63f669d3abf125b'
+  /src/Api/ExceptionHandler:
+    newFile: !uuid '6ec39f2f5239dc34fcf39caf6dbe41abac492add'
+    oldFile: !uuid '520fec6be4c620041be4939e9f66a3ecc60abf0e'
+  /src/Api/ExceptionHandler/LoginFailedExceptionHandler.php:
+    newFile: !uuid '58ec759c8d98df89c8f14e503817787ba871019c'
+    oldFile: null
+  /src/Api/ExceptionHandler/LoginFailuresTimesToplimitExceptionHandler.php:
+    newFile: !uuid '7e139a61a86f4ceb5c0fb91e48867cb2392a7306'
+    oldFile: !uuid 'aed89608aafbbf2de5e6fe2862f57dce9a151bdd'
+  /src/Auth:
+    newFile: !uuid 'b156a70a1b0fca10bfdbc98b66bef8fac1199484'
+    oldFile: !uuid '7ce408d88c63aadb87e0c6353b3199a8f882a10c'
+  /src/Auth/Exception:
+    newFile: !uuid 'f29064d97a5429f85614af24a3a547978223e8a1'
+    oldFile: !uuid '09cc5e51e8c975692c978393254074c7ff75df60'
+  /src/Auth/Exception/LoginFailedException.php:
+    newFile: !uuid '6ebbc55c74322c9f561841a59cbc5a2551486e2a'
+    oldFile: null
+  /src/Auth/Exception/LoginFailuresTimesToplimitException.php:
+    newFile: !uuid 'be636f1e0f14a914bbf541a1d5589ac1c8345359'
+    oldFile: !uuid '058ed08eec38986d50ac05634b29b45d0f663fc6'
+gitCommitId: !uuid '46c20a9cf662dbddd068dbacea614fa6e2f8161e'
 renames: {
   }
-revisionId: 141
+revisionId: 142
