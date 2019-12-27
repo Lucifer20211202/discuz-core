@@ -3,15 +3,15 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid 'f457d9f22cf5e07c06432de505d6a0bef4ab4847'
-    oldFile: !uuid 'ce347360742cdf853a27a52568a8fe8de1664acf'
-  /src/Auth:
-    newFile: !uuid 'e5148716430a1aeec2e0a84c91cd18a5e3724905'
-    oldFile: !uuid 'b156a70a1b0fca10bfdbc98b66bef8fac1199484'
-  /src/Auth/AssertPermissionTrait.php:
-    newFile: !uuid '15eec2b1830d69487d9c9b26dec248c0c6674d06'
-    oldFile: !uuid '1b4cc85db8146880c8f8d0b4c90dc1c027e47c22'
-gitCommitId: !uuid '6b513ab5fa2f568aaac0c5c6254225fac709937a'
+    newFile: !uuid 'ea87c9afea2172f7b3eb41ab1f0d7d8b83a3ae2f'
+    oldFile: !uuid 'f457d9f22cf5e07c06432de505d6a0bef4ab4847'
+  /src/Socialite:
+    newFile: !uuid '81221e1bfe941518eae0dbd3f9089e267b038333'
+    oldFile: !uuid 'a8a813686013055e3046b2bfc3fc33a0fd791a29'
+  /src/Socialite/SocialiteManage.php:
+    newFile: !uuid '18d6dc23d690a9a8d02ea22e8a8ff686245d767c'
+    oldFile: !uuid 'df79989be2fcfc14cd1f90bad3aa566e7bdbcdd0'
+gitCommitId: !uuid '07f47976a014d543bda5ac4ae29910b425fef73a'
 renames: {
   }
-revisionId: 143
+revisionId: 144
