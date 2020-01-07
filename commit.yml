@@ -3,15 +3,30 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid 'ce2e7d1b85d2b2d9a5ba5cf8d3369fc9be56cf3b'
-    oldFile: !uuid '0f71a86b0fb7069a61b50b604569cd5ba0f016a8'
-  /src/Foundation:
-    newFile: !uuid '64aa0c35375f5d9ac641dc77b3cdcb796c46d359'
-    oldFile: !uuid 'ef969c86ea0199d67ae60c26fc313b12b1e9388e'
-  /src/Foundation/AbstractUploadTool.php:
-    newFile: !uuid '5463f3797dfefd49fa0cf83d4891f3d46aa1c49f'
-    oldFile: !uuid '396dd89629670399a058f4c088e8066f853ef86c'
-gitCommitId: !uuid '830f9c1bfdd5501f767c86bb542cfd38b7a0cf2e'
+    newFile: !uuid 'bb937c9f1fce0288862638191560243d061f6c49'
+    oldFile: !uuid 'ce2e7d1b85d2b2d9a5ba5cf8d3369fc9be56cf3b'
+  /src/Api:
+    newFile: !uuid '1f48f4c665825cc81b74eb0315b0da6f02a3b774'
+    oldFile: !uuid '9d2b42103e6b0cf0b47cf834a961269d4a8455c5'
+  /src/Api/ApiServiceProvider.php:
+    newFile: !uuid '71df2effae52cafc5cfb897b70a0e36dbc672c8d'
+    oldFile: !uuid '0d934d321355f4183b8b59775fe7cf48cc796027'
+  /src/Api/ExceptionHandler:
+    newFile: !uuid 'a46404f650b036db4979c879cc627d42845effa6'
+    oldFile: !uuid '1143f4c698ff68ba586a26646a744c585286e5ec'
+  /src/Api/ExceptionHandler/PermissionDeniedExceptionHandler.php:
+    newFile: !uuid '4603b32e7f11e74220a7bf60a269c945e7131394'
+    oldFile: !uuid '993035984c30c59722c8809eb8a1a9b968900a5b'
+  /src/Http:
+    newFile: !uuid 'cb48586cb08e95ef03f15bb5e1f091e3ad27ceda'
+    oldFile: !uuid '400e5ecba15c1e434ff35e0538e1e19c37c8baf4'
+  /src/Http/Middleware:
+    newFile: !uuid '53e2a5115484fae10edb518bb0438a162afa4063'
+    oldFile: !uuid '65ea2be5c47297c639a3089fcfbb4f21626ad163'
+  /src/Http/Middleware/CheckUserStatus.php:
+    newFile: !uuid '41266311c8d0ec0d4bbedd85fb32a9925b388343'
+    oldFile: null
+gitCommitId: !uuid '6754304299837af1765d6e4114bc1fc76763d23a'
 renames: {
   }
-revisionId: 151
+revisionId: 152
