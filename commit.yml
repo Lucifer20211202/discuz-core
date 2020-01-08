@@ -3,18 +3,33 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid '654d96096ad38279eb235f1b22063a26cb0f620a'
-    oldFile: !uuid 'bb937c9f1fce0288862638191560243d061f6c49'
-  /src/Api:
-    newFile: !uuid '8a5fc7653c7e3c82869cd02f81b1cd3b139f99f6'
-    oldFile: !uuid '1f48f4c665825cc81b74eb0315b0da6f02a3b774'
-  /src/Api/ExceptionHandler:
-    newFile: !uuid '51fb785da0483d4525b30e482be4edaf99463149'
-    oldFile: !uuid 'a46404f650b036db4979c879cc627d42845effa6'
-  /src/Api/ExceptionHandler/PermissionDeniedExceptionHandler.php:
-    newFile: !uuid '3b983b0767db8645aa9869497c042760fb7fb555'
-    oldFile: !uuid '4603b32e7f11e74220a7bf60a269c945e7131394'
-gitCommitId: !uuid '92233a9229985bac6228d0da63b707f14a7d59c6'
+    newFile: !uuid '799dce9d814cca87f122af82c4897edccd0d7e63'
+    oldFile: !uuid '654d96096ad38279eb235f1b22063a26cb0f620a'
+  /src/Http:
+    newFile: !uuid 'a808edbe91904e24b61a171bfbf7aa9b316f0e8e'
+    oldFile: !uuid 'cb48586cb08e95ef03f15bb5e1f091e3ad27ceda'
+  /src/Http/Middleware:
+    newFile: !uuid 'c6c00dbf64ae3593d0c76ddeb3246726006a150f'
+    oldFile: !uuid '53e2a5115484fae10edb518bb0438a162afa4063'
+  /src/Http/Middleware/EnableCrossRequest.php:
+    newFile: !uuid 'd6cec32f079f4439fe1998c792373db8789edbb6'
+    oldFile: !uuid 'ad17d271b045b369ab3dd454b2f00667476d65c6'
+  /src/Socialite:
+    newFile: !uuid '639cd4b8fefc1f9d992836b4e0492c5f2fe96411'
+    oldFile: !uuid 'fdf1d190584434e61327e511d1c0abb81024b83c'
+  /src/Socialite/SocialiteManage.php:
+    newFile: !uuid '72c5d0ade23bcbc27f8d3c1c24abd03c262e2217'
+    oldFile: !uuid 'fa7f84039765a1a8e17b9afdc876f5eddfb660a8'
+  /src/Socialite/Two:
+    newFile: !uuid '4b5a4880f7dea3adc04793b12826e8d060948325'
+    oldFile: !uuid 'e800bb97b36a2ea77c899fb883ae15de169b4ac2'
+  /src/Socialite/Two/WechatProvider.php:
+    newFile: !uuid '062a455020396b77d1bf6fc4b7a3ba7b61528f67'
+    oldFile: !uuid '40eac6082476961f3c198e922e7e21333593c963'
+  /src/Socialite/Two/WechatWebProvider.php:
+    newFile: !uuid '2bbeafa3974e10c0cb119587e0f1cd6180ba4a60'
+    oldFile: null
+gitCommitId: !uuid '7f725554a25fee28f286739a2a47fc3280370176'
 renames: {
   }
-revisionId: 153
+revisionId: 154
