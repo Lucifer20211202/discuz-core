@@ -3,18 +3,18 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid '70ba85a9ab80d01a45aec8e98194796b1604d524'
-    oldFile: !uuid 'be25c28ec1a6f8d77d19212d94a869371d726c11'
-  /src/Api:
-    newFile: !uuid '3514ea29a2f0af402a6554461320f4ec6e16f6d2'
-    oldFile: !uuid '2896bed5f9d7a6d4eca3d92103630d28fb44f74c'
-  /src/Api/ExceptionHandler:
-    newFile: !uuid '501b5e78df50b543f12fad4aa3a7f8d066f89d98'
-    oldFile: !uuid '51fb785da0483d4525b30e482be4edaf99463149'
-  /src/Api/ExceptionHandler/LoginFailedExceptionHandler.php:
-    newFile: !uuid 'a4797a634683e8180a059aa10317cb75e9d06014'
-    oldFile: !uuid 'aae17ac82a1bafbfe30e11fcf180d1cebae0ce92'
-gitCommitId: !uuid 'ace2ae016fedfc4b00fdc1773f6a390ba61d9e97'
+    newFile: !uuid '9a7050dbb8397b3dabdfff8b462684bc1bb8cbed'
+    oldFile: !uuid '70ba85a9ab80d01a45aec8e98194796b1604d524'
+  /src/Http:
+    newFile: !uuid 'fdc795652bb90275ff1586930aaf918658963935'
+    oldFile: !uuid '1a0cc2dd1084453496ec193f80eaacf66b3f8fbf'
+  /src/Http/Middleware:
+    newFile: !uuid '417167c4ad7065c93f5e9330e9e53b28e98e2c43'
+    oldFile: !uuid '6d85a238726e1e76731f5600838da3b7302f207b'
+  /src/Http/Middleware/AuthenticateWithHeader.php:
+    newFile: !uuid '27dd42cfc3785f11c6f9f103c44e47e59bac8946'
+    oldFile: !uuid 'e516998717bdffad182ffbaea6954b209a8aae25'
+gitCommitId: !uuid 'b1c78434b8b2ea4ef29bbbb5beb0147c974393c4'
 renames: {
   }
-revisionId: 159
+revisionId: 160
