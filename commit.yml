@@ -3,24 +3,15 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid '37ae5689a21abea352b8b20ed4b37f22df2ae64d'
-    oldFile: !uuid '1e9e4afc676ece186503036a976e36de7672d5b1'
+    newFile: !uuid '3414dde7e2da50d2cf346b6c2ec7c2bc6c0c974e'
+    oldFile: !uuid '37ae5689a21abea352b8b20ed4b37f22df2ae64d'
   /src/Filesystem:
-    newFile: !uuid '9525cb4a303433ab26ad8bcaef565105b35ac0a4'
-    oldFile: !uuid '379e97bf7452bb1f6b31b1eadef0b25375a0a7ee'
-  /src/Filesystem/CosAdapter.php:
-    newFile: !uuid '417520b1738537e285a98269995fe34aefd8330b'
-    oldFile: !uuid 'bed8b7f1df9eb051f24a5c6c15b51fc05c7f20dd'
+    newFile: !uuid '2498c5a8fe8fac1d2695118120c146f1b0d313e5'
+    oldFile: !uuid '9525cb4a303433ab26ad8bcaef565105b35ac0a4'
   /src/Filesystem/FilesystemServiceProvider.php:
-    newFile: !uuid '0d85c1eb433c73c0c83c269062c368e25ca8cb05'
-    oldFile: !uuid '317ed41122381d1ca93e82dff3d0cb2d6ea48d6d'
-  /src/Foundation:
-    newFile: !uuid '482641669628caa96f78d41f741f02c45df1f340'
-    oldFile: !uuid '8c9bb7d2d3e077cadeaa2d3f201bda7d6643f020'
-  /src/Foundation/AbstractUploadTool.php:
-    newFile: !uuid 'b0c18b3820e09347817fdbf75f928abd8b32b3ff'
-    oldFile: !uuid '5463f3797dfefd49fa0cf83d4891f3d46aa1c49f'
-gitCommitId: !uuid 'f8ffac7116adb95c38e792c36a808e1200a698e9'
+    newFile: !uuid 'f8bd0eb502f7baceefac0743e13ed56d8d029be0'
+    oldFile: !uuid '0d85c1eb433c73c0c83c269062c368e25ca8cb05'
+gitCommitId: !uuid '82facd940ebafa520a6bb11524ff287b225a3b55'
 renames: {
   }
-revisionId: 163
+revisionId: 164
