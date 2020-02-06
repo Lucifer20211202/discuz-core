@@ -3,15 +3,18 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid '3414dde7e2da50d2cf346b6c2ec7c2bc6c0c974e'
-    oldFile: !uuid '37ae5689a21abea352b8b20ed4b37f22df2ae64d'
+    newFile: !uuid '0f5245cbe0eca26f357cd490831d68196993499c'
+    oldFile: !uuid '3414dde7e2da50d2cf346b6c2ec7c2bc6c0c974e'
   /src/Filesystem:
-    newFile: !uuid '2498c5a8fe8fac1d2695118120c146f1b0d313e5'
-    oldFile: !uuid '9525cb4a303433ab26ad8bcaef565105b35ac0a4'
+    newFile: !uuid '0c07d438b3cee76cffac1024e01e6b5c72252a25'
+    oldFile: !uuid '2498c5a8fe8fac1d2695118120c146f1b0d313e5'
+  /src/Filesystem/CosAdapter.php:
+    newFile: !uuid 'c2c7a4145f4a25749289171ae96f3c98a065e2fd'
+    oldFile: !uuid '417520b1738537e285a98269995fe34aefd8330b'
   /src/Filesystem/FilesystemServiceProvider.php:
-    newFile: !uuid 'f8bd0eb502f7baceefac0743e13ed56d8d029be0'
-    oldFile: !uuid '0d85c1eb433c73c0c83c269062c368e25ca8cb05'
-gitCommitId: !uuid '82facd940ebafa520a6bb11524ff287b225a3b55'
+    newFile: !uuid '36a572d56eb59e5049e4d20833620317f60943f5'
+    oldFile: !uuid 'f8bd0eb502f7baceefac0743e13ed56d8d029be0'
+gitCommitId: !uuid 'fdbd1d6fa6c65f853393d377ac3d3d652e872368'
 renames: {
   }
-revisionId: 164
+revisionId: 165
