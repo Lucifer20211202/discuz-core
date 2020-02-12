@@ -3,18 +3,21 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid '0f5245cbe0eca26f357cd490831d68196993499c'
-    oldFile: !uuid '3414dde7e2da50d2cf346b6c2ec7c2bc6c0c974e'
-  /src/Filesystem:
-    newFile: !uuid '0c07d438b3cee76cffac1024e01e6b5c72252a25'
-    oldFile: !uuid '2498c5a8fe8fac1d2695118120c146f1b0d313e5'
-  /src/Filesystem/CosAdapter.php:
-    newFile: !uuid 'c2c7a4145f4a25749289171ae96f3c98a065e2fd'
-    oldFile: !uuid '417520b1738537e285a98269995fe34aefd8330b'
-  /src/Filesystem/FilesystemServiceProvider.php:
-    newFile: !uuid '36a572d56eb59e5049e4d20833620317f60943f5'
-    oldFile: !uuid 'f8bd0eb502f7baceefac0743e13ed56d8d029be0'
-gitCommitId: !uuid 'fdbd1d6fa6c65f853393d377ac3d3d652e872368'
+    newFile: !uuid 'dc7cfbd187afa286dd0f4225d00989a7270ffceb'
+    oldFile: !uuid '0f5245cbe0eca26f357cd490831d68196993499c'
+  /src/Qcloud:
+    newFile: !uuid 'c62f89753f31c1eaf8be32c1fddc6d27cc339095'
+    oldFile: !uuid '441cb98e68ae88417003c9dde2ecef98031340de'
+  /src/Qcloud/Services:
+    newFile: !uuid 'a78bef7b3ee542930f473f5ef858ce893b3949cd'
+    oldFile: !uuid 'ec4a400fa13afdeb6f7b97794482a2fb71288709'
+  /src/Qcloud/Services/AbstractService.php:
+    newFile: !uuid '7dae7936e2a3f5bd216108588c9bbf839811ef2c'
+    oldFile: !uuid '674ae2f6161f34f4e272b380f9d0fc9db644193a'
+  /src/Qcloud/Services/FaceidService.php:
+    newFile: !uuid '05d9056f4f2883316fd940af1f0669ed23d0b1d0'
+    oldFile: !uuid 'c1a7872a4512a9c893451a3edb421295e69f5bc3'
+gitCommitId: !uuid '17f8272cdd2e7002aec8dee931ef60a0a03b9ee5'
 renames: {
   }
-revisionId: 165
+revisionId: 166
