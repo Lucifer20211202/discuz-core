@@ -3,24 +3,18 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid '16c1de840e36560e26e7db3ca15b124dcab5a7b0'
-    oldFile: !uuid '0cbd66cea2c63c91cf970bd2c34e25fa72b831ca'
-  /src/Notifications:
-    newFile: !uuid '8ceefed68c989534d9af28c2c583a37c7e82143d'
-    oldFile: !uuid 'ed8e3bfc5e41432fdf7431277f72de98c6b9abcf'
-  /src/Notifications/Messages:
-    newFile: !uuid '3e490dafb3014413c4f1079fda199817434e1efb'
-    oldFile: !uuid '6e9983f6721ed924a676f360b927a000aa825929'
-  /src/Notifications/Messages/DatabaseMessage.php:
-    newFile: !uuid 'b23a7f5989036fd0aa51462cb968e51d0eecfe56'
-    oldFile: !uuid 'd1a26deda7685049bb6ca3ae386b6c2d2fc9594a'
-  /src/Web:
-    newFile: !uuid 'd7163c4f8930b0700b6d8cd83d0df4a6e13349e2'
-    oldFile: !uuid 'bbe4912d37bfdb349034aaa5b5a165ad4c3ae51b'
-  /src/Web/WebServiceProvider.php:
-    newFile: !uuid '801b04f060e4e3fc97d2e319a77c403a864cb32d'
-    oldFile: !uuid 'ba4c5eb6aebd5974797b12ef696cd71acfee38fa'
-gitCommitId: !uuid '17480c458c7dd34294643a508facde5fee48e153'
+    newFile: !uuid 'b93d478e1708964d1b80d5bfeec69c7e4aaec74a'
+    oldFile: !uuid '16c1de840e36560e26e7db3ca15b124dcab5a7b0'
+  /src/Qcloud:
+    newFile: !uuid '59e1074d9d7edc6508255e5dcacf2ac9d7d2d4d0'
+    oldFile: !uuid 'c62f89753f31c1eaf8be32c1fddc6d27cc339095'
+  /src/Qcloud/Services:
+    newFile: !uuid '2bd72e22b55cd98051fd4acacf25a626b180d5ed'
+    oldFile: !uuid 'a78bef7b3ee542930f473f5ef858ce893b3949cd'
+  /src/Qcloud/Services/FaceidService.php:
+    newFile: !uuid '11a9e67d298635839d4b7ee7b7cce113d8f5729b'
+    oldFile: !uuid '05d9056f4f2883316fd940af1f0669ed23d0b1d0'
+gitCommitId: !uuid 'b83afc9d2ae0572f9df67e8ca7e72c75228aed50'
 renames: {
   }
-revisionId: 168
+revisionId: 169
