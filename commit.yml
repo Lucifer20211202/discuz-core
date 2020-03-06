@@ -3,21 +3,27 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid 'b93eb8b0e74a664986c3d3c693df11fa409149d7'
-    oldFile: !uuid '4a205c8f6c652f6dc66b52f2b5490f387960ac7a'
-  /src/Filesystem:
-    newFile: !uuid 'c5e56a7d3bcc13f07aa27abf3bb87fb91af6e214'
-    oldFile: !uuid '0c07d438b3cee76cffac1024e01e6b5c72252a25'
-  /src/Filesystem/CosAdapter.php:
-    newFile: !uuid '228b45dd82d1cefa4a1705062ef92a88cd8ee3c0'
-    oldFile: !uuid 'c2c7a4145f4a25749289171ae96f3c98a065e2fd'
-  /src/Foundation:
-    newFile: !uuid 'a41ae5ad9f9da771c363801a6680fa61dd332349'
-    oldFile: !uuid 'bfc96ffb63e2eb3f6f8dc3f44c813f3e635cc522'
-  /src/Foundation/AbstractUploadTool.php:
-    newFile: !uuid '155a4dc8356276ebfc3d00ff94a9e5ee316f917d'
-    oldFile: !uuid 'b0c18b3820e09347817fdbf75f928abd8b32b3ff'
-gitCommitId: !uuid '1273b114dc1806a01781d9ec9a64f36589219be5'
+    newFile: !uuid 'adcfb9557655399fae33b3238b51e2233520e237'
+    oldFile: !uuid 'b93eb8b0e74a664986c3d3c693df11fa409149d7'
+  /src/Notifications:
+    newFile: !uuid '900ab61219300f13ba867b07cbd184f1f9664f52'
+    oldFile: !uuid '283b756ca0dbf6417fb8548849eb3da22c66ee18'
+  /src/Notifications/ChannelManager.php:
+    newFile: !uuid '558c54d0d5fd8fd06c7ee05c93f4e9b092aa4521'
+    oldFile: !uuid 'e51f1bef662378923795d6ca6ce3f338711f3907'
+  /src/Notifications/Channels:
+    newFile: !uuid 'fbb4f53283a7a616ca7bcfe133f32eaa1afa0d1b'
+    oldFile: !uuid 'd808d2b912782a508e39889d8d7ad568820181f6'
+  /src/Notifications/Channels/WechatChannel.php:
+    newFile: !uuid '4cc6c10a4a444c2f2656adfd8d7007c9ade71196'
+    oldFile: null
+  /src/Socialite:
+    newFile: !uuid 'fdc248b4ae58a778b67f900a31093a8faf3169da'
+    oldFile: !uuid 'e8e0ea853c0d0f649c73daf40b9983770528137b'
+  /src/Socialite/SocialiteManage.php:
+    newFile: !uuid '30e76a83870611b7660fc9703a4211c4a837fc46'
+    oldFile: !uuid '72c5d0ade23bcbc27f8d3c1c24abd03c262e2217'
+gitCommitId: !uuid '44dded483b5d7655a0cd02a9cd175acd5a351ff0'
 renames: {
   }
-revisionId: 175
+revisionId: 176
