@@ -3,24 +3,18 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid 'c211c3c0f474db4319637ebbdd2a22e654358831'
-    oldFile: !uuid '776488528ef7f96497cdd1872533e121b37d3717'
-  /src/Qcloud:
-    newFile: !uuid 'ac8893b065e442bdc551b33b7a1c3878e5d53cba'
-    oldFile: !uuid 'd0c5559d75d3663219f296350e8e6899a9744e9a'
-  /src/Qcloud/QcloudManage.php:
-    newFile: !uuid 'c94718f5affeab00fd36c572d97c48383c37639d'
-    oldFile: !uuid 'ccb3e4a81cae5ede18126d8c91dd9a27ce15e5bc'
-  /src/Qcloud/QcloudTrait.php:
-    newFile: !uuid '39a113fee46c2e966e2171aa540229b1804fc2e8'
-    oldFile: !uuid '6bebcdb909bd58b5ad48945f3fe87fc788c8c43f'
-  /src/Qcloud/Services:
-    newFile: !uuid '482a3ca095998252793c858446256724197eebb0'
-    oldFile: !uuid '2a91c3bc2aab8c449a5e15edd2daca2a570bd9fb'
-  /src/Qcloud/Services/CaptchaService.php:
-    newFile: !uuid 'ca0dc476f026de376e8cbd6fea4e164df867d618'
-    oldFile: null
-gitCommitId: !uuid 'c766a5d4adb558cbb76c4468f23953500f3c3b9c'
+    newFile: !uuid '203c4d242a6a40278cc9c7010f5db1c5963d8e92'
+    oldFile: !uuid 'c211c3c0f474db4319637ebbdd2a22e654358831'
+  /src/Contracts:
+    newFile: !uuid 'cb81585006944d2e7977d57c0120b6e9a3dfeb92'
+    oldFile: !uuid '25db72ba29c28456b991901aeac915bcdfcdd8f1'
+  /src/Contracts/Setting:
+    newFile: !uuid '3059664166ef215083512c33cdd50af3fc14c4f5'
+    oldFile: !uuid '1b627db097a68993d52b66df4f1029f87e09355a'
+  /src/Contracts/Setting/SettingsRepository.php:
+    newFile: !uuid '57c838f94ba0212db03c6b1fc88def166a4450ca'
+    oldFile: !uuid '908707a76b717074919914129f2baf68d57ee30e'
+gitCommitId: !uuid 'e1946afdeec6b13d14cd146b3d0559e4863abea9'
 renames: {
   }
-revisionId: 181
+revisionId: 182
