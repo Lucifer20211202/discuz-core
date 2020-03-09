@@ -2,31 +2,25 @@
 branches: {
   }
 fileChange:
-  /composer.json:
-    newFile: !uuid '69fad1db1a29304c608aea2c34eab4aa3aeeacd8'
-    oldFile: !uuid 'b5bf71357bfc2b5ba850709c711ba45bed1b13b7'
   /src:
-    newFile: !uuid '776488528ef7f96497cdd1872533e121b37d3717'
-    oldFile: !uuid 'b1dd33b4198ab3954d898dd3cf509e0734802e9d'
-  /src/Api:
-    newFile: !uuid 'bf12f0e0df6cfc83cb01447f6900afc1ca70784b'
-    oldFile: !uuid '853d8307ad58199763687b9d3810507646a897f4'
-  /src/Api/Controller:
-    newFile: !uuid 'eda92e2146aad50c1f40ad86dfd21f738a1bc60a'
-    oldFile: !uuid '23ad0b230c2bc445cec69ba1e7d720608e5b190f'
-  /src/Api/Controller/AbstractSerializeController.php:
-    newFile: !uuid '959b77bd3ba7b4ce24ba54569809b1f80286420d'
-    oldFile: !uuid 'd4050639d99a03a504f123e47f714adde0a0b280'
-  /src/Http:
-    newFile: !uuid '6b5467c389d3ff98a15767edb723d76487a90344'
-    oldFile: !uuid 'fdc795652bb90275ff1586930aaf918658963935'
-  /src/Http/DiscuzResponseFactory.php:
-    newFile: !uuid '4e44134633ae5773b88303083f95b9c6692c43e1'
+    newFile: !uuid 'c211c3c0f474db4319637ebbdd2a22e654358831'
+    oldFile: !uuid '776488528ef7f96497cdd1872533e121b37d3717'
+  /src/Qcloud:
+    newFile: !uuid 'ac8893b065e442bdc551b33b7a1c3878e5d53cba'
+    oldFile: !uuid 'd0c5559d75d3663219f296350e8e6899a9744e9a'
+  /src/Qcloud/QcloudManage.php:
+    newFile: !uuid 'c94718f5affeab00fd36c572d97c48383c37639d'
+    oldFile: !uuid 'ccb3e4a81cae5ede18126d8c91dd9a27ce15e5bc'
+  /src/Qcloud/QcloudTrait.php:
+    newFile: !uuid '39a113fee46c2e966e2171aa540229b1804fc2e8'
+    oldFile: !uuid '6bebcdb909bd58b5ad48945f3fe87fc788c8c43f'
+  /src/Qcloud/Services:
+    newFile: !uuid '482a3ca095998252793c858446256724197eebb0'
+    oldFile: !uuid '2a91c3bc2aab8c449a5e15edd2daca2a570bd9fb'
+  /src/Qcloud/Services/CaptchaService.php:
+    newFile: !uuid 'ca0dc476f026de376e8cbd6fea4e164df867d618'
     oldFile: null
-  /src/Http/Server.php:
-    newFile: !uuid '659bf6491bfd8bc2b471c87f94b3cfbaf6cdcccb'
-    oldFile: !uuid 'dd03c214d9656f4e41acbdf33b4e613632bf95d9'
-gitCommitId: !uuid 'c41fdc88c32ed93ea920f24b3ce4e086b2bada9b'
+gitCommitId: !uuid 'c766a5d4adb558cbb76c4468f23953500f3c3b9c'
 renames: {
   }
-revisionId: 180
+revisionId: 181
