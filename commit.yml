@@ -2,22 +2,31 @@
 branches: {
   }
 fileChange:
+  /composer.json:
+    newFile: !uuid '69fad1db1a29304c608aea2c34eab4aa3aeeacd8'
+    oldFile: !uuid 'b5bf71357bfc2b5ba850709c711ba45bed1b13b7'
   /src:
-    newFile: !uuid 'b1dd33b4198ab3954d898dd3cf509e0734802e9d'
-    oldFile: !uuid 'b6ed1209dd00a9e5ece604732e68bb93a7ce35a1'
+    newFile: !uuid '776488528ef7f96497cdd1872533e121b37d3717'
+    oldFile: !uuid 'b1dd33b4198ab3954d898dd3cf509e0734802e9d'
   /src/Api:
-    newFile: !uuid '853d8307ad58199763687b9d3810507646a897f4'
-    oldFile: !uuid '3514ea29a2f0af402a6554461320f4ec6e16f6d2'
-  /src/Api/ApiServiceProvider.php:
-    newFile: !uuid '9edd9db2e8ec09dd89000d8e45fbad7f37363bb6'
-    oldFile: !uuid 'ef62aa887df1908e0a849ef9e6d86fd6939ab7db'
-  /src/Api/Events:
-    newFile: !uuid '411599c1d1849ee7ffaa6312f41e892b2fc2368c'
-    oldFile: !uuid 'a169250831ed28e29446f7abdd6f3f7e0348e3fe'
-  /src/Api/Events/ConfigMiddleware.php:
-    newFile: !uuid '68106e357b573565912a1c23e62e46c612de8767'
+    newFile: !uuid 'bf12f0e0df6cfc83cb01447f6900afc1ca70784b'
+    oldFile: !uuid '853d8307ad58199763687b9d3810507646a897f4'
+  /src/Api/Controller:
+    newFile: !uuid 'eda92e2146aad50c1f40ad86dfd21f738a1bc60a'
+    oldFile: !uuid '23ad0b230c2bc445cec69ba1e7d720608e5b190f'
+  /src/Api/Controller/AbstractSerializeController.php:
+    newFile: !uuid '959b77bd3ba7b4ce24ba54569809b1f80286420d'
+    oldFile: !uuid 'd4050639d99a03a504f123e47f714adde0a0b280'
+  /src/Http:
+    newFile: !uuid '6b5467c389d3ff98a15767edb723d76487a90344'
+    oldFile: !uuid 'fdc795652bb90275ff1586930aaf918658963935'
+  /src/Http/DiscuzResponseFactory.php:
+    newFile: !uuid '4e44134633ae5773b88303083f95b9c6692c43e1'
     oldFile: null
-gitCommitId: !uuid '1cf1fb8ff06e36aaf1511e3b8e3cc8d9758ca744'
+  /src/Http/Server.php:
+    newFile: !uuid '659bf6491bfd8bc2b471c87f94b3cfbaf6cdcccb'
+    oldFile: !uuid 'dd03c214d9656f4e41acbdf33b4e613632bf95d9'
+gitCommitId: !uuid 'c41fdc88c32ed93ea920f24b3ce4e086b2bada9b'
 renames: {
   }
-revisionId: 179
+revisionId: 180
