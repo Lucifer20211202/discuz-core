@@ -2,25 +2,34 @@
 branches: {
   }
 fileChange:
+  /composer.json:
+    newFile: !uuid '3ad7da0f5d4d4463bc244728108ed8d271144ba6'
+    oldFile: !uuid '69fad1db1a29304c608aea2c34eab4aa3aeeacd8'
   /src:
-    newFile: !uuid 'c1a53adad67b8151335224f2aac7157d723e8e30'
-    oldFile: !uuid '5fe68020837a58fdc7d0aae55b133abf8353288c'
-  /src/Notifications:
-    newFile: !uuid 'c20d4d4895db8e255f6eaadfd3b37c5cd9be3d02'
-    oldFile: !uuid '900ab61219300f13ba867b07cbd184f1f9664f52'
-  /src/Notifications/Channels:
-    newFile: !uuid '21319298ec1717acd2696202faa13b1775e413e7'
-    oldFile: !uuid 'fbb4f53283a7a616ca7bcfe133f32eaa1afa0d1b'
-  /src/Notifications/Channels/WechatChannel.php:
-    newFile: !uuid '23731f1cf80afc1bdfc60abac299c0a4d6728018'
-    oldFile: !uuid '4cc6c10a4a444c2f2656adfd8d7007c9ade71196'
-  /src/Notifications/Messages:
-    newFile: !uuid 'd572a4211ebfe288e6b6117c6a6ec1c59bf69dde'
-    oldFile: !uuid '7c2c7b8085961a7a8e6abd9b20fe478110fb54bf'
-  /src/Notifications/Messages/DatabaseMessage.php:
-    newFile: !uuid '5e57c4d9e98138d16065de574cd26e00c2382df9'
-    oldFile: !uuid 'bfeda28c1431b46fe3dbb6d74440c43831b57f1a'
-gitCommitId: !uuid '287a79352f8153fd26e0a43fb61a2838605c9748'
+    newFile: !uuid 'bef1ab35f3d9b6c632c52b0c9cd21841383892b5'
+    oldFile: !uuid 'c1a53adad67b8151335224f2aac7157d723e8e30'
+  /src/Api:
+    newFile: !uuid '2d59a377fee97c2c8a0691d525d30a1a1135af73'
+    oldFile: !uuid 'eecc839c74ac32b8f14b314aedf1dc4c9505618b'
+  /src/Api/JsonApiResponse.php:
+    newFile: null
+    oldFile: !uuid '3b9e08fa4c7246626e971ef54b18e4ea71947bc4'
+  /src/Api/Middleware:
+    newFile: !uuid 'ef4bffd26f5f729567b4ee7d2d68e3c2af227c8c'
+    oldFile: !uuid '0106db0e6e2fd4d879a4b8c52e13ab0859d448ee'
+  /src/Api/Middleware/InstallMiddle.php:
+    newFile: !uuid '696dc9802b636ab3e07aba897c9429de230cc987'
+    oldFile: !uuid 'cf2723326f94c996a67d3e7e76dedf4c45412613'
+  /src/Http:
+    newFile: !uuid '3922b1eb120642cffc392f9e5e742a4d3d00c41e'
+    oldFile: !uuid '7f1b2616d32bc841c04dd3d7c2d162950decacef'
+  /src/Http/DiscuzResponseFactory.php:
+    newFile: !uuid '88b60542ab297fecbde18e60d6fe78358c561480'
+    oldFile: !uuid 'c6cc3b4a34578553eaa68e07f4724fcbff9136d7'
+  /src/Http/FileResponse.php:
+    newFile: null
+    oldFile: !uuid '71970803feba71b89b115e564cb87cf0d31e0d64'
+gitCommitId: !uuid '243715446455bada0a240e87e8e54fba23f6c0cf'
 renames: {
   }
-revisionId: 184
+revisionId: 185
