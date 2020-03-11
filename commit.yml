@@ -3,18 +3,15 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid '85c3ee15bff8f2291bdb26aeb6458ea4ba1a7f79'
-    oldFile: !uuid '90704dc65987cb878a99d5e2412b1b782112f960'
-  /src/Notifications:
-    newFile: !uuid 'db44b81dd43939af8e4ab11f4ecde8807ac423bd'
-    oldFile: !uuid 'c20d4d4895db8e255f6eaadfd3b37c5cd9be3d02'
-  /src/Notifications/Messages:
-    newFile: !uuid '371f9051f2c2669c9c8d45e8a11809a20f9af073'
-    oldFile: !uuid 'd572a4211ebfe288e6b6117c6a6ec1c59bf69dde'
-  /src/Notifications/Messages/DatabaseMessage.php:
-    newFile: !uuid '93d636f71633df95c4c16a6dc1ab6a3770a342cf'
-    oldFile: !uuid '5e57c4d9e98138d16065de574cd26e00c2382df9'
-gitCommitId: !uuid '53734a12537425dcac09b32cfa5ca3a8f330f8b0'
+    newFile: !uuid '878afface0b7723ae3507cfccf5f9d007f5a13f7'
+    oldFile: !uuid '85c3ee15bff8f2291bdb26aeb6458ea4ba1a7f79'
+  /src/Http:
+    newFile: !uuid 'f810fac4c94a6a4f71f8f1b29c820a1dfba50cab'
+    oldFile: !uuid '3922b1eb120642cffc392f9e5e742a4d3d00c41e'
+  /src/Http/DiscuzResponseFactory.php:
+    newFile: !uuid '32b4b7feae9753433d543105aa6da2d57370eb60'
+    oldFile: !uuid '88b60542ab297fecbde18e60d6fe78358c561480'
+gitCommitId: !uuid '38d720d03212410399e450927f0e3f2ead43a4d4'
 renames: {
   }
-revisionId: 187
+revisionId: 188
