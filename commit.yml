@@ -2,22 +2,157 @@
 branches: {
   }
 fileChange:
+  /LICENSE:
+    newFile: null
+    oldFile: !uuid '2ab43efb02feae9889b7c9b7b693280eccc76c51'
+  /composer.json:
+    newFile: !uuid '5026565b18b55f1122842721f5f48a7a6ea61d9d'
+    oldFile: !uuid '3ad7da0f5d4d4463bc244728108ed8d271144ba6'
   /src:
-    newFile: !uuid '6ecfde11d077ed372fdb972f7698180f77bf42b5'
-    oldFile: !uuid '9fa2ba6e17445c372846da1d8c66a1496862bb46'
+    newFile: !uuid '8cca8ea2b1bbb70221ad1869fde0131651c5e8bc'
+    oldFile: !uuid '6ecfde11d077ed372fdb972f7698180f77bf42b5'
+  /src/Api:
+    newFile: !uuid 'db5cd22ae564a3c05f26072c3efd86156ffa8581'
+    oldFile: !uuid '2d59a377fee97c2c8a0691d525d30a1a1135af73'
+  /src/Api/Events:
+    newFile: !uuid '202c02afab28cf18761a6b4b5165e1b23338560e'
+    oldFile: !uuid '411599c1d1849ee7ffaa6312f41e892b2fc2368c'
+  /src/Api/Events/ConfigMiddleware.php:
+    newFile: !uuid '172e3223c7406868f3c040543c87af7651e4a33a'
+    oldFile: !uuid '68106e357b573565912a1c23e62e46c612de8767'
+  /src/Api/Middleware:
+    newFile: !uuid '84dd6bb3fd173a80f12ddf2f778dd32e0e9d0cd1'
+    oldFile: !uuid 'ef4bffd26f5f729567b4ee7d2d68e3c2af227c8c'
+  /src/Api/Middleware/InstallMiddle.php:
+    newFile: !uuid '82598e6509077a8ae3e8042b6bd806bab1586e51'
+    oldFile: !uuid '696dc9802b636ab3e07aba897c9429de230cc987'
+  /src/Console:
+    newFile: !uuid '94cccbe7d0f488d079306cc3f4fc5c43aaa230d9'
+    oldFile: !uuid '3048138989b32816e09d736b78fe86fcbb66501e'
+  /src/Console/ConsoleServiceProvider.php:
+    newFile: !uuid 'd9cc8d11c8c436591173fdcb250a693585c7d49e'
+    oldFile: !uuid 'e09dc22e9afc3251498987c3d0d31f5fe3e4dbc0'
+  /src/Console/Kernel.php:
+    newFile: !uuid '1c612962a5add48265cf710739a5d2a6cfc5758b'
+    oldFile: !uuid '8a9e5cf2d9446ac42c5cd84c55d80f210fa240e1'
+  /src/Database:
+    newFile: !uuid '5afffb0a1c602f1e5a10b69c30a8b8f6f8d09180'
+    oldFile: !uuid '8efb798044ca59181477ceb7aaaae6a0f0f7ef69'
+  /src/Database/Console:
+    newFile: !uuid 'f46155009659b307c84b445c3fa5cf4991cac55b'
+    oldFile: !uuid '418aa544b8990505f53b2af4ed94eba65155008e'
+  /src/Database/Console/MigrateMakeCommand.php:
+    newFile: !uuid '11ddde9d0f90165bbc30580fc47066d20d2983f4'
+    oldFile: !uuid 'c7c7435c0fb47f3d5925fe1ba43b9bf4bb8feec2'
+  /src/Database/DatabaseServiceProvider.php:
+    newFile: !uuid '8971bd128151acd8d28f3e8de0fb1507fbcc274a'
+    oldFile: !uuid '0fa04384fcdb84b33e01fc160e20cfba705587bf'
+  /src/Database/MigrationServiceProvider.php:
+    newFile: !uuid '16406a56e27f6208f90b7662b31eea6e4f6a2375'
+    oldFile: !uuid '90609d7019ddf10d1994caa56c6499a4a9558dc4'
+  /src/Database/Migrator.php:
+    newFile: !uuid '4a4bb72a80bf3a33776fbbfa0463b2fe3eb4ba4f'
+    oldFile: !uuid '5b47571b51b48b5c5c1eae893b1da555108a1de8'
+  /src/Filesystem:
+    newFile: !uuid '541d574c50fb45dab89150cdd54fe92f11bf3e1b'
+    oldFile: !uuid 'c5e56a7d3bcc13f07aa27abf3bb87fb91af6e214'
+  /src/Filesystem/FilesystemServiceProvider.php:
+    newFile: !uuid '754103e34960d8e77e5547e14e225fc44c31bce5'
+    oldFile: !uuid '36a572d56eb59e5049e4d20833620317f60943f5'
+  /src/Foundation:
+    newFile: !uuid 'ad6f45085a3666d15a6b92729d08c027a319ae1f'
+    oldFile: !uuid '418f6c513ad22e8c351cd042463520ad61cb237c'
+  /src/Foundation/Application.php:
+    newFile: !uuid '10ffcf34e00106daf7913bcd869606ccb575793d'
+    oldFile: !uuid '68ac94b0fbf9641f722632759abebbcec8b22094'
+  /src/Foundation/SiteApp.php:
+    newFile: !uuid '1e4bdfd90c12fe4662cf0d8294c5694ca75012c4'
+    oldFile: !uuid '44703475e339751f37c68458dc8ca1e8eaf72758'
+  /src/Http:
+    newFile: !uuid '6a4cfd550b8e7b71992427253e138a564870122c'
+    oldFile: !uuid 'f810fac4c94a6a4f71f8f1b29c820a1dfba50cab'
+  /src/Http/DiscuzResponseFactory.php:
+    newFile: !uuid 'afcf262c5c3e8a4d59b4dade73a834aff288660d'
+    oldFile: !uuid '32b4b7feae9753433d543105aa6da2d57370eb60'
+  /src/Http/Exception:
+    newFile: !uuid '07f77d5f24466d2326a8be4be7baf95c99ddff40'
+    oldFile: !uuid 'bc824e5e204936968f65856bb1dbfe0e86f8f0a2'
+  /src/Http/Exception/NotConfig.php:
+    newFile: !uuid '409a91f0b783114f0baa0755ab68fc092c1839d7'
+    oldFile: !uuid 'e1c8ef8a345b3a7efcb843fb929b324cddea376c'
+  /src/Http/Middleware:
+    newFile: !uuid '0c2890119940dd5a6fd1c45a96d756e0c393a827'
+    oldFile: !uuid '4c234250b29167a75b7394d92f2f9e0cc16a366b'
+  /src/Http/Middleware/AuthenticateWithHeader.php:
+    newFile: !uuid 'e163f64af0a95907678733fdcf04d7b9186ca4b6'
+    oldFile: !uuid '27dd42cfc3785f11c6f9f103c44e47e59bac8946'
+  /src/Http/Middleware/RequestHandler.php:
+    newFile: !uuid '33f403ab65c8451e5a9c1ac4e835500b82c81f9e'
+    oldFile: !uuid '68558358db44b7c23f841424b352e842118473c7'
+  /src/Http/UrlGenerator.php:
+    newFile: !uuid 'ff5d0c5651ab0d84d8190c8d3ddf0bac4333c534'
+    oldFile: !uuid '9e06f4e23a9ea0ac57bdd10292a47d6402653681'
+  /src/Locale:
+    newFile: !uuid '820c44a144ece8ad49f534a80e38c1f6fe172c99'
+    oldFile: !uuid '012e6b244f1969b19d559eafc68abd0320f368dd'
+  /src/Locale/AbstractLocaleException.php:
+    newFile: !uuid '2d73b4a00f84ff97b9b8ffb41f22e7d6cf797be0'
+    oldFile: !uuid 'ba8a901569b4f67962097fc800b2ddf635598dc6'
+  /src/Notifications:
+    newFile: !uuid '3fb7c34cdd690975b599566fb11b5bf4c87a1b39'
+    oldFile: !uuid 'db44b81dd43939af8e4ab11f4ecde8807ac423bd'
+  /src/Notifications/ChannelManager.php:
+    newFile: !uuid '401825f51538fccb7a6ed23a91177f988391cd08'
+    oldFile: !uuid '558c54d0d5fd8fd06c7ee05c93f4e9b092aa4521'
+  /src/Notifications/Channels:
+    newFile: !uuid '76351967cbc8af3365dd4a2457bc73d0df579f0c'
+    oldFile: !uuid '21319298ec1717acd2696202faa13b1775e413e7'
+  /src/Notifications/Channels/DatabaseChannel.php:
+    newFile: !uuid 'd81c752a0cecfad18a63ca43a039aea15ccc1f95'
+    oldFile: !uuid 'e4e3dfe50717f38ebfbcd4f36259af3cabf8e964'
+  /src/Notifications/Channels/WechatChannel.php:
+    newFile: !uuid 'e5fab2f57b13a4ea36aacad9038560f48c271d70'
+    oldFile: !uuid '23731f1cf80afc1bdfc60abac299c0a4d6728018'
+  /src/Notifications/NotificationSender.php:
+    newFile: !uuid '1044cdfd509499b3c41032a343211aec8bd505eb'
+    oldFile: !uuid 'ac69c005b2821482454d97475b3eceaffe4617af'
+  /src/Notifications/NotificationServiceProvider.php:
+    newFile: !uuid '8713cd4c7571a2b4668e95aee7c18ac7f1e04df4'
+    oldFile: !uuid '34809189792b3c3780b9c49edb4f78bdaffe195c'
   /src/Qcloud:
-    newFile: !uuid 'fc43079fb7a9c86ed865752160f72bac147c0e7c'
-    oldFile: !uuid 'bc5d650d51b80daaed0bae814a7505477923c548'
-  /src/Qcloud/QcloudTrait.php:
-    newFile: !uuid '899f1f2f6e5589f66c2b8496e0cde8f242744cb1'
-    oldFile: !uuid 'b6f6ed6c7383f14b1e7426eb94f8671e30563dae'
+    newFile: !uuid 'ae04b33648b859f115aaaf813df6be9ad8a9e873'
+    oldFile: !uuid 'fc43079fb7a9c86ed865752160f72bac147c0e7c'
   /src/Qcloud/Services:
-    newFile: !uuid '29d74bccacbba38622bb15e711634e650547fa5c'
-    oldFile: !uuid 'a75454617e120be65f1f88808e711c71fececbbc'
+    newFile: !uuid '5a94097d4d1ec891af5d0138fe885fcc914fce84'
+    oldFile: !uuid '29d74bccacbba38622bb15e711634e650547fa5c'
+  /src/Qcloud/Services/FaceidService.php:
+    newFile: !uuid '75f5af0547dad5cdc2af29fe547f46b2f49a1439'
+    oldFile: !uuid '517b9033a0788735cb092098378a302f8deb963a'
   /src/Qcloud/Services/VodService.php:
-    newFile: !uuid '52d324ce18f8de8a2046960227864ce86b4486de'
-    oldFile: !uuid 'a8fe2b98fdfb7f5f98b86053836a58cc9423d275'
-gitCommitId: !uuid '9faef5b49ab89f0854fc97140fee5486ff14de60'
+    newFile: !uuid 'fafbce0d45f90e7e5977cb0ad91a0a81ad4d34da'
+    oldFile: !uuid '52d324ce18f8de8a2046960227864ce86b4486de'
+  /src/Socialite:
+    newFile: !uuid '96c86c4d0c1951d1ef90d3690124d2dcc7bb87d1'
+    oldFile: !uuid 'c08f6c0cf4f80752b6f3b9c028c4c7fb2d1d697b'
+  /src/Socialite/Two:
+    newFile: !uuid 'b35cccf8e3c4f37c51b9dc0e76d627414aef93a1'
+    oldFile: !uuid 'd60a8eb694b458e577f39d4c26166a0dedaf1813'
+  /src/Socialite/Two/AbstractProvider.php:
+    newFile: !uuid '0c8ac2e02d6b9b572dae1bc3852894d28fdb9824'
+    oldFile: !uuid '0646f9cf5055604b68f0d2b2da34d98dde4d7da2'
+  /src/Socialite/Two/WechatProvider.php:
+    newFile: !uuid '7fa3f30123c6ab63f29219ceda955b4ac5ffeed7'
+    oldFile: !uuid 'c4b283507f9fa19421b81e4ddf5125e8bea8ef3c'
+  /src/Socialite/Two/WechatWebProvider.php:
+    newFile: !uuid '75b91086352dd7932d6838943e64073efaae3b40'
+    oldFile: !uuid 'e9ac74d30c7affba6fb86b53828ff09311146626'
+  /src/Web:
+    newFile: !uuid '795ccd737d98919f35498e14dc916dcafa814eb0'
+    oldFile: !uuid 'daa84dc7a15bda9506f58a970837903c60a4d140'
+  /src/Web/WebServiceProvider.php:
+    newFile: !uuid '29fea25e5c1e88bf69f7d2c2fdd86ca953c00d4d'
+    oldFile: !uuid '801b04f060e4e3fc97d2e319a77c403a864cb32d'
+gitCommitId: !uuid '4647d52982d94265846a305ace015288b3f3906b'
 renames: {
   }
-revisionId: 192
+revisionId: 193
