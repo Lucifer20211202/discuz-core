@@ -2,10 +2,16 @@
 branches: {
   }
 fileChange:
-  /.php_cs:
-    newFile: null
-    oldFile: !uuid '32802a17c246286763b99e0e5a242ea1b9263b40'
-gitCommitId: !uuid 'ae734c83d2f6114de35e03d98b6c8900c8303e34'
+  /src:
+    newFile: !uuid '3defcd23c04d859445da228330021f2d4e54a0f0'
+    oldFile: !uuid '8cca8ea2b1bbb70221ad1869fde0131651c5e8bc'
+  /src/Qcloud:
+    newFile: !uuid '767f171e09eda63a77cfab75f3a1ee277907dd5f'
+    oldFile: !uuid 'ae04b33648b859f115aaaf813df6be9ad8a9e873'
+  /src/Qcloud/QcloudManage.php:
+    newFile: !uuid 'acf46ea71ad6f1e87474a623c38851caa2801ad2'
+    oldFile: !uuid '1769e0a9bf1b11dcbc3df27c1cb02b1fc4db64e6'
+gitCommitId: !uuid '5c8be86a700af9ff69155b3943b58c422b4b01fe'
 renames: {
   }
-revisionId: 194
+revisionId: 195
