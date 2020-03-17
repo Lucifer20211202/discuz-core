@@ -3,21 +3,18 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid '75d92f84cec13927605f1263589cae89466aa8fc'
-    oldFile: !uuid '3defcd23c04d859445da228330021f2d4e54a0f0'
+    newFile: !uuid '01aee7e652769cab05146e83998cd6ef70d45dbf'
+    oldFile: !uuid '75d92f84cec13927605f1263589cae89466aa8fc'
   /src/Api:
-    newFile: !uuid '21b922e16b80e7115ab5ce688ea50fbb0c515c21'
-    oldFile: !uuid 'db5cd22ae564a3c05f26072c3efd86156ffa8581'
-  /src/Api/ApiServiceProvider.php:
-    newFile: !uuid '5ca3467b77846028e5e4fc850e07abb4ac566e58'
-    oldFile: !uuid '9edd9db2e8ec09dd89000d8e45fbad7f37363bb6'
+    newFile: !uuid 'a7bef6ed1b96721d9156165029ddf81a1bf64358'
+    oldFile: !uuid '21b922e16b80e7115ab5ce688ea50fbb0c515c21'
   /src/Api/Middleware:
-    newFile: !uuid '4e6872dcedb35f990f344897aad567614f58ca73'
-    oldFile: !uuid '84dd6bb3fd173a80f12ddf2f778dd32e0e9d0cd1'
-  /src/Api/Middleware/InstallMiddleware.php:
-    newFile: !uuid 'db1b32f5c93b4e7c2f1fd9b3aa288c740ca067cc'
-    oldFile: null
-gitCommitId: !uuid '4c396c069ef6d1d46e6886b1b23be9d9c3c36762'
+    newFile: !uuid '236dbf00ab46727b7c852ce8598b04ec23df6a03'
+    oldFile: !uuid '4e6872dcedb35f990f344897aad567614f58ca73'
+  /src/Api/Middleware/InstallMiddle.php:
+    newFile: null
+    oldFile: !uuid '82598e6509077a8ae3e8042b6bd806bab1586e51'
+gitCommitId: !uuid 'c3708c5d72ffd70883654b95dd91aab6efd61b97'
 renames: {
   }
-revisionId: 196
+revisionId: 197
