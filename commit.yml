@@ -3,15 +3,21 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid '3defcd23c04d859445da228330021f2d4e54a0f0'
-    oldFile: !uuid '8cca8ea2b1bbb70221ad1869fde0131651c5e8bc'
-  /src/Qcloud:
-    newFile: !uuid '767f171e09eda63a77cfab75f3a1ee277907dd5f'
-    oldFile: !uuid 'ae04b33648b859f115aaaf813df6be9ad8a9e873'
-  /src/Qcloud/QcloudManage.php:
-    newFile: !uuid 'acf46ea71ad6f1e87474a623c38851caa2801ad2'
-    oldFile: !uuid '1769e0a9bf1b11dcbc3df27c1cb02b1fc4db64e6'
-gitCommitId: !uuid '5c8be86a700af9ff69155b3943b58c422b4b01fe'
+    newFile: !uuid '75d92f84cec13927605f1263589cae89466aa8fc'
+    oldFile: !uuid '3defcd23c04d859445da228330021f2d4e54a0f0'
+  /src/Api:
+    newFile: !uuid '21b922e16b80e7115ab5ce688ea50fbb0c515c21'
+    oldFile: !uuid 'db5cd22ae564a3c05f26072c3efd86156ffa8581'
+  /src/Api/ApiServiceProvider.php:
+    newFile: !uuid '5ca3467b77846028e5e4fc850e07abb4ac566e58'
+    oldFile: !uuid '9edd9db2e8ec09dd89000d8e45fbad7f37363bb6'
+  /src/Api/Middleware:
+    newFile: !uuid '4e6872dcedb35f990f344897aad567614f58ca73'
+    oldFile: !uuid '84dd6bb3fd173a80f12ddf2f778dd32e0e9d0cd1'
+  /src/Api/Middleware/InstallMiddleware.php:
+    newFile: !uuid 'db1b32f5c93b4e7c2f1fd9b3aa288c740ca067cc'
+    oldFile: null
+gitCommitId: !uuid '4c396c069ef6d1d46e6886b1b23be9d9c3c36762'
 renames: {
   }
-revisionId: 195
+revisionId: 196
