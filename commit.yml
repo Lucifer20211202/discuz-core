@@ -2,19 +2,19 @@
 branches: {
   }
 fileChange:
+  /composer.json:
+    newFile: !uuid 'a83eb7b0d5f54bdf2b3265741a69f9d7234382de'
+    oldFile: !uuid '5026565b18b55f1122842721f5f48a7a6ea61d9d'
   /src:
-    newFile: !uuid '01aee7e652769cab05146e83998cd6ef70d45dbf'
-    oldFile: !uuid '75d92f84cec13927605f1263589cae89466aa8fc'
-  /src/Api:
-    newFile: !uuid 'a7bef6ed1b96721d9156165029ddf81a1bf64358'
-    oldFile: !uuid '21b922e16b80e7115ab5ce688ea50fbb0c515c21'
-  /src/Api/Middleware:
-    newFile: !uuid '236dbf00ab46727b7c852ce8598b04ec23df6a03'
-    oldFile: !uuid '4e6872dcedb35f990f344897aad567614f58ca73'
-  /src/Api/Middleware/InstallMiddle.php:
-    newFile: null
-    oldFile: !uuid '82598e6509077a8ae3e8042b6bd806bab1586e51'
-gitCommitId: !uuid 'c3708c5d72ffd70883654b95dd91aab6efd61b97'
+    newFile: !uuid 'c783cfed6ec77a36c41b33c064756183e168569e'
+    oldFile: !uuid '01aee7e652769cab05146e83998cd6ef70d45dbf'
+  /src/Console:
+    newFile: !uuid 'ebfa2fbede56b8013f53458400f8797588e004cf'
+    oldFile: !uuid '94cccbe7d0f488d079306cc3f4fc5c43aaa230d9'
+  /src/Console/Kernel.php:
+    newFile: !uuid '03c291834c44df285ad8869932c71e05e46d58ce'
+    oldFile: !uuid '1c612962a5add48265cf710739a5d2a6cfc5758b'
+gitCommitId: !uuid '59bfb623985a35ae34a5f99a13ee9bf979879a99'
 renames: {
   }
-revisionId: 197
+revisionId: 198
