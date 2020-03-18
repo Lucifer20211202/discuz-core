@@ -3,15 +3,15 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid 'f107170cb3101f664f8a8b3d494567bbb1576811'
-    oldFile: !uuid 'c783cfed6ec77a36c41b33c064756183e168569e'
-  /src/Web:
-    newFile: !uuid '6dbdf263186d1f8aefc33f9dba4266c09f4ba706'
-    oldFile: !uuid '795ccd737d98919f35498e14dc916dcafa814eb0'
-  /src/Web/WebServiceProvider.php:
-    newFile: !uuid '1d6cf2884c0ea3722868800be7688736e444137d'
-    oldFile: !uuid '29fea25e5c1e88bf69f7d2c2fdd86ca953c00d4d'
-gitCommitId: !uuid 'e50d0002b7e693ebc32d29c5ff8594f6fa52a3f2'
+    newFile: !uuid '3719f455267cbdf4ac3cd9a6796ea69a8cbee6dd'
+    oldFile: !uuid 'f107170cb3101f664f8a8b3d494567bbb1576811'
+  /src/Socialite:
+    newFile: !uuid '3a030ffd25dc35d6df584735bb0999480ec9c939'
+    oldFile: !uuid '96c86c4d0c1951d1ef90d3690124d2dcc7bb87d1'
+  /src/Socialite/SocialiteManage.php:
+    newFile: !uuid '4f26826ac4633ba57e408c467c8c4eda1fe51a1f'
+    oldFile: !uuid '6a017362b0180bdac24719cac58b0152fc3b6e73'
+gitCommitId: !uuid '2951626d3dbdee0a1af45e2565f8adaf9475c028'
 renames: {
   }
-revisionId: 199
+revisionId: 200
