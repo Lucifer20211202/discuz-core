@@ -3,18 +3,18 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid '36f93dd168e18871b1da7224a1f6d584ed10a5ad'
-    oldFile: !uuid 'b8f233791bebc348fd76e8c744be7c0cbcf93fe9'
-  /src/Notifications:
-    newFile: !uuid '291f9394f063a634e30898797203e6d92fa5ec06'
-    oldFile: !uuid '3fb7c34cdd690975b599566fb11b5bf4c87a1b39'
-  /src/Notifications/Channels:
-    newFile: !uuid 'b0fd49ed282ca596b73b95e511bae1bdb171a06f'
-    oldFile: !uuid '76351967cbc8af3365dd4a2457bc73d0df579f0c'
-  /src/Notifications/Channels/WechatChannel.php:
-    newFile: !uuid 'a571d1ef88e6f217b2ff7f3080c6635fc13711e7'
-    oldFile: !uuid 'e5fab2f57b13a4ea36aacad9038560f48c271d70'
-gitCommitId: !uuid 'e47b22b83ac31fca694c724fe4e126a8bb789cb2'
+    newFile: !uuid 'a7d976674f5e040ec3d9a8773bc75875b3d87ce2'
+    oldFile: !uuid '36f93dd168e18871b1da7224a1f6d584ed10a5ad'
+  /src/Qcloud:
+    newFile: !uuid 'bcc435c85b9456eaac2a20fcf675d962a5309cac'
+    oldFile: !uuid '767f171e09eda63a77cfab75f3a1ee277907dd5f'
+  /src/Qcloud/Services:
+    newFile: !uuid 'e930c00be1d0e942b605783687ae78439afc648f'
+    oldFile: !uuid '5a94097d4d1ec891af5d0138fe885fcc914fce84'
+  /src/Qcloud/Services/VodService.php:
+    newFile: !uuid '8430d6b9b9a9e1f5b95b44ecbc05e46cd2bea703'
+    oldFile: !uuid 'fafbce0d45f90e7e5977cb0ad91a0a81ad4d34da'
+gitCommitId: !uuid '4f4429902ce4445d2b8439cb9a33333f95ac8204'
 renames: {
   }
-revisionId: 202
+revisionId: 203
