@@ -3,18 +3,15 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid '3971ed8bc7429450226de55a66baea75f75d9d74'
-    oldFile: !uuid '7fc1e196668cafb6c8e6ffe15809722c9fd2ee29'
-  /src/Api:
-    newFile: !uuid 'ce3e94ac14ff697b1bb2a80f59f00a5ef3e9aee7'
-    oldFile: !uuid 'a7bef6ed1b96721d9156165029ddf81a1bf64358'
-  /src/Api/ExceptionHandler:
-    newFile: !uuid 'a9cc82d54fe325527ad475eb92907bd988df5652'
-    oldFile: !uuid '501b5e78df50b543f12fad4aa3a7f8d066f89d98'
-  /src/Api/ExceptionHandler/PermissionDeniedExceptionHandler.php:
-    newFile: !uuid '0a9c8667eec8082bd391b5fafcf40dbc502af801'
-    oldFile: !uuid '3b983b0767db8645aa9869497c042760fb7fb555'
-gitCommitId: !uuid 'b4c0decaea558a038e83e4f11edeed78eb9bed30'
+    newFile: !uuid '0bd2c782437a83bc47b5173c25e43b0f7c853863'
+    oldFile: !uuid '3971ed8bc7429450226de55a66baea75f75d9d74'
+  /src/Foundation:
+    newFile: !uuid '49beaab82ed5e1d4358401c523cefb07d1049e8b'
+    oldFile: !uuid '2087e0d09917c5e5b091767b2ee7941f6c95281e'
+  /src/Foundation/Application.php:
+    newFile: !uuid '21b68f6d7fc67160259f1f74d7d655da4f104d68'
+    oldFile: !uuid '6b5763f1afc7074a653fc11b5214de9307e3731a'
+gitCommitId: !uuid '97b1e310cf80be7d0cafe1a39a6924e0c627ed2b'
 renames: {
   }
-revisionId: 205
+revisionId: 206
