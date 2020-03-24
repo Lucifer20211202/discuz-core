@@ -3,27 +3,18 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid '73e2897d34c271f39e63daacf41abe76b5155f04'
-    oldFile: !uuid '0bd2c782437a83bc47b5173c25e43b0f7c853863'
-  /src/Socialite:
-    newFile: !uuid 'df0b33453c7da29ea76fea1159c9f9addbc3f7ee'
-    oldFile: !uuid '3a030ffd25dc35d6df584735bb0999480ec9c939'
-  /src/Socialite/SocialiteManage.php:
-    newFile: !uuid '84e07701dcf115931d2c8c5c06c304df7a738e85'
-    oldFile: !uuid '4f26826ac4633ba57e408c467c8c4eda1fe51a1f'
-  /src/Socialite/Two:
-    newFile: !uuid '3193b421f5dad50c5c22005f920a2d35a5f1258e'
-    oldFile: !uuid 'b35cccf8e3c4f37c51b9dc0e76d627414aef93a1'
-  /src/Socialite/Two/AbstractProvider.php:
-    newFile: !uuid '6bd63b1379ebcc2d881bd08047557c3124f80624'
-    oldFile: !uuid '0c8ac2e02d6b9b572dae1bc3852894d28fdb9824'
-  /src/Socialite/Two/WechatProvider.php:
-    newFile: !uuid 'f5788346cf2d74ef80b3fe895a16d6aa754cc046'
-    oldFile: !uuid '7fa3f30123c6ab63f29219ceda955b4ac5ffeed7'
-  /src/Socialite/Two/WechatWebProvider.php:
-    newFile: !uuid 'ec5983b8b5745803b82ce692324a2e92200709d9'
-    oldFile: !uuid '75b91086352dd7932d6838943e64073efaae3b40'
-gitCommitId: !uuid '7baaacc9400ff5b758b8d12e897a9b3e3e554ce8'
+    newFile: !uuid '341a6aff38aac7b2a49ee35fbd7744748dbb2c02'
+    oldFile: !uuid '73e2897d34c271f39e63daacf41abe76b5155f04'
+  /src/Notifications:
+    newFile: !uuid '72e7da80ae1dda4c86ecd540df901e265b320e6c'
+    oldFile: !uuid '291f9394f063a634e30898797203e6d92fa5ec06'
+  /src/Notifications/Messages:
+    newFile: !uuid '16c65442c066c42df0b4d2b215fbfaa6931de698'
+    oldFile: !uuid '371f9051f2c2669c9c8d45e8a11809a20f9af073'
+  /src/Notifications/Messages/DatabaseMessage.php:
+    newFile: !uuid 'e9fd6c98f3e818817490ab1136507129e2b88468'
+    oldFile: !uuid '93d636f71633df95c4c16a6dc1ab6a3770a342cf'
+gitCommitId: !uuid 'c77e71054dc8919a7481e372d3a3c6f1764a9b3e'
 renames: {
   }
-revisionId: 207
+revisionId: 208
