@@ -3,27 +3,24 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid 'd104b2dd4b9e84999f8110411eb548ec6b121b7d'
-    oldFile: !uuid 'dfcffb3beb62856c9a40bbadb1a0d5d85b20ea0b'
+    newFile: !uuid '8a7b0b7001bc3d4ec37bc96070a4f214c1f412b6'
+    oldFile: !uuid 'd104b2dd4b9e84999f8110411eb548ec6b121b7d'
   /src/Foundation:
-    newFile: !uuid 'a4cfe5415705a9749e7c5a7ca01c3638f788b381'
-    oldFile: !uuid '49beaab82ed5e1d4358401c523cefb07d1049e8b'
+    newFile: !uuid '7ceb1f3891ee56ccf01b19d16908710b2dfa77e7'
+    oldFile: !uuid 'a4cfe5415705a9749e7c5a7ca01c3638f788b381'
   /src/Foundation/helpers.php:
-    newFile: !uuid 'f4a6edba3f6e53c7948a88a94d6ced371452466b'
-    oldFile: !uuid '3559d07b0710d4b8b7a3ef511d642a156d4a5618'
-  /src/Qcloud:
-    newFile: !uuid 'c6dd3dd9686e22c489b6501a316591883ef54854'
-    oldFile: !uuid '6384fe3bdfe95b16dee74dace87e574cd538772d'
-  /src/Qcloud/QcloudTrait.php:
-    newFile: !uuid '065f84bc292d8e264676205291a840101e809440'
-    oldFile: !uuid '4051124153f7e293c201867defc4adb224a276c2'
-  /src/Qcloud/Services:
-    newFile: !uuid 'c96a8a4558dfa7ee19e607cd1af0e06fd092fef6'
-    oldFile: !uuid 'ee338cdf41dea26119d7749c0e6ada04944d2047'
-  /src/Qcloud/Services/VodService.php:
-    newFile: !uuid 'a13799845fa48f67675b3dd170fc664cab3fd7ea'
-    oldFile: !uuid '52fd9472d1eac2d23a388674e74f8903c5f55df0'
-gitCommitId: !uuid 'd73ad4614662c96ac988c54126b31d4d7818cc65'
+    newFile: !uuid '0d873b9c2f3f566d1fc382c3ee1e72e7e5b24c4b'
+    oldFile: !uuid 'f4a6edba3f6e53c7948a88a94d6ced371452466b'
+  /src/Http:
+    newFile: !uuid '1461aea92d9cac68a4e45251cc5a42e68b69d57b'
+    oldFile: !uuid 'c554c7251c521f72515999b16b7a93d2558fc406'
+  /src/Http/Middleware:
+    newFile: !uuid '23723e96c1525f38689335198172c4a0c9d462f9'
+    oldFile: !uuid '0c2890119940dd5a6fd1c45a96d756e0c393a827'
+  /src/Http/Middleware/AuthenticateWithHeader.php:
+    newFile: !uuid 'bf622c3756bf3ad99dfe6e6a4b44ca70f06d11a4'
+    oldFile: !uuid 'e163f64af0a95907678733fdcf04d7b9186ca4b6'
+gitCommitId: !uuid 'ecc9eb5d38d74a8de60bafa57d6b9f06da5e2852'
 renames: {
   }
-revisionId: 210
+revisionId: 211
