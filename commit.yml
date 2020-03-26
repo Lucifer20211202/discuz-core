@@ -3,18 +3,18 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid '4aaad16f6249a1f5c09bafa9195d85035d7d009d'
-    oldFile: !uuid '8a7b0b7001bc3d4ec37bc96070a4f214c1f412b6'
-  /src/Socialite:
-    newFile: !uuid 'ed9e91aa4fde3a9954d032b1063b58e478306e8f'
-    oldFile: !uuid 'df0b33453c7da29ea76fea1159c9f9addbc3f7ee'
-  /src/Socialite/Two:
-    newFile: !uuid 'd877048ec30857e183a521d6b7820f4f84b5b255'
-    oldFile: !uuid '3193b421f5dad50c5c22005f920a2d35a5f1258e'
-  /src/Socialite/Two/AbstractProvider.php:
-    newFile: !uuid '0ae4e6d1fa432dcf72a83140c5cfe291c74544b3'
-    oldFile: !uuid '6bd63b1379ebcc2d881bd08047557c3124f80624'
-gitCommitId: !uuid '33a25566b75f1329858d1d67bebff6fcdb74474a'
+    newFile: !uuid '8c181b7b39ad20dc5a94a28496c10bc3d71e242e'
+    oldFile: !uuid '4aaad16f6249a1f5c09bafa9195d85035d7d009d'
+  /src/Notifications:
+    newFile: !uuid '3cc9f4f2f20157ca45bc29806f320f58787d3f10'
+    oldFile: !uuid '72e7da80ae1dda4c86ecd540df901e265b320e6c'
+  /src/Notifications/Messages:
+    newFile: !uuid 'c4c612b53cdaabc63fea26e952fda191fdd44971'
+    oldFile: !uuid '16c65442c066c42df0b4d2b215fbfaa6931de698'
+  /src/Notifications/Messages/DatabaseMessage.php:
+    newFile: !uuid 'fffecf480968b06f90fb30eedaa859096192163e'
+    oldFile: !uuid 'e9fd6c98f3e818817490ab1136507129e2b88468'
+gitCommitId: !uuid 'cb2bec0fd1d06bc1f1d6103670e0456eb44b1656'
 renames: {
   }
-revisionId: 212
+revisionId: 213
