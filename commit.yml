@@ -3,18 +3,15 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid '8c181b7b39ad20dc5a94a28496c10bc3d71e242e'
-    oldFile: !uuid '4aaad16f6249a1f5c09bafa9195d85035d7d009d'
-  /src/Notifications:
-    newFile: !uuid '3cc9f4f2f20157ca45bc29806f320f58787d3f10'
-    oldFile: !uuid '72e7da80ae1dda4c86ecd540df901e265b320e6c'
-  /src/Notifications/Messages:
-    newFile: !uuid 'c4c612b53cdaabc63fea26e952fda191fdd44971'
-    oldFile: !uuid '16c65442c066c42df0b4d2b215fbfaa6931de698'
-  /src/Notifications/Messages/DatabaseMessage.php:
-    newFile: !uuid 'fffecf480968b06f90fb30eedaa859096192163e'
-    oldFile: !uuid 'e9fd6c98f3e818817490ab1136507129e2b88468'
-gitCommitId: !uuid 'cb2bec0fd1d06bc1f1d6103670e0456eb44b1656'
+    newFile: !uuid '2b5b06d1a17887688592013f40e9e435f167f33f'
+    oldFile: !uuid '8c181b7b39ad20dc5a94a28496c10bc3d71e242e'
+  /src/Foundation:
+    newFile: !uuid '0f9d3ff3b893083bf998648158160df41ad9f5e9'
+    oldFile: !uuid '7ceb1f3891ee56ccf01b19d16908710b2dfa77e7'
+  /src/Foundation/Application.php:
+    newFile: !uuid '9da869c5d67d1407bb1e32f28ee5ac3c9054d7da'
+    oldFile: !uuid '21b68f6d7fc67160259f1f74d7d655da4f104d68'
+gitCommitId: !uuid '8d462c1b68bd6a3e775a578a2ff76bc8f3d66a10'
 renames: {
   }
-revisionId: 213
+revisionId: 214
