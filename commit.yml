@@ -3,15 +3,18 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid '2b5b06d1a17887688592013f40e9e435f167f33f'
-    oldFile: !uuid '8c181b7b39ad20dc5a94a28496c10bc3d71e242e'
-  /src/Foundation:
-    newFile: !uuid '0f9d3ff3b893083bf998648158160df41ad9f5e9'
-    oldFile: !uuid '7ceb1f3891ee56ccf01b19d16908710b2dfa77e7'
-  /src/Foundation/Application.php:
-    newFile: !uuid '9da869c5d67d1407bb1e32f28ee5ac3c9054d7da'
-    oldFile: !uuid '21b68f6d7fc67160259f1f74d7d655da4f104d68'
-gitCommitId: !uuid '8d462c1b68bd6a3e775a578a2ff76bc8f3d66a10'
+    newFile: !uuid 'bb3beeeb6fef7bc2f2ff325bc22d6f8fa7696e3c'
+    oldFile: !uuid '2b5b06d1a17887688592013f40e9e435f167f33f'
+  /src/Http:
+    newFile: !uuid 'c7782627589ac4e44131d2876a11115b2c8b50e4'
+    oldFile: !uuid '1461aea92d9cac68a4e45251cc5a42e68b69d57b'
+  /src/Http/Middleware:
+    newFile: !uuid '8957515c61e9a86441d6539d4a930a1bc07fbb45'
+    oldFile: !uuid '23723e96c1525f38689335198172c4a0c9d462f9'
+  /src/Http/Middleware/AuthenticateWithHeader.php:
+    newFile: !uuid '2b88fad95130684b9d1796108f30df8bdd76a0d2'
+    oldFile: !uuid 'bf622c3756bf3ad99dfe6e6a4b44ca70f06d11a4'
+gitCommitId: !uuid 'f18bcd5fe9880a7f5817b2ef5d38cedbc635f767'
 renames: {
   }
-revisionId: 214
+revisionId: 215
