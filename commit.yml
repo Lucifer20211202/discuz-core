@@ -3,18 +3,18 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid '0dd6d1974263493fa06a2b4664e4575ec0836cc5'
-    oldFile: !uuid 'bb3beeeb6fef7bc2f2ff325bc22d6f8fa7696e3c'
-  /src/Qcloud:
-    newFile: !uuid '206e721dbfb4afe1e92b9f9e9d8b87d83e72b3cf'
-    oldFile: !uuid 'c6dd3dd9686e22c489b6501a316591883ef54854'
-  /src/Qcloud/Services:
-    newFile: !uuid '75aaea634996b7e82ceb7bf3cc85591f83aff1ac'
-    oldFile: !uuid 'c96a8a4558dfa7ee19e607cd1af0e06fd092fef6'
-  /src/Qcloud/Services/VodService.php:
-    newFile: !uuid '8e4b264b10345854e707c204b13c1f8f5c67a7ff'
-    oldFile: !uuid 'a13799845fa48f67675b3dd170fc664cab3fd7ea'
-gitCommitId: !uuid 'bd05d90941560fa9dc7a2b98d61dcbac2c1ea036'
+    newFile: !uuid '206f0dafefce5f38adbfe357548c076c498028b5'
+    oldFile: !uuid '0dd6d1974263493fa06a2b4664e4575ec0836cc5'
+  /src/Http:
+    newFile: !uuid 'a307582f152942d8728c50b5e89d988448cda68f'
+    oldFile: !uuid 'c7782627589ac4e44131d2876a11115b2c8b50e4'
+  /src/Http/Middleware:
+    newFile: !uuid '03e92fe0e650aad4f97afa7a8841bb26de07f80e'
+    oldFile: !uuid '8957515c61e9a86441d6539d4a930a1bc07fbb45'
+  /src/Http/Middleware/CheckUserStatus.php:
+    newFile: !uuid '69abc91960977318803938301ec3662059574a95'
+    oldFile: !uuid '41266311c8d0ec0d4bbedd85fb32a9925b388343'
+gitCommitId: !uuid '8c271a28cd167e0cf9aa475c52acc1fbfb9e50a2'
 renames: {
   }
-revisionId: 216
+revisionId: 217
