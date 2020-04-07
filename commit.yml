@@ -3,15 +3,21 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid '0f6ae1160332c9fca503074a04db5163a7a283a1'
-    oldFile: !uuid 'c02880b8eb5b00ef42ad20008f13053a8d63ea22'
-  /src/Foundation:
-    newFile: !uuid 'c64d366c35e01a313732ae7bbe4642d8faccf51e'
-    oldFile: !uuid '4fed469407744a7291bff24c1c8eb7fd1655732b'
-  /src/Foundation/Application.php:
-    newFile: !uuid '1bd37ca14eb90888a204ee2f7965b0b16da9f2a9'
-    oldFile: !uuid '5df67975d4078a8cf8665344a73c358ca4e5c2db'
-gitCommitId: !uuid '66fa99db585dcf58698c641c139bdeb2e29bfc8b'
+    newFile: !uuid 'e64d4178c977e5e08d3d168cdad9b52dda88d31a'
+    oldFile: !uuid '0f6ae1160332c9fca503074a04db5163a7a283a1'
+  /src/Qcloud:
+    newFile: !uuid '4b8e18c65f684f56e747b5d01948bfe58853436c'
+    oldFile: !uuid '2f70793497f416e84844138946e9852c6da032de'
+  /src/Qcloud/QcloudTrait.php:
+    newFile: !uuid '27f3080a7e9b2ffb03441ee9bc8bcb54fd7d96a0'
+    oldFile: !uuid '481271f950f2e53b0743f7e06f79936f039cefca'
+  /src/Qcloud/Services:
+    newFile: !uuid '550d225a71fcd0ea63afcb37c261f34dc36c9395'
+    oldFile: !uuid '6a5fae4c5b62069a7faa3afa3fd91e7ec84ca740'
+  /src/Qcloud/Services/VodService.php:
+    newFile: !uuid '43d8e7f2bb9736bdac4b3112897639b45e067bd4'
+    oldFile: !uuid 'c2b487bc072302b60124a754e443e75f18ec71b4'
+gitCommitId: !uuid 'bb793f586e33e70468d83c27bbd59ef7325bdc5a'
 renames: {
   }
-revisionId: 222
+revisionId: 223
