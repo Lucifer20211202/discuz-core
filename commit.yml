@@ -3,15 +3,33 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid '5c80f1f715080be23cc7d674edd200832b724d61'
-    oldFile: !uuid 'e64d4178c977e5e08d3d168cdad9b52dda88d31a'
-  /src/Console:
-    newFile: !uuid 'b9fa2652ae6b83b0c00df55e37f0cd3bad015b42'
-    oldFile: !uuid 'ebfa2fbede56b8013f53458400f8797588e004cf'
-  /src/Console/AbstractCommand.php:
-    newFile: !uuid 'ad954138f41e9e648ae396f366c495fcf8fc7d6d'
-    oldFile: !uuid '141eecc50512c8641c20a87400c0d76d4e50b23e'
-gitCommitId: !uuid 'df806263397d0f087c2ce3e17c5ba0f2470d63f7'
+    newFile: !uuid 'e0e98983629ae0275001d0c1a56abfa2002d1e88'
+    oldFile: !uuid '5c80f1f715080be23cc7d674edd200832b724d61'
+  /src/Filesystem:
+    newFile: !uuid 'e78b19893946a404eeaf5a29883a7217b4c72667'
+    oldFile: !uuid '541d574c50fb45dab89150cdd54fe92f11bf3e1b'
+  /src/Filesystem/CosAdapter.php:
+    newFile: !uuid '9ed0fe97f5a1ff8587d01b6760211405671fb9aa'
+    oldFile: !uuid '228b45dd82d1cefa4a1705062ef92a88cd8ee3c0'
+  /src/Foundation:
+    newFile: !uuid '6c523ed1628349f3689607663caa4e363151c530'
+    oldFile: !uuid 'c64d366c35e01a313732ae7bbe4642d8faccf51e'
+  /src/Foundation/AbstractUploadTool.php:
+    newFile: !uuid 'c92ea500e8772e0d63a2e3c523743584b03cfd32'
+    oldFile: !uuid 'c52b4373f6ca7f74520d25bcc9a8b4274709ad80'
+  /src/Qcloud:
+    newFile: !uuid '94be0c50a70d032441ba3743787dd5fa6902b461'
+    oldFile: !uuid '4b8e18c65f684f56e747b5d01948bfe58853436c'
+  /src/Qcloud/QcloudTrait.php:
+    newFile: !uuid '671f89fc32a9d947f9f3435510e70d4a3895f41f'
+    oldFile: !uuid '27f3080a7e9b2ffb03441ee9bc8bcb54fd7d96a0'
+  /src/Qcloud/Services:
+    newFile: !uuid 'cdefbb40740420a62fdad8d8c576c7aa3f0cb48c'
+    oldFile: !uuid '550d225a71fcd0ea63afcb37c261f34dc36c9395'
+  /src/Qcloud/Services/VodService.php:
+    newFile: !uuid '2adbce59ab106b2bee8965aebe39660cdd271444'
+    oldFile: !uuid '43d8e7f2bb9736bdac4b3112897639b45e067bd4'
+gitCommitId: !uuid '003cc34a81387cb4541c5c194d8f43b80c4a19aa'
 renames: {
   }
-revisionId: 224
+revisionId: 225
