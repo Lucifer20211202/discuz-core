@@ -3,36 +3,30 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid '25ec0f7589974bd3a8e059e0ed93114c66ac86f0'
-    oldFile: !uuid '5742b9d9f5fe9104f79b025ef9bc94074a3f243f'
-  /src/Database:
-    newFile: !uuid 'ba273693bf52a4641f7a9c0ac20ac120f4a8c07a'
-    oldFile: !uuid '5afffb0a1c602f1e5a10b69c30a8b8f6f8d09180'
-  /src/Database/Migration.php:
-    newFile: !uuid '97465a789fcdfd6a38e3a2522f87ed6ae4395cb3'
-    oldFile: !uuid '2895c7a4b32c983d6b70e159e69f6f681769825c'
-  /src/Locale:
-    newFile: !uuid 'a7472760e0991dd52881369e715fc1e0954c603e'
-    oldFile: !uuid '820c44a144ece8ad49f534a80e38c1f6fe172c99'
-  /src/Locale/AbstractLocaleException.php:
-    newFile: !uuid 'c3a03cf37af4e77b09803f6ee7ee97618ef3e5f7'
-    oldFile: !uuid '2d73b4a00f84ff97b9b8ffb41f22e7d6cf797be0'
+    newFile: !uuid '17bafbe0b514d0e1c7ec0524be81c76a76aa6eed'
+    oldFile: !uuid '25ec0f7589974bd3a8e059e0ed93114c66ac86f0'
   /src/Notifications:
-    newFile: !uuid '4d52e2185c84012e655f4b1925e217bac6b046cd'
-    oldFile: !uuid '050050eec3d1181d297d42c66b90afb8351ebeb5'
+    newFile: !uuid 'b0f113c84a00c73cc2d34623e9614a8e657030d0'
+    oldFile: !uuid '4d52e2185c84012e655f4b1925e217bac6b046cd'
+  /src/Notifications/Channels:
+    newFile: !uuid '7af68440e7b86bc2748e0abad2f526143f5a7ae7'
+    oldFile: !uuid 'b0fd49ed282ca596b73b95e511bae1bdb171a06f'
+  /src/Notifications/Channels/WechatChannel.php:
+    newFile: !uuid 'cb00a8cebc3eb2b62d7729a143eb9304baed9843'
+    oldFile: !uuid 'a571d1ef88e6f217b2ff7f3080c6635fc13711e7'
   /src/Notifications/Messages:
-    newFile: !uuid 'b08100bd1c7e9bddf12c8f588ab2f32a4422cb1c'
-    oldFile: !uuid 'b115d66de5bd27c413c70c0bd7676a4998317cfd'
+    newFile: !uuid 'ecb59a1d0863f7643e5eb2ee35aa980f13138e02'
+    oldFile: !uuid 'b08100bd1c7e9bddf12c8f588ab2f32a4422cb1c'
   /src/Notifications/Messages/DatabaseMessage.php:
-    newFile: !uuid 'e8332116e09ef385ce88f83415b8aab50c6a6749'
-    oldFile: !uuid '16877b1961b6ed3e62c52ab93a99859bc186408c'
+    newFile: !uuid 'ad83eea98f57a1895afb19c806aca34bb311da8f'
+    oldFile: !uuid 'e8332116e09ef385ce88f83415b8aab50c6a6749'
   /src/SpecialChar:
-    newFile: !uuid 'ff80c7beb8962c230132ac639c531c2732d67042'
-    oldFile: null
+    newFile: !uuid '805029e2de9cde9957ef72540fae5f562ed174d1'
+    oldFile: !uuid 'ff80c7beb8962c230132ac639c531c2732d67042'
   /src/SpecialChar/SpecialCharServer.php:
-    newFile: !uuid '9fdc7a136202def225ab830cb4794685648963e4'
-    oldFile: null
-gitCommitId: !uuid 'c8a5b8cfad4111b2a73c78c1f96673fe2950f6e4'
+    newFile: !uuid '2e0cb9ea0fd507f43307cbcc026daad9e800d6c6'
+    oldFile: !uuid '9fdc7a136202def225ab830cb4794685648963e4'
+gitCommitId: !uuid '1031c73fe6d89f47e2b188c9cb095c44ce1ac3bb'
 renames: {
   }
-revisionId: 230
+revisionId: 231
