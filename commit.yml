@@ -3,36 +3,21 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid 'a4389438b53756e4d08840ed687c7c2718a16b77'
-    oldFile: !uuid '8148e0504e5b5166091b48aede51b8bd21e3de67'
-  /src/Api:
-    newFile: !uuid 'ef039a70ddd16ad2ec5e8c44f59c3e5c19b6e80a'
-    oldFile: !uuid '12433853e036b48755f5a6c4d2f08a2b2594318f'
-  /src/Api/Controller:
-    newFile: !uuid '6c48d77ef10152d5ad6959c97aeb0e1ec4de12ef'
-    oldFile: !uuid '8c4389d22a29491731ed5630b2244ee7576110a8'
-  /src/Api/Controller/AbstractSerializeController.php:
-    newFile: !uuid '5be41aba63a33e1ff7587e52d64db7d645d8c8dd'
-    oldFile: !uuid '959b77bd3ba7b4ce24ba54569809b1f80286420d'
-  /src/Api/ExceptionHandler:
-    newFile: !uuid '593b40b2e162a7dfcca1c636f61986f9f6925bf8'
-    oldFile: !uuid 'd0a51816f0fbc7c7728b19fd60b9d14e7fa6fdde'
-  /src/Api/ExceptionHandler/PermissionDeniedExceptionHandler.php:
-    newFile: !uuid '36908797f0ffdcc02f9d4048da4ce2106280483d'
-    oldFile: !uuid 'fd5094103939f41ac641ebdeab109ce0487592f2'
+    newFile: !uuid '76be47f98515bb347b308290128f36cdc6585435'
+    oldFile: !uuid 'a4389438b53756e4d08840ed687c7c2718a16b77'
   /src/Qcloud:
-    newFile: !uuid 'f98ce0e2c3d6580a7c34727a7c0c9f91cd12a674'
-    oldFile: !uuid '94be0c50a70d032441ba3743787dd5fa6902b461'
+    newFile: !uuid 'cd8d12eb302f58cc6d34c0850962e895b2a04d01'
+    oldFile: !uuid 'f98ce0e2c3d6580a7c34727a7c0c9f91cd12a674'
   /src/Qcloud/QcloudTrait.php:
-    newFile: !uuid 'df86bd8f85972e5a153a5d58218c870add1ecd40'
-    oldFile: !uuid '671f89fc32a9d947f9f3435510e70d4a3895f41f'
+    newFile: !uuid '7517eaecfe493c83fcbc3fc9639e90f653683bd4'
+    oldFile: !uuid 'df86bd8f85972e5a153a5d58218c870add1ecd40'
   /src/Qcloud/Services:
-    newFile: !uuid '807070701d1607ad8cf59803670e4467d3efcc40'
-    oldFile: !uuid 'cdefbb40740420a62fdad8d8c576c7aa3f0cb48c'
+    newFile: !uuid '9fea35e1578ce227deb6ee2ce4559d32877af53d'
+    oldFile: !uuid '807070701d1607ad8cf59803670e4467d3efcc40'
   /src/Qcloud/Services/VodService.php:
-    newFile: !uuid 'f4e645f3d90c4e19e81ec1372643b9fd7ca8f3b8'
-    oldFile: !uuid '2adbce59ab106b2bee8965aebe39660cdd271444'
-gitCommitId: !uuid 'e9778dde3ba68e201507fd5d21102c63278d0d25'
+    newFile: !uuid '337037247abbb535cad2e77e51198e9425480117'
+    oldFile: !uuid 'f4e645f3d90c4e19e81ec1372643b9fd7ca8f3b8'
+gitCommitId: !uuid '3a39db226801cdbff0516efc7d15676034bbf8a6'
 renames: {
   }
-revisionId: 235
+revisionId: 236
