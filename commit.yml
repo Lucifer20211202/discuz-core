@@ -1,20 +1,9 @@
 !revision
 branches: {
   }
-fileChange:
-  /src:
-    newFile: !uuid 'cda408eb5652914b8590cbf48fdf984a5c7ede57'
-    oldFile: !uuid '54d2943b5159202b0cbe7ce23a329b50658fd189'
-  /src/Qcloud:
-    newFile: !uuid 'ab1706792dc4b17fce7dab3dcea549cb228f107c'
-    oldFile: !uuid '776a237b173238a8e224e80cba76c00a0dbac9f5'
-  /src/Qcloud/Services:
-    newFile: !uuid 'a92c600c92e999e4c04bab3e021c78acea8489c3'
-    oldFile: !uuid '835d94a37ddd0c0dfceb81e7ff06bcabe0072d2c'
-  /src/Qcloud/Services/VodService.php:
-    newFile: !uuid '8339b2f018251db7bb3db5292b76fa7ace145d85'
-    oldFile: !uuid '81c5917d517943c31332e168f84a5306168ce741'
-gitCommitId: !uuid 'ed19ab2f6723fb1f41dce02463ea49a6a52bb840'
+fileChange: {
+  }
+gitCommitId: !uuid '77f8eb2a7c2f0a88f4e0a4b40673375c01653910'
 renames: {
   }
-revisionId: 238
+revisionId: 239
