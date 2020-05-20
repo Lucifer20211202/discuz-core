@@ -3,15 +3,18 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid '4d2701fc6b0962024dbf8826a18db248dfe185ee'
-    oldFile: !uuid '51072d2a84a4b7b3fa4312b7fa53f0b3447ccb18'
-  /src/Foundation:
-    newFile: !uuid '80e347ef67fd2e6ce97a3554a20ec78b9c22e1d5'
-    oldFile: !uuid '2a0e6d358f6eca432a8f9341dc19b0b15320a80a'
-  /src/Foundation/SiteApp.php:
-    newFile: !uuid 'ac2a119bacd3d96f531438cfaf0a887e021af596'
-    oldFile: !uuid '1e4bdfd90c12fe4662cf0d8294c5694ca75012c4'
-gitCommitId: !uuid 'edfe59fb91e957a85bcfc3087057c696cdca2e52'
+    newFile: !uuid '3c57ec745aa4acaad0f3576f1fad55d8a0e2794f'
+    oldFile: !uuid '4d2701fc6b0962024dbf8826a18db248dfe185ee'
+  /src/Notifications:
+    newFile: !uuid 'da9d4622c51da90471d3e1d3c5618bb2b5ad0fff'
+    oldFile: !uuid 'b0f113c84a00c73cc2d34623e9614a8e657030d0'
+  /src/Notifications/Channels:
+    newFile: !uuid '99c04191880defbc808b54b4c84d6985a39af65c'
+    oldFile: !uuid '7af68440e7b86bc2748e0abad2f526143f5a7ae7'
+  /src/Notifications/Channels/WechatChannel.php:
+    newFile: !uuid '37785559e9e78025162bb818253dc8c48d5358e9'
+    oldFile: !uuid 'cb00a8cebc3eb2b62d7729a143eb9304baed9843'
+gitCommitId: !uuid 'de581b4585de9fba73da559194fec12024274ea0'
 renames: {
   }
-revisionId: 246
+revisionId: 247
