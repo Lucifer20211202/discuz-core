@@ -3,27 +3,69 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid '7f0e9ec10b7f2371955e4e061a02ec1b4103a359'
-    oldFile: !uuid '30eaf33caf107c8d075d400744a9eeed0048e87e'
+    newFile: !uuid '6d0358cacff7f6848a99f9cedb3f1a2b3751d050'
+    oldFile: !uuid '7f0e9ec10b7f2371955e4e061a02ec1b4103a359'
+  /src/Console:
+    newFile: !uuid 'd7ae35dfbabcc24feb36e882cde59596eda9f6f4'
+    oldFile: !uuid 'b9fa2652ae6b83b0c00df55e37f0cd3bad015b42'
+  /src/Console/AbstractCommand.php:
+    newFile: !uuid 'f4c6a12b668cc5667606094d81fd43584a3d4d47'
+    oldFile: !uuid 'ad954138f41e9e648ae396f366c495fcf8fc7d6d'
+  /src/Console/Kernel.php:
+    newFile: !uuid 'f2247aa3dbefcf70cdde5f6e62295aa5a64a25f8'
+    oldFile: !uuid '03c291834c44df285ad8869932c71e05e46d58ce'
+  /src/Contracts:
+    newFile: !uuid '3504934837dc99a0caa024a9012bf81df1183c3e'
+    oldFile: !uuid 'cb81585006944d2e7977d57c0120b6e9a3dfeb92'
+  /src/Contracts/Tool:
+    newFile: !uuid '8922113481c1a6b32d3dfa1176d2410e395ae5ad'
+    oldFile: !uuid 'ef192ff3ecc7fdff0169d36505f01b7efc9dbb34'
+  /src/Contracts/Tool/UploadTool.php:
+    newFile: !uuid '90656dec525af1ab581333f15d5008011745ad14'
+    oldFile: !uuid '98ad67449624d0b811ee78a4f5d264dca97da7a8'
+  /src/Foundation:
+    newFile: !uuid '010cb1a69e72dfd0527571916b3c63063958f360'
+    oldFile: !uuid 'f749f55383a19486540c4b26bc9205a1cb3f3682'
+  /src/Foundation/AbstractUploadTool.php:
+    newFile: !uuid '506e0a80bb9b121350a472b05eae2652d139817b'
+    oldFile: !uuid '2c91c9c8ee9b2398aa19ce0ccbda667eba40e1c9'
+  /src/Http:
+    newFile: !uuid '9a9479911b0d0d5330922bbee8e80f266328953c'
+    oldFile: !uuid 'a57b25226ba11f4b616583c36c08bd67d425047a'
+  /src/Http/Middleware:
+    newFile: !uuid 'd66320dacab0c94fd78c7b2c4e8080b44bca7652'
+    oldFile: !uuid '32bd3ac10ecccc1936e789a1578b11de55b1bdc9'
+  /src/Http/Middleware/CheckoutSite.php:
+    newFile: !uuid '27d291befd470ec56b47327521c4ae467616ac42'
+    oldFile: !uuid '30d5245dbfa481ae7e60ef511318586b6ec65cdc'
+  /src/Notifications:
+    newFile: !uuid 'e7ff18c22d17c834364ed5d3e8e714b6c556088a'
+    oldFile: !uuid 'da9d4622c51da90471d3e1d3c5618bb2b5ad0fff'
+  /src/Notifications/Channels:
+    newFile: !uuid '79b4d7db2be8a5bc7fc270a807e46ab807eba5bb'
+    oldFile: !uuid '99c04191880defbc808b54b4c84d6985a39af65c'
+  /src/Notifications/Channels/WechatChannel.php:
+    newFile: !uuid '6be945ff43c8f374aa4280287c82b329aeb2b73b'
+    oldFile: !uuid '37785559e9e78025162bb818253dc8c48d5358e9'
+  /src/Notifications/Messages:
+    newFile: !uuid '6250d63c6cf5e6ebf4dc3b50ead31c11022422a4'
+    oldFile: !uuid 'ecb59a1d0863f7643e5eb2ee35aa980f13138e02'
+  /src/Notifications/Messages/DatabaseMessage.php:
+    newFile: !uuid 'ee25cd9bde5faeb62885a61d69b855e1f6be6eae'
+    oldFile: !uuid 'ad83eea98f57a1895afb19c806aca34bb311da8f'
   /src/Qcloud:
-    newFile: !uuid '54ad90dc1e808e021d5d408aeaf083d879a45a1d'
-    oldFile: !uuid 'ab1706792dc4b17fce7dab3dcea549cb228f107c'
-  /src/Qcloud/QcloudManage.php:
-    newFile: !uuid '5ab3687537c318496fff8700991dcb67182e0713'
-    oldFile: !uuid 'acf46ea71ad6f1e87474a623c38851caa2801ad2'
+    newFile: !uuid 'd123929bc53b914a032c1cf75a2df06e098d09ee'
+    oldFile: !uuid '54ad90dc1e808e021d5d408aeaf083d879a45a1d'
   /src/Qcloud/QcloudTrait.php:
-    newFile: !uuid '234c6ee10bf072f923ed8978e50d46685976bd14'
-    oldFile: !uuid '7517eaecfe493c83fcbc3fc9639e90f653683bd4'
+    newFile: !uuid '14e25de58d3fdba7e2b89f15d93f4c8d84d8e4e3'
+    oldFile: !uuid '234c6ee10bf072f923ed8978e50d46685976bd14'
   /src/Qcloud/Services:
-    newFile: !uuid 'f007be3bb90df50f5f05b68d991bc43e59f5be47'
-    oldFile: !uuid 'a92c600c92e999e4c04bab3e021c78acea8489c3'
-  /src/Qcloud/Services/DiscuzCloudService.php:
-    newFile: !uuid '2627ac9c9cb40cb27b490563dff27297a19a5b69'
-    oldFile: !uuid 'f25e477a1673e0fec23b14b7769cd1790e7c4200'
-  /src/Qcloud/Services/MsService.php:
-    newFile: !uuid 'a31ccbade1725eb0d5ddc6fe18821d85015f8edc'
-    oldFile: null
-gitCommitId: !uuid '5f3684c042499cad2ed151c0d31dd91d355bf0fd'
+    newFile: !uuid 'a35be8b2045515e2be5ca63e0a086d0babfdf891'
+    oldFile: !uuid 'f007be3bb90df50f5f05b68d991bc43e59f5be47'
+  /src/Qcloud/Services/VodService.php:
+    newFile: !uuid '10a4c3d85314ad5f1e08a3ad5ef00cf4a67c4844'
+    oldFile: !uuid '8339b2f018251db7bb3db5292b76fa7ace145d85'
+gitCommitId: !uuid '3a6e14c791d092248c28b91c2329a2d80c15a05d'
 renames: {
   }
-revisionId: 249
+revisionId: 250
