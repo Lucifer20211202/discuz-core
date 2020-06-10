@@ -3,18 +3,21 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid '0acd52abb6e6eeb223b5b5203313a273030630a4'
-    oldFile: !uuid '5bc2af7bbdcbc9ef4be80da3eb2e892ad3bc6811'
+    newFile: !uuid '2b52a39b8ee51c0d67a8bf4999f486a2c8768793'
+    oldFile: !uuid '0acd52abb6e6eeb223b5b5203313a273030630a4'
   /src/Socialite:
-    newFile: !uuid '141ca8c813f3132dce0528cc98ff036385998c24'
-    oldFile: !uuid 'fb7fe5c1021b0611f3a70aab4838e27a8e4d4f7c'
+    newFile: !uuid '99b5150392d0a1efbbaf8f1848e2960fd99acc5c'
+    oldFile: !uuid '141ca8c813f3132dce0528cc98ff036385998c24'
   /src/Socialite/Two:
-    newFile: !uuid 'cbf3041724dbd749a7fc2f8b90089a5af6a91e39'
-    oldFile: !uuid 'a6dce06d24914edec886b966971ea12fb119a6bb'
+    newFile: !uuid '6bca42ae1c4901d448a688a77b9b6fdb3cbd3c20'
+    oldFile: !uuid 'cbf3041724dbd749a7fc2f8b90089a5af6a91e39'
+  /src/Socialite/Two/AbstractProvider.php:
+    newFile: !uuid '46445e6aea11ac6c39aae01839037df136f289ce'
+    oldFile: !uuid '0ae4e6d1fa432dcf72a83140c5cfe291c74544b3'
   /src/Socialite/Two/QQProvider.php:
-    newFile: !uuid '31f252ef4d650e130e0b701d6f4cc29970ea09ff'
-    oldFile: !uuid 'cabd399631b7835e7f8a317acabe4f8619a4d9e2'
-gitCommitId: !uuid '72b1e4f3f8192768392115f2f8ef12f43d88de3f'
+    newFile: !uuid '80bdd00e74c8cf99900862d411d3359a8e9d7b42'
+    oldFile: !uuid '31f252ef4d650e130e0b701d6f4cc29970ea09ff'
+gitCommitId: !uuid 'f57440028fad87b7484d1c92a9037cc29eddb331'
 renames: {
   }
-revisionId: 256
+revisionId: 257
