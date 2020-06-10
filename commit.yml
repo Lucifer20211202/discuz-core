@@ -3,24 +3,18 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid '5bc2af7bbdcbc9ef4be80da3eb2e892ad3bc6811'
-    oldFile: !uuid 'd48f122c7d678b447f0498ecd696383b4c1c0051'
+    newFile: !uuid '0acd52abb6e6eeb223b5b5203313a273030630a4'
+    oldFile: !uuid '5bc2af7bbdcbc9ef4be80da3eb2e892ad3bc6811'
   /src/Socialite:
-    newFile: !uuid 'fb7fe5c1021b0611f3a70aab4838e27a8e4d4f7c'
-    oldFile: !uuid 'ed9e91aa4fde3a9954d032b1063b58e478306e8f'
-  /src/Socialite/SocialiteManage.php:
-    newFile: !uuid '921ff7644a1d1236ed60f1fba4ffa0f9714909e8'
-    oldFile: !uuid '84e07701dcf115931d2c8c5c06c304df7a738e85'
+    newFile: !uuid '141ca8c813f3132dce0528cc98ff036385998c24'
+    oldFile: !uuid 'fb7fe5c1021b0611f3a70aab4838e27a8e4d4f7c'
   /src/Socialite/Two:
-    newFile: !uuid 'a6dce06d24914edec886b966971ea12fb119a6bb'
-    oldFile: !uuid 'd877048ec30857e183a521d6b7820f4f84b5b255'
+    newFile: !uuid 'cbf3041724dbd749a7fc2f8b90089a5af6a91e39'
+    oldFile: !uuid 'a6dce06d24914edec886b966971ea12fb119a6bb'
   /src/Socialite/Two/QQProvider.php:
-    newFile: !uuid 'cabd399631b7835e7f8a317acabe4f8619a4d9e2'
-    oldFile: null
-  /src/Socialite/Two/WechatQyProvider.php:
-    newFile: !uuid 'ea2f9afa9d72a165fdafb4163302aae3b126dad7'
-    oldFile: null
-gitCommitId: !uuid '3aa58743d8f65efada3af6ca62228f1367fdb320'
+    newFile: !uuid '31f252ef4d650e130e0b701d6f4cc29970ea09ff'
+    oldFile: !uuid 'cabd399631b7835e7f8a317acabe4f8619a4d9e2'
+gitCommitId: !uuid '72b1e4f3f8192768392115f2f8ef12f43d88de3f'
 renames: {
   }
-revisionId: 255
+revisionId: 256
