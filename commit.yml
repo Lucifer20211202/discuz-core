@@ -3,27 +3,18 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid 'ccd8d5c01c98e608211532ea0b42231cb8ac8b66'
-    oldFile: !uuid '2b52a39b8ee51c0d67a8bf4999f486a2c8768793'
-  /src/Api:
-    newFile: !uuid 'a599ffe9abcb8ded1f3f783ed602c6c51078e12e'
-    oldFile: !uuid 'ef039a70ddd16ad2ec5e8c44f59c3e5c19b6e80a'
-  /src/Api/ApiServiceProvider.php:
-    newFile: !uuid '973c89980fd98a038db4f0306169fbffc816efb0'
-    oldFile: !uuid '5ca3467b77846028e5e4fc850e07abb4ac566e58'
-  /src/Http:
-    newFile: !uuid '08c02c6a66f04b7222306a923bf241b271fe37fd'
-    oldFile: !uuid '9a9479911b0d0d5330922bbee8e80f266328953c'
-  /src/Http/DiscuzResponseFactory.php:
-    newFile: !uuid 'd00399d6590da572104cecd72c52ad1dd3da70f2'
-    oldFile: !uuid 'a2ec245b22febf3ca10c4b04c199ae767de69005'
-  /src/Http/Middleware:
-    newFile: !uuid 'bdbb71ddef9c391c638fbdaf0335b767788b02dd'
-    oldFile: !uuid 'd66320dacab0c94fd78c7b2c4e8080b44bca7652'
-  /src/Http/Middleware/EnableCrossRequest.php:
-    newFile: null
-    oldFile: !uuid 'd6cec32f079f4439fe1998c792373db8789edbb6'
-gitCommitId: !uuid '688e18c6b4d6fe7743ada51fd36edf03afdd04b1'
+    newFile: !uuid '1f155b7e1fb042e3b33b27a62eea4eef79e04170'
+    oldFile: !uuid 'ccd8d5c01c98e608211532ea0b42231cb8ac8b66'
+  /src/Wechat:
+    newFile: !uuid '0752c72ccf88c08bd9ae7e91c359f60cf32bb2d8'
+    oldFile: null
+  /src/Wechat/Offiaccount:
+    newFile: !uuid 'db6ee1876d39ce8ad0e21d7617eed35855cd4a0d'
+    oldFile: null
+  /src/Wechat/Offiaccount/MessageEventHandlerInterface.php:
+    newFile: !uuid 'f7db57c0f14710b79bf37873909a7003ea6018cb'
+    oldFile: null
+gitCommitId: !uuid '1f19c5ea9401310c51402fcc581700406c2e50d8'
 renames: {
   }
-revisionId: 258
+revisionId: 259
