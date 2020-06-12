@@ -3,21 +3,27 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid '2b52a39b8ee51c0d67a8bf4999f486a2c8768793'
-    oldFile: !uuid '0acd52abb6e6eeb223b5b5203313a273030630a4'
-  /src/Socialite:
-    newFile: !uuid '99b5150392d0a1efbbaf8f1848e2960fd99acc5c'
-    oldFile: !uuid '141ca8c813f3132dce0528cc98ff036385998c24'
-  /src/Socialite/Two:
-    newFile: !uuid '6bca42ae1c4901d448a688a77b9b6fdb3cbd3c20'
-    oldFile: !uuid 'cbf3041724dbd749a7fc2f8b90089a5af6a91e39'
-  /src/Socialite/Two/AbstractProvider.php:
-    newFile: !uuid '46445e6aea11ac6c39aae01839037df136f289ce'
-    oldFile: !uuid '0ae4e6d1fa432dcf72a83140c5cfe291c74544b3'
-  /src/Socialite/Two/QQProvider.php:
-    newFile: !uuid '80bdd00e74c8cf99900862d411d3359a8e9d7b42'
-    oldFile: !uuid '31f252ef4d650e130e0b701d6f4cc29970ea09ff'
-gitCommitId: !uuid 'f57440028fad87b7484d1c92a9037cc29eddb331'
+    newFile: !uuid 'ccd8d5c01c98e608211532ea0b42231cb8ac8b66'
+    oldFile: !uuid '2b52a39b8ee51c0d67a8bf4999f486a2c8768793'
+  /src/Api:
+    newFile: !uuid 'a599ffe9abcb8ded1f3f783ed602c6c51078e12e'
+    oldFile: !uuid 'ef039a70ddd16ad2ec5e8c44f59c3e5c19b6e80a'
+  /src/Api/ApiServiceProvider.php:
+    newFile: !uuid '973c89980fd98a038db4f0306169fbffc816efb0'
+    oldFile: !uuid '5ca3467b77846028e5e4fc850e07abb4ac566e58'
+  /src/Http:
+    newFile: !uuid '08c02c6a66f04b7222306a923bf241b271fe37fd'
+    oldFile: !uuid '9a9479911b0d0d5330922bbee8e80f266328953c'
+  /src/Http/DiscuzResponseFactory.php:
+    newFile: !uuid 'd00399d6590da572104cecd72c52ad1dd3da70f2'
+    oldFile: !uuid 'a2ec245b22febf3ca10c4b04c199ae767de69005'
+  /src/Http/Middleware:
+    newFile: !uuid 'bdbb71ddef9c391c638fbdaf0335b767788b02dd'
+    oldFile: !uuid 'd66320dacab0c94fd78c7b2c4e8080b44bca7652'
+  /src/Http/Middleware/EnableCrossRequest.php:
+    newFile: null
+    oldFile: !uuid 'd6cec32f079f4439fe1998c792373db8789edbb6'
+gitCommitId: !uuid '688e18c6b4d6fe7743ada51fd36edf03afdd04b1'
 renames: {
   }
-revisionId: 257
+revisionId: 258
