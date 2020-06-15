@@ -3,18 +3,15 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid '1f155b7e1fb042e3b33b27a62eea4eef79e04170'
-    oldFile: !uuid 'ccd8d5c01c98e608211532ea0b42231cb8ac8b66'
-  /src/Wechat:
-    newFile: !uuid '0752c72ccf88c08bd9ae7e91c359f60cf32bb2d8'
-    oldFile: null
-  /src/Wechat/Offiaccount:
-    newFile: !uuid 'db6ee1876d39ce8ad0e21d7617eed35855cd4a0d'
-    oldFile: null
-  /src/Wechat/Offiaccount/MessageEventHandlerInterface.php:
-    newFile: !uuid 'f7db57c0f14710b79bf37873909a7003ea6018cb'
-    oldFile: null
-gitCommitId: !uuid '1f19c5ea9401310c51402fcc581700406c2e50d8'
+    newFile: !uuid 'c64f2dac419bf29d72ce8fb4f14d07dbb88bf528'
+    oldFile: !uuid '1f155b7e1fb042e3b33b27a62eea4eef79e04170'
+  /src/Http:
+    newFile: !uuid 'aaa6a337606e0bca5bf02930f06512859372b165'
+    oldFile: !uuid '08c02c6a66f04b7222306a923bf241b271fe37fd'
+  /src/Http/DiscuzResponseFactory.php:
+    newFile: !uuid '5528784edf2b5200e7a36a61beb2901b5c71f304'
+    oldFile: !uuid 'd00399d6590da572104cecd72c52ad1dd3da70f2'
+gitCommitId: !uuid 'e98ae789a68f9e747a2fcfe718e6f107764e698d'
 renames: {
   }
-revisionId: 259
+revisionId: 260
