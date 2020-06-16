@@ -3,15 +3,24 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid 'c64f2dac419bf29d72ce8fb4f14d07dbb88bf528'
-    oldFile: !uuid '1f155b7e1fb042e3b33b27a62eea4eef79e04170'
+    newFile: !uuid '15d83cabf89ad53db8c501d2d6902942f30577bb'
+    oldFile: !uuid 'c64f2dac419bf29d72ce8fb4f14d07dbb88bf528'
+  /src/Api:
+    newFile: !uuid '587e627c4320d404efa61c1bd28406855bccc85d'
+    oldFile: !uuid 'a599ffe9abcb8ded1f3f783ed602c6c51078e12e'
+  /src/Api/Controller:
+    newFile: !uuid '94ed56f7300bbb7f1a33e9d2c6be47d6dc084d60'
+    oldFile: !uuid '6c48d77ef10152d5ad6959c97aeb0e1ec4de12ef'
+  /src/Api/Controller/AbstractSerializeController.php:
+    newFile: !uuid '4078c1df70a74afeaffca88bb0b80399d76b4ee0'
+    oldFile: !uuid '5be41aba63a33e1ff7587e52d64db7d645d8c8dd'
   /src/Http:
-    newFile: !uuid 'aaa6a337606e0bca5bf02930f06512859372b165'
-    oldFile: !uuid '08c02c6a66f04b7222306a923bf241b271fe37fd'
-  /src/Http/DiscuzResponseFactory.php:
-    newFile: !uuid '5528784edf2b5200e7a36a61beb2901b5c71f304'
-    oldFile: !uuid 'd00399d6590da572104cecd72c52ad1dd3da70f2'
-gitCommitId: !uuid 'e98ae789a68f9e747a2fcfe718e6f107764e698d'
+    newFile: !uuid '23caf8b861cef85880a485255e99eeb35f4879e7'
+    oldFile: !uuid 'aaa6a337606e0bca5bf02930f06512859372b165'
+  /src/Http/Server.php:
+    newFile: !uuid 'ca23ab0dc0e8beea1e0189f95bff70c5e85b5953'
+    oldFile: !uuid '2aba133956f65eb3f39aac29dce84887b3ee7a34'
+gitCommitId: !uuid '9aff714cd6e85031bd1f4e7d42f60928964446ce'
 renames: {
   }
-revisionId: 260
+revisionId: 261
