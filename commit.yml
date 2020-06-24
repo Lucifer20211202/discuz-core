@@ -2,16 +2,19 @@
 branches: {
   }
 fileChange:
-  /.github:
-    newFile: null
-    oldFile: !uuid '94d92fd1942a4eb62bff0a0a5ef56a035ef4cb1c'
-  /.github/workflows:
-    newFile: null
-    oldFile: !uuid '4c24086707d1f6c4fde4bb2bee293eea0c7d72f5'
-  /.github/workflows/main.yml:
-    newFile: null
-    oldFile: !uuid 'c4f1a1260e7f4ff5227debee8a0c9a4e0a2baf6a'
-gitCommitId: !uuid 'd854a63c33e0d24ff82ca05acce2612eb17b729e'
+  /src:
+    newFile: !uuid 'cc4564c0bc7908529fbba713645dfe4db584f311'
+    oldFile: !uuid 'c0cb582f8590060d8242adbc164184c42b8b1b71'
+  /src/Wechat:
+    newFile: !uuid '4a725247f382e8c99c61a5748a565be8885f7f25'
+    oldFile: !uuid '0752c72ccf88c08bd9ae7e91c359f60cf32bb2d8'
+  /src/Wechat/Offiaccount:
+    newFile: !uuid 'b7cf213f2c47123d82c657ef53840187520b45cb'
+    oldFile: !uuid 'db6ee1876d39ce8ad0e21d7617eed35855cd4a0d'
+  /src/Wechat/Offiaccount/MessageEventHandlerInterface.php:
+    newFile: !uuid 'ec7bfa9894aea6fd158f3108efc7193626d4f488'
+    oldFile: !uuid 'f7db57c0f14710b79bf37873909a7003ea6018cb'
+gitCommitId: !uuid 'ac12b100fd09f6c9a7a3adf7578e0af0f9dfddfc'
 renames: {
   }
-revisionId: 264
+revisionId: 265
