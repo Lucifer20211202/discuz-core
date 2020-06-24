@@ -2,16 +2,16 @@
 branches: {
   }
 fileChange:
-  /src:
-    newFile: !uuid 'c0cb582f8590060d8242adbc164184c42b8b1b71'
-    oldFile: !uuid '7d708c6798f58cf185d9fa92fb429b78c5bf3382'
-  /src/Socialite:
-    newFile: !uuid '6fbfcf969eefc94d10669a46c69f8cb8a0e49015'
-    oldFile: !uuid '99b5150392d0a1efbbaf8f1848e2960fd99acc5c'
-  /src/Socialite/SocialiteManage.php:
-    newFile: !uuid '102a20d84132db5cfcf65d5005dac781a8dddabb'
-    oldFile: !uuid '921ff7644a1d1236ed60f1fba4ffa0f9714909e8'
-gitCommitId: !uuid '7edfc3d78fdb0c660ccffd6f487064a62c9e461e'
+  /.github:
+    newFile: null
+    oldFile: !uuid '94d92fd1942a4eb62bff0a0a5ef56a035ef4cb1c'
+  /.github/workflows:
+    newFile: null
+    oldFile: !uuid '4c24086707d1f6c4fde4bb2bee293eea0c7d72f5'
+  /.github/workflows/main.yml:
+    newFile: null
+    oldFile: !uuid 'c4f1a1260e7f4ff5227debee8a0c9a4e0a2baf6a'
+gitCommitId: !uuid 'd854a63c33e0d24ff82ca05acce2612eb17b729e'
 renames: {
   }
-revisionId: 263
+revisionId: 264
