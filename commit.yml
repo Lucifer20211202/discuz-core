@@ -3,18 +3,18 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid '2623af40c57b034ea318f923b89b7ac80cc10322'
-    oldFile: !uuid 'cc4564c0bc7908529fbba713645dfe4db584f311'
+    newFile: !uuid 'efeefeeece125a57b1cb572fcc2edb0c4e123059'
+    oldFile: !uuid '2623af40c57b034ea318f923b89b7ac80cc10322'
   /src/Wechat:
-    newFile: !uuid '5c7ed37a1fd141230c97ebccadf4c115cb0f66c9'
-    oldFile: !uuid '4a725247f382e8c99c61a5748a565be8885f7f25'
+    newFile: !uuid 'aea7b2c289a26c6f09815d9b046c96303d673f4f'
+    oldFile: !uuid '5c7ed37a1fd141230c97ebccadf4c115cb0f66c9'
   /src/Wechat/Offiaccount:
-    newFile: !uuid 'd0d3ae300bafa4bad4b6ede81744b243dfea78d9'
-    oldFile: !uuid 'b7cf213f2c47123d82c657ef53840187520b45cb'
+    newFile: !uuid 'd55b772ebfbee0373972afbe44bca79d0cf3ac47'
+    oldFile: !uuid 'd0d3ae300bafa4bad4b6ede81744b243dfea78d9'
   /src/Wechat/Offiaccount/MessageEventHandlerInterface.php:
-    newFile: !uuid 'c09c2b1b2a75fe73e90ecd2f21ac5cf0bf875b3c'
-    oldFile: !uuid 'ec7bfa9894aea6fd158f3108efc7193626d4f488'
-gitCommitId: !uuid '97a354eff41249d3d7a3fae288c24b06c464d3d7'
+    newFile: !uuid 'ca91098cdf1c4fc063ee64144b136eaaedb3b103'
+    oldFile: !uuid 'c09c2b1b2a75fe73e90ecd2f21ac5cf0bf875b3c'
+gitCommitId: !uuid 'd3382746ce5565cad9fecae9512b0c8170bd5e00'
 renames: {
   }
-revisionId: 266
+revisionId: 267
