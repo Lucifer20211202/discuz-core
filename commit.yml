@@ -3,42 +3,15 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid 'f1745f5a98019e9d0bfdce898082d40774403b56'
-    oldFile: !uuid '9fdc782b12e79c67d702a17c7e8293f86167cb0c'
-  /src/Foundation:
-    newFile: !uuid '099ef393f1b62fd73e00c7f5a98d9acd8532f1c5'
-    oldFile: !uuid '25db87343cb479286316384095f9475a5a1bb37f'
-  /src/Foundation/SiteApp.php:
-    newFile: !uuid 'e4bc56a125514052f4321fc4ccbc3096efaaab38'
-    oldFile: !uuid 'a059300b62c933a1153c8c1561055fa06f53468d'
-  /src/Wechat:
-    newFile: !uuid 'd1b6661b4973ef34f1975789282c453652e87667'
-    oldFile: !uuid 'aea7b2c289a26c6f09815d9b046c96303d673f4f'
-  /src/Wechat/EasyWechatManage.php:
-    newFile: !uuid '69d44889f2f2a5734150e02433af37f99d71024f'
-    oldFile: null
-  /src/Wechat/EasyWechatTrait.php:
-    newFile: !uuid '6dd70a38b9d5bc631d5b9522234ed98d5b458380'
-    oldFile: null
-  /src/Wechat/MiniProgram:
-    newFile: !uuid 'e37f80b3bedde3e34f1f51e8e9121386d97099a0'
-    oldFile: null
-  /src/Wechat/MiniProgram/MiniProgramService.php:
-    newFile: !uuid '8f53ac307c77e7e8ad2871073301ccb1254d8100'
-    oldFile: null
-  /src/Wechat/Offiaccount:
-    newFile: !uuid '145fc831668290111bc1f06150e2e9593c6a630f'
-    oldFile: !uuid 'd55b772ebfbee0373972afbe44bca79d0cf3ac47'
-  /src/Wechat/Offiaccount/MessageEventHandlerInterface.php:
-    newFile: !uuid '934494bc16bff2efeb0e119ecf97cee6d662d91c'
-    oldFile: !uuid 'ca91098cdf1c4fc063ee64144b136eaaedb3b103'
-  /src/Wechat/Offiaccount/OffiaccountService.php:
-    newFile: !uuid 'bb94ca2d0a1bf87511461efc12dfbd82ac79285b'
-    oldFile: null
-  /src/Wechat/WechatServiceProvider.php:
-    newFile: !uuid '7b45a8a6570b1a3b06c4e55741ba923b94a70c6a'
-    oldFile: null
-gitCommitId: !uuid '6d56a8748aa272666bb75791318bef4fdef948e7'
+    newFile: !uuid '1a81887567213ff14dbaf2588b85e59b4bcd5e11'
+    oldFile: !uuid 'f1745f5a98019e9d0bfdce898082d40774403b56'
+  /src/Http:
+    newFile: !uuid 'f9fe3e5f307629b1b94f423ed9149f91a7ca31a7'
+    oldFile: !uuid '1a2e5266551565aab9ac0ae4dc7f006c9addc9b3'
+  /src/Http/DiscuzResponseFactory.php:
+    newFile: !uuid '4ff5e1b91fdecbdcc91fbd71420f291077b44a3e'
+    oldFile: !uuid '63d762aafc02df8626de1553e029b58662416d09'
+gitCommitId: !uuid '95c37d97cddc4ed590a426ca1deaa14292bcc695'
 renames: {
   }
-revisionId: 269
+revisionId: 270
