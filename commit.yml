@@ -3,15 +3,15 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid '5f03a35745d2022439029bc7316d777e5131ebaf'
-    oldFile: !uuid '0358197f51491260468f0f33cb9876d4d017a640'
-  /src/Socialite:
-    newFile: !uuid '8ca128bb9bb9249b9135bbb65dccd2d673d983c4'
-    oldFile: !uuid '6fbfcf969eefc94d10669a46c69f8cb8a0e49015'
-  /src/Socialite/SocialiteManage.php:
-    newFile: !uuid '313ff3845e8424ae05e5672a334501c2f966c985'
-    oldFile: !uuid '102a20d84132db5cfcf65d5005dac781a8dddabb'
-gitCommitId: !uuid '8ca7b98c4540c8712c7bb85edb839536d8712eff'
+    newFile: !uuid '2346f6f1a1a3cc6a7ba6ce00c21c9f0e321ffe47'
+    oldFile: !uuid '5f03a35745d2022439029bc7316d777e5131ebaf'
+  /src/Filesystem:
+    newFile: !uuid '48901ec2090bf1ca4a96357934856cbc48e40cc2'
+    oldFile: !uuid '353c240d3ad6e75dbbcc01a7eb2a6c4d8038f2da'
+  /src/Filesystem/CosAdapter.php:
+    newFile: !uuid 'a0c41c2173ebafb14182685e2928d4f867faee66'
+    oldFile: !uuid '5084f4034f83a26f5432d7d2b64bf9fb1f42ecc7'
+gitCommitId: !uuid '5d414ffa7cd97078054a4b41c771b5f84ae191e6'
 renames: {
   }
-revisionId: 274
+revisionId: 275
