@@ -3,15 +3,15 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid '2346f6f1a1a3cc6a7ba6ce00c21c9f0e321ffe47'
-    oldFile: !uuid '5f03a35745d2022439029bc7316d777e5131ebaf'
-  /src/Filesystem:
-    newFile: !uuid '48901ec2090bf1ca4a96357934856cbc48e40cc2'
-    oldFile: !uuid '353c240d3ad6e75dbbcc01a7eb2a6c4d8038f2da'
-  /src/Filesystem/CosAdapter.php:
-    newFile: !uuid 'a0c41c2173ebafb14182685e2928d4f867faee66'
-    oldFile: !uuid '5084f4034f83a26f5432d7d2b64bf9fb1f42ecc7'
-gitCommitId: !uuid '5d414ffa7cd97078054a4b41c771b5f84ae191e6'
+    newFile: !uuid '5873110c911f84086b638fa23b51ca6c8c977150'
+    oldFile: !uuid '2346f6f1a1a3cc6a7ba6ce00c21c9f0e321ffe47'
+  /src/Foundation:
+    newFile: !uuid 'e618b5bd7090dc7cf20b12b9ff56233beb63ed2b'
+    oldFile: !uuid '099ef393f1b62fd73e00c7f5a98d9acd8532f1c5'
+  /src/Foundation/Application.php:
+    newFile: !uuid '8d431951b54be73f2293ea7afebe7bbdd70cc96b'
+    oldFile: !uuid '5f863adb4800993e6e0fc179df6d63660c7aea16'
+gitCommitId: !uuid 'fe9b81f7619e3deadcc764e8fe8f345d30c505b4'
 renames: {
   }
-revisionId: 275
+revisionId: 276
