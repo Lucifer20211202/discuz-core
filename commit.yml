@@ -3,18 +3,15 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid '147ad766ec424fe4e329b17054c031c408cdf1e5'
-    oldFile: !uuid '5aae9ca9e1162644132e54492f90cd8373675d47'
-  /src/Http:
-    newFile: !uuid '8bc6bb1c15ed02cfb166d0fab9bbd4de7c64f4ee'
-    oldFile: !uuid '11efa497c9fb383749902d0615fb22a7f5f6816e'
-  /src/Http/Middleware:
-    newFile: !uuid '14b5056fe9758446099264f361c16a85256a9785'
-    oldFile: !uuid 'f585f957893dd8b129d22090f525db4a6cf32c4b'
-  /src/Http/Middleware/CheckoutSite.php:
-    newFile: !uuid '77a3132c1b7fc2d01b9f68f99b8f31e7afecf1f9'
-    oldFile: !uuid '9932e094bc126b69c8e046248f5e7c1b5ea9c193'
-gitCommitId: !uuid '08ab13556b5ff0c72000b4e2756f872155e70da3'
+    newFile: !uuid '000f6d6288d744d28646e408ffe1a16d698d381d'
+    oldFile: !uuid '147ad766ec424fe4e329b17054c031c408cdf1e5'
+  /src/Wechat:
+    newFile: !uuid '277d825bb5094257a0ad3eae94b2ea0368750948'
+    oldFile: !uuid 'e04a7e8e12c949113b6a35a66ddd2a0640cb6e9f'
+  /src/Wechat/EasyWechatTrait.php:
+    newFile: !uuid 'c936ef8caea586499e2005145e8e0f55e1b5c0ae'
+    oldFile: !uuid 'dbd9faa4ef5b7666389c90773108175891c5d24d'
+gitCommitId: !uuid 'fefd8fd47df197231cb7b123667cec13b84159ef'
 renames: {
   }
-revisionId: 285
+revisionId: 286
