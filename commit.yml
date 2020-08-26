@@ -3,18 +3,15 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid '7d761df0301f4d8035f38154060a6a4a4928c452'
-    oldFile: !uuid 'ed798ccaf35c288d3172dd46688799f50df04503'
-  /src/Qcloud:
-    newFile: !uuid 'f01efe0e3351d4835f49f91400064da14bd24e10'
-    oldFile: !uuid 'ddf6624aac82580d03d5003152d5badd318a2099'
-  /src/Qcloud/Services:
-    newFile: !uuid '7305ceef14f7b6b310a9eee91bc2e9f909c7979f'
-    oldFile: !uuid 'a691f88db712ede8fa0537621a6a69580524c248'
-  /src/Qcloud/Services/VodService.php:
-    newFile: !uuid 'bb43b63fe7558208806c267e5847b7ce6e407afa'
-    oldFile: !uuid 'f0d1beb4c8873242452edfd0a58dd0b121e3cedd'
-gitCommitId: !uuid 'edac9a180d240d8405c40f02baa57406b05e075b'
+    newFile: !uuid 'af649db49def6d50801ebb34577fbdf6aae3ee8b'
+    oldFile: !uuid '7d761df0301f4d8035f38154060a6a4a4928c452'
+  /src/Http:
+    newFile: !uuid 'b3f163323aa466ff437270abeeb67a0d898fffd1'
+    oldFile: !uuid '1578b062372459330d0e7e0ef0b483a63cdcab09'
+  /src/Http/UrlGenerator.php:
+    newFile: !uuid 'f6d0014e718921337d0d0bf72070fc7cb4ae920d'
+    oldFile: !uuid 'cf3e79c13e37ddcb492e40cb8659d00f199d0bef'
+gitCommitId: !uuid '94413a80092a61506e90574daaa48872c13e3e45'
 renames: {
   }
-revisionId: 291
+revisionId: 292
