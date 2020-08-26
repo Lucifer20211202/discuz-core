@@ -3,18 +3,18 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid 'ed798ccaf35c288d3172dd46688799f50df04503'
-    oldFile: !uuid 'cc2bd26aae918b0e3b5b15398f6973ef7d8b1026'
-  /src/Api:
-    newFile: !uuid '8536a724300c2df518df5a79de651b538ebbaef9'
-    oldFile: !uuid 'f76586fa7a2c4d7e029fc270478926413bc48abe'
-  /src/Api/ExceptionHandler:
-    newFile: !uuid '4e24afe18dac6597ab578a3be4e99f2f7624cc70'
-    oldFile: !uuid '57b33c68a9028572bf10eeb757b8feeff0b55f52'
-  /src/Api/ExceptionHandler/PermissionDeniedExceptionHandler.php:
-    newFile: !uuid '69171e6edae4c7278f09b2f475717bb6da0f6622'
-    oldFile: !uuid 'fb9db8ccf59a0b3fc00f06d8ebd545d9b8a73827'
-gitCommitId: !uuid '0445305a078e564e41d38cfcce73b311308a8a5c'
+    newFile: !uuid '7d761df0301f4d8035f38154060a6a4a4928c452'
+    oldFile: !uuid 'ed798ccaf35c288d3172dd46688799f50df04503'
+  /src/Qcloud:
+    newFile: !uuid 'f01efe0e3351d4835f49f91400064da14bd24e10'
+    oldFile: !uuid 'ddf6624aac82580d03d5003152d5badd318a2099'
+  /src/Qcloud/Services:
+    newFile: !uuid '7305ceef14f7b6b310a9eee91bc2e9f909c7979f'
+    oldFile: !uuid 'a691f88db712ede8fa0537621a6a69580524c248'
+  /src/Qcloud/Services/VodService.php:
+    newFile: !uuid 'bb43b63fe7558208806c267e5847b7ce6e407afa'
+    oldFile: !uuid 'f0d1beb4c8873242452edfd0a58dd0b121e3cedd'
+gitCommitId: !uuid 'edac9a180d240d8405c40f02baa57406b05e075b'
 renames: {
   }
-revisionId: 290
+revisionId: 291
