@@ -3,24 +3,15 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid '8985c9c202713db453cc81feba71b5fe9bb369ce'
-    oldFile: !uuid '16136da3a08b1348904eeb66d3799c7338f20729'
-  /src/Filesystem:
-    newFile: !uuid '5e83efb7154d297ca45977a980b37c4d3216c616'
-    oldFile: !uuid 'e7e5b34e4c966e11a1e285c9175ddd113a411e68'
-  /src/Filesystem/FilesystemServiceProvider.php:
-    newFile: !uuid 'b474368d0c6fb38b2d1cc0bb97bb3fcee204bcae'
-    oldFile: !uuid '7b8f9168071c5d1e9906a1220a6d090a2399ad45'
-  /src/Qcloud:
-    newFile: !uuid 'cbdf61ce7b2f28ba3860437c557fe17635483164'
-    oldFile: !uuid 'f01efe0e3351d4835f49f91400064da14bd24e10'
-  /src/Qcloud/Services:
-    newFile: !uuid '754914ba2b06aa82670fec4a8e28a8d96e1fb396'
-    oldFile: !uuid '7305ceef14f7b6b310a9eee91bc2e9f909c7979f'
-  /src/Qcloud/Services/AbstractService.php:
-    newFile: !uuid '3ea9b1d1c6a986156ca5f132267e9d305969af73'
-    oldFile: !uuid '122191baf59f7658a3e71b8a74b513238a885b67'
-gitCommitId: !uuid '8c9acc4f07ce0eaed100c3ce31c812b116e67e40'
+    newFile: !uuid '595e6fad00dc337bb69c02a08dfb6bf987e7d22c'
+    oldFile: !uuid '8985c9c202713db453cc81feba71b5fe9bb369ce'
+  /src/Http:
+    newFile: !uuid '493ce1a016ed32060b59851d25111fe76a547951'
+    oldFile: !uuid '4555341b0365c858df4b674a775eed080515b0a6'
+  /src/Http/DiscuzResponseFactory.php:
+    newFile: !uuid '3d118a2b88ef8d475bf83f7a7052e62a525353f9'
+    oldFile: !uuid '89121f249d5f2bbd7ace163f00c74786d73fb6a9'
+gitCommitId: !uuid '637120204f4f48d024d78ad27f7b7ff4fea7487a'
 renames: {
   }
-revisionId: 296
+revisionId: 297
