@@ -3,24 +3,15 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid 'b7910e189055ac913ab2f25f40aa46a7f30e8e97'
-    oldFile: !uuid '595e6fad00dc337bb69c02a08dfb6bf987e7d22c'
-  /src/Api:
-    newFile: !uuid '8d619386925f64fafd4024646ae13fa1c6c521dd'
-    oldFile: !uuid '8536a724300c2df518df5a79de651b538ebbaef9'
-  /src/Api/Controller:
-    newFile: !uuid '6ef123d8e50b1a9b3ed7f44614bae47cbbfdda67'
-    oldFile: !uuid '7c5739e99e754282f42231b4da86396ec9a18ab1'
-  /src/Api/Controller/AbstractSerializeController.php:
-    newFile: !uuid '908a9182d56b9ad872d45f4cfd724be174b6121b'
-    oldFile: !uuid '654c6fb321ce4e8572d3e0f182a420a92573badb'
-  /src/Api/Events:
-    newFile: !uuid 'bd046794779e73014c2305311ae92d130ac9c661'
-    oldFile: !uuid '0fa2c831e04f2ea74eaa1af52082a6101e634f2d'
-  /src/Api/Events/WillSerializeData.php:
-    newFile: !uuid '5c7a8671fb124316c76b438a2cd466162d5a230f'
-    oldFile: null
-gitCommitId: !uuid '7a97e7aeafd95110073c60a5ad2d3492704cea9e'
+    newFile: !uuid '101174fb5d9fa7a5e1455f3aa6bb4cdd9000b4b1'
+    oldFile: !uuid 'b7910e189055ac913ab2f25f40aa46a7f30e8e97'
+  /src/Foundation:
+    newFile: !uuid '0af7c2005d6cb2c50f4543ca226407c30eb97e42'
+    oldFile: !uuid '4d81ff6d3a5dd6acbf23a566bab081ed2bd272ad'
+  /src/Foundation/helpers.php:
+    newFile: !uuid 'ed33aa94d43537647aff9f62db98ba47a9aee6a8'
+    oldFile: !uuid 'a94411206ef6815f2baa09297212b2719eeffde8'
+gitCommitId: !uuid '4f1b7c9b410f87831b37d557cf68ab05dd9bacb5'
 renames: {
   }
-revisionId: 298
+revisionId: 299
