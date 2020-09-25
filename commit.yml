@@ -3,15 +3,15 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid 'ee698cb09da0967b228bf2284382fbd5845f801c'
-    oldFile: !uuid '69814591d4631f9a2f40abd32dd16941f966cf0f'
-  /src/Console:
-    newFile: !uuid '157b1abdcc4e104c8f08cf2c45e7e715ac477508'
-    oldFile: !uuid '2c2de00add27dbf8b5041d588cd4ac8ad0924962'
-  /src/Console/AbstractCommand.php:
-    newFile: !uuid '262e45e2a30dfaca857b1a7eb97b0e445116fd6a'
-    oldFile: !uuid '92bf1eeee4690340031c4594ce59fd9889c4f83e'
-gitCommitId: !uuid 'd875a81ce4b08fd0c2bba8ff5e959dc638c37349'
+    newFile: !uuid '007094580892922e7cf7549e2315ed483e04902e'
+    oldFile: !uuid 'ee698cb09da0967b228bf2284382fbd5845f801c'
+  /src/Foundation:
+    newFile: !uuid '83ebb5b4455cf04580731265eb29c5bd289d86ac'
+    oldFile: !uuid '87e61faecc253d89d52f6990a43386b86f46c4d1'
+  /src/Foundation/EventsDispatchTrait.php:
+    newFile: !uuid 'a6ec2e140cb724eac6975f3c4dc32e8512628a7a'
+    oldFile: !uuid 'a6c0d3a04630d0672661dc2aff9cf065f50c728e'
+gitCommitId: !uuid '225fdcab1ceba304f59318d8d05c779c7b9318a8'
 renames: {
   }
-revisionId: 301
+revisionId: 302
