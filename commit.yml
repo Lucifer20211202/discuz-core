@@ -3,15 +3,18 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid '007094580892922e7cf7549e2315ed483e04902e'
-    oldFile: !uuid 'ee698cb09da0967b228bf2284382fbd5845f801c'
-  /src/Foundation:
-    newFile: !uuid '83ebb5b4455cf04580731265eb29c5bd289d86ac'
-    oldFile: !uuid '87e61faecc253d89d52f6990a43386b86f46c4d1'
-  /src/Foundation/EventsDispatchTrait.php:
-    newFile: !uuid 'a6ec2e140cb724eac6975f3c4dc32e8512628a7a'
-    oldFile: !uuid 'a6c0d3a04630d0672661dc2aff9cf065f50c728e'
-gitCommitId: !uuid '225fdcab1ceba304f59318d8d05c779c7b9318a8'
+    newFile: !uuid '0d5317d79144dc8832fb9946c2ffaeba331c0826'
+    oldFile: !uuid '007094580892922e7cf7549e2315ed483e04902e'
+  /src/Api:
+    newFile: !uuid '168620988576d591dc9e3b378bb653ff8f450520'
+    oldFile: !uuid '8d619386925f64fafd4024646ae13fa1c6c521dd'
+  /src/Api/Controller:
+    newFile: !uuid '3635f46c8c7b71606423a3ccb41a897dc09a614f'
+    oldFile: !uuid '6ef123d8e50b1a9b3ed7f44614bae47cbbfdda67'
+  /src/Api/Controller/AbstractSerializeController.php:
+    newFile: !uuid '57eab91f4e154220187d08c5a89fe0619515543f'
+    oldFile: !uuid '908a9182d56b9ad872d45f4cfd724be174b6121b'
+gitCommitId: !uuid '6e64e873a37e2fb88f47e0174dcfa5dd2fda4885'
 renames: {
   }
-revisionId: 302
+revisionId: 303
