@@ -3,15 +3,15 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid '741d6369b1d6642256e71b65ca7f04e8903231be'
-    oldFile: !uuid '919b825cd9c287595751e21042ddc2522ffd1569'
-  /src/Http:
-    newFile: !uuid 'bfe02ada2303a8b7a8c297b02a807c379414b184'
-    oldFile: !uuid '493ce1a016ed32060b59851d25111fe76a547951'
-  /src/Http/UrlGenerator.php:
-    newFile: !uuid 'a63d1890a162122df4dde4b4e031b70b31ee22d7'
-    oldFile: !uuid 'f6d0014e718921337d0d0bf72070fc7cb4ae920d'
-gitCommitId: !uuid '36de97cfce4be644ed11eae3e43185e741248ed8'
+    newFile: !uuid '14faecc43438d9ff78b620aa05885e5a4f2564d4'
+    oldFile: !uuid '741d6369b1d6642256e71b65ca7f04e8903231be'
+  /src/Auth:
+    newFile: !uuid '0ef86d5665526eb88256464ac0199728983ab002'
+    oldFile: !uuid 'f059a17634e2edfd63352585588afd6224491501'
+  /src/Auth/Anonymous.php:
+    newFile: !uuid 'c25fbe91f46bd376b445d76e7ec8b8eec43894c1'
+    oldFile: null
+gitCommitId: !uuid 'e2498c5b9c53da6aede2ee7f6be07ba022652524'
 renames: {
   }
-revisionId: 305
+revisionId: 306
