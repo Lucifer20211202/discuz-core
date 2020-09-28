@@ -3,18 +3,15 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid '919b825cd9c287595751e21042ddc2522ffd1569'
-    oldFile: !uuid '0d5317d79144dc8832fb9946c2ffaeba331c0826'
-  /src/Api:
-    newFile: !uuid 'a2c557a56d134750970cd56851266f57008daabf'
-    oldFile: !uuid '168620988576d591dc9e3b378bb653ff8f450520'
-  /src/Api/ExceptionHandler:
-    newFile: !uuid 'bdafe0563a13f89afefa3839a5402a2a8e5ccd0a'
-    oldFile: !uuid '4e24afe18dac6597ab578a3be4e99f2f7624cc70'
-  /src/Api/ExceptionHandler/TencentCloudSDKExceptionHandler.php:
-    newFile: !uuid '3112118bd31c043db790a9b527c003b1da4a4224'
-    oldFile: !uuid 'e77acd6b42840c75eed9a7bb2746df70c8969712'
-gitCommitId: !uuid 'ebe0f88c419fefdbf878da89ee892f771a3e3421'
+    newFile: !uuid '741d6369b1d6642256e71b65ca7f04e8903231be'
+    oldFile: !uuid '919b825cd9c287595751e21042ddc2522ffd1569'
+  /src/Http:
+    newFile: !uuid 'bfe02ada2303a8b7a8c297b02a807c379414b184'
+    oldFile: !uuid '493ce1a016ed32060b59851d25111fe76a547951'
+  /src/Http/UrlGenerator.php:
+    newFile: !uuid 'a63d1890a162122df4dde4b4e031b70b31ee22d7'
+    oldFile: !uuid 'f6d0014e718921337d0d0bf72070fc7cb4ae920d'
+gitCommitId: !uuid '36de97cfce4be644ed11eae3e43185e741248ed8'
 renames: {
   }
-revisionId: 304
+revisionId: 305
