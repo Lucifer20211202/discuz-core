@@ -3,15 +3,15 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid '14faecc43438d9ff78b620aa05885e5a4f2564d4'
-    oldFile: !uuid '741d6369b1d6642256e71b65ca7f04e8903231be'
+    newFile: !uuid 'acb14bc35ebabe5d98be735e8c917b734a62316e'
+    oldFile: !uuid '14faecc43438d9ff78b620aa05885e5a4f2564d4'
   /src/Auth:
-    newFile: !uuid '0ef86d5665526eb88256464ac0199728983ab002'
-    oldFile: !uuid 'f059a17634e2edfd63352585588afd6224491501'
+    newFile: !uuid '55a893c577927c4adeebfacc2d452234c98520e5'
+    oldFile: !uuid '0ef86d5665526eb88256464ac0199728983ab002'
   /src/Auth/Anonymous.php:
-    newFile: !uuid 'c25fbe91f46bd376b445d76e7ec8b8eec43894c1'
-    oldFile: null
-gitCommitId: !uuid 'e2498c5b9c53da6aede2ee7f6be07ba022652524'
+    newFile: !uuid '959a7484cb1ef3678fdde0d8980cbf7e5b04c088'
+    oldFile: !uuid 'c25fbe91f46bd376b445d76e7ec8b8eec43894c1'
+gitCommitId: !uuid '64fe7f4de3a4d4122fe997908bbfa90a312f9855'
 renames: {
   }
-revisionId: 306
+revisionId: 307
