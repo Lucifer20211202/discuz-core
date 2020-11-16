@@ -3,15 +3,42 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid '6db8624db0590cb0063a35994796fcdd636bdd3b'
-    oldFile: !uuid 'df96be29c30e6bb9b992bc4d3cb3bd3f41a73bed'
-  /src/Common:
-    newFile: !uuid '32ac8748d03db78570929b95eca055261b10ec36'
-    oldFile: !uuid '1248c1a19219651328e84e762312dcaa9baab0e9'
-  /src/Common/Utils.php:
-    newFile: !uuid '37c5639f953618a7c2503d3d864a342cce7c5994'
-    oldFile: !uuid 'dc4ca1ac0fe7ee871bbf5a516c76d65671ce528d'
-gitCommitId: !uuid '69c17ef0386665d720280363a51e6ce60f1eb117'
+    newFile: !uuid 'a31e76d51de6c8a4b8c216cbd31db5ab139a977c'
+    oldFile: !uuid '6db8624db0590cb0063a35994796fcdd636bdd3b'
+  /src/Notifications:
+    newFile: !uuid 'e5cdff6b86c70b0aba49efb747776b16a7a438f1'
+    oldFile: !uuid '09dcf0a07cac894cada5da79b9f36e39fcfa57d5'
+  /src/Notifications/Channels:
+    newFile: !uuid '4d1fad434c92fd8565920fd031bc0313e659356f'
+    oldFile: !uuid '9435766f2c97d25b8a829906b5a704ddb28f599d'
+  /src/Notifications/Channels/WechatChannel.php:
+    newFile: !uuid '34da09408f8f1af31a8efc36e4de94b6dae86741'
+    oldFile: !uuid 'b55fff05879725b965c0fc68a378a41bca509192'
+  /src/Notifications/Messages:
+    newFile: !uuid '26707507e420a0923bdbb533c6ebdf665bb5e5ea'
+    oldFile: !uuid '3885be549f92adac997e34e1314e4f8cec21f7f1'
+  /src/Notifications/Messages/SimpleMessage.php:
+    newFile: !uuid '2207b0eefd90d2eb135ffff0c0cd331bdc9004a0'
+    oldFile: null
+  /src/Notifications/NotificationManager.php:
+    newFile: !uuid '984927c1aac826b0eec5e4499da77cc841494627'
+    oldFile: null
+  /src/Notifications/Services:
+    newFile: !uuid '41134c2c3d586763f288b6a0085bf876bca20cf0'
+    oldFile: null
+  /src/Notifications/Services/AbstractDriver.php:
+    newFile: !uuid 'ef883c1cdfdfeaeda79b9eeaba677cb3808df8f1'
+    oldFile: null
+  /src/Notifications/Services/Database.php:
+    newFile: !uuid 'c94c0a2138cc01a21376b6110a3d2bd210728cb7'
+    oldFile: null
+  /src/Notifications/Services/NotificationInterface.php:
+    newFile: !uuid 'ad20d94b8ad409e691fc1567c46087cc0bd626f7'
+    oldFile: null
+  /src/Notifications/Services/Wechat.php:
+    newFile: !uuid '8dcc6346881afcddc2e64d6ef4c5bbe810f4a978'
+    oldFile: null
+gitCommitId: !uuid 'f051c40afadb4fe5afbc78675ef8c66da9d4fcf2'
 renames: {
   }
-revisionId: 330
+revisionId: 331
