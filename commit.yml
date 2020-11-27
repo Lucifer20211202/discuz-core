@@ -2,10 +2,16 @@
 branches: {
   }
 fileChange:
-  /composer.json:
-    newFile: !uuid '68b70f8c492c16d22ea6bdfa153c90912c1b2dc1'
-    oldFile: !uuid 'c61f00ff4cbdd38a60c730c869b77cdcefb3c6b0'
-gitCommitId: !uuid '136900e6e517044e8d80e02d0690fda46452fbf2'
+  /src:
+    newFile: !uuid 'a5133c8f9da3c46c3c5007fbfff1bfb618316934'
+    oldFile: !uuid 'c3c1d10f0875316bdabf2b9abc987255deb50380'
+  /src/Qcloud:
+    newFile: !uuid '46cde6e94a1cc837eac87c256a799d5c82d6e6c2'
+    oldFile: !uuid 'bd9c9ef44a52670f94370c4e3740da29c504d380'
+  /src/Qcloud/QcloudTrait.php:
+    newFile: !uuid '0cf57ffb34bb575670e5d7a4ec67bb86cd8149da'
+    oldFile: !uuid 'b7922171e0d2a4917cbfd284681e7fe0854ff02d'
+gitCommitId: !uuid 'a5ed6429e6124f1b3d23ac41355e6449d3132903'
 renames: {
   }
-revisionId: 336
+revisionId: 337
