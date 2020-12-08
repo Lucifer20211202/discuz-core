@@ -3,15 +3,18 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid '69258dc0f031913e603cf4b55d3dd71bc1639713'
-    oldFile: !uuid 'a5133c8f9da3c46c3c5007fbfff1bfb618316934'
-  /src/Models:
-    newFile: !uuid '3e503fd8db9417e841b9a0df4f615d84ccda8aee'
-    oldFile: null
-  /src/Models/DzqModel.php:
-    newFile: !uuid '6ce7bd5b41f8f2017687adaee3228b4284b9222b'
-    oldFile: null
-gitCommitId: !uuid 'a8d6f9847bb1db3a7aa182ddae9c036be175955d'
+    newFile: !uuid '7c56b6a401fe7edfc1106ab81cc80602ca82256c'
+    oldFile: !uuid '69258dc0f031913e603cf4b55d3dd71bc1639713'
+  /src/Http:
+    newFile: !uuid '9f43e9dcbf55a79758b4fc1bbe69262326656ca8'
+    oldFile: !uuid '4584e3a853ce90cc73430de73cf05f0a84291e62'
+  /src/Http/Middleware:
+    newFile: !uuid '8c70a1138f83f360a6083f68bc7ed18aa5281135'
+    oldFile: !uuid '0ac79caf837a8cf0bce1b24209da51bea86c5592'
+  /src/Http/Middleware/CheckUserStatus.php:
+    newFile: !uuid '229394d63cc36be96e8a801d6d97a42e3acd266b'
+    oldFile: !uuid 'ba6a7c05277074a83629811c16ead080b4b10d95'
+gitCommitId: !uuid '3a2f70c9cdae8a6e241d316cfa72af5e76f7264c'
 renames: {
   }
-revisionId: 338
+revisionId: 339
