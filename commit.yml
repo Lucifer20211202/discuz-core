@@ -3,15 +3,15 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid 'a5133c8f9da3c46c3c5007fbfff1bfb618316934'
-    oldFile: !uuid 'c3c1d10f0875316bdabf2b9abc987255deb50380'
-  /src/Qcloud:
-    newFile: !uuid '46cde6e94a1cc837eac87c256a799d5c82d6e6c2'
-    oldFile: !uuid 'bd9c9ef44a52670f94370c4e3740da29c504d380'
-  /src/Qcloud/QcloudTrait.php:
-    newFile: !uuid '0cf57ffb34bb575670e5d7a4ec67bb86cd8149da'
-    oldFile: !uuid 'b7922171e0d2a4917cbfd284681e7fe0854ff02d'
-gitCommitId: !uuid 'a5ed6429e6124f1b3d23ac41355e6449d3132903'
+    newFile: !uuid '69258dc0f031913e603cf4b55d3dd71bc1639713'
+    oldFile: !uuid 'a5133c8f9da3c46c3c5007fbfff1bfb618316934'
+  /src/Models:
+    newFile: !uuid '3e503fd8db9417e841b9a0df4f615d84ccda8aee'
+    oldFile: null
+  /src/Models/DzqModel.php:
+    newFile: !uuid '6ce7bd5b41f8f2017687adaee3228b4284b9222b'
+    oldFile: null
+gitCommitId: !uuid 'a8d6f9847bb1db3a7aa182ddae9c036be175955d'
 renames: {
   }
-revisionId: 337
+revisionId: 338
