@@ -3,18 +3,15 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid 'eb464194971068965dc5cf2629e3df8fb68c80ad'
-    oldFile: !uuid 'f077110180b9cf51d94e564fd80984a10a04996e'
+    newFile: !uuid '8e1853086b96666dc9fa9d3dfb062d4b789de3d2'
+    oldFile: !uuid 'eb464194971068965dc5cf2629e3df8fb68c80ad'
   /src/Http:
-    newFile: !uuid '218247687ecdc1b0fc9d53d4bb871bc8591e7bb8'
-    oldFile: !uuid '9f43e9dcbf55a79758b4fc1bbe69262326656ca8'
-  /src/Http/Middleware:
-    newFile: !uuid '6e3d3ffa8a21fe1a328b1dba13888f834d46422d'
-    oldFile: !uuid '8c70a1138f83f360a6083f68bc7ed18aa5281135'
-  /src/Http/Middleware/CheckUserStatus.php:
-    newFile: !uuid '92b05ab083a06f43bb1c626b4014650de8666931'
-    oldFile: !uuid '229394d63cc36be96e8a801d6d97a42e3acd266b'
-gitCommitId: !uuid '785a5893a67afe16c20e837aaed3355c1745a9b2'
+    newFile: !uuid '7ae7e75f26f873fc31ab4b589e46b00832dd75cf'
+    oldFile: !uuid '218247687ecdc1b0fc9d53d4bb871bc8591e7bb8'
+  /src/Http/Server.php:
+    newFile: !uuid '8f8e9382baed615d333beb6b8b574dcf98c65ff4'
+    oldFile: !uuid 'f8eb79012aaa1b9b27529a6a8696d1e86c6e51fb'
+gitCommitId: !uuid '68e68445cf118e4e326a4af40aa84ec74fb03ccc'
 renames: {
   }
-revisionId: 341
+revisionId: 342
