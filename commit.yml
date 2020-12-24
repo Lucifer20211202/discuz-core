@@ -3,15 +3,33 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid '8e1853086b96666dc9fa9d3dfb062d4b789de3d2'
-    oldFile: !uuid 'eb464194971068965dc5cf2629e3df8fb68c80ad'
+    newFile: !uuid '4b95ee8f33db7224b4aa670f7c4165b99c7f4bd3'
+    oldFile: !uuid '8e1853086b96666dc9fa9d3dfb062d4b789de3d2'
+  /src/Api:
+    newFile: !uuid 'c04a0404c9706c716aceb4a6b556bd8c6a3c5d3f'
+    oldFile: !uuid '727c94bb1979095f10022d818085ba517e67d958'
+  /src/Api/ExceptionHandler:
+    newFile: !uuid 'd66dada8034e821967297f668c5fab9d280263be'
+    oldFile: !uuid 'c0c291b318041400df59b957a099a8a29e656a5c'
+  /src/Api/ExceptionHandler/PermissionDeniedExceptionHandler.php:
+    newFile: !uuid 'e40c286ba7e7b0b26085639037b47bda1b2c802a'
+    oldFile: !uuid 'a116870b8c05612301af84f70a329a49ff344018'
   /src/Http:
-    newFile: !uuid '7ae7e75f26f873fc31ab4b589e46b00832dd75cf'
-    oldFile: !uuid '218247687ecdc1b0fc9d53d4bb871bc8591e7bb8'
-  /src/Http/Server.php:
-    newFile: !uuid '8f8e9382baed615d333beb6b8b574dcf98c65ff4'
-    oldFile: !uuid 'f8eb79012aaa1b9b27529a6a8696d1e86c6e51fb'
-gitCommitId: !uuid '68e68445cf118e4e326a4af40aa84ec74fb03ccc'
+    newFile: !uuid '009a4a8077bb76dcb2ffbd063e4ed5a6208dfc29'
+    oldFile: !uuid '7ae7e75f26f873fc31ab4b589e46b00832dd75cf'
+  /src/Http/Middleware:
+    newFile: !uuid 'f1641a536ad8e50f16f86c7cc91bb8b17f02b07b'
+    oldFile: !uuid '6e3d3ffa8a21fe1a328b1dba13888f834d46422d'
+  /src/Http/Middleware/CheckUserStatus.php:
+    newFile: !uuid '1663c80c7f75a8aaa393c4d59edb1a129ab86ba4'
+    oldFile: !uuid '92b05ab083a06f43bb1c626b4014650de8666931'
+  /src/Models:
+    newFile: !uuid 'e86f29a6a1a49d5737c67891fff9117d9ae2fac3'
+    oldFile: !uuid '3e503fd8db9417e841b9a0df4f615d84ccda8aee'
+  /src/Models/DzqModel.php:
+    newFile: !uuid 'df8df69b110a75cb98ca0a73dee143c2103bf562'
+    oldFile: !uuid '6ce7bd5b41f8f2017687adaee3228b4284b9222b'
+gitCommitId: !uuid 'ea7629f5d1a824dc3cccc5c3419ecca644a30116'
 renames: {
   }
-revisionId: 342
+revisionId: 343
