@@ -3,15 +3,18 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid '348db9fd53de2166d169b08b97ef01954cdd9b20'
-    oldFile: !uuid 'c3e103de4bced9bace59798639e6ebdf9ca9edb9'
-  /src/Foundation:
-    newFile: !uuid '400ec4a44e9a429777af05c616572b25d265340a'
-    oldFile: !uuid '761452af485b157306a41d92d81c599bddf791f6'
-  /src/Foundation/SiteApp.php:
-    newFile: !uuid '7e1fdabba65c0c858511d433a3b44d98416c69be'
-    oldFile: !uuid 'e9c2b3f02f4547305ce3143ae978ffc611a4d81f'
-gitCommitId: !uuid 'a831a96414ba47b4e406ff81ac9efe169a4aebdf'
+    newFile: !uuid 'd871ccab0a12e7f4325454920e3c7ad7e1f6c323'
+    oldFile: !uuid '348db9fd53de2166d169b08b97ef01954cdd9b20'
+  /src/Auth:
+    newFile: !uuid 'c624fb782de23dbac93d0a62bdc3bf17247778b7'
+    oldFile: !uuid '0f845f102217c3130e62f2eeea2e655455ff5a52'
+  /src/Auth/Exception:
+    newFile: !uuid 'bd875b6a624a751ad5109719904020447f767e9f'
+    oldFile: !uuid 'a2538c2842e73120ab831eed371d7817fc04a197'
+  /src/Auth/Exception/PermissionDeniedException.php:
+    newFile: !uuid '75ad4874950ad26e1a0def824d9c4473bb7b287f'
+    oldFile: !uuid '0ce5f1b31430cf5f88731435a56cbe696af16110'
+gitCommitId: !uuid '21d22cc8fa644dd578f7d2abc9d65cdcf3cf625b'
 renames: {
   }
-revisionId: 362
+revisionId: 363
