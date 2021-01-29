@@ -1,9 +1,35 @@
 !revision
 branches: {
   }
-fileChange: {
-  }
-gitCommitId: !uuid '8c035675b10f41f7a5d20d752c12e56783f64e32'
+fileChange:
+  /src:
+    newFile: !uuid '734eef4d592f2579fb106e3788fde1244e8398f3'
+    oldFile: !uuid 'c4ee6354ad3a9105465f0cfdf4fd690e58b581f9'
+  /src/Notifications:
+    newFile: !uuid '7a40ffb8aa493aa4d0a8c61cd5e5321cd48ddbb8'
+    oldFile: !uuid 'e5cdff6b86c70b0aba49efb747776b16a7a438f1'
+  /src/Notifications/Channels:
+    newFile: !uuid '840e5e2e3e6e0a5c84cc0405b587988814642a53'
+    oldFile: !uuid '4d1fad434c92fd8565920fd031bc0313e659356f'
+  /src/Notifications/Channels/WechatChannel.php:
+    newFile: !uuid '6235ee76f1a81e80901eda725a16056250e6f34d'
+    oldFile: !uuid '34da09408f8f1af31a8efc36e4de94b6dae86741'
+  /src/Notifications/Messages:
+    newFile: !uuid '8a1d122520ae600fab297b13bf0ff50f55f2dbb3'
+    oldFile: !uuid '26707507e420a0923bdbb533c6ebdf665bb5e5ea'
+  /src/Notifications/Messages/DatabaseMessage.php:
+    newFile: null
+    oldFile: !uuid '29a0bdcc2c93554f03008c7a68437d8d1665aeec'
+  /src/Notifications/Messages/SimpleMessage.php:
+    newFile: !uuid 'f3dbdcdf87f717ff9416fcf9e01c090ed7721607'
+    oldFile: !uuid '2207b0eefd90d2eb135ffff0c0cd331bdc9004a0'
+  /src/Notifications/Traits:
+    newFile: !uuid '43af492339af1ed07ddcd5a834e8f8dd990ea835'
+    oldFile: null
+  /src/Notifications/Traits/WechatTrait.php:
+    newFile: !uuid 'a27f6f08d7ac2bc26155b0e7482ec84ed69b069e'
+    oldFile: null
+gitCommitId: !uuid 'b0ef2f37ef7d85d6aab6a547f94c4e2dd18f85ed'
 renames: {
   }
-revisionId: 368
+revisionId: 369
