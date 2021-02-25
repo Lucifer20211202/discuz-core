@@ -3,15 +3,18 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid 'f1558a23eeb4a15fb84f0d4fffe698fa3c26d547'
-    oldFile: !uuid '0d3eae15316791f799bf078f28b017fc7be9d095'
-  /src/Qcloud:
-    newFile: !uuid '89c28521fe5bd742a53819a4747257a398631f03'
-    oldFile: !uuid '58f290647b7400d1f0a15738854b140b2c189c19'
-  /src/Qcloud/QcloudStatisticsTrait.php:
-    newFile: !uuid '0220e70e88cb745bac098e5b2e3e5703b00665b5'
-    oldFile: !uuid '18a5d06b5f556304c03e14fd8a0fd4a66b906db4'
-gitCommitId: !uuid '5db02f647e45326f5534dee7558564502c089db4'
+    newFile: !uuid 'e4303e755878f0574da7d064c2f62c70081b9988'
+    oldFile: !uuid 'f1558a23eeb4a15fb84f0d4fffe698fa3c26d547'
+  /src/Http:
+    newFile: !uuid 'afe4208dd413907c0dd255a9a4f9c8766238766b'
+    oldFile: !uuid '91cdfb723c5210795387d0b87f77c26722e8e69e'
+  /src/Http/Middleware:
+    newFile: !uuid '12b2908e4e7ed39a1fee6922dd798706add6c78f'
+    oldFile: !uuid '660267ea1a44542ea5e0708c222c0a9bed629582'
+  /src/Http/Middleware/AuthenticateWithHeader.php:
+    newFile: !uuid '79da638d3e3778110c9006ef0a48084334441fa4'
+    oldFile: !uuid 'f05599fd51bb1eaf1ecab614715f2bc789e7d335'
+gitCommitId: !uuid 'f2dddebfed6f409e4996ef5fd7eaba5bdae49943'
 renames: {
   }
-revisionId: 376
+revisionId: 377
