@@ -3,15 +3,18 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid '8798bbb8b431ff38aea93252f1ca1877fea750f0'
-    oldFile: !uuid '69db8673220debd57d686930d4cc74a8dec8d6e8'
-  /src/Foundation:
-    newFile: !uuid '0bda4774b17dc8e48dc930f96f59f08776d15f0e'
-    oldFile: !uuid '400ec4a44e9a429777af05c616572b25d265340a'
-  /src/Foundation/SiteApp.php:
-    newFile: !uuid '5d35266682919836a5492a1311c1e83d320f9817'
-    oldFile: !uuid '7e1fdabba65c0c858511d433a3b44d98416c69be'
-gitCommitId: !uuid '4396a0ea936b638e12254e9ad184fc199059478b'
+    newFile: !uuid '86c4fea9e1b10293289a3ba5761528db28a8be0d'
+    oldFile: !uuid '8798bbb8b431ff38aea93252f1ca1877fea750f0'
+  /src/Notifications:
+    newFile: !uuid 'bd433931a144ca892f43ebc92cac4bdf562d6549'
+    oldFile: !uuid '1c74faf01ec6a219e0c5954df16c98015638348a'
+  /src/Notifications/Messages:
+    newFile: !uuid 'c849e4252ea27e38f9e3e51cecd99495a86fbf15'
+    oldFile: !uuid '3e06f35959f8aab8033b71b025a390bfa0a479e6'
+  /src/Notifications/Messages/SimpleMessage.php:
+    newFile: !uuid '60e8d4d0223d8448a274b691c8744f1b7d2665c3'
+    oldFile: !uuid 'c76e8b913330ec9e536a9a848355f916ed319f49'
+gitCommitId: !uuid '0561a2f3caf6186d61c942fe2db420eb8d0ad0cb'
 renames: {
   }
-revisionId: 379
+revisionId: 380
