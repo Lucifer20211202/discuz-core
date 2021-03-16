@@ -3,15 +3,18 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid '028f789ac7b0335cf778bbc6dc87ec7b04fc8489'
-    oldFile: !uuid '7135437bf0ec0ac399b5625a0921e0bde6635b91'
-  /src/Api:
-    newFile: !uuid '07a8acd213c23fefb165cd5a8a40ee5c49f32a07'
-    oldFile: !uuid 'ff7185717c9cc2e5e32ec1e69023faf23b54ea67'
-  /src/Api/ErrorHandler.php:
-    newFile: !uuid '05772dad63c22cbb42d5950137134fc584d26905'
-    oldFile: !uuid 'ea5dffaf0fa352bee2fb08d532c2331e33e8065c'
-gitCommitId: !uuid 'feb48d681bc8d797d57acaa0b757f207b6238ae5'
+    newFile: !uuid '43839e8f5ed88962f0cac19f97a3632c1826aadb'
+    oldFile: !uuid '028f789ac7b0335cf778bbc6dc87ec7b04fc8489'
+  /src/Http:
+    newFile: !uuid '852b4e4bb23a744f164e90d299197e7f6ec20f60'
+    oldFile: !uuid 'afe4208dd413907c0dd255a9a4f9c8766238766b'
+  /src/Http/Middleware:
+    newFile: !uuid '958fcba118fc3299960dce5f15fe7858cf32053a'
+    oldFile: !uuid '12b2908e4e7ed39a1fee6922dd798706add6c78f'
+  /src/Http/Middleware/CheckoutSite.php:
+    newFile: !uuid 'db77f3a9ee2d953226368a3bab6c02e2fa7b2128'
+    oldFile: !uuid 'fbec375b53f9420c188c49f218809f7db06f9369'
+gitCommitId: !uuid 'f91d868e9554f70213482d938377563aa9bbb4c0'
 renames: {
   }
-revisionId: 382
+revisionId: 383
