@@ -3,15 +3,15 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid 'b70cf582ff54bb1c828e2e456eb09c08af444fa7'
-    oldFile: !uuid '9c3dfcfdd26f7b82a88ab2439d4ccd8d772a4619'
-  /src/Auth:
-    newFile: !uuid '0089f6db2a4f1d9702cded28cc6b19ddefaf16bb'
-    oldFile: !uuid '105628d0d58298a49ef246881c6972dee520f463'
-  /src/Auth/Anonymous.php:
-    newFile: !uuid '3f261ce77b3b20aef25e1c1b61c50e5cfd86ead1'
-    oldFile: !uuid '6ffbb11e957adf251091cdead09243ca2cceebe0'
-gitCommitId: !uuid '419d6a9c8427f26b3c1546f46e1cecdfb8d8467e'
+    newFile: !uuid '032e52ccf4e2bacb56541e81e8ec91f5f84a2a59'
+    oldFile: !uuid 'b70cf582ff54bb1c828e2e456eb09c08af444fa7'
+  /src/Api:
+    newFile: !uuid '5fed105fb0f4e682178d37349bf8c48c76860356'
+    oldFile: !uuid 'ac49bcbd238aeb5c9f2eb685a07ac85ed98cfe6d'
+  /src/Api/ApiServiceProvider.php:
+    newFile: !uuid '3b2863b40b436f5c3d0c31050c19c5491d05a0c1'
+    oldFile: !uuid '649e129909eca4847214bcfddb8eca22c178d079'
+gitCommitId: !uuid '70c9883d5dfd25e2961d526cbd5419be728826bc'
 renames: {
   }
-revisionId: 396
+revisionId: 397
