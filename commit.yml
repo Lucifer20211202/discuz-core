@@ -3,69 +3,21 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid '7046fc22f86765fc1d7adf0988a076101dbca6fd'
-    oldFile: !uuid '5fc8ce32211865734cf91a02eca1b887d978de9e'
-  /src/Console:
-    newFile: !uuid '9e847a077e3139d42959d3108d94097557b40fbb'
-    oldFile: !uuid '157b1abdcc4e104c8f08cf2c45e7e715ac477508'
-  /src/Console/AbstractCommand.php:
-    newFile: !uuid '10fbc279e3e0c1ee84c3ad519299fc7db520d3cb'
-    oldFile: !uuid '262e45e2a30dfaca857b1a7eb97b0e445116fd6a'
-  /src/Notifications:
-    newFile: !uuid '5111d714a0e90803612917a729a7f0ae7b2b58dd'
-    oldFile: !uuid 'bd433931a144ca892f43ebc92cac4bdf562d6549'
-  /src/Notifications/ChannelManager.php:
-    newFile: !uuid 'c9c671250702a8c8c9ae05834e1ca443f9918fcc'
-    oldFile: !uuid 'ba75c13d9e32288f8e3258398c7dbb39be22dd66'
-  /src/Notifications/Channels:
-    newFile: !uuid 'ad3c9534a69977c7d4e9380d01df2eb142d98399'
-    oldFile: !uuid '840e5e2e3e6e0a5c84cc0405b587988814642a53'
-  /src/Notifications/Channels/DatabaseChannel.php:
-    newFile: !uuid '9590311ac5dc5dc0fbed293b6c79954c678d2598'
-    oldFile: !uuid '46e62714369625b2d226c2856c352f0d2caea2e5'
-  /src/Notifications/Channels/MiniProgramChannel.php:
-    newFile: !uuid '3bc07bc2f5e1df820c87a85c371123ca84468cd7'
-    oldFile: null
-  /src/Notifications/Channels/SmsChannel.php:
-    newFile: !uuid '99559b2b7fb10ea51ed39569df95aa61b965f667'
-    oldFile: null
-  /src/Notifications/Channels/WechatChannel.php:
-    newFile: !uuid 'afd7d32bfa731f6d3668e99c2f24091a9ba10ff1'
-    oldFile: !uuid '6235ee76f1a81e80901eda725a16056250e6f34d'
-  /src/Notifications/Messages:
-    newFile: !uuid 'c5656221483f9f760edb72654b2be304bf856c87'
-    oldFile: !uuid 'c849e4252ea27e38f9e3e51cecd99495a86fbf15'
-  /src/Notifications/Messages/SimpleMessage.php:
-    newFile: !uuid 'c1c5efec36a6400755b6dd45684e0e0be3e3820d'
-    oldFile: !uuid '60e8d4d0223d8448a274b691c8744f1b7d2665c3'
-  /src/Notifications/NotificationManager.php:
-    newFile: !uuid 'b198533bb27bbb01f21a57b00fa849590cb64080'
-    oldFile: !uuid '984927c1aac826b0eec5e4499da77cc841494627'
-  /src/Notifications/Services:
-    newFile: !uuid '549d082f1eae87c7c380bc43eaa4f8fc9e85e258'
-    oldFile: !uuid '41134c2c3d586763f288b6a0085bf876bca20cf0'
-  /src/Notifications/Services/MiniProgram.php:
-    newFile: !uuid 'd06479063d54d4a0fcc7b00e1294cabf3d283704'
-    oldFile: null
-  /src/Notifications/Services/Sms.php:
-    newFile: !uuid 'b84bffb4455e84f1d51939fbd383eb97be356f8e'
-    oldFile: null
-  /src/Notifications/Traits:
-    newFile: !uuid '6282a4a360b6a0ebe971538d76cf19c622a8bee6'
-    oldFile: !uuid '43af492339af1ed07ddcd5a834e8f8dd990ea835'
-  /src/Notifications/Traits/VariableTemplateTrait.php:
-    newFile: !uuid '767be2ff507f80b8747981b7673eee32c530e738'
-    oldFile: null
-  /src/Notifications/Traits/WechatTrait.php:
-    newFile: null
-    oldFile: !uuid 'a27f6f08d7ac2bc26155b0e7482ec84ed69b069e'
-  /src/Wechat:
-    newFile: !uuid 'e4ef4ee88359a4a48871f7964345633ace496a37'
-    oldFile: !uuid '277d825bb5094257a0ad3eae94b2ea0368750948'
-  /src/Wechat/EasyWechatTrait.php:
-    newFile: !uuid 'eff692da70bf809c34aeec1d9cd1c0e44210be6b'
-    oldFile: !uuid 'c936ef8caea586499e2005145e8e0f55e1b5c0ae'
-gitCommitId: !uuid '7ec96fc76dad4f3278a6809376a8a5bcad778f40'
+    newFile: !uuid '05827877f697232f0a99cf80b4b401d4f95fd30a'
+    oldFile: !uuid '7046fc22f86765fc1d7adf0988a076101dbca6fd'
+  /src/Api:
+    newFile: !uuid '0a3066c34073fc41e390db48db9370b0eebd89c2'
+    oldFile: !uuid '5fed105fb0f4e682178d37349bf8c48c76860356'
+  /src/Api/ErrorHandler.php:
+    newFile: !uuid '07c8c174a836a15aed99dfd927672345f0aa33ef'
+    oldFile: !uuid '9fbf3a32acd513b3defe468c1d42b4dac2016f54'
+  /src/Base:
+    newFile: !uuid '57aa3b7d64ecb22c131a47747906e732615ef8ee'
+    oldFile: !uuid '5ce78d084c6cac6500f79e4148e7ed9d153151f0'
+  /src/Base/DzqController.php:
+    newFile: !uuid '8a666c38c6944b3bfe2268319290407a0e9b38e9'
+    oldFile: !uuid 'f46f270f6ef78b86d320b0b37e8874f43cf58da0'
+gitCommitId: !uuid '2401d55414e3d050dc23276421115b68faa614a3'
 renames: {
   }
-revisionId: 399
+revisionId: 400
