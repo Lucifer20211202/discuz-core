@@ -104,7 +104,6 @@ class DiscuzResponseFactory
             $siteUrl = $request->getUri()->getScheme() . '://' . $request->getUri()->getHost().(in_array($port, [80, 443, null]) ? '' : ':'.$port);
 
             array_push($cross_origins, $siteUrl);
-            array_push($cross_origins, $origin);
 
             if (in_array($origin, $cross_origins)) {
                 $cross_headers = Arr::get($crossConfig, 'headers');
