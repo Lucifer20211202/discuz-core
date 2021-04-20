@@ -18,9 +18,11 @@
 
 namespace Discuz\Foundation;
 
+use App\Common\ResponseCode;
 use Illuminate\Support\Arr;
 use Illuminate\Validation\Factory;
 use Illuminate\Validation\ValidationException;
+use Discuz\Base\DzqController;
 
 abstract class AbstractValidator
 {
@@ -46,6 +48,7 @@ abstract class AbstractValidator
         $validator = $this->make($attributes);
 
         if ($validator->fails()) {
+            DzqController::outPutV3(ResponseCode::INVALID_PARAMETER, ResponseCode::$codeMap[ResponseCode::INVALID_PARAMETER],$validator);
             throw new ValidationException($validator);
         }
     }
