@@ -3,18 +3,42 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid '57ac862128a15fbfaa2c22ec08851594123eb0b0'
-    oldFile: !uuid '5b8b082bd44fc60246505968d6e190bbc2d0c06c'
-  /src/Http:
-    newFile: !uuid '2433a78d830f69dca4f6261991dff2d8f7233369'
-    oldFile: !uuid '6213cbbf056afdaeccc9ca8a25ee1228fa1a1c4d'
-  /src/Http/Middleware:
-    newFile: !uuid '84a099851c7e69542caa2f17fa30f94a3d2df3f0'
-    oldFile: !uuid '8d55abd10a0765ce311f7faa71c0e2a249a37a06'
-  /src/Http/Middleware/AuthenticateWithHeader.php:
-    newFile: !uuid '0cb4dfdf7501b4ae2664536e6fe7077ea4ec4431'
-    oldFile: !uuid '43563d4b0edb501fc6624575b71cd47a38ed5db8'
-gitCommitId: !uuid '3e7775340ce1f76ba7952d19d33052b29f4146d5'
+    newFile: !uuid 'fce739eb1db4189a8aca88916fdfe5011f860980'
+    oldFile: !uuid '57ac862128a15fbfaa2c22ec08851594123eb0b0'
+  /src/Api:
+    newFile: !uuid 'a789707460633090ec03112871cf9393983c4240'
+    oldFile: !uuid '0a3066c34073fc41e390db48db9370b0eebd89c2'
+  /src/Api/ErrorHandler.php:
+    newFile: !uuid '51fb20486d435a180c7e3b7a43928750b02809ae'
+    oldFile: !uuid '07c8c174a836a15aed99dfd927672345f0aa33ef'
+  /src/Api/ExceptionHandler:
+    newFile: !uuid '572019140336df0460aaf8fd68c4251540660a78'
+    oldFile: !uuid 'd66dada8034e821967297f668c5fab9d280263be'
+  /src/Api/ExceptionHandler/LoginFailedExceptionHandler.php:
+    newFile: !uuid '8e00f3175a0565eeb2bd9a00b35ad3ff779ae7c3'
+    oldFile: !uuid 'af4ec73d111b2c5c8b197cb3eababd4fe51dad2f'
+  /src/Api/ExceptionHandler/NotAuthenticatedExceptionHandler.php:
+    newFile: !uuid 'd163b7089581b0d1d6986d5e78eebb9a16931f34'
+    oldFile: !uuid '821deaf530ff75e22ced6d5bf728145efed06b60'
+  /src/Api/ExceptionHandler/PermissionDeniedExceptionHandler.php:
+    newFile: !uuid 'af06bcc5d1617adec59bba8db4c41ce72d8fdddf'
+    oldFile: !uuid 'e40c286ba7e7b0b26085639037b47bda1b2c802a'
+  /src/Api/ExceptionHandler/ValidationExceptionHandler.php:
+    newFile: !uuid 'a66597abe310a6b48c4c0416185e076853132f37'
+    oldFile: !uuid '8148c39653fe9976b56c81130d344af3b62e6dc4'
+  /src/Base:
+    newFile: !uuid '05e24376e88fa533e5e58315ee58db3537b55f28'
+    oldFile: !uuid 'ff6596836614cc9cb8cd8a620ef96091ffcc8c4a'
+  /src/Base/DzqController.php:
+    newFile: !uuid '92a7dd9b7254fa60d886d124c9988573b3348105'
+    oldFile: !uuid 'c540e74124c4ed4c8c6c8394ae3124f3483b9636'
+  /src/Common:
+    newFile: !uuid '854e4c5d3325f8f57efc8f7c9213a4cefb797bdc'
+    oldFile: !uuid '7f64aa142f659b290603e166d19605237cc3d26a'
+  /src/Common/Utils.php:
+    newFile: !uuid '3323fcfe7cdf22a152c1c0922747561b3eda6c64'
+    oldFile: !uuid '9bddc7496f6e54c74391c66cc9473a9215b98cee'
+gitCommitId: !uuid '41552899aa8068982792bf2cefb08685877b6c31'
 renames: {
   }
-revisionId: 407
+revisionId: 408
