@@ -3,18 +3,27 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid '7e30773db9bd93bf3a5846846b04ceb6cd700415'
-    oldFile: !uuid 'd6d50a7c88ca9b4b239d92f28fd38487e64f128c'
-  /src/Http:
-    newFile: !uuid '1886486850c2eebd91a93b2e181dae4e28b15554'
-    oldFile: !uuid '9c61b6edd0e0ef115f1ba175d82a5a894471ca35'
-  /src/Http/Middleware:
-    newFile: !uuid '4033b80002ea915eb9342c3435bb5469fb5fa367'
-    oldFile: !uuid 'f70f0e637e63c12b5a04337cad1513d6398dd85c'
-  /src/Http/Middleware/AuthenticateWithHeader.php:
-    newFile: !uuid 'e462089a6261ab58552ea52a55a3ec299a82c9b4'
-    oldFile: !uuid 'dbe6e573f57b2756133a826cff59b7359a5e0e36'
-gitCommitId: !uuid '802d2750d30d5a1ae1d9afbc61c9ef4d25560c5a'
+    newFile: !uuid 'f4ad6325c729df8568992848f9ba010290476a6a'
+    oldFile: !uuid '7e30773db9bd93bf3a5846846b04ceb6cd700415'
+  /src/Base:
+    newFile: !uuid 'aa4504d9cde1e1c13f492928301480ef452763d3'
+    oldFile: !uuid '9be984ac145df1c5d2f25e6990815914f9defe8c'
+  /src/Base/DzqBase.php:
+    newFile: !uuid '9892d41dcd1e9f1ee02aaab1e86ff9471505d71c'
+    oldFile: !uuid '8b1f0925ed999fc55e1c3d60c0e976b8c84f39c3'
+  /src/Base/DzqMiddleware.php:
+    newFile: !uuid 'eced3108222f4d02d58d0bcc1361ebbbe4a005e3'
+    oldFile: !uuid '7a81e410c52bf11a22e9ee81bb10432738f37f9a'
+  /src/Base/DzqServiceProvider.php:
+    newFile: !uuid '2765f3c60fd4490b3e372eb5462891de8a30b4c4'
+    oldFile: !uuid '99185269f966dfb5fadb5e471ba16ba8f403d97e'
+  /src/Common:
+    newFile: !uuid '3dab2674fc886f8ec5b7fa5360ec1ab6036a197c'
+    oldFile: !uuid '800986fa3161a507003605dc1ef8e263f5b5a821'
+  /src/Common/Utils.php:
+    newFile: !uuid 'd36e96adcd84513a752a1fbde0dd300763cff8ac'
+    oldFile: !uuid '58fd2849d05de359322d8c429d7bd8e1b613c160'
+gitCommitId: !uuid '94dce8405c7cf6321c16f9f7575552379864acab'
 renames: {
   }
-revisionId: 412
+revisionId: 413
