@@ -3,15 +3,15 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid '60d4d64f14802a8f8384ccab51e69660e4b413ae'
-    oldFile: !uuid 'f4ad6325c729df8568992848f9ba010290476a6a'
-  /src/Base:
-    newFile: !uuid '9a0be39964a63289565d08ad3855b6e7a95a67a9'
-    oldFile: !uuid 'aa4504d9cde1e1c13f492928301480ef452763d3'
-  /src/Base/DzqController.php:
-    newFile: !uuid 'd62a948d0a610bfc67f852b4610d355c05f50c62'
-    oldFile: !uuid '6619177a33e9282103e1460b9db435e6e71a487f'
-gitCommitId: !uuid '76125e3942d10b1927e5b0edf14fe3b1070f5caa'
+    newFile: !uuid 'de246b2187f1bc15e4dbdf54bd66fa286a658aa6'
+    oldFile: !uuid '60d4d64f14802a8f8384ccab51e69660e4b413ae'
+  /src/Api:
+    newFile: !uuid '37df1034c36a60b0b210b40b5f5b2c201c4651c7'
+    oldFile: !uuid '0d4e11d3a4e8afaa56d1ced9d378d6a9ce8970aa'
+  /src/Api/ApiServiceProvider.php:
+    newFile: !uuid '53ca8ff12a4af61a7939dcaa71df40aaae5991fd'
+    oldFile: !uuid '3b2863b40b436f5c3d0c31050c19c5491d05a0c1'
+gitCommitId: !uuid '558858984f952d57caeb8799ffa1858f7bf4a751'
 renames: {
   }
-revisionId: 414
+revisionId: 415
