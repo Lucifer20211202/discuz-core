@@ -3,18 +3,15 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid '74f2716a95c8062eda3b45458647e99f3b776ec7'
-    oldFile: !uuid '13a9a27954f64c15cbe576b60481aece3973a71f'
+    newFile: !uuid '97339940265a825dd6c664acf22c753bfa0bf14d'
+    oldFile: !uuid '74f2716a95c8062eda3b45458647e99f3b776ec7'
   /src/Api:
-    newFile: !uuid '4af8631bf5c572af358c05af03b0cd88bb691009'
-    oldFile: !uuid '37df1034c36a60b0b210b40b5f5b2c201c4651c7'
-  /src/Api/ExceptionHandler:
-    newFile: !uuid 'd515f3bbcea5131fb8c857f33e17cab2d12d1bbf'
-    oldFile: !uuid 'e1c1baf2cf3b83f8b02ac39a3f450c1a57ef7be5'
-  /src/Api/ExceptionHandler/ValidationExceptionHandler.php:
-    newFile: !uuid 'cf8563970ef5c25a5cac6cebb8285b7f04adbddd'
-    oldFile: !uuid 'a66597abe310a6b48c4c0416185e076853132f37'
-gitCommitId: !uuid 'e89cbe135d22f849784a05b5f9499254f8389636'
+    newFile: !uuid '49f43922605bf5b6678f9aabb452b543594223db'
+    oldFile: !uuid '4af8631bf5c572af358c05af03b0cd88bb691009'
+  /src/Api/ApiServiceProvider.php:
+    newFile: !uuid '73a6be56a68014c987dd49801647434217b4d4e5'
+    oldFile: !uuid '53ca8ff12a4af61a7939dcaa71df40aaae5991fd'
+gitCommitId: !uuid '2d6d90598157b53567abf1dd9a74d0b1889a2b8a'
 renames: {
   }
-revisionId: 417
+revisionId: 418
