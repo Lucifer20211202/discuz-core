@@ -3,18 +3,18 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid '5bf23e53fefa75a5f2f59ebf5276df5ec4a21d23'
-    oldFile: !uuid '1b172b94f4c5b69e917ff7e5d3e78816a5dc498c'
+    newFile: !uuid '567ba913b0bdffb7d3668adff9c959e608da5a25'
+    oldFile: !uuid '5bf23e53fefa75a5f2f59ebf5276df5ec4a21d23'
   /src/Api:
-    newFile: !uuid '43aad31fc6ec5cb0297ee2419b1328ab18704219'
-    oldFile: !uuid '0c19c68bc8749a2a9ec6b16d437963a70150df54'
-  /src/Api/ExceptionHandler:
-    newFile: !uuid 'bcb76e027a9f4b350435fea54e91e2479c615e20'
-    oldFile: !uuid 'd515f3bbcea5131fb8c857f33e17cab2d12d1bbf'
-  /src/Api/ExceptionHandler/LoginFailedExceptionHandler.php:
-    newFile: !uuid '7a2d65a022f58b9253ea5d10a7463a7df25ac0de'
-    oldFile: !uuid '8e00f3175a0565eeb2bd9a00b35ad3ff779ae7c3'
-gitCommitId: !uuid '7778817ad0d9f94e606dfa77e918ab143dfbf50e'
+    newFile: !uuid 'ae6f33c863151a7bcfa650543f52a430f666958e'
+    oldFile: !uuid '43aad31fc6ec5cb0297ee2419b1328ab18704219'
+  /src/Api/Middleware:
+    newFile: !uuid 'd6e1061a5e9af740341fb3b748f5b1804c442112'
+    oldFile: !uuid '56625d73d7c1a5dc896debdce446378795e7d18b'
+  /src/Api/Middleware/InstallMiddleware.php:
+    newFile: !uuid 'b67457daa200f52f9da89bd15fb9e479bec0e30b'
+    oldFile: !uuid '3ad091410cd4d75f3264abcb0af1cfbd48ea9aa1'
+gitCommitId: !uuid '5ae83bbfa441d52b4a95c53903a4f6b9f0d35837'
 renames: {
   }
-revisionId: 425
+revisionId: 426
