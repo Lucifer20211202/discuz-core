@@ -3,24 +3,27 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid 'eb91a5d95dad7969e7fc574e2339ed6b5ca8a703'
-    oldFile: !uuid '97066c1a582894bdb3cbe11bed95cb8adb055252'
-  /src/Api:
-    newFile: !uuid '7d2ef45565a4d59f71e5db9a0ca2c149a87fa384'
-    oldFile: !uuid 'ae6f33c863151a7bcfa650543f52a430f666958e'
-  /src/Api/ErrorHandler.php:
-    newFile: !uuid '24afd258db131105f31e787fa115bd48b427eed4'
-    oldFile: !uuid '51fb20486d435a180c7e3b7a43928750b02809ae'
+    newFile: !uuid '550660e4ea9b18a38aef30ac6da3e5ba58a9a051'
+    oldFile: !uuid 'eb91a5d95dad7969e7fc574e2339ed6b5ca8a703'
   /src/Base:
-    newFile: !uuid '1b5114dd8cef35966c0f1a11a9a591911eda5612'
-    oldFile: !uuid '3ce0afe1a4199def8fd75b8bca3451b813206149'
+    newFile: !uuid 'a19daea76681bb46ab53c399708e8e299ef8c441'
+    oldFile: !uuid '1b5114dd8cef35966c0f1a11a9a591911eda5612'
   /src/Base/DzqCache.php:
-    newFile: !uuid '068831ff81dcbcf5ec3dfc053cd9dc73adb9a133'
-    oldFile: !uuid '868de73b9200f400c54b9a91ae2af5ca9792f8d1'
+    newFile: !uuid 'ac8130404fb77c0c6a8ac0d29e36c406b72aada3'
+    oldFile: !uuid '068831ff81dcbcf5ec3dfc053cd9dc73adb9a133'
   /src/Base/DzqController.php:
-    newFile: !uuid 'b222d9b410af8f2914aca14d69cc97712811dacc'
-    oldFile: !uuid '407c1daf547d553f0fa447b88c4d810bd4f699ce'
-gitCommitId: !uuid 'b8069258c7b2e99a1bd535be8c905342bdd258da'
+    newFile: !uuid '57a5a8de091f6a5381fadd6fff4e801476cf9e73'
+    oldFile: !uuid 'b222d9b410af8f2914aca14d69cc97712811dacc'
+  /src/Http:
+    newFile: !uuid '951e69802f65d461842f6775ff60a38ffa646711'
+    oldFile: !uuid '9124b2cf51a60363203c27b22d8686d3a991d052'
+  /src/Http/Middleware:
+    newFile: !uuid '36f6e8a6588aac168c69578d06f9bf61361f5507'
+    oldFile: !uuid 'd2988b6d774cdfb7259eec1029bcae4629145cf0'
+  /src/Http/Middleware/CheckoutSite.php:
+    newFile: !uuid 'f182885f5d9323fef5c709d26f1054f17d0a82d1'
+    oldFile: !uuid '92ddcb73638f0c02ea17a1b2d5fc78c83dd715fb'
+gitCommitId: !uuid 'c2dc65439bedcd2aa9362362d49c314c63f5c0a5'
 renames: {
   }
-revisionId: 429
+revisionId: 430
