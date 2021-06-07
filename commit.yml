@@ -3,36 +3,24 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid '643c42c47b164866539f3a2108a70a5e13696d39'
-    oldFile: !uuid '550660e4ea9b18a38aef30ac6da3e5ba58a9a051'
-  /src/Auth:
-    newFile: !uuid '90e5376ce07822f62383638460865daa09fcd49a'
-    oldFile: !uuid 'c87a43f52b24d6be90fdd38383300c46e3b6d529'
-  /src/Auth/Gate.php:
-    newFile: !uuid '2ea1d5c8042a485fc3414a5f9dba79e58e496c9d'
-    oldFile: !uuid '94e1d68359314f8c6b8ca44b58b779aa1836b819'
-  /src/Base:
-    newFile: !uuid 'e28e0087fcd7328335f484df046ecc42b8cfcb30'
-    oldFile: !uuid 'a19daea76681bb46ab53c399708e8e299ef8c441'
-  /src/Base/DzqController.php:
-    newFile: !uuid '749d1d0683e6a2067c305f2cbf64feddc4e23316'
-    oldFile: !uuid '57a5a8de091f6a5381fadd6fff4e801476cf9e73'
-  /src/Database:
-    newFile: !uuid '58d14c6330465cb73d4c13808d57ac34472684db'
-    oldFile: !uuid 'a50033d538b8d35a2fc3519d8128188714c60a74'
-  /src/Database/ScopeVisibilityTrait.php:
-    newFile: !uuid 'a7d614087c8291586d7674c6e047beb73f4592ed'
-    oldFile: !uuid '675c3b475ec99a50648d05b21633034c1e10c0cf'
+    newFile: !uuid 'b5cf52c2296fd947893c7be9231fcd4dfe11e35b'
+    oldFile: !uuid '643c42c47b164866539f3a2108a70a5e13696d39'
+  /src/Foundation:
+    newFile: !uuid '0d35795907d77186a4e6eba3717d397a59b6e8b2'
+    oldFile: !uuid 'be804b605fe7f1fc8d7d250d511a35063249224c'
+  /src/Foundation/SiteApp.php:
+    newFile: !uuid '57964945d3f1b46bddf15cb6fa2c65d776490268'
+    oldFile: !uuid '5d35266682919836a5492a1311c1e83d320f9817'
   /src/Http:
-    newFile: !uuid 'ee1f28f66897c30d0adb71e4a3a0bac1e781db5b'
-    oldFile: !uuid '951e69802f65d461842f6775ff60a38ffa646711'
+    newFile: !uuid '01588d82957882ae5aacc6d729e45c80301dc8c4'
+    oldFile: !uuid 'ee1f28f66897c30d0adb71e4a3a0bac1e781db5b'
   /src/Http/Middleware:
-    newFile: !uuid '63278e986c772e8d7f66c14e0247540b5a1cd263'
-    oldFile: !uuid '36f6e8a6588aac168c69578d06f9bf61361f5507'
+    newFile: !uuid '4e1bfa1dd9322338db6509ed5d966ee88ef44100'
+    oldFile: !uuid '63278e986c772e8d7f66c14e0247540b5a1cd263'
   /src/Http/Middleware/CheckoutSite.php:
-    newFile: !uuid '491d3411ffa443ab285c30f862042d0f2c130f27'
-    oldFile: !uuid 'f182885f5d9323fef5c709d26f1054f17d0a82d1'
-gitCommitId: !uuid 'ad28dd9018dd8bcafc5fa8fefac1c21d16a1ca90'
+    newFile: !uuid '0c006870168ab63ea9e3c8dc1d37a1f8b2e70466'
+    oldFile: !uuid '491d3411ffa443ab285c30f862042d0f2c130f27'
+gitCommitId: !uuid '264fad3c653600fde353a7811d417c1507a1a621'
 renames: {
   }
-revisionId: 431
+revisionId: 432
