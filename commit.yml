@@ -3,15 +3,36 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid 'f7ed1658ffeed0b3b2d51a8b58ae37b2307e1df9'
-    oldFile: !uuid '771477761485b732cd3420639444b42905e35eb4'
+    newFile: !uuid '170d48ddb426a9a004fe27f12d303c62bb4a86f8'
+    oldFile: !uuid 'f7ed1658ffeed0b3b2d51a8b58ae37b2307e1df9'
   /src/Base:
-    newFile: !uuid 'aeea8871f5771f7a52ba09fa928e7d072333c865'
-    oldFile: !uuid 'fec43100d0267fdc3e7d6b319d6f8d296d8defa3'
+    newFile: !uuid 'b2cf0afe7623a2cc6e58d42ba8eff7a8035d0854'
+    oldFile: !uuid 'aeea8871f5771f7a52ba09fa928e7d072333c865'
   /src/Base/DzqController.php:
-    newFile: !uuid 'a4968fe731650b0220e47a3c5b2afa3e025f56ac'
-    oldFile: !uuid '749d1d0683e6a2067c305f2cbf64feddc4e23316'
-gitCommitId: !uuid 'b8ded59de6ee7d2bbab9cd498af996f14110410b'
+    newFile: !uuid '6572a6a436118b697fdb17683cf602314ba38081'
+    oldFile: !uuid 'a4968fe731650b0220e47a3c5b2afa3e025f56ac'
+  /src/Common:
+    newFile: !uuid 'fc7fb57454deae0f9f04c9ec7dc186fa1640cb4d'
+    oldFile: !uuid '3dab2674fc886f8ec5b7fa5360ec1ab6036a197c'
+  /src/Common/Utils.php:
+    newFile: !uuid 'e7f6bd270707ca8e5b048c556c34d13250024e08'
+    oldFile: !uuid 'd36e96adcd84513a752a1fbde0dd300763cff8ac'
+  /src/Foundation:
+    newFile: !uuid 'd5d836fac879cc2cc8df5a138bfd327d4d17f5f5'
+    oldFile: !uuid '0d35795907d77186a4e6eba3717d397a59b6e8b2'
+  /src/Foundation/SiteApp.php:
+    newFile: !uuid '9518bf86141801fb3707c1c96a24c0015bdefc2d'
+    oldFile: !uuid '57964945d3f1b46bddf15cb6fa2c65d776490268'
+  /src/Http:
+    newFile: !uuid 'd5f15daa9b094be533a486f238180e7f0af0e058'
+    oldFile: !uuid '2f4f7def155a5b56ec950920d0725b0b91bea008'
+  /src/Http/Middleware:
+    newFile: !uuid '40d914f04240601949be8b916cdc30aa31b787eb'
+    oldFile: !uuid '4688de08a9c85eb14c66623e2c9e0e2611ee04b6'
+  /src/Http/Middleware/CheckUserStatus.php:
+    newFile: !uuid 'bb2654fee004704ffddc7e0d16e2150f00ef0cc4'
+    oldFile: !uuid '7ea013ebe5f16828371cc92a64768734ba6fa65d'
+gitCommitId: !uuid '93a104247de9569c48b35270cd7597f47fc66854'
 renames: {
   }
-revisionId: 435
+revisionId: 436
