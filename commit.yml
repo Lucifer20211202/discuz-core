@@ -3,39 +3,21 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid '0e2d6930d14019444a5fab0bb4bd31328f9e46e0'
-    oldFile: !uuid 'a41ea79cd6a6f6d32a0e4b879e440da4c3cdb045'
-  /src/Api:
-    newFile: !uuid 'a5fec77ce6fc93c816b9031e46e0189bb0bf008e'
-    oldFile: !uuid '7d2ef45565a4d59f71e5db9a0ca2c149a87fa384'
-  /src/Api/Middleware:
-    newFile: !uuid '30d10edf220f6ecc8dce25a448bc0894da172da1'
-    oldFile: !uuid 'd6e1061a5e9af740341fb3b748f5b1804c442112'
-  /src/Api/Middleware/HandlerErrors.php:
-    newFile: !uuid '19e387d3fc313b661a03c5954da378e1d8cb0206'
-    oldFile: !uuid 'f48f442172a3ee75170ebb40f774c529cdf690d0'
+    newFile: !uuid 'cf3482be1c94dfb3d1b563dcd1bb2bd2c7878966'
+    oldFile: !uuid '0e2d6930d14019444a5fab0bb4bd31328f9e46e0'
   /src/Http:
-    newFile: !uuid 'abec1a3f398edd2892e5056763193a9354e3048b'
-    oldFile: !uuid '0af420813469f1ca1f6c0b7258900310844cddd3'
+    newFile: !uuid 'b8ec8e85d641cf17ba0800d2283c0cf8db7e25a1'
+    oldFile: !uuid 'abec1a3f398edd2892e5056763193a9354e3048b'
   /src/Http/Middleware:
-    newFile: !uuid 'b56479b376ab1abb23fbcc7219a3792dc4561ec5'
-    oldFile: !uuid '6b61a8c77c2ad0e7f4b96eec795bc4994a4893cc'
-  /src/Http/Middleware/AuthenticateWithHeader.php:
-    newFile: !uuid 'a48628077bf12ddba99ddced90defeba88c615ee'
-    oldFile: !uuid '31d75c62f961a0a86a5eff48a3b6df00196df60e'
+    newFile: !uuid 'afebf7880744f5e0eae8e5042d46256044b166ca'
+    oldFile: !uuid 'b56479b376ab1abb23fbcc7219a3792dc4561ec5'
+  /src/Http/Middleware/CheckUserStatus.php:
+    newFile: !uuid '7dd796e8370fcba579095d4c13365a23cac73cd1'
+    oldFile: !uuid '53993d4410cccbb528e3ac61067d4b746c113bc2'
   /src/Http/Middleware/CheckoutSite.php:
-    newFile: !uuid 'bf6bfbaf8f4439516de0f8906a737c2a5350a340'
-    oldFile: !uuid '0a33bc3a0c78cc41ba488ea6cc878e6874f0d270'
-  /src/Notifications:
-    newFile: !uuid '5030865d91772c7f818f2450211b9c76ae20a0a5'
-    oldFile: !uuid 'acd49b6835dfb22d5702f7ae4bcc985000bfbd74'
-  /src/Notifications/Messages:
-    newFile: !uuid '053ae890c223f85ce3f48df84b15d48850178563'
-    oldFile: !uuid 'c3eed63c0dd12dbf7b57736fde8723cbb6ac63a8'
-  /src/Notifications/Messages/SimpleMessage.php:
-    newFile: !uuid 'd4621b5cc0a882bfeead46f14712e823dca033de'
-    oldFile: !uuid 'a78adf26e67dc41a8c737280f086279e80f04467'
-gitCommitId: !uuid '428144dc1bb94a80bae77b68e1e3f3fb2f0974e3'
+    newFile: !uuid '2bb4c18ef5f6c72925108da3e61cd4c1bcaa60b4'
+    oldFile: !uuid 'bf6bfbaf8f4439516de0f8906a737c2a5350a340'
+gitCommitId: !uuid 'de673b7f59bc984bafb83274fd6472cc223ac6c7'
 renames: {
   }
-revisionId: 438
+revisionId: 439
