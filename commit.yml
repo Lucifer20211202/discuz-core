@@ -3,18 +3,15 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid 'b74ab82452e3f47f8648ab65c2d204e5551f24cd'
-    oldFile: !uuid 'cf3482be1c94dfb3d1b563dcd1bb2bd2c7878966'
-  /src/Http:
-    newFile: !uuid 'a7e8c342a9a202e90a05db4071a1b76bf0ac4446'
-    oldFile: !uuid 'b8ec8e85d641cf17ba0800d2283c0cf8db7e25a1'
-  /src/Http/Middleware:
-    newFile: !uuid '13ee053112925cfa695b759e0406f599871cb94c'
-    oldFile: !uuid 'afebf7880744f5e0eae8e5042d46256044b166ca'
-  /src/Http/Middleware/AuthenticateWithHeader.php:
-    newFile: !uuid 'c8b15cbd82be3998d984f2425d16aacc9dd50330'
-    oldFile: !uuid 'a48628077bf12ddba99ddced90defeba88c615ee'
-gitCommitId: !uuid '1f73e0c92d3464dd1971bb837d51e10ebef078dc'
+    newFile: !uuid 'f1d2a3713d5a843e283993fc54393412943d9d81'
+    oldFile: !uuid 'b74ab82452e3f47f8648ab65c2d204e5551f24cd'
+  /src/Base:
+    newFile: !uuid 'c3bce096f60f1ee8b56f97c0e3d1bebac67f1636'
+    oldFile: !uuid 'b2cf0afe7623a2cc6e58d42ba8eff7a8035d0854'
+  /src/Base/DzqCache.php:
+    newFile: !uuid 'a1a11bc515afd4c197f42e9f3b9b879da378ea7b'
+    oldFile: !uuid 'd35dfefc0cd2199279580ba591a04649cb34846d'
+gitCommitId: !uuid '314a76769f2a15184e92566771f8d097550dea38'
 renames: {
   }
-revisionId: 440
+revisionId: 441
