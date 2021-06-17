@@ -129,13 +129,6 @@ abstract class DzqController implements RequestHandlerInterface
         if (isset($this->parseBody[$name])) {
             $p = $this->parseBody[$name];
         }
-
-        if ($this->isAdminRoute()) {
-            DzqLog::inPutLog('adminLog');
-        }
-        if ($this->openApiLog) {
-            DzqLog::inPutLog('apiLog');
-        }
         return $p;
     }
 
@@ -151,15 +144,6 @@ abstract class DzqController implements RequestHandlerInterface
             DzqLog::outPutLog($code, $msg, $data, 'apiLog');
         }
         Utils::outPut($code, $msg, $data, $this->requestId, $this->requestTime);
-    }
-
-    public function isAdminRoute(){
-        $apiPath = $this->request->getUri()->getPath();
-        $api = str_replace(['/apiv3/', '/api/'], '', $apiPath);
-        if (strpos($api, 'backAdmin') === 0) {
-            return true;
-        }
-        return false;
     }
 
     /*
@@ -379,5 +363,20 @@ abstract class DzqController implements RequestHandlerInterface
             'requestId' =>  $this->requestId,
             'userId'    =>  $userId,
         ]);
+        if ($this->isAdminRoute()) {
+            DzqLog::inPutLog('adminLog');
+        }
+        if ($this->openApiLog) {
+            DzqLog::inPutLog('apiLog');
+        }
+    }
+
+    public function isAdminRoute(){
+        $apiPath = $this->request->getUri()->getPath();
+        $api = str_replace(['/apiv3/', '/api/'], '', $apiPath);
+        if (strpos($api, 'backAdmin') === 0) {
+            return true;
+        }
+        return false;
     }
 }
