@@ -3,42 +3,15 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid '67a07be18d86fffdcb5d748d2d19baa613b68b01'
-    oldFile: !uuid '1cf8a4fd159aa65d469b80df20473fc7f7a6f027'
+    newFile: !uuid '4be0d9174297070e784bdb30f49faf3a891e87fa'
+    oldFile: !uuid '67a07be18d86fffdcb5d748d2d19baa613b68b01'
   /src/Base:
-    newFile: !uuid '1fcb35abf0de9823a443af4b8eea554adf4f8eac'
-    oldFile: !uuid 'b2cf0afe7623a2cc6e58d42ba8eff7a8035d0854'
-  /src/Base/DzqController.php:
-    newFile: !uuid '2029adce3995b6c8f2d28ea14882c0c5a3099fc1'
-    oldFile: !uuid '6572a6a436118b697fdb17683cf602314ba38081'
-  /src/Base/DzqLog.php:
-    newFile: !uuid 'ff1f197e69bfd28fe95d443a66623d25fcc0c7d0'
-    oldFile: null
-  /src/Common:
-    newFile: !uuid 'f05dbb47ed1b592722e2173f857d4b81ef47fe46'
-    oldFile: !uuid 'fc7fb57454deae0f9f04c9ec7dc186fa1640cb4d'
-  /src/Common/Utils.php:
-    newFile: !uuid '36e860997b37975d1d61162e694e3e8183960293'
-    oldFile: !uuid 'e7f6bd270707ca8e5b048c556c34d13250024e08'
-  /src/Foundation:
-    newFile: !uuid '100990e45c053bb2b7e6becfa68b899a8b1c9a27'
-    oldFile: !uuid 'd5d836fac879cc2cc8df5a138bfd327d4d17f5f5'
-  /src/Foundation/SiteApp.php:
-    newFile: !uuid 'c2f0b7429b983e239cc6429dde53e7c2ea0e69cb'
-    oldFile: !uuid '9518bf86141801fb3707c1c96a24c0015bdefc2d'
-  /src/Http:
-    newFile: !uuid '87451db7d610af34e7e48b43b018a25c491198c0'
-    oldFile: !uuid '79f612edb5b506acba979985ccecff4020045351'
-  /src/Http/Middleware:
-    newFile: !uuid 'ad3b8141605d606b298ff0635cadd94a9ed66ef7'
-    oldFile: !uuid 'd954404932f3b922df10e16da974daf866710787'
-  /src/Http/Middleware/AuthenticateWithHeader.php:
-    newFile: !uuid 'a9f230d17ad62e4ac0f0880ac55698bb5bb1135e'
-    oldFile: !uuid '1d1f5e35602f56c426006267508e2f5531d8ef30'
-  /src/Http/Middleware/CheckUserStatus.php:
-    newFile: !uuid '13013b0de2fc34470eda9e9728a56f99fed56520'
-    oldFile: !uuid 'ccf825f233b35ded4d13387ce2e0b27fecef5f7a'
-gitCommitId: !uuid 'a63ebf56adea1abf33459164ba431b6d158198e5'
+    newFile: !uuid 'd6c1da177c58d497322f650725192170fea651d6'
+    oldFile: !uuid '1fcb35abf0de9823a443af4b8eea554adf4f8eac'
+  /src/Base/DzqCache.php:
+    newFile: !uuid 'a00572bef68816a50144106ea99aa6fd6438b3dd'
+    oldFile: !uuid 'd35dfefc0cd2199279580ba591a04649cb34846d'
+gitCommitId: !uuid '78ba7fbe432f77cbaaca08a78dbd4d41b0a82dd6'
 renames: {
   }
-revisionId: 443
+revisionId: 444
