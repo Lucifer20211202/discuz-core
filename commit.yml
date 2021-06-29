@@ -3,45 +3,21 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid '9d2df670b2f38193faf3efdb1a5dd7d06c5d0966'
-    oldFile: !uuid '4be0d9174297070e784bdb30f49faf3a891e87fa'
-  /src/Api:
-    newFile: !uuid '9cb4a33f6bdde91f37a2ccb3bb83dfb0d0419dfa'
-    oldFile: !uuid 'a5fec77ce6fc93c816b9031e46e0189bb0bf008e'
-  /src/Api/ErrorHandler.php:
-    newFile: !uuid 'e05a376391373b460199ba4091af000b5c015f5c'
-    oldFile: !uuid '24afd258db131105f31e787fa115bd48b427eed4'
-  /src/Api/ExceptionHandler:
-    newFile: !uuid '4e0ff87a56c15fdf4fba33c7b4bce573ecd9b8aa'
-    oldFile: !uuid 'bcb76e027a9f4b350435fea54e91e2479c615e20'
-  /src/Api/ExceptionHandler/NotAuthenticatedExceptionHandler.php:
-    newFile: !uuid 'fe75a03b9e35ac8302509ab794b921a909d0f3eb'
-    oldFile: !uuid 'd163b7089581b0d1d6986d5e78eebb9a16931f34'
-  /src/Api/ExceptionHandler/PermissionDeniedExceptionHandler.php:
-    newFile: !uuid '91353ccd1f03f8f50e3f291eafd428f4822a0eb1'
-    oldFile: !uuid '5ed6bd244b4288ca37490bd39f0e07d9802664af'
+    newFile: !uuid 'f6d5e4f991d47604b1e77aa0745010462f2d1748'
+    oldFile: !uuid '9d2df670b2f38193faf3efdb1a5dd7d06c5d0966'
   /src/Base:
-    newFile: !uuid '2b7d091f39e1466f306f4a15f6d37e4e0a8c7898'
-    oldFile: !uuid 'd6c1da177c58d497322f650725192170fea651d6'
-  /src/Base/DzqCache.php:
-    newFile: !uuid '0d698defa5a26c390251e7a82c492d615eb2709e'
-    oldFile: !uuid 'a00572bef68816a50144106ea99aa6fd6438b3dd'
+    newFile: !uuid 'a411605ce676c38efb6ffeadb63592848b6462a0'
+    oldFile: !uuid '2b7d091f39e1466f306f4a15f6d37e4e0a8c7898'
   /src/Base/DzqController.php:
-    newFile: !uuid 'f45f3e619802b8c40240a8cafa8f946b490e4980'
-    oldFile: !uuid '2029adce3995b6c8f2d28ea14882c0c5a3099fc1'
-  /src/Base/DzqLog.php:
-    newFile: !uuid 'a3cc253bd7524091c747551b838a4e4154797eb8'
-    oldFile: !uuid 'ff1f197e69bfd28fe95d443a66623d25fcc0c7d0'
-  /src/Http:
-    newFile: !uuid '1cab5de71283c3ef8b4b7cbc11449e7e2b92ee21'
-    oldFile: !uuid '87451db7d610af34e7e48b43b018a25c491198c0'
-  /src/Http/Middleware:
-    newFile: !uuid '84bb09835a318482bc6d2f6dde06e36fc970eba0'
-    oldFile: !uuid 'ad3b8141605d606b298ff0635cadd94a9ed66ef7'
-  /src/Http/Middleware/CheckoutSite.php:
-    newFile: !uuid 'a600f458ce4a47f5a11d127c7d681b23ce4b8a11'
-    oldFile: !uuid '2bb4c18ef5f6c72925108da3e61cd4c1bcaa60b4'
-gitCommitId: !uuid '3d2b8aa4b322f660c85aeb03667326ca55726822'
+    newFile: !uuid '5e73088bb206487c1d60a93658e8f6273bd6792d'
+    oldFile: !uuid 'f45f3e619802b8c40240a8cafa8f946b490e4980'
+  /src/Common:
+    newFile: !uuid '1c755080b2c2e7aaf672473c43603d6c527283f0'
+    oldFile: !uuid 'f05dbb47ed1b592722e2173f857d4b81ef47fe46'
+  /src/Common/Utils.php:
+    newFile: !uuid '34dbb418c1d2eac0a433e38fe8879a36cfaf88ef'
+    oldFile: !uuid '36e860997b37975d1d61162e694e3e8183960293'
+gitCommitId: !uuid 'af585584ac105acd5498df883dc7d72533ad4f83'
 renames: {
   }
-revisionId: 445
+revisionId: 446
