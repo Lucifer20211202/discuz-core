@@ -3,15 +3,42 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid '3ef4bb3ff3e7272f3e6e88a2f81f67ef977333f3'
-    oldFile: !uuid 'f6d5e4f991d47604b1e77aa0745010462f2d1748'
+    newFile: !uuid 'cf593bc9891bc382ce784808599454402936805d'
+    oldFile: !uuid '3ef4bb3ff3e7272f3e6e88a2f81f67ef977333f3'
   /src/Common:
-    newFile: !uuid 'c39a6fd746bd53452dde108aa04916140ea95693'
-    oldFile: !uuid '1c755080b2c2e7aaf672473c43603d6c527283f0'
+    newFile: !uuid '446c797fe8fa766c37475b4d526349b0c36596f9'
+    oldFile: !uuid 'c39a6fd746bd53452dde108aa04916140ea95693'
   /src/Common/Utils.php:
-    newFile: !uuid 'e4d4e1ca22682c5d3a9d563777e6cf407d262127'
-    oldFile: !uuid '34dbb418c1d2eac0a433e38fe8879a36cfaf88ef'
-gitCommitId: !uuid 'bc980bc0e933c308c609be37df1e06dd80656f51'
+    newFile: !uuid '1eb6a8757c4f4b632a9b720f0408632a3063981e'
+    oldFile: !uuid 'e4d4e1ca22682c5d3a9d563777e6cf407d262127'
+  /src/Foundation:
+    newFile: !uuid '7a2b2bdc7c29178deec27216339dfb612623dd0c'
+    oldFile: !uuid '100990e45c053bb2b7e6becfa68b899a8b1c9a27'
+  /src/Foundation/AbstractValidator.php:
+    newFile: !uuid '3c7af6df817e5070dede692b158ce2479b48792c'
+    oldFile: !uuid '2cbdd1557154cf59720cb84de3e55f1cd78c4d8e'
+  /src/Http:
+    newFile: !uuid '954de5cd9bfbbaf227b04bb7a4bb7e2df8d2c2cc'
+    oldFile: !uuid '1cab5de71283c3ef8b4b7cbc11449e7e2b92ee21'
+  /src/Http/Middleware:
+    newFile: !uuid 'ad3547ae12c8355df96046b54ed5769638357602'
+    oldFile: !uuid '84bb09835a318482bc6d2f6dde06e36fc970eba0'
+  /src/Http/Middleware/CheckoutSite.php:
+    newFile: !uuid '1f2454f7b3b02f5953b0b58ec5d44bd595bb1fc6'
+    oldFile: !uuid 'a600f458ce4a47f5a11d127c7d681b23ce4b8a11'
+  /src/Http/Server.php:
+    newFile: !uuid '103ce98ce13c32165a0ff8be7fdbf5dcf444e6d7'
+    oldFile: !uuid '8f8e9382baed615d333beb6b8b574dcf98c65ff4'
+  /src/Notifications:
+    newFile: !uuid 'f8ac8c4b1e6c0432454b0d1cb036a13a6282040d'
+    oldFile: !uuid '5030865d91772c7f818f2450211b9c76ae20a0a5'
+  /src/Notifications/Services:
+    newFile: !uuid 'ceb5a1a45febf856930f864ae8ca519d38335500'
+    oldFile: !uuid '549d082f1eae87c7c380bc43eaa4f8fc9e85e258'
+  /src/Notifications/Services/Database.php:
+    newFile: !uuid 'daed8c35f06e452e0986d355b0ba049f0a42e104'
+    oldFile: !uuid 'c94c0a2138cc01a21376b6110a3d2bd210728cb7'
+gitCommitId: !uuid 'ab971bddd7fb9aa37ecdaf462338b6cfb1a5bea5'
 renames: {
   }
-revisionId: 447
+revisionId: 448
