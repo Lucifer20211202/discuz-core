@@ -19,6 +19,7 @@
 namespace Discuz\Api\ExceptionHandler;
 
 use App\Common\ResponseCode;
+use Discuz\Base\DzqLog;
 use Discuz\Common\Utils;
 use Exception;
 use Illuminate\Validation\ValidationException;
@@ -47,7 +48,8 @@ class ValidationExceptionHandler implements ExceptionHandlerInterface
         foreach ($errors  as $item) {
             $errormsg .= $item['detail'][0].PHP_EOL;
         }
-        Utils::outPut(ResponseCode::REGISTER_DECRYPT_CODE_FAILED, $errormsg);
+        DzqLog::error('invalid_validation_parameter', [], $errormsg);
+        Utils::outPut(ResponseCode::INVALID_PARAMETER, $errormsg);
         return new ResponseBag(422, $errors);
     }
 
