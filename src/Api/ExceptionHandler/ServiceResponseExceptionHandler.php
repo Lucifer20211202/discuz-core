@@ -18,6 +18,8 @@
 
 namespace Discuz\Api\ExceptionHandler;
 
+use App\Common\ResponseCode;
+use Discuz\Common\Utils;
 use Exception;
 use Qcloud\Cos\Exception\ServiceResponseException;
 use Tobscure\JsonApi\Exception\Handler\ExceptionHandlerInterface;
@@ -53,7 +55,7 @@ class ServiceResponseExceptionHandler implements ExceptionHandlerInterface
             'code' => $e->getCode(),
             'detail' => $e->__toString()
         ];
-
+        Utils::outPut(ResponseCode::INTERNAL_ERROR, $e->__toString());
         return new ResponseBag($status, [$error]);
     }
 }

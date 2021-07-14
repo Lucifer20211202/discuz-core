@@ -18,7 +18,9 @@
 
 namespace Discuz\Api\ExceptionHandler;
 
+use App\Common\ResponseCode;
 use Discuz\Auth\Exception\LoginFailuresTimesToplimitException;
+use Discuz\Common\Utils;
 use Exception;
 use Tobscure\JsonApi\Exception\Handler\ExceptionHandlerInterface;
 use Tobscure\JsonApi\Exception\Handler\ResponseBag;
@@ -44,7 +46,7 @@ class LoginFailuresTimesToplimitExceptionHandler implements ExceptionHandlerInte
             'status' => (string) $status,
             'code' => 'login_failures_times_toplimit'
         ];
-
+        Utils::outPut(ResponseCode::LOGIN_FAILED, '登录失败次数超出限制');
         return new ResponseBag($status, [$error]);
     }
 }
