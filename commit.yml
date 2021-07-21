@@ -3,69 +3,15 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid '1c7e32761ef9a5f45614d2e1ee1218cae5774ca2'
-    oldFile: !uuid '84a8302cf7ceeeaf82f78f5dd99bfa70898f59b4'
-  /src/Common:
-    newFile: !uuid '6336c0534744c0fb8bc2edeab149a1224d799fb6'
-    oldFile: !uuid '446c797fe8fa766c37475b4d526349b0c36596f9'
-  /src/Common/Utils.php:
-    newFile: !uuid 'e610b9518475394f28abd146ca721bb34cf710a1'
-    oldFile: !uuid '1eb6a8757c4f4b632a9b720f0408632a3063981e'
+    newFile: !uuid '074be260fbaba5930e38ee7d51f5f61cdb329fd3'
+    oldFile: !uuid '1c7e32761ef9a5f45614d2e1ee1218cae5774ca2'
   /src/Foundation:
-    newFile: !uuid '6324901ab640289a6eb872b72ba155fec7ce9a68'
-    oldFile: !uuid '7a2b2bdc7c29178deec27216339dfb612623dd0c'
-  /src/Foundation/SiteApp.php:
-    newFile: !uuid '0a45fcd9a9e13000b1c0807147612b71342f3e0c'
-    oldFile: !uuid 'c2f0b7429b983e239cc6429dde53e7c2ea0e69cb'
+    newFile: !uuid '3aa8f79a02f47374e171c83017490f3def5e1705'
+    oldFile: !uuid '6324901ab640289a6eb872b72ba155fec7ce9a68'
   /src/Foundation/SqlProfileListener.php:
-    newFile: !uuid 'c9d4c994bbe05f9e9a2212e795bf3b44b8b19b71'
-    oldFile: null
-  /src/Foundation/SqlProfileServiceProvider.php:
-    newFile: !uuid '74377aa0c68c730b44521222c2e760ce29aa7f10'
-    oldFile: null
-  /src/Http:
-    newFile: !uuid 'e4a65d1a591f8e0865e51a3c490cfb5fb24130dd'
-    oldFile: !uuid '80da035cd0b04528f0a8e579dc360b8bb8a3dc5e'
-  /src/Http/Middleware:
-    newFile: !uuid '2336be30313156fe464e5fcacc2083c00d421d2c'
-    oldFile: !uuid 'd95811380f7633c007a459170422b33bff64f394'
-  /src/Http/Middleware/AuthenticateWithHeader.php:
-    newFile: !uuid 'f5678ac63a96409942eb32b00a4a26b1b5083921'
-    oldFile: !uuid 'a9f230d17ad62e4ac0f0880ac55698bb5bb1135e'
-  /src/Http/Middleware/CheckoutSite.php:
-    newFile: !uuid '562702d2e2ad3427c21e9d75a274930a4ecf356c'
-    oldFile: !uuid '42ff870e8d0c1a98455a4023b4e162ff5b97bc27'
-  /src/Notifications:
-    newFile: !uuid '53409170f36674e71e1065d5295c9869482e0cd2'
-    oldFile: !uuid 'f8ac8c4b1e6c0432454b0d1cb036a13a6282040d'
-  /src/Notifications/Messages:
-    newFile: !uuid '86bdb1918ea7ee8ff48089ea566ad2dd96a710ff'
-    oldFile: !uuid '053ae890c223f85ce3f48df84b15d48850178563'
-  /src/Notifications/Messages/SimpleMessage.php:
-    newFile: !uuid 'e3a357f540163fd95c1377585177ee7f14c08e31'
-    oldFile: !uuid 'd4621b5cc0a882bfeead46f14712e823dca033de'
-  /src/Notifications/Services:
-    newFile: !uuid '2d72d0b24038953354d785e1aebc3a81666b7e6a'
-    oldFile: !uuid 'ceb5a1a45febf856930f864ae8ca519d38335500'
-  /src/Notifications/Services/Database.php:
-    newFile: !uuid '7d3d89d4a863b8dc4bc51ab40d918f7448502c5e'
-    oldFile: !uuid 'daed8c35f06e452e0986d355b0ba049f0a42e104'
-  /src/Qcloud:
-    newFile: !uuid '9b48b2295a851bb0caff80f43473282a23d044eb'
-    oldFile: !uuid '89c28521fe5bd742a53819a4747257a398631f03'
-  /src/Qcloud/QcloudManage.php:
-    newFile: !uuid '861fedb0c157b44d11bb2b56cb881c348902c524'
-    oldFile: !uuid 'cc7299290a4ab95b62df22a49dde71d34f7d4ec3'
-  /src/Qcloud/Services:
-    newFile: !uuid '4cec1a76648aaf725755017d36edab4b8aa85c8c'
-    oldFile: !uuid '0849e105863e4d57917802b480e7a9706f98e6a4'
-  /src/Qcloud/Services/ImsService.php:
-    newFile: !uuid '05b542c0a09cff9899176136af24462aebe4fe4d'
-    oldFile: null
-  /src/Qcloud/Services/TmsService.php:
-    newFile: !uuid '23c071b347d4cde5e29817da163f1033948594f2'
-    oldFile: null
-gitCommitId: !uuid 'a5c16ac20d227f44c1d832b02f58e8091cac8ad6'
+    newFile: !uuid 'f23126939441769a55f8452cc508214acbecf8dd'
+    oldFile: !uuid 'c9d4c994bbe05f9e9a2212e795bf3b44b8b19b71'
+gitCommitId: !uuid '79dd3a568aaa96e77bae7ea5168da13ca13c31ac'
 renames: {
   }
-revisionId: 452
+revisionId: 453
