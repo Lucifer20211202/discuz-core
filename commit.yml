@@ -3,15 +3,21 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid '074be260fbaba5930e38ee7d51f5f61cdb329fd3'
-    oldFile: !uuid '1c7e32761ef9a5f45614d2e1ee1218cae5774ca2'
+    newFile: !uuid 'f10ab993e1c29fb3fa64598589761c3be2e21162'
+    oldFile: !uuid '074be260fbaba5930e38ee7d51f5f61cdb329fd3'
+  /src/Common:
+    newFile: !uuid 'ee57a05b85c8103ac3bb50cdbf18bc2d323f2b57'
+    oldFile: !uuid '6336c0534744c0fb8bc2edeab149a1224d799fb6'
+  /src/Common/Utils.php:
+    newFile: !uuid 'c81f257dee28fc6386082a0f38d24daf79c9df18'
+    oldFile: !uuid 'e610b9518475394f28abd146ca721bb34cf710a1'
   /src/Foundation:
-    newFile: !uuid '3aa8f79a02f47374e171c83017490f3def5e1705'
-    oldFile: !uuid '6324901ab640289a6eb872b72ba155fec7ce9a68'
+    newFile: !uuid 'f21b10124596e58223f412c1d9013338f46e252b'
+    oldFile: !uuid '3aa8f79a02f47374e171c83017490f3def5e1705'
   /src/Foundation/SqlProfileListener.php:
-    newFile: !uuid 'f23126939441769a55f8452cc508214acbecf8dd'
-    oldFile: !uuid 'c9d4c994bbe05f9e9a2212e795bf3b44b8b19b71'
-gitCommitId: !uuid '79dd3a568aaa96e77bae7ea5168da13ca13c31ac'
+    newFile: !uuid '851d915ba5bd002f39a02888ffdfd7140118b64c'
+    oldFile: !uuid 'f23126939441769a55f8452cc508214acbecf8dd'
+gitCommitId: !uuid '4291b6555ad78d7957586aa700fa67302b29ce40'
 renames: {
   }
-revisionId: 453
+revisionId: 454
