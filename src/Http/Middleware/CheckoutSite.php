@@ -66,7 +66,10 @@ class CheckoutSite implements MiddlewareInterface
         'attachments', //上传图片、附件
         'unreadnotification',
         'thread.detail', // 帖子详情
-        'posts' // 帖子
+        'posts', // 帖子
+        'backAdmin/login',
+        'emoji',
+        'view.count'
     ];
 
     public function __construct(Application $app, SettingsRepository $settings)
@@ -126,7 +129,7 @@ class CheckoutSite implements MiddlewareInterface
             DzqLog::info('checkout_site_no_permission', [
                 'user' => $actor
             ]);
-            Utils::outPut(ResponseCode::CURRENT_IS_PAY_SITE);
+            Utils::outPut(ResponseCode::JUMP_TO_PAY_SITE);
         }
     }
 
