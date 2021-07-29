@@ -3,27 +3,18 @@ branches: {
   }
 fileChange:
   /src:
-    newFile: !uuid 'fcd3f3f4041c0e4daf85a875f16fff649c905066'
-    oldFile: !uuid '43bc9e608b1b1a194b6b4bb02ae8a63332421a4a'
-  /src/Base:
-    newFile: !uuid 'b1e1d635dff36cb3454a717855eb0a532090fa84'
-    oldFile: !uuid '7847914dec97334e233aa92fe6240eb6cf8cb66b'
-  /src/Base/DzqCache.php:
-    newFile: !uuid 'bdb83e7ab810799a4e6cfbc54501ae43911fc138'
-    oldFile: !uuid '0d698defa5a26c390251e7a82c492d615eb2709e'
-  /src/Http:
-    newFile: !uuid '536895fba7a9388adc37e0c9b1666cce1e9fb16b'
-    oldFile: !uuid '15fe1de35a8f3f74284d7e085698da7a3af38727'
-  /src/Http/Middleware:
-    newFile: !uuid '0a1ef76647c62a811ab27704e4fd4dce7d996c02'
-    oldFile: !uuid 'e41d1a2984a21258c84c60fa6bde75582b0023ba'
-  /src/Http/Middleware/CheckUserStatus.php:
-    newFile: !uuid '675c41ab750d4124ca761d3797e5b90b7a22c538'
-    oldFile: !uuid 'd9ef21daf98693a28a18cccb735faa8a6f2d0a49'
-  /src/Http/Middleware/CheckoutSite.php:
-    newFile: !uuid '69dcd347533034d89c67c815ae99fee40b57711e'
-    oldFile: !uuid '9fbaf7471916220386a04603572bf86600647400'
-gitCommitId: !uuid '02e48c9e2cd80e362a3afc21520602a58667393f'
+    newFile: !uuid '80f0a98066c912981a0fc16963dbe7b06d5fbebb'
+    oldFile: !uuid 'fcd3f3f4041c0e4daf85a875f16fff649c905066'
+  /src/Notifications:
+    newFile: !uuid '622a9c6a561cf436fdddba091a45a6b58133e92d'
+    oldFile: !uuid '53409170f36674e71e1065d5295c9869482e0cd2'
+  /src/Notifications/Services:
+    newFile: !uuid 'd8702b1de2a757042db21867331a3995a062fae2'
+    oldFile: !uuid '2d72d0b24038953354d785e1aebc3a81666b7e6a'
+  /src/Notifications/Services/Database.php:
+    newFile: !uuid '75b5f38348aceacc32ac840f309a35cfb9d661b5'
+    oldFile: !uuid '7d3d89d4a863b8dc4bc51ab40d918f7448502c5e'
+gitCommitId: !uuid '7c851dce22c838e2df9d663fbe73c82eab529905'
 renames: {
   }
-revisionId: 457
+revisionId: 458
