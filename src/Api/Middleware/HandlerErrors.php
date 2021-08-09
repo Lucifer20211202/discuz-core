@@ -21,6 +21,7 @@ namespace Discuz\Api\Middleware;
 use App\Common\ResponseCode;
 use Discuz\Api\ErrorHandler;
 use Discuz\Common\Utils;
+use Illuminate\Validation\ValidationException;
 use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\ServerRequestInterface;
 use Psr\Http\Server\MiddlewareInterface;
@@ -41,7 +42,15 @@ class HandlerErrors implements MiddlewareInterface
         try {
             return $handler->handle($request);
         } catch (Throwable $e) {
-            Utils::outPut(ResponseCode::INTERNAL_ERROR,$e->getMessage());
+            if (empty($e->validator) || empty($e->validator->errors())) {
+                $errorMsg = $e->getMessage();
+            } else {
+                $errorMsg = $e->validator->errors()->first();
+            }
+            Utils::outPut(ResponseCode::INVALID_PARAMETER, '配置异常', [
+                'errorCode' => $e->getCode(),
+                'errorMsg' => $errorMsg
+            ]);
 //            return $this->errorHandler->handler($e);
         }
     }
