@@ -18,6 +18,8 @@
 
 namespace Discuz\Api\ExceptionHandler;
 
+use App\Common\ResponseCode;
+use Discuz\Common\Utils;
 use Discuz\Http\Exception\RouteNotFoundException;
 use Exception;
 use Tobscure\JsonApi\Exception\Handler\ExceptionHandlerInterface;
@@ -53,6 +55,7 @@ class RouteNotFoundExceptionHandler implements ExceptionHandlerInterface
             'code' => 'route_not_found'
         ];
 
+        Utils::outPut(ResponseCode::INVALID_PARAMETER, '路由未找到', $error);
         return new ResponseBag($status, [$error]);
     }
 }

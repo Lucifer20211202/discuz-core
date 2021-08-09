@@ -47,7 +47,7 @@ class ValidationExceptionHandler implements ExceptionHandlerInterface
         foreach ($errors  as $item) {
             $errormsg .= $item['detail'][0].PHP_EOL;
         }
-        Utils::outPut(ResponseCode::REGISTER_DECRYPT_CODE_FAILED, $errormsg);
+        Utils::outPut(ResponseCode::REGISTER_DECRYPT_CODE_FAILED, $errormsg, $errors);
         return new ResponseBag(422, $errors);
     }
 

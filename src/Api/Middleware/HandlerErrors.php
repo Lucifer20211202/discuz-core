@@ -41,8 +41,8 @@ class HandlerErrors implements MiddlewareInterface
         try {
             return $handler->handle($request);
         } catch (Throwable $e) {
-            Utils::outPut(ResponseCode::INTERNAL_ERROR,$e->getMessage());
-//            return $this->errorHandler->handler($e);
+            return $this->errorHandler->handler($e);
+//            Utils::outPut(ResponseCode::INTERNAL_ERROR, '', $data);
         }
     }
 }
