@@ -71,7 +71,7 @@ class PermissionDeniedExceptionHandler implements ExceptionHandlerInterface
             Utils::outPut(ResponseCode::SITE_CLOSED, '', ['detail' => $settings->get('site_close_msg')?:'']);
         } else {
 
-            Utils::outPut(ResponseCode::UNAUTHORIZED, '站点关闭');
+            Utils::outPut(ResponseCode::UNAUTHORIZED, '站点关闭', $error);
         }
         return new ResponseBag($status, [$error]);
     }

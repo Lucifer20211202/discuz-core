@@ -18,6 +18,8 @@
 
 namespace Discuz\Api\ExceptionHandler;
 
+use App\Common\ResponseCode;
+use Discuz\Common\Utils;
 use Exception;
 use TencentCloud\Common\Exception\TencentCloudSDKException;
 use Tobscure\JsonApi\Exception\Handler\ExceptionHandlerInterface;
@@ -53,7 +55,7 @@ class TencentCloudSDKExceptionHandler implements ExceptionHandlerInterface
             'code' => $e->getErrorCode(),
             'detail' => [$e->getMessage()]
         ];
-
+        Utils::outPut(ResponseCode::INTERNAL_ERROR, $error['code'], $error);
         return new ResponseBag($status, [$error]);
     }
 }

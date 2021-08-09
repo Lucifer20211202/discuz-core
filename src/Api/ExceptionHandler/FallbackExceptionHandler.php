@@ -18,6 +18,8 @@
 
 namespace Discuz\Api\ExceptionHandler;
 
+use App\Common\ResponseCode;
+use Discuz\Common\Utils;
 use Exception;
 use Tobscure\JsonApi\Exception\Handler\ExceptionHandlerInterface;
 use Tobscure\JsonApi\Exception\Handler\ResponseBag;
@@ -53,6 +55,7 @@ class FallbackExceptionHandler implements ExceptionHandlerInterface
         $status = 500;
         $error = $this->constructError($e, $status);
 
+        Utils::outPut(ResponseCode::INVALID_PARAMETER, $error['code'], $error);
         return new ResponseBag($status, [$error]);
     }
 

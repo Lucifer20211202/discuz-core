@@ -50,7 +50,7 @@ class NotAuthenticatedExceptionHandler implements ExceptionHandlerInterface
             'status'    => $status,
             'error'     => $error
         ]);
-        Utils::outPut(ResponseCode::UNAUTHORIZED);
+        Utils::outPut(ResponseCode::UNAUTHORIZED, '', $error);
         return new ResponseBag($status, [$error]);
     }
 }
