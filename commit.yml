@@ -1,9 +1,26 @@
 !revision
 branches: {
   }
-fileChange: {
-  }
-gitCommitId: !uuid 'd94cbcf98868042d1bfe910fd8931c16ed7492b6'
+fileChange:
+  /src:
+    newFile: !uuid 'e70ca295a60e02ebe1a4ce04b97ffb3107cc487a'
+    oldFile: !uuid '80f0a98066c912981a0fc16963dbe7b06d5fbebb'
+  /src/Base:
+    newFile: !uuid '4d38d084ef1aa9d978279b469ff17260363e6bfc'
+    oldFile: !uuid 'b1e1d635dff36cb3454a717855eb0a532090fa84'
+  /src/Base/DzqController.php:
+    newFile: !uuid 'ca67361edb6dc52b3898c8628577b698fb7ea7ef'
+    oldFile: !uuid '9e5e370e9575cb166147b239e3129ca2fd11406f'
+  /src/Http:
+    newFile: !uuid 'd95738880d5ebce4558c7059ae36602dab702463'
+    oldFile: !uuid '536895fba7a9388adc37e0c9b1666cce1e9fb16b'
+  /src/Http/Middleware:
+    newFile: !uuid '1c556d0055a0c85702621d530f88bb05021deff4'
+    oldFile: !uuid '0a1ef76647c62a811ab27704e4fd4dce7d996c02'
+  /src/Http/Middleware/AuthenticateWithHeader.php:
+    newFile: !uuid '45d90973fd3ed3508df58983da21166c7fdaca66'
+    oldFile: !uuid 'f5678ac63a96409942eb32b00a4a26b1b5083921'
+gitCommitId: !uuid '3e33a445cbac0b6406af292909e7d6e6772b61e0'
 renames: {
   }
-revisionId: 460
+revisionId: 461
