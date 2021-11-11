@@ -102,6 +102,10 @@ class CheckUserStatus implements MiddlewareInterface
         if ($actor->isGuest() || $actor->isAdmin()) {
             return $handler->handle($request);
         }
+
+        if ($actor && isset($actor->id)) {
+            $actor = User::query()->where('id', $actor->id)->first(); // 拿到准确user-status
+        }
         // 被禁用的用户
         if ($actor->status == User::STATUS_BAN) {
             $rejectReason = !empty($actor->reject_reason) ? $actor->reject_reason : '';
