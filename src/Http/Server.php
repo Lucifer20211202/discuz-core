@@ -23,6 +23,7 @@ use Discuz\Foundation\Application;
 use Discuz\Foundation\SiteApp;
 use Discuz\Http\Middleware\RequestHandler;
 use Illuminate\Database\QueryException;
+use Illuminate\Support\Str;
 use Laminas\Diactoros\Response;
 use Laminas\Diactoros\ServerRequest;
 use Laminas\Diactoros\ServerRequestFactory;
@@ -123,6 +124,20 @@ class Server extends SiteApp
         $line = $error->getLine();
         $type = get_class($error);
         $this->app->make('log')->error($error);
+        /**
+         * 2021-12-23 11:43 ys wulubin
+         * 为了解决端口不够用时，在debug=false的情况下redis报错将很详细的信息暴露出来
+         */
+        if (!app()->config('debug')) {
+            $data = json_encode([
+                'Code' => -5001,
+                'Message' => '网络错误',
+                'Data' => [],
+                'requestId' => Str::uuid(),
+                'requestTime' => date('Y-m-d H:i:s')
+            ],JSON_UNESCAPED_UNICODE);
+            return $data;
+        }
         $trace = $error->getTraceAsString();
         return <<<ERROR
             Discuz Q! encountered a boot error ($type)<br />
