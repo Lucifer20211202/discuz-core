@@ -92,6 +92,11 @@ trait QcloudTrait
         return $this->getQcloud()->service('discuzcloud')->siteInfoDaily($params);
     }
 
+    public function TextToVoice($params = [])
+    {
+        return $this->getQcloud()->service('tts')->TextToVoice($params);
+    }
+
     /*
     |--------------------------------------------------------------------------
     | 云点播
