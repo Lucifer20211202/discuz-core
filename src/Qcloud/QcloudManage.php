@@ -31,6 +31,7 @@ use Discuz\Qcloud\Services\TmsService;
 use Discuz\Qcloud\Services\VodService;
 use Discuz\Qcloud\Services\YunsouService;
 use Discuz\Qcloud\Services\MsService;
+use Discuz\Qcloud\Services\TtsService;
 use Illuminate\Contracts\Container\Container;
 use Illuminate\Support\Manager;
 use InvalidArgumentException;
@@ -82,6 +83,11 @@ class QcloudManage extends Manager implements Factory
     public function createImsDriver()
     {
         return $this->buildService(ImsService::class, $this->qcloudConfig);
+    }
+
+    public function createTtsDriver()
+    {
+        return $this->buildService(TtsService::class, $this->qcloudConfig);
     }
 
     public function createSmsDriver()
